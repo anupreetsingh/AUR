@@ -1,0 +1,27 @@
+TASK:
+Based on the JD.txt and the updated main.tex (from Task 1), fill in all bracket placeholders in Employee.txt, Manager.txt, and Talent.txt.
+
+Global Constraints (MANDATORY)
+- Only replace text inside square brackets (e.g., [Name], [role], [Location], [work specifics based on role]).
+- Do NOT change any other wording, punctuation, structure, or formatting in the files.
+- Do NOT edit anything in Manager.txt below the line: "******* To the AI Agent: Don't EDIT the part beneath this *************" — EXCEPT for filling in bracket placeholders.
+- [Name] should remain as [Name] — leave it as a placeholder since it changes per person.
+
+Bracket Fill Rules
+
+[role]
+- Use the exact job title from the JD (e.g., "Full-Stack Software Developer").
+
+[Location]
+- Extract the location from the JD. If no specific city/state is listed, use the company name instead.
+
+[work specifics based on role]
+- Write a short phrase (under 20 words) summarizing relevant experience that maps to the JD's core responsibilities.
+- Pull from the updated main.tex — specifically the skills section and the most JD-relevant industry experience bullets.
+- Do NOT copy bullets verbatim; distill them into a natural, conversational phrase.
+- Example: "full-stack development with Java, React, and PostgreSQL" — not a full sentence, just a noun phrase that completes "...and have worked on ___."
+
+Files to Update
+1. Artifacts/Employee.txt
+2. Artifacts/Manager.txt (only above the do-not-edit line, plus bracket placeholders below it)
+3. Artifacts/Talent.txt

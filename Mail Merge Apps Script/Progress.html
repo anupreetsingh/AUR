@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top" />
+    <style>
+      * { font-family: sans-serif }
+      div#cancel {
+        text-align: right;
+        margin-top: 1ex;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="progress">
+      Processing <span id="currRow">-</span> / <?= rowCount ?><br/>
+      Merging <span id="currMerge">-</span> / <?= mergeCount ?>
+    </div>
+    <div id="cancel">
+      <input type="button" class="button" value="Cancel" onclick="cancel();" />
+    </div>
+
+    <script>
+      // update status
+      function update(data) {
+        document.getElementById("currRow").innerHTML = data.currRow;
+        document.getElementById("currMerge").innerHTML = data.currMerge;
+        if (data.done)
+          google.script.host.close();
+        else
+          google.script.run.withSuccessHandler(update).getProgress();
+      }
+
+      update({currRow:0, currMerge:0, done: false});
+
+      // handle cancel button
+      function cancel() {
+        google.script.run.withSuccessHandler(google.script.host.close).cancelMerge();
+      }
+    </script>
+  </body>
+</html>

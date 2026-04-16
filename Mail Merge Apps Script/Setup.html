@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top" />
+    <style>
+      * { font-family: sans-serif }
+      .form>input { float: right }
+      div.form { clear: both }
+      div#processing { display: none }
+      input.default { color: LightGray }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div class="form">
+        <label for="recip" >Recipient header</label>
+        <input type="text" id="recip" class="default" onfocus="edit(this)" value="<?= recipient ?>"/>
+      </div>
+      <div class="form">
+        <label for="status">Status header</label>
+        <input type="text" id="status" class="default" onfocus="edit(this)" value="<?= status ?>"/>
+      </div>
+      <div class="form">
+        <label for="fromAddr">From address</label>
+        <input type="text" id="fromAddr" class="default" onfocus="edit(this)" value="<?= fromAddr ?>"/>
+      </div>
+      <div class="form">
+        <label for="replyAddr">Reply-to address</label>
+        <input type="text" id="replyAddr" class="default" onfocus="edit(this)" value="<?= replyAddr ?>"/>
+      </div>
+      <div class="form" style="padding-top: 2ex">
+        <input type="button" class="button" value="OK" onclick="submit();" />
+      </div>
+    </div>
+    <div id="processing">
+      Processing...
+    </div>
+
+    <script>
+      // clear default and darken on click
+      function edit(element) {
+        element.onfocus = null;
+        element.classList.remove('default');
+        element.value = '';
+      }
+
+      // submit form info
+      function submit() {
+        google.script.run
+          .withSuccessHandler(close)
+          .doSetup(
+            document.getElementById("recip").value, 
+            document.getElementById("status").value,
+            document.getElementById('fromAddr').value,
+            document.getElementById('replyAddr').value);
+        document.getElementById("main").style.display = "none";
+        document.getElementById("processing").style.display = "block";
+      }
+      function close() {
+        google.script.host.close();
+      }
+    </script>
+  </body>
+</html>

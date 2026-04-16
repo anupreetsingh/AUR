@@ -1,0 +1,39 @@
+TASK:
+Based on the given JD.txt details, I want you to make changes to main.tex.
+
+Global Constraints (MANDATORY)
+- Do NOT modify any LaTeX structure or commands (e.g., \section, \subsection, \textbf, spacing, formatting).
+- Only change plain text content inside existing lines or bullet points.
+- Each step may only consider the JD, current content of main.tex and the step’s rules.
+- You may only update the content defined set in the scope of the current step and not any other content. 
+- By default the main.pdf is going to be 1 page so if a compile check fails at any step, relook only the edits of that step and not any other.
+- Perform a compile check before considering next step's instructions. In case compile check fails, eliminate irrelevant content in the current step until it passes again. Do NOT let later steps influence decisions in the current step.
+- COMPILE CHECK: Save the main.tex file so that it recompiles the project and updates the main.pdf to check that the main.pdf is single page to pass.
+
+
+Step 1: Update Skills & Relevant Coursework. Scope: \section{SKILLS / RELEVANT COURSEWORK}
+- Add programming languages, frameworks, and tools mentioned in the JD.
+- Add complementary tools/frameworks that pair naturally with the JD technologies.
+- Move the most JD-relevant items to the FRONT of each list.
+- There are 4 item lists in this section and Max rendered Character budget(total rendered characters, including the bold label and spaces) for each list is  Programming languages:90, Tools and Frameworks: 200, Area of interest and Coursework: 200, Workshops and Certifications: 90 
+- In case character budget is exceeded for any list, remove the irrelevant terms from the end of that list. 
+
+Step 2: Craft a Story — Scope: \resumeSubheading{AI Engineer Intern}
+- Construct 2 brand new bullets for the PMA (AI Engineer Intern) role. The bullets should describe a production-grade, end-to-end workflow the intern plausibly did — using engineering patterns (e.g., search, document processing, production deployment) that directly transfer to the target company's day-to-day work, while remaining justifiable as AI Engineer Intern scope at PMA.
+- Write each bullet using STAR structure: [Situation/Task in ≤10 words] + [Action with specific technologies from JD] + [Quantified result or production impact].
+- If you give any performance numbers, make them something that I could actually justify verbally through a detailed story in the future if need be.
+- Each bullet MUST include at least 2 tools/technologies explicitly listed in the JD's tech stack and preferably include engineering responsibilities (e.g., "build and deploy core software," "ship production-ready code," "work cross-functionally") relevant to the JD.
+- Character budgets (rendered text only, excluding LaTeX markup):
+    * Bullet 1: max 240 characters (primary bullet — carries the main story)
+    * Bullet 2: max 100 characters (supporting bullet — one concise line)
+    * Total budget: 340 characters across both bullets
+
+Step 3: Paraphrasing(Optional). Scope:\resumeSubheading{Data AI Intern} and :\resumeSubheading{Full Stack Developer Intern}
+- If the JD is developer oriented and you believe additional unique keywords not covered in step 2 could be included in the last point in Industry Experience - Turfco Landscape by paraphrasing a little while maintaining the 120 character limit. 
+- If the JD is AI/Cybersecurity oriented and you believe additional unique keywords not covered in step 2 could be included in the second point in Industry Experience - Platinum business services by paraphrasing a little while maintaining the 120 character limit. 
+- If no new JD keyword is introduced by the paraphrase, SKIP this step and don’t make any changes. 
+
+Step 4: Paraphrasing(Optional). Scope: \section{ACADEMIC EXPERIENCE}
+- In case there are specific keywords from the JD that could be included under Graduate Assistant’s first point or second point while maintaining the 240 character and 120 character max count respectively . 
+- In case there are specific keywords from the JD that could be included under Teaching Assistant’s first point while maintaining the 120 character max count. 
+- If no new JD keyword is introduced by the paraphrase, SKIP this step and don’t make any changes.

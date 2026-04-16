@@ -1,0 +1,11 @@
+#### Employee(General)
+Subject: Quick Question
+
+Hi [Name], 
+
+I'm very interested in the Junior Full Stack Developer role at Parsons (Schaumburg, IL / Atlanta, GA) and have worked on full-stack applications with Java, React, REST APIs, and PostgreSQL.
+
+Could you look at my credentials and see if I would be a good fit? I would be grateful for a referral if you do. 
+
+Thanks in advance!
+Anupreet Singh
