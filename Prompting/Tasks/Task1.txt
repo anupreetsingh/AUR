@@ -1,15 +1,20 @@
 TASK:
-Based on the given JD.txt details, I want you to make changes to main.tex.
+Based on the given Prompting/Context/JD.txt details, I want you to make changes to resume/main.tex.
 
 Global Constraints (MANDATORY)
 - Do NOT modify any LaTeX structure or commands (e.g., \section, \subsection, \textbf, spacing, formatting).
 - Only change plain text content inside existing lines or bullet points.
-- Each step may only consider the JD, current content of main.tex and the step’s rules.
+- Each step may only consider the JD, current content of resume/main.tex and the step’s rules.
 - You may only update the content defined set in the scope of the current step and not any other content. 
-- By default the main.pdf is going to be 1 page so if a compile check fails at any step, relook only the edits of that step and not any other.
+- By default the resume/main.pdf is going to be 1 page so if a compile check fails at any step, relook only the edits of that step and not any other.
 - Perform a compile check before considering next step's instructions. In case compile check fails, eliminate irrelevant content in the current step until it passes again. Do NOT let later steps influence decisions in the current step.
-- COMPILE CHECK: Save the main.tex file so that it recompiles the project and updates the main.pdf to check that the main.pdf is single page to pass.
+- COMPILE CHECK: Save the resume/main.tex file so that it recompiles the project and updates the resume/main.pdf to check that resume/main.pdf is single page to pass.
 
+
+Step 0: Reset main.tex to clean baseline. Scope: resume/main.tex
+- Copy the full contents of resume/starter.tex over resume/main.tex (overwrite).
+- Do NOT modify resume/starter.tex at any point — it is the source of truth for the baseline.
+- After the copy, treat the new contents of resume/main.tex as the "current state" referenced by all subsequent steps.
 
 Step 1: Update Skills & Relevant Coursework. Scope: \section{SKILLS / RELEVANT COURSEWORK}
 - Add programming languages, frameworks, and tools mentioned in the JD.

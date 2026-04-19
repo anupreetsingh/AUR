@@ -1,0 +1,37 @@
+TASK:
+Based on Prompting/Context/JD.txt and the updated resume/main.tex (from Task 1), regenerate Prompting/Artifacts/JD_Outreach.txt by copying the templates and filling in all bracket placeholders.
+
+Global Constraints (MANDATORY)
+- Prompting/Context/JD_Outreach_Templates.txt is the immutable source of truth — DO NOT modify it under any circumstances.
+- All edits happen ONLY in Prompting/Artifacts/JD_Outreach.txt.
+- Only replace text inside square brackets (e.g., [Name], [role], [Location], [work specifics based on role]).
+- Do NOT change any other wording, punctuation, structure, or formatting in Prompting/Artifacts/JD_Outreach.txt.
+- [Name] should remain as [Name] — leave it as a placeholder since it changes per person.
+
+
+Step 0: Reset JD_Outreach.txt to clean baseline. Scope: Prompting/Artifacts/JD_Outreach.txt
+- Copy the full contents of Prompting/Context/JD_Outreach_Templates.txt over Prompting/Artifacts/JD_Outreach.txt (overwrite). This guarantees every run starts from the same clean baseline so the output is fully determined by Prompting/Context/JD.txt + resume/main.tex with no carry-over from a previous tailoring.
+- Do NOT modify Prompting/Context/JD_Outreach_Templates.txt at any point — it is the source of truth for the baseline.
+- After the copy, treat the new contents of Prompting/Artifacts/JD_Outreach.txt as the working file for Step 1.
+
+
+Step 1: Fill bracket placeholders. Scope: Prompting/Artifacts/JD_Outreach.txt
+- Replace every bracket placeholder in Prompting/Artifacts/JD_Outreach.txt across ALL sections (Talent/HR, Employee, Hiring Manager) using the rules below.
+- Each placeholder type uses the SAME filled value across every section in which it appears (a [role] in Talent must match the [role] in Hiring Manager).
+
+Bracket Fill Rules
+
+[role]
+- Use the exact job title from the JD (e.g., "Full-Stack Software Developer").
+
+[Location]
+- Extract the location from the JD. If no specific city/state is listed, use the company name instead.
+
+[work specifics based on role]
+- Write a short phrase (under 20 words) summarizing relevant experience that maps to the JD's core responsibilities.
+- Pull from the updated resume/main.tex — specifically the skills section and the most JD-relevant industry experience bullets.
+- Do NOT copy bullets verbatim; distill them into a natural, conversational phrase.
+
+
+[Name]
+- DO NOT fill. Leave as [Name] in every section — this changes per recipient and is filled manually.

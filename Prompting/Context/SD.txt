@@ -1,0 +1,3 @@
+Modern helps IT, HR, and Finance teams automatically resolve 80%+ of high-volume requests. Teams define workflows in plain language, set approval rules and policies, and Modern handles the rest: password resets, access provisioning, expense approvals, on-boarding checklists, and more. Everything runs with full audit trails, role-based approvals, and enterprise-grade security built in.
+
+Modern works alongside your existing ITSM with no rip-and-replace required or runs as your ITSM from day one. Most teams are live in under a day. For teams that want to go fully hands-off, 100% automation via a fully managed IT services are also available.

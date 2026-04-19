@@ -1,0 +1,58 @@
+TASK:
+Based on Prompting/Context/SD.txt and the updated resume/main.tex (from Task 3), regenerate Prompting/Artifacts/SD_Outreach.txt by copying the templates and filling in all bracket placeholders. The audience is a founder or founding member of an early-stage startup.
+
+Global Constraints (MANDATORY)
+- Prompting/Context/SD_Outreach_Templates.txt is the immutable source of truth — DO NOT modify it under any circumstances.
+- All edits happen ONLY in Prompting/Artifacts/SD_Outreach.txt.
+- Only replace text inside square brackets.
+- Do NOT change any other wording, punctuation, structure, or formatting in Prompting/Artifacts/SD_Outreach.txt.
+- Since there is no JD, infer all company-relevant content from Prompting/Context/SD.txt — what they build, the domain they operate in, the market they compete in, and the problems they solve.
+- [Name] should remain as [Name] — it changes per recipient and is filled manually.
+- [Discovery Channel] should remain as [Discovery Channel] unless the user explicitly provides one — channel cannot be reliably inferred (e.g., "YC", "Product Hunt", "your launch post on X", "a mutual connection").
+
+
+Step 0: Reset SD_Outreach.txt to clean baseline. Scope: Prompting/Artifacts/SD_Outreach.txt
+- Copy the full contents of Prompting/Context/SD_Outreach_Templates.txt over Prompting/Artifacts/SD_Outreach.txt (overwrite). This guarantees every run starts from the same clean baseline so the output is fully determined by Prompting/Context/SD.txt + resume/main.tex with no carry-over from a previous tailoring.
+- Do NOT modify Prompting/Context/SD_Outreach_Templates.txt at any point — it is the source of truth for the baseline.
+- After the copy, treat the new contents of Prompting/Artifacts/SD_Outreach.txt as the working file for Step 1.
+
+
+Step 1: Fill bracket placeholders. Scope: Prompting/Artifacts/SD_Outreach.txt
+
+Bracket Fill Rules
+
+[Hook]
+- Subject line, max 8 words.
+- Distill the company's core value prop from Prompting/Context/SD.txt into a single intriguing phrase that signals you understand the product.
+- Avoid generic phrases like "Quick Question" or "Reaching out".
+- Examples: "Loved your take on ITSM automation", .
+
+[Name]
+- DO NOT fill. Leave as [Name] — changes per recipient.
+
+[Company Name]
+- Extract the exact company name from Prompting/Context/SD.txt.
+- The same value must be used in every occurrence of [Company Name] in the file.
+
+[Discovery Channel]
+- DO NOT fill unless explicitly provided. Leave as [Discovery Channel] — context-dependent and cannot be reliably inferred.
+
+[Product Hook]
+- A noun phrase (NOT a sentence) that completes "...building with ___".
+- Pull the central product mechanic from Prompting/Context/SD.txt in the company's own language (use their nouns/verbs where possible).
+- Plain-language, no jargon. Max 12 words.
+- Examples for an ITSM-automation company: "LLM-driven ITSM workflow automation", "plain-language workflows that auto-resolve repetitive IT and HR requests".
+
+[Bridge]
+- Exactly 2 sentences, max 50 words total.
+- Sentence 1 (Work Pitch): Verb-first description of YOUR current production work. Lead with the action ("I build…", "I ship…") — DO NOT open with student/intern/role framing ("I'm an MS student at…", "I'm an intern at…"). Naturally include 2-3 SD-inferred tools (e.g., LangChain, FastAPI, AWS) AND 2-3 SD-inferred product primitives (e.g., plain-language, approval-gated, audit trails).
+- Sentence 2 (Mapping): Explicitly map your work to the company in the form "That's the same engineering [Company Name] is shipping for [their users / their domain]." This converts your work into THEIR vocabulary so the founder doesn't have to translate.
+- Source the work pitch from the SINGLE most SD-aligned bullet in resume/main.tex. When choosing between a freshly-authored bullet (e.g., a tailored PMA-style bullet from Task 3) and a verifiable industry/project bullet, prefer the verifiable one if its SD overlap is comparable — credibility beats lexical density for an early-stage founder. Paraphrase; do NOT copy bullets verbatim.
+- The bridge should make the founder think "this person already builds what we build".
+
+[Contribution Area]
+- A short noun phrase describing where you'd plug in.
+- Max 6 words. Plain-language, no jargon.
+- Default: "engineering and feature side". Use this unless the SD makes a more specific area clearly stronger.
+- Other examples (use only if SD strongly justifies): "engineering and ML side", "engineering and platform side", "agent/LLM side".
+- The phrase replaces only the bracket — the surrounding "contribute on the ___ of [Company Name]?" framing is fixed.

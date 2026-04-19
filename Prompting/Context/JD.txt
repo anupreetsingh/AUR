@@ -1,0 +1,65 @@
+Junior Communications Systems Software Engineer
+Apply
+locations
+Beavercreek, Ohio
+time type
+Full time
+posted on
+Posted 6 Days Ago
+job requisition id
+R2121814
+
+38%
+Resume Match
+3 of 8 keywords
+Simplify
+Simplify
+V1
+V2
+Title:
+
+Junior Communications Systems Software Engineer
+Why Join Us?
+
+Innovative Projects: KBR’s work is at the forefront of engineering, logistics, operations, science, program management, mission IT and cybersecurity solutions.
+Collaborative Environment: Be part of a dynamic team that thrives on collaboration and innovation, fostering a supportive and intellectually stimulating workplace.
+Impactful Work: Your contributions will be pivotal in designing and optimizing defense systems that ensure national security and shape the future of space defense.
+KBR is seeking a Junior Communications Systems Software Engineer to support development, integration, and evaluation of communications software capabilities for contested and degraded environments. This role supports protocol emulation, SDR integration, test automation, and laboratory‑based systems across research and applied DoD programs.
+ 
+
+This position is intended for early‑career engineers with a strong software foundation who are developing the ability to understand and reason about protocol behavior across physical, link, and logical layers. The engineer will work under guidance from senior engineers while contributing to real, deployable tools and test activities.
+
+Key Responsibilities
+
+Develop and maintain software supporting communications systems, protocol emulation, and analysis environments
+Implement communications software components under guidance, including protocol handling, data paths, and control logic
+Support integration of communications software with SDR platforms and laboratory test environments
+Develop and maintain user interfaces or tooling to configure systems, execute tests, and visualize results
+Assist with development of test harnesses for protocol validation, regression testing, and behavior characterization
+Support CI/CD pipelines, containerized environments, and automated test workflows used by the team
+Read and implement technical documentation and specifications with increasing independence over time
+Document software functionality, test procedures, and observed behaviors to support technical reviews and user adoption
+Required Qualifications
+
+Bachelor’s degree in Computer Engineering, Electrical Engineering, Computer Science
+0–3 years of software development experience
+Programming experience in C/C++ or Python
+Experience developing software on Linux‑based systems
+Demonstrated ability to write clean, readable, and maintainable code
+Ability to learn and reason about protocol behavior from documentation, examples, and system observations
+Ability to obtain and maintain a U.S. DoD security clearance
+Desired Qualifications
+
+Academic or project experience related to communications, networking, or signal processing
+Exposure to protocol implementation, emulation, or analysis
+Familiarity with SDRs, RF laboratories, or hardware‑software integration environments
+Experience using version control, automated testing, or containerized development workflows
+Basic Compensation: $90,000 - $110,000 (For Beavercreek, OH Only)
+The offered rate will be based on the selected candidate’s knowledge, skills, abilities and/or experience and in consideration of internal parity.
+
+Belong, Connect and Grow at KBR
+
+At KBR, we are passionate about our people and our Zero Harm culture.  These inform all that we do and are at the heart of our commitment to, and ongoing journey toward being a People First company.  That commitment is central to our team of team’s philosophy and fosters an environment where everyone can Belong, Connect and Grow. We Deliver – Together. 
+
+KBR is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, disability, sex, sexual orientation, gender identity or expression, age, national origin, veteran status, genetic information, union status and/or beliefs, or any other characteristic protected by federal, state, or local law.
+
