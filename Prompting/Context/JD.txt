@@ -1,65 +1,88 @@
-Junior Communications Systems Software Engineer
-Apply
-locations
-Beavercreek, Ohio
-time type
+Software Engineer, Recent Graduate
+Location
+Denver, Colorado
+
+Employment Type
 Full time
-posted on
-Posted 6 Days Ago
-job requisition id
-R2121814
 
-38%
-Resume Match
-3 of 8 keywords
-Simplify
-Simplify
-V1
-V2
-Title:
+Location Type
+Hybrid
 
-Junior Communications Systems Software Engineer
-Why Join Us?
+Department
+Engineering
 
-Innovative Projects: KBR’s work is at the forefront of engineering, logistics, operations, science, program management, mission IT and cybersecurity solutions.
-Collaborative Environment: Be part of a dynamic team that thrives on collaboration and innovation, fostering a supportive and intellectually stimulating workplace.
-Impactful Work: Your contributions will be pivotal in designing and optimizing defense systems that ensure national security and shape the future of space defense.
-KBR is seeking a Junior Communications Systems Software Engineer to support development, integration, and evaluation of communications software capabilities for contested and degraded environments. This role supports protocol emulation, SDR integration, test automation, and laboratory‑based systems across research and applied DoD programs.
- 
+Overview
+Application
 
-This position is intended for early‑career engineers with a strong software foundation who are developing the ability to understand and reason about protocol behavior across physical, link, and logical layers. The engineer will work under guidance from senior engineers while contributing to real, deployable tools and test activities.
+Work at Blissway: Opportunity for Impact Every Day 🚀✨
 
-Key Responsibilities
+Blissway is a startup that simplifies toll collection and dramatically improves highway safety. We are multiple startups in one: Deep Tech, AI/ML, Hardware, SaaS, and IoT. For the past five years, we have built a nearly insurmountable technological lead in tolling—an under-the-radar industry that is bigger than American football. While our competitors have thousands of employees, we operate with a lean but growing team of less than 30. We’ve stayed under the radar, but our impact is visible on the massive Interstate Highway System connecting every major US metro (except Juneau, AK—sorry, Juneau).
 
-Develop and maintain software supporting communications systems, protocol emulation, and analysis environments
-Implement communications software components under guidance, including protocol handling, data paths, and control logic
-Support integration of communications software with SDR platforms and laboratory test environments
-Develop and maintain user interfaces or tooling to configure systems, execute tests, and visualize results
-Assist with development of test harnesses for protocol validation, regression testing, and behavior characterization
-Support CI/CD pipelines, containerized environments, and automated test workflows used by the team
-Read and implement technical documentation and specifications with increasing independence over time
-Document software functionality, test procedures, and observed behaviors to support technical reviews and user adoption
-Required Qualifications
+You are a good fit if...
+You love the grind: You take ownership and put in the time to meet deadlines. We are excited when we have a late night install because it means we have a new project launching.
 
-Bachelor’s degree in Computer Engineering, Electrical Engineering, Computer Science
-0–3 years of software development experience
-Programming experience in C/C++ or Python
-Experience developing software on Linux‑based systems
-Demonstrated ability to write clean, readable, and maintainable code
-Ability to learn and reason about protocol behavior from documentation, examples, and system observations
-Ability to obtain and maintain a U.S. DoD security clearance
-Desired Qualifications
+You are detail obsessed: You have experience writing code that stands up to the unpredictability of the physical world, where the small details are the difference between success and failure.
 
-Academic or project experience related to communications, networking, or signal processing
-Exposure to protocol implementation, emulation, or analysis
-Familiarity with SDRs, RF laboratories, or hardware‑software integration environments
-Experience using version control, automated testing, or containerized development workflows
-Basic Compensation: $90,000 - $110,000 (For Beavercreek, OH Only)
-The offered rate will be based on the selected candidate’s knowledge, skills, abilities and/or experience and in consideration of internal parity.
+You are "Fluid": We are a lean team and we flex across functional areas as needed. You will be challenged to learn quickly and figure out what you need to do to be productive.
 
-Belong, Connect and Grow at KBR
+You code really well: We mostly use Python and TypeScript, but we don’t care what you’re most proficient in today—as long as you learn fast.
 
-At KBR, we are passionate about our people and our Zero Harm culture.  These inform all that we do and are at the heart of our commitment to, and ongoing journey toward being a People First company.  That commitment is central to our team of team’s philosophy and fosters an environment where everyone can Belong, Connect and Grow. We Deliver – Together. 
+The Role: Software Engineer (Recent Graduate)
+The Mission: Forget the "shadowing" and the "simulated projects." At Blissway, you will be given real ownership from Week 1. You will work across our different "startups" to solve 1-to-100 scaling problems:
 
-KBR is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, disability, sex, sexual orientation, gender identity or expression, age, national origin, veteran status, genetic information, union status and/or beliefs, or any other characteristic protected by federal, state, or local law.
+Ship Production Code: Contribute to the "Secret Sauce" that identifies millions of cars daily.
 
+Full-Stack Exposure: Help build intuitive tools for government agencies and front-end interfaces for human reviewers.
+
+Edge-to-Cloud Logic: Write software that lives on roadside hardware and the servers that process its data.
+
+Rapid Prototyping: Work alongside senior mentors to integrate ML models that improve highway safety in real-time.
+
+Requirements:
+Education: Degree in Computer Science, Computer Engineering, or a related technical field (Class of 2025 or 2026).
+
+Portfolio: A track record of building things—be it side projects, open-source contributions, or high-impact internships.
+
+Mindset: You are a "fully formed adult." You don't wait for a manual; you figure out what you need to get stuff done and you do it in a professional manner. You understand that feedback is critical to growth and you welcome it.
+
+Our Technical Ecosystem (SEO for the curious): While we value problem-solving over specific syntax, skills that transfer well are:
+
+Languages: Typescript, Python, C++, SQL, Bash.
+
+Frameworks and Tools: Node.js, Express, NestJS, Next.js, React, Tailwind CSS.
+
+Infrastructure: AWS, Docker, Linux, IoT Edge Devices.
+
+Specialties: Computer Vision (OpenCV), ML Integration, Payment Processing.
+
+The Essentials (Health & Wealth)
+
+Relocation Support: We are excited for you to join the team at our engineering office in Denver. We value in-person collaboration and daily team lunches and we provide a relocation bonus to help you get here.
+
+Personalized Health Coverage (ICHRA): We don’t believe in one-size-fits-all healthcare. We provide a monthly allowance for you and dependents so you can choose the individual plan that actually fits your life.
+
+Investing in Your Future: 401(k) matching up to 4%.
+
+Peace of Mind: Transparent compensation. Company-sponsored life & disability insurance.
+
+Early Stage Equity: Competitive equity package with 24-month exercise window. Every year, we facilitate a tender process that gives you the opportunity to sell your vested shares at the same valuation as our investors.
+
+Rest & Recharge 🌴
+
+High-Trust Time Off: 4 weeks of untracked PTO. We don't micromanage your calendar; we focus on your impact. Take the time you need to stay sharp and inspired.
+
+Family First: 12 weeks of paid parental leave for birth and adoptive parents. We want you present for the moments that matter most.
+
+The Deep Breath (Sabbatical): Every 5 years, take 12 weeks of fully paid leave. Go travel, write a book, or master a new hobby—then come back and tell us all about it.
+
+Fuel & Community 😀
+
+The Blissway Kitchen: Whether it’s breakfast to start your day or our daily group lunches, we keep the team fueled.
+
+Snacks Autonomy: Our kitchen is fully stocked and we mean it—if we’re missing your favorite fuel, just add it to the request list.
+
+The "BlissTrip": An annual 3–4 day getaway for the team and significant others.
+
+Monthly Beats: Game nights, escape rooms, and dinners to celebrate the grit we put in.
+
+Continuous Learning: Tuition reimbursement for courses, programs, and conferences that sharpen your craft.
