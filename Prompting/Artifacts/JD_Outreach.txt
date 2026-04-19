@@ -1,3 +1,11 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% JD-BASED OUTREACH TEMPLATES (immutable source of truth)
+%% Filled outputs are written to Prompting/Artifacts/JD_Outreach.txt by Task2.
+%% Order: Talent/HR -> Employee -> Manager (typical outreach sequence).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
 ================================================================
 ================  SECTION 1 — TALENT / HR  =====================
 ================================================================
@@ -9,7 +17,7 @@ Subject: Quick Question
 
 Hi [Name],
 
-I'm very interested in the Software Engineer, Recent Graduate role at Denver, Colorado and believe my credentials align with the requirements.
+I'm very interested in the Forward Deployed Engineer role in San Francisco and believe my credentials align with the requirements.
 
 Would you be able to share any advice on how to stand out, or point me to the right person to connect with?
 
@@ -30,7 +38,7 @@ Subject: Quick Question
 
 Hi [Name], 
 
-I'm very interested in the Software Engineer, Recent Graduate role at Denver, Colorado and have worked on shipping full-stack TypeScript/React and Python services on AWS with Docker, including OpenCV pipelines and Stripe payment processing.
+I'm very interested in the Forward Deployed Engineer role in San Francisco and have worked on AI workflows, APIs, backend systems, and enterprise Qdrant RAG pipelines for production deployments.
 
 Could you look at my credentials and see if I would be a good fit? I would be grateful for a referral if you do. 
 
@@ -51,11 +59,9 @@ Subject: Quick Question
 
 Hi [Name],
 
-I'm very interested in the Software Engineer, Recent Graduate role on your team at Denver, Colorado and have worked on shipping full-stack TypeScript/React and Python services on AWS with Docker, including OpenCV pipelines and Stripe payment processing.
+I'm very interested in the Forward Deployed Engineer role on your team in San Francisco and have worked on AI workflows, APIs, backend systems, and enterprise Qdrant RAG pipelines for production deployments.
 
 Could we set up a quick chat/call so that I can learn more about the role and the team, and share how my background could contribute? 
 
 Thanks in advance!
 Anupreet Singh
-
-

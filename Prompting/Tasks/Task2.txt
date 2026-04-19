@@ -4,7 +4,7 @@ Based on Prompting/Context/JD.txt and the updated resume/main.tex (from Task 1),
 Global Constraints (MANDATORY)
 - Prompting/Context/JD_Outreach_Templates.txt is the immutable source of truth — DO NOT modify it under any circumstances.
 - All edits happen ONLY in Prompting/Artifacts/JD_Outreach.txt.
-- Only replace text inside square brackets (e.g., [Name], [role], [Location], [work specifics based on role]).
+- Only replace text inside square brackets (e.g., [Name], [role], [company/location phrase], [work specifics based on role]).
 - Do NOT change any other wording, punctuation, structure, or formatting in Prompting/Artifacts/JD_Outreach.txt.
 - [Name] should remain as [Name] — leave it as a placeholder since it changes per person.
 
@@ -24,8 +24,11 @@ Bracket Fill Rules
 [role]
 - Use the exact job title from the JD (e.g., "Full-Stack Software Developer").
 
-[Location]
-- Extract the location from the JD. If no specific city/state is listed, use the company name instead.
+[company/location phrase]
+- If the JD clearly identifies the employer and location, fill this as: at [Company] in [Location]
+- If the JD clearly identifies the employer but not the location, fill this as: at [Company]
+- If the employer is undisclosed but the location is known, fill this as: in [Location]
+- If both employer and location are unavailable, fill this as: with your company
 
 [work specifics based on role]
 - Write a short phrase (under 20 words) summarizing relevant experience that maps to the JD's core responsibilities.

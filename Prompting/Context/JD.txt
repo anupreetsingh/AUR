@@ -1,88 +1,118 @@
-Software Engineer, Recent Graduate
-Location
-Denver, Colorado
+Forward Deployed Engineer 
+San Francisco Bay Area · 35 minutes ago · 15 applicants
+Promoted by hirer · No response insights available yet
 
-Employment Type
-Full time
 
-Location Type
-Hybrid
+ On-site
+Matches your job preferences, workplace type is On-site.
 
-Department
-Engineering
+Full-time
 
-Overview
-Application
+Easy Apply
 
-Work at Blissway: Opportunity for Impact Every Day 🚀✨
+Save
+Save Forward Deployed Engineer  at Storm2
+Forward Deployed Engineer
+Storm2 · San Francisco Bay Area (On-site)
 
-Blissway is a startup that simplifies toll collection and dramatically improves highway safety. We are multiple startups in one: Deep Tech, AI/ML, Hardware, SaaS, and IoT. For the past five years, we have built a nearly insurmountable technological lead in tolling—an under-the-radar industry that is bigger than American football. While our competitors have thousands of employees, we operate with a lean but growing team of less than 30. We’ve stayed under the radar, but our impact is visible on the massive Interstate Highway System connecting every major US metro (except Juneau, AK—sorry, Juneau).
+Easy Apply
 
-You are a good fit if...
-You love the grind: You take ownership and put in the time to meet deadlines. We are excited when we have a late night install because it means we have a new project launching.
+Save
+Save Forward Deployed Engineer  at Storm2
+Show more options
+Your AI-powered job assessment
 
-You are detail obsessed: You have experience writing code that stands up to the unpredictability of the physical world, where the small details are the difference between success and failure.
 
-You are "Fluid": We are a lean team and we flex across functional areas as needed. You will be challenged to learn quickly and figure out what you need to do to be productive.
+Show match details
 
-You code really well: We mostly use Python and TypeScript, but we don’t care what you’re most proficient in today—as long as you learn fast.
+Tailor my resume
 
-The Role: Software Engineer (Recent Graduate)
-The Mission: Forget the "shadowing" and the "simulated projects." At Blissway, you will be given real ownership from Week 1. You will work across our different "startups" to solve 1-to-100 scaling problems:
+Create cover letter
 
-Ship Production Code: Contribute to the "Secret Sauce" that identifies millions of cars daily.
+Help me stand out
 
-Full-Stack Exposure: Help build intuitive tools for government agencies and front-end interfaces for human reviewers.
+Meet the hiring team
+Ryan B.
+Ryan B.  
+ 2nd
+FinTech Recruitment
+Job poster · 1 mutual connection
 
-Edge-to-Cloud Logic: Write software that lives on roadside hardware and the servers that process its data.
+Message
+About the job
+⚡ Forward Deployed Engineer
 
-Rapid Prototyping: Work alongside senior mentors to integrate ML models that improve highway safety in real-time.
+ 📍 San Francisco
 
-Requirements:
-Education: Degree in Computer Science, Computer Engineering, or a related technical field (Class of 2025 or 2026).
+ 💰 $180K+ (DOE) + Equity
 
-Portfolio: A track record of building things—be it side projects, open-source contributions, or high-impact internships.
 
-Mindset: You are a "fully formed adult." You don't wait for a manual; you figure out what you need to get stuff done and you do it in a professional manner. You understand that feedback is critical to growth and you welcome it.
 
-Our Technical Ecosystem (SEO for the curious): While we value problem-solving over specific syntax, skills that transfer well are:
+We’re partnered with a fast-growing, YC-backed AI fintech startup founded by alumni from MIT, Harvard, and Georgia Tech, including founders with a prior successful exit. The company is already revenue-generating and rapidly scaling its enterprise platform across Fortune 1000 customers.
+Their product is transforming accounts receivable operations using AI to automate invoicing, cash application, and collections—helping large organizations accelerate payments, reduce manual workflows, and eliminate revenue leakage.
 
-Languages: Typescript, Python, C++, SQL, Bash.
 
-Frameworks and Tools: Node.js, Express, NestJS, Next.js, React, Tailwind CSS.
+They’re now looking to hire a Forward Deployed Engineer to work closely with the CTO at the intersection of engineering, product, and enterprise customers, deploying AI solutions directly into complex real-world environments.
 
-Infrastructure: AWS, Docker, Linux, IoT Edge Devices.
 
-Specialties: Computer Vision (OpenCV), ML Integration, Payment Processing.
+This is a highly hands-on role for someone who enjoys ownership, customer interaction, and solving ambiguous technical challenges while shipping impactful solutions quickly.
 
-The Essentials (Health & Wealth)
 
-Relocation Support: We are excited for you to join the team at our engineering office in Denver. We value in-person collaboration and daily team lunches and we provide a relocation bonus to help you get here.
+What You’ll Do
+Work directly with the CTO to deploy, customize, and scale AI-driven solutions for enterprise customers
+Act as a technical point of contact and client-facing partner, owning implementations from discovery through production rollout
+Handle ad-hoc technical challenges including debugging, integrations, data workflows, and custom configurations
+Translate customer requirements into scalable, maintainable technical solutions while maintaining product integrity
+Collaborate with engineering, product, and customer success teams to influence the product roadmap and platform improvements
+Support integrations with enterprise systems such as ERPs, accounting platforms, and internal financial tools
+Occasional on-site travel with customers (~10%, optional for more)
 
-Personalized Health Coverage (ICHRA): We don’t believe in one-size-fits-all healthcare. We provide a monthly allowance for you and dependents so you can choose the individual plan that actually fits your life.
 
-Investing in Your Future: 401(k) matching up to 4%.
+What They’re Looking For
+Strong software engineering background with experience building or deploying production systems
+Comfortable working directly with customers while remaining deeply technical
+Thrives in fast-paced, ambiguous startup environments and enjoys wearing multiple hats
+Experience working with APIs, integrations, and modern backend systems
+Strong problem-solving ability and the confidence to troubleshoot complex technical issues
+Excellent communication skills with both technical and non-technical stakeholders
 
-Peace of Mind: Transparent compensation. Company-sponsored life & disability insurance.
 
-Early Stage Equity: Competitive equity package with 24-month exercise window. Every year, we facilitate a tender process that gives you the opportunity to sell your vested shares at the same valuation as our investors.
+Nice to Have
+Bachelor’s degree in Computer Science or related field
+Experience in enterprise SaaS, fintech, or AI-driven platforms
+Prior experience in forward deployed engineering, solutions engineering, or technical consulting
+Familiarity with financial workflows such as billing, invoicing, or accounting systems
 
-Rest & Recharge 🌴
+Featured benefits
 
-High-Trust Time Off: 4 weeks of untracked PTO. We don't micromanage your calendar; we focus on your impact. Take the time you need to stay sharp and inspired.
+Medical insurance
+Vision insurance
+Dental insurance
+401(k)
+Paid paternity leave
+Paid maternity leave
 
-Family First: 12 weeks of paid parental leave for birth and adoptive parents. We want you present for the moments that matter most.
+See how you compare to other applicants
+Applicants for this job
+15	Applicants
+15	Applicants in the past day
+Applicant seniority level
+91% Entry level applicants
 
-The Deep Breath (Sabbatical): Every 5 years, take 12 weeks of fully paid leave. Go travel, write a book, or master a new hobby—then come back and tell us all about it.
 
-Fuel & Community 😀
+9% Senior level applicants
 
-The Blissway Kitchen: Whether it’s breakfast to start your day or our daily group lunches, we keep the team fueled.
 
-Snacks Autonomy: Our kitchen is fully stocked and we mean it—if we’re missing your favorite fuel, just add it to the request list.
+Applicant education level
+80%	have a Master's Degree (Similar to you)
+13%	have a Bachelor's Degree
+7%	have a High School Diploma
 
-The "BlissTrip": An annual 3–4 day getaway for the team and significant others.
+Exclusive Job Seeker Insights about Storm2
+Powered by Bing
+Company focus areas
+Efficiency: Storm2 is focusing on improving operational efficiency to enhance its overall performance and profitability. This includes streamlining processes and optimizing resource allocation. 
+Innovation: The company is prioritizing innovation to stay competitive in the rapidly evolving fintech recruitment market. This involves leveraging new technologies and developing innovative solutions for clients. 
 
-Monthly Beats: Game nights, escape rooms, and dinners to celebrate the grit we put in.
-
-Continuous Learning: Tuition reimbursement for courses, programs, and conferences that sharpen your craft.
+Hiring & headcount
+Focus on engineering and IT: The 'Engineering' and 'Information Technology' departments have seen significant increases in job openings by 36% and 150% respectively, indicating a strong focus on technological development and infrastructure. Growth in product management: The 'Product Management' department has experienced a 50% increase in job openings over the past year, suggesting an emphasis on developing and managing new products. Sales department contraction: The 'Sales' department has seen a 16% decrease in headcount over the past year, which may indicate a shift in sales strategy or a focus on other areas of the business. Consulting expansion: The 'Consulting' department has grown by 133% in headcount over the past year, highlighting a potential new initiative in providing consulting services or internal strategic advisory.
