@@ -1,26 +1,39 @@
-Forward Deployed Engineer 
-San Francisco Bay Area · 35 minutes ago · 15 applicants
-Promoted by hirer · No response insights available yet
+BeaconFire Inc. logo
+BeaconFire Inc.
+Share
+Show more options
+C++ Developer
+Texas, United States · Reposted 1 month ago · Over 100 applicants
+Promoted by hirer · Actively reviewing applicants
 
 
- On-site
-Matches your job preferences, workplace type is On-site.
+ Hybrid
+Matches your job preferences, workplace type is Hybrid.
 
 Full-time
 
 Easy Apply
 
 Save
-Save Forward Deployed Engineer  at Storm2
-Forward Deployed Engineer
-Storm2 · San Francisco Bay Area (On-site)
+Save C++ Developer at BeaconFire Inc.
+
+30%
+Resume Match
+3 of 10 keywords
+Simplify
+V1
+V2
+C++ Developer
+BeaconFire Inc. · Texas, United States (Hybrid)
 
 Easy Apply
 
 Save
-Save Forward Deployed Engineer  at Storm2
+Save C++ Developer at BeaconFire Inc.
 Show more options
 Your AI-powered job assessment
+You'd be a top applicant, based on your skills, experience, and chances of hearing back
+
 
 
 Show match details
@@ -32,87 +45,139 @@ Create cover letter
 Help me stand out
 
 Meet the hiring team
-Ryan B.
-Ryan B.  
+Rameez Khan
+Rameez Khan  
  2nd
-FinTech Recruitment
-Job poster · 1 mutual connection
+Technical Sourcer
+Job poster · 4 mutual connections
 
 Message
 About the job
-⚡ Forward Deployed Engineer
+BeaconFire is based in Central NJ, specializing in Software Development, Web Development, and Business
+Intelligence; looking for candidates with a strong background in Software Engineering or Computer Science for
+a C++ / Software Developer position
+Job Responsibilities:
+● Develop, test, and maintain applications using C++ (C++11/14/17 and above) on the Linux platform.
+● Write efficient, reliable, and maintainable code with a focus on performance and stability.
+● Design and implement object-oriented and modular C++ components.
+● Work with multithreading and concurrency mechanisms to build scalable and responsive systems.
+● Participate in debugging, profiling, and performance optimization on Linux-based systems.
+● Create, deploy, and maintain automated unit and system tests.
+● Collaborate with testers to analyze reported defects and resolve issues in a timely manner.
+● Support continuous improvement by researching alternative technologies and contributing to
+architectural and design discussions.
+● Collaborate effectively with team members to achieve shared sprint and project goals.
+Requirement:
+● Experience with C++ programming.
+● Decent understanding of the Software Development Life Cycle (SDLC).
+● Solid understanding of Object-Oriented Programming (OOP) concepts.
+● Familiarity with memory management, pointers, references, and RAII.
+● Knowledge of common data structures (arrays, lists, maps, sets).
+● Basic experience with Linux development environments.
+● Familiarity with multithreading and synchronization concepts is a plus.
+Preferred Qualifications:
+● Bachelor’s or Master’s degree in Computer Science, Software Engineering, or a related field.
+● 0–1 year of practical experience in Linux or embedded development.
+● Experience working on Linux or embedded systems.
+● Familiarity with inter-process communication (IPC) mechanisms such as pipes, shared memory,
+message queues, or semaphores.
+● Experience with build tools such as Make, CMake, or similar.
+● Knowledge of debugging tools such as gdb, Valgrind, or equivalent.
+● Exposure to real-time or performance-critical systems is a plus.
 
- 📍 San Francisco
-
- 💰 $180K+ (DOE) + Equity
-
-
-
-We’re partnered with a fast-growing, YC-backed AI fintech startup founded by alumni from MIT, Harvard, and Georgia Tech, including founders with a prior successful exit. The company is already revenue-generating and rapidly scaling its enterprise platform across Fortune 1000 customers.
-Their product is transforming accounts receivable operations using AI to automate invoicing, cash application, and collections—helping large organizations accelerate payments, reduce manual workflows, and eliminate revenue leakage.
-
-
-They’re now looking to hire a Forward Deployed Engineer to work closely with the CTO at the intersection of engineering, product, and enterprise customers, deploying AI solutions directly into complex real-world environments.
-
-
-This is a highly hands-on role for someone who enjoys ownership, customer interaction, and solving ambiguous technical challenges while shipping impactful solutions quickly.
-
-
-What You’ll Do
-Work directly with the CTO to deploy, customize, and scale AI-driven solutions for enterprise customers
-Act as a technical point of contact and client-facing partner, owning implementations from discovery through production rollout
-Handle ad-hoc technical challenges including debugging, integrations, data workflows, and custom configurations
-Translate customer requirements into scalable, maintainable technical solutions while maintaining product integrity
-Collaborate with engineering, product, and customer success teams to influence the product roadmap and platform improvements
-Support integrations with enterprise systems such as ERPs, accounting platforms, and internal financial tools
-Occasional on-site travel with customers (~10%, optional for more)
-
-
-What They’re Looking For
-Strong software engineering background with experience building or deploying production systems
-Comfortable working directly with customers while remaining deeply technical
-Thrives in fast-paced, ambiguous startup environments and enjoys wearing multiple hats
-Experience working with APIs, integrations, and modern backend systems
-Strong problem-solving ability and the confidence to troubleshoot complex technical issues
-Excellent communication skills with both technical and non-technical stakeholders
-
-
-Nice to Have
-Bachelor’s degree in Computer Science or related field
-Experience in enterprise SaaS, fintech, or AI-driven platforms
-Prior experience in forward deployed engineering, solutions engineering, or technical consulting
-Familiarity with financial workflows such as billing, invoicing, or accounting systems
-
-Featured benefits
-
-Medical insurance
-Vision insurance
-Dental insurance
-401(k)
-Paid paternity leave
-Paid maternity leave
 
 See how you compare to other applicants
 Applicants for this job
-15	Applicants
-15	Applicants in the past day
+374	Applicants
+6	Applicants in the past day
 Applicant seniority level
-91% Entry level applicants
+73% Entry level applicants
 
 
-9% Senior level applicants
+19% Senior level applicants
 
 
 Applicant education level
-80%	have a Master's Degree (Similar to you)
-13%	have a Bachelor's Degree
-7%	have a High School Diploma
+28%	have a Master's Degree (Similar to you)
+24%	have a Master of Science
+17%	have a Bachelor's Degree
+31%	have other degrees
 
-Exclusive Job Seeker Insights about Storm2
+Exclusive Job Seeker Insights about BeaconFire Inc.
 Powered by Bing
 Company focus areas
-Efficiency: Storm2 is focusing on improving operational efficiency to enhance its overall performance and profitability. This includes streamlining processes and optimizing resource allocation. 
-Innovation: The company is prioritizing innovation to stay competitive in the rapidly evolving fintech recruitment market. This involves leveraging new technologies and developing innovative solutions for clients. 
+Technology Consulting and Professional Services: BeaconFire aims to provide unparalleled services in Business Analysis, Architecture Design, Application Development, Systems Design and Development, Database Administration, Project Management, and Quality Assurance. 
+Expansion in Software and Web Development: The company focuses on expanding its expertise in Software Development, Web Development, and Business Intelligence solutions to cater to a broader market. 
+…show more
+Sources: thedroptimes.com +1 more
+
 
 Hiring & headcount
-Focus on engineering and IT: The 'Engineering' and 'Information Technology' departments have seen significant increases in job openings by 36% and 150% respectively, indicating a strong focus on technological development and infrastructure. Growth in product management: The 'Product Management' department has experienced a 50% increase in job openings over the past year, suggesting an emphasis on developing and managing new products. Sales department contraction: The 'Sales' department has seen a 16% decrease in headcount over the past year, which may indicate a shift in sales strategy or a focus on other areas of the business. Consulting expansion: The 'Consulting' department has grown by 133% in headcount over the past year, highlighting a potential new initiative in providing consulting services or internal strategic advisory.
+Significant growth in Human Resources: The company has increased its headcount in the Human Resources department by 74% over the past year, indicating a major focus on expanding HR capabilities, which could suggest a need for HR tools and services. Rapid expansion in Information Technology: With a 30% increase in IT headcount and a 2200% increase in job openings over the past year, the company is heavily investing in its IT infrastructure, presenting opportunities for IT solutions and services. Engineering department focus: Despite a 9% decrease in headcount, the Engineering department has seen a 330% increase in job openings over the past year, indicating a strategic shift towards hiring new talent, which could benefit from recruitment and training services. Sales department growth: The Sales department has experienced a 9% increase in headcount and a 20% increase over the past three months, suggesting a focus on boosting sales efforts, which may require sales enablement tools and resources.
+…
+show more
+
+
+
+The latest hiring trend
+159
+
+Total employees
+
+ 61%
+
+Company-wide
+
+2 year growth
+
+61% increase
+Chart
+Chart with 25 data points.
+The chart has 1 X axis displaying Time. Range: 2023-08-25 20:00:00 to 2026-05-07 08:00:00.
+The chart has 1 Y axis displaying values. Range: 0 to 200.
+End of interactive chart.
+Median employee tenure ‧
+ 
+1.4 years
+Competitors
+BeaconFire operates in a highly competitive IT consulting and software development market in the US. The company faces significant competition from both large, well-funded firms and numerous smaller players. Key competitors include UST, Mindtree, and Accenture, which offer a wide range of IT services and have substantial market presence. BeaconFire's strategic focus on software development, web development, and business intelligence positions it to compete by leveraging specialized expertise and client-focused solutions.
+…
+show more
+
+
+
+
+Sources: fastlanerecruit.com +2 more
+
+
+Show more Premium insights
+About the company
+BeaconFire Inc. company logo
+BeaconFire Inc.
+241,032 followers
+
+Follow
+IT Services and IT Consulting  501-1,000 employees  159 on LinkedIn
+BeaconFire is a leading technology consulting and professional services organization. It is one of the fastest growing technology consulting companies in Americas. The company is providing unparalleled services in Business Analysis, Architecture Design, Application Development, Systems Design and Development, Database Administration, Project Management and Quality Assurance services across Industry Domains. The company has a large pool of highly qualified and experienced talents working for global clients. It has established a strong employee engagement framework with dedicated Delivery Managers, HR Managers and Account Managers, supported by Site Leads across all engagements.
+
+BeaconFire has established long term relationship with several Fortune 500 companies and has a strong and agile service delivery framework backed up by robust management reporting and specialized vendor ecology enabling consistent on-demand mobilization of right-skilled resources.
+
+The company has aggressive and proven models for ensuring year on year savings in the IT budgets of the customers and has global engagement experiences across US, Europe, China and India.
+
+For many years, BeaconFire has been providing flexible and scalable solutions to companies across multiple industry verticals. Our tools and technical expertise have repetitively proven to reduce the time and costs associated with custom solution development.
+
+We have served the following key industry verticals:
+• Insurance
+• E-Commerce
+• Telecommunication
+• Healthcare
+• Banking
+
+Why BeaconFire?
+- High empowerment for people to actualize their potential,
+- Global multi-cultural workforce, creating an agile and adaptable organization,
+- Global delivery capabilities,
+- Solutions that address customers’ pain areas,
+- World-class technical strengths and process maturity,
+- Complete relationship flexibility and top management focus behind every strategic relationship,
+- Ability to invest in building strategic outsourcing partnerships.

@@ -4,7 +4,7 @@ Based on Prompting/Context/JD.txt and the updated resume/main.tex (from Task 1),
 Global Constraints (MANDATORY)
 - Prompting/Context/JD_Outreach_Templates.txt is the immutable source of truth — DO NOT modify it under any circumstances.
 - All edits happen ONLY in Prompting/Artifacts/JD_Outreach.txt.
-- Only replace text inside square brackets (e.g., [Name], [role], [company/location phrase], [work specifics based on role]).
+- Only replace text inside square brackets (e.g., [Name], [role], [company/location phrase], [work specifics based on role], [why company and fit]).
 - Do NOT change any other wording, punctuation, structure, or formatting in Prompting/Artifacts/JD_Outreach.txt.
 - [Name] should remain as [Name] — leave it as a placeholder since it changes per person.
 
@@ -34,6 +34,13 @@ Bracket Fill Rules
 - Write a short phrase (under 20 words) summarizing relevant experience that maps to the JD's core responsibilities.
 - Pull from the updated resume/main.tex — specifically the skills section and the most JD-relevant industry experience bullets.
 - Do NOT copy bullets verbatim; distill them into a natural, conversational phrase.
+
+[why company and fit]
+- Write one statement under 40 words explaining both why you want to work there and why you are a good fit.
+- Pull the "why this company" portion from the JD's mission, product, customers, or problem space.
+- Pull the "why me" portion from the updated resume/main.tex, especially the skills section and most JD-relevant experience bullets.
+- If the employer is undisclosed, reference the role, mission, or problem space instead of naming the company.
+- Do NOT copy JD or resume lines verbatim; distill them into a concise, natural statement.
 
 
 [Name]

@@ -17,7 +17,7 @@ Subject: Quick Question
 
 Hi [Name],
 
-I'm very interested in the Forward Deployed Engineer role in San Francisco and believe my credentials align with the requirements.
+I'm very interested in the C++ Developer role at BeaconFire Inc. in Texas, United States and believe my credentials align with the requirements.
 
 Would you be able to share any advice on how to stand out, or point me to the right person to connect with?
 
@@ -38,7 +38,7 @@ Subject: Quick Question
 
 Hi [Name], 
 
-I'm very interested in the Forward Deployed Engineer role in San Francisco and have worked on AI workflows, APIs, backend systems, and enterprise Qdrant RAG pipelines for production deployments.
+I'm very interested in the C++ Developer role at BeaconFire Inc. in Texas, United States and have worked on Linux-based OOP services, system tests, and C++ SDLC coursework for performance-focused software development.
 
 Could you look at my credentials and see if I would be a good fit? I would be grateful for a referral if you do. 
 
@@ -59,9 +59,21 @@ Subject: Quick Question
 
 Hi [Name],
 
-I'm very interested in the Forward Deployed Engineer role on your team in San Francisco and have worked on AI workflows, APIs, backend systems, and enterprise Qdrant RAG pipelines for production deployments.
+I'm very interested in the C++ Developer role on your team at BeaconFire Inc. in Texas, United States and have worked on Linux-based OOP services, system tests, and C++ SDLC coursework for performance-focused software development.
 
 Could we set up a quick chat/call so that I can learn more about the role and the team, and share how my background could contribute? 
 
 Thanks in advance!
 Anupreet Singh
+
+
+
+
+================================================================
+=============  SECTION 4 — COMPANY INTEREST / FIT  ============
+================================================================
+
+
+#### Why This Company / Why Me
+
+BeaconFire's focus on scalable software delivery and Linux-based engineering matches my background in C++ OOP, SDLC, testing, and performance-oriented systems work.
