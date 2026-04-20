@@ -1,93 +1,121 @@
-Software Engineer 1
-Quality
-Posted on 4/14/2026
+Entry Level Software Engineer/Software Tester
+Apply
+remote type
+On-site
+locations
+US-VA-Dahlgren
+time type
+Full time
+posted on
+Posted 6 Days Ago
+job requisition id
+R0159211
 
-Unlock job analytics with
-Simplify+
-Whoop
-Whoop
-1,001-5,000 employees
+50%
+Resume Match
+6 of 12 keywords
+Simplify
+Simplify
+V1
+V2
+Amentum is looking for Software engineers to join our USN advance technology development team. Someone code, optimize and build software speed and efficiency in an R&D setting.  Primary work location will be in Fredericksburg or Dahlgren, VA with occasional telecommuting or travel opportunities. 
 
-Wearable fitness tracker with personalized insights
+Software engineer Responsibilities Include:
 
-Compensation Overview
-$105k - $145k/yr
+Developing graphical user interfaces for local tools with the team of users.
 
-+ Equity
-Entry
+Developing software updates using C++, Rational Team Concert, GitLab and other DevOps tools.
 
-Boston, MA, USA
+Supporting test events through travel opportunities.   
 
-In Person
+Minimum Qualifications:
 
-Candidates must be prepared to relocate to Boston, MA.
+Bachelor’s degree in one of the following disciplines: Engineering, Math, Computers Science, and/or Physics with entry level experience.
 
-Category
+Must have an Active Secret US Government Clearance. Note: US Citizenship is required to maintain a Secret.
 
-Software Engineering
-(1)
+Knowledge in definition and management of software requirements, design, code, benchmark testing, debugging, software development lifecycle, architecture, and documentation.
 
-Software QA & Testing
-Required Skills
-Software Testing
-DevOps
+Plans, performs, and leads software design, coding, and testing.
 
-Connection
-Connection
-Connection
-logo
-Get referrals →
+Experience in an Agile software development environment and familiarity with Agile methodologies.
 
-You have ways to get a Whoop referral from your network.
+Atlassian tool suites, Jira (for issue tracking) and Confluence (decision tracking).
 
+Source code tracking tools (i.e. Git, Bitbucket).
 
-Applications through a referral are 3x more likely to get an interview!
+C++ or C# (Preferred).
 
+Ability to Commute: to Fredericksburg or Dahlgren, VA (1 hour south of Washington D.C.).
 
-History
-Summary
-Full Job Posting
-You match the following Whoop's candidate preferences
+Candidates must maintain a valid Real ID driver’s license required for access to customer site and have access to reliable transportation (rideshare options such as Uber, Lyft etc. are not permitted) as this position requires occasional travel between local worksites during the week.
 
-Employers are more likely to interview you if you match these preferences:
+Benefits and Perks
 
-Degree
-Experience
+Health, Vision, and Dental
 
-Connection
-Connection
-Connection
-You have ways to get a Whoop referral from your network. Get referrals →
+401K with match
 
-Requirements
-Bachelor’s degree in Computer Science or related field (or equivalent experience)
-Basic programming experience in one or more languages
-Familiarity with software testing concepts and methodologies
-Insatiable curiosity and willingness to hold multiple perspectives
-Strong willingness to learn and grow in test automation and quality engineering
-Responsibilities
-Develop and maintain automated tests for core product functionality (unit, integration, and basic end-to-end tests)
-Follow established testing frameworks, patterns, and best practices
-Participate in code reviews and apply feedback to improve test quality
-Contribute to validating new features and ensuring regression coverage
-Ensure critical user journeys are covered by automated tests
-Identify, document, and escalate defects with clear reproduction steps
-Support manual and exploratory testing where needed
-Execute well-defined testing tasks within project timelines
-Begin estimating effort for assigned work and improving accuracy over time
-Support team goals by delivering reliable and maintainable test coverage
-Work closely with engineers, QA, and product managers to understand requirements
-Actively participate in team ceremonies and communicate progress and blockers
-Ask questions to gain clarity and improve implementation
-Build foundational knowledge of system architecture, testing tools, and CI/CD pipelines
-Learn debugging techniques and test design strategies
-Continuously improve based on feedback and mentorship
+Tuition Reimbursement
 
-Keyword Match
-Needs Work - 0 out of 6 found
-Whoop
-Whoop
+Wellness Program
 
-Website
-View Company Profile
-Whoop offers a subscription-based fitness membership paired with a wearable, the WHOOP Strap 3.0. The device tracks ongoing physiological data—heart rate, sleep, and recovery—and the app analyzes this data to deliver personalized guidance on daily exertion, sleep needs, and overall readiness. The membership gives ongoing access to the app, plus community features like teams and challenges, creating a social and motivational layer around the data insights. Unlike some brands that sell hardware or coaching separately, Whoop includes the strap free with the membership and emphasizes continuous data analysis and community engagement to drive better health and performance. The company’s goal is to help users optimize health and athletic performance while reducing injury risk, generating recurring revenue through its subscription model.
+Growth opportunities and career progression
+
+Various company discounts
+
+Basic life and AD&D insurance
+
+Paid time off
+
+Flexible Holidays
+
+Parental Leave
+
+       
+
+Compensation Details:
+
+$75K to $105K
+       
+
+The compensation range or hourly rate listed for this position is provided as a good-faith estimate of what the company intends to offer for this role at the time this posting was issued. Actual compensation may vary based on factors such as job responsibilities, education, experience, skills, internal equity, market data, applicable collective bargaining agreements, and relevant laws.
+
+ 
+
+Benefits Overview:
+
+Our health and welfare benefits are designed to support you and your priorities. Offerings include:
+
+Health, dental, and vision insurance
+
+Paid time off and holidays
+
+Retirement benefits (including 401(k) matching)
+
+Educational reimbursement
+
+Parental leave
+
+Employee stock purchase plan
+
+Tax-saving options
+
+Disability and life insurance
+
+Pet insurance
+
+ 
+
+Note: Benefits may vary based on employment type, location, and applicable agreements. Positions governed by a Collective Bargaining Agreement (CBA), the McNamara-O'Hara Service Contract Act (SCA), or other employment contracts may include different provisions/benefits.
+
+       
+
+Original Posting:
+
+04/14/2026 - Until Filled
+Amentum anticipates this job requisition will remain open for at least three days, with a closing date no earlier than three days after the original posting. This timeline may change based on business needs.
+
+       
+
+Amentum is proud to be an Equal Opportunity Employer. Our hiring practices provide equal opportunity for employment without regard to race, sex, sexual orientation, pregnancy (including pregnancy, childbirth, breastfeeding, or medical conditions related to pregnancy, childbirth, or breastfeeding), age, ancestry, United States military or veteran status, color, religion, creed,  marital or domestic partner status, medical condition, genetic information, national origin, citizenship status, low-income status, or mental or physical disability so long as the essential functions of the job can be performed with or without reasonable accommodation, or any other protected category under federal, state, or local law. Learn more about your rights under Federal laws and supplemental language at Labor Laws Posters.
