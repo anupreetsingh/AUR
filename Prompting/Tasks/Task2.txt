@@ -36,9 +36,11 @@ Bracket Fill Rules
 - Do NOT copy bullets verbatim; distill them into a natural, conversational phrase.
 
 [why company and fit]
-- Write one statement under 40 words explaining both why you want to work there and why you are a good fit.
-- Pull the "why this company" portion from the JD's mission, product, customers, or problem space.
-- Pull the "why me" portion from the updated resume/main.tex, especially the skills section and most JD-relevant experience bullets.
+- Write one specific statement under 40 words that creates a clear bridge: [company/role problem or impact] + [resume-backed way you can contribute].
+- Prefer the JD's day-to-day role problem, product, customers, or impact over generic company mission language.
+- Pull the "why this company" portion from concrete JD details such as scalable pipelines, clean and accessible data, analytics, ML, BI, data governance, customer sector, or compliance needs.
+- Pull the "why me" portion from the updated resume/main.tex, especially the skills section and most JD-relevant industry experience bullets.
+- Do not use generic fit phrases like "mission aligns with my background" unless the sentence also names the concrete role problem and contribution.
 - If the employer is undisclosed, reference the role, mission, or problem space instead of naming the company.
 - Do NOT copy JD or resume lines verbatim; distill them into a concise, natural statement.
 
