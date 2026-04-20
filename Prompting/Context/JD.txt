@@ -1,50 +1,85 @@
-Description
-Rokt is a global leader in ecommerce, unlocking real-time relevance in the moment that matters most. Rokt's AI Brain and ecommerce Network powers 10 billion+ transactions per year for hundreds of millions of customers, and is trusted to do this by the world's leading companies.
+Company Overview
+Intuit is the global financial technology platform that powers prosperity for the people and communities we serve. With approximately 100 million customers worldwide using products such as TurboTax, Credit Karma, QuickBooks, and Mailchimp, we believe that everyone should have the opportunity to prosper. We never stop working to find new, innovative ways to make that possible.
 
-We are a team of builders helping smart businesses find innovative ways to meet customer needs and generate incremental revenue. Leading companies drive 10-50% of additional revenue—and often all their profits—from the extra products or services they sell. This economic edge unleashes a world of possibilities for growth and innovation.
+Job Overview
+Come join Intuit as a Software Engineer 1 on the Future of Discovery & Engagement (FODE) team within QuickBooks.
 
-We are looking for Junior Software Engineers
-At Rokt, we practice transparency in career paths and compensation. We have a well-defined career ladder with transparent compensation and clear career paths based on competency and ability.
+FODE powers adoption and awareness, upgrades and conversion, and repeat consumption across high-traffic product surfaces. We are building the next-generation contextual discovery and personalization platform that embeds intelligent, real-time recommendations directly into customer workflows.
 
-Target total compensation of $90,000 - $170,000, including a fixed annual salary of $85,000 - $150,000, an employee equity plan grant, and world-class benefits.
+As an SWE1, you will contribute to building scalable, high-performance web experiences that support experimentation, personalization, and AI-driven discovery. You’ll work closely with senior engineers, product managers, designers, and data scientists to help deliver customer-centric experiences that drive measurable business outcomes.
 
-Equity grants are issued in good faith, subject to company policies, board approval, and individual eligibility.
+This role is ideal for engineers early in their careers who are excited to build impactful customer-facing features, learn modern web architectures, and grow within a high-visibility, growth-focused platform team.
 
-About the role: 
 
-This is an entry-level/early career role designed to help you grow as a Builder (engineer) while contributing to meaningful work. You will learn from experienced colleagues and gain hands-on experience building a diversity of services, from internal tools through to Rokt’s internet scale production systems.
+Responsibilities
 
-You will build broad knowledge and experience across systems, software, data, and data science, with regular opportunities to work across different domains and teams as you grow as a Builder at Rokt.
+Design, build, and maintain scalable web applications using ReactJS, JavaScript, HTML, and CSS.
 
-Requirements
-What You’ll Do
-Design & Build Innovative Products: Develop and iterate on next-generation ecommerce features and services, leveraging your computer science fundamentals and AI tooling to create & improve intelligent, personalized ecommerce experiences.
-Accelerate Development with AI: Leverage AI tools and automation to speed up coding, testing, and deployment, so you and other builders can focus on creative problem-solving and quality.
-Full-Stack Product Ownership: Work across the entire product lifecycle - from ideation and prototyping to implementation and continuous improvement - ensuring each feature delivers real value.
-Collaborate & Innovate: Partner with product managers, designers, and other engineers to conceptualize and implement AI-driven solutions that enhance user experience and drive business outcomes.
-Optimize & Scale: Identify performance bottlenecks and opportunities for improvement in our systems. Use data insights to refine user interfaces, optimize algorithms, and ensure our platform can scale to billions of transactions.
-Drive Revenue Growth: Spearhead the development and deployment of innovative features and capabilities that directly drive growth of the business, with the potential to generate millions of dollars in additional revenue.
-Who You Are
-AI-Enthusiast & Quick Learner: You embrace new technologies on the forefront of AI development and learn rapidly, adapting to innovative tools and workflows to stay ahead of the curve.
-Problem Solver: You excel at breaking down complex problems using first principles and creativity. Challenges are puzzles you’re excited to solve.
-Entrepreneurial Mindset: You take ownership of outcomes, move fast with confidence, and aren’t afraid to navigate ambiguity—figuring things out independently when needed.
-Collaborative Team Player: You communicate clearly and work well with cross-functional teams. You value feedback, share ideas openly, and help others succeed.
-Driven & Results-Oriented: You set high standards for your work, take pride in delivering quality, and continually seek to improve. You care about the impact of your code on the business and customers.
-Benefits
-About The Benefits:
+Implement reusable, modular UI components that support experimentation, personalization, and contextual discovery.
 
-We leverage best-in-class technology and market-leading innovation in AI and ML, with all of that being underlined by building and maintaining a fantastic and inclusive culture where people can be their authentic selves, and offering a great list of perks and benefits to go with it:
+Build responsive, accessible (WCAG-compliant), and internationalized experiences across browsers and devices.
 
-Become a shareholder. Every Rokt'star gets equity in the company
-Enjoy catered lunch every day and healthy snacks in the office. Plus join the gym on us!
-Extra leave (bonus annual leave, sabbatical leave etc.)
-Work with the greatest talent in town
-See the world! We have offices in New York, Seattle, Sydney, Tokyo and London.
-We believe we’re better together. We love spending time together and are in the office most days (teams are in the office minimum 4 days per week).
+Integrate frontend applications with backend services (Node.js/Java/Kotlin) powering recommendation engines, experimentation platforms, and real-time targeting systems.
 
-We at Rokt choose to create a company that is as diverse and inclusive as the world we live in by attracting, growing & keeping the best talent. Equal employment opportunities are available to all applicants without regard to race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.
+Write clean, maintainable, and well-tested code following engineering best practices.
 
-If this sounds like a role you’d enjoy, apply here, and you’ll hear from our recruiting team.
+Develop and maintain automated test coverage using Cypress or Playwright for end-to-end testing.
 
-Note on Recruitment Process: The first stage of the recruitment process for this role is to complete a 15-minute online aptitude test as well as an employee personality profile assessment, which will be sent out to your application email. Successful candidates will be contacted to discuss the next steps.
+Contribute to instrumentation and telemetry to measure customer engagement and feature performance.
 
+Participate in code reviews, sprint planning, and continuous integration/continuous deployment (CI/CD) processes.
+
+Troubleshoot, debug, and optimize application performance.
+
+Collaborate effectively with cross-functional partners including product, design, data science, and platform teams.
+
+
+Qualifications
+
+Bachelor’s degree in Computer Science, Engineering, or related field (or equivalent practical experience).
+
+1+ years of software development experience (internships and co-ops included).
+
+Strong proficiency in JavaScript (ES6+), ReactJS, HTML5, and CSS3.
+
+Experience building responsive and component-based web applications.
+
+Familiarity with RESTful APIs and client-server architecture.
+
+Experience with version control systems such as Git.
+
+Exposure to automated testing frameworks such as Cypress or Playwright.
+
+Understanding of software engineering fundamentals including data structures, algorithms, and object-oriented design.
+
+Strong problem-solving skills and a growth mindset.
+
+Ability to work effectively in a collaborative, fast-paced environment.
+
+Preferred Experience
+Experience building or contributing to SaaS or high-traffic web applications.
+
+Familiarity with Node.js or backend service integration.
+
+Experience working with experimentation platforms, feature flags, or A/B testing frameworks.
+
+Exposure to personalization systems or AI-driven user experiences.
+
+Knowledge of performance optimization and frontend observability tools.
+
+Experience contributing to reusable design systems or shared UI libraries.
+
+Why Join FODE?
+
+Work on high-visibility product surfaces that directly impact QuickBooks growth.
+
+Contribute to AI-driven personalization and real-time customer engagement experiences.
+
+Build modern, scalable frontend systems using React and contemporary testing frameworks.
+
+Learn from experienced engineers and grow within a strategic platform team.
+
+See measurable business impact from the features you ship.
+
+
+Intuit provides a competitive compensation package with a strong pay for performance rewards approach. This position will be eligible for a cash bonus, equity rewards and benefits, in accordance with our applicable plans and programs (see more about our compensation and benefits at [1] Intuit®: Careers | Benefits). Pay offered is based on factors such as job-related knowledge, skills, experience, and work location. To drive ongoing fair pay for employees, Intuit conducts regular comparisons across categories of ethnicity and gender. The expected base pay range for this position is: New York: $57.50 - 78.00 /hour References Visible links 1. https://www.intuit.com/careers/benefits/full-time-employees/
