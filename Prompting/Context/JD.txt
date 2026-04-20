@@ -1,85 +1,42 @@
-Company Overview
-Intuit is the global financial technology platform that powers prosperity for the people and communities we serve. With approximately 100 million customers worldwide using products such as TurboTax, Credit Karma, QuickBooks, and Mailchimp, we believe that everyone should have the opportunity to prosper. We never stop working to find new, innovative ways to make that possible.
+Software Engineer I
+Engineering in San Francisco, California - Full Time
+Apply Now
 
-Job Overview
-Come join Intuit as a Software Engineer 1 on the Future of Discovery & Engagement (FODE) team within QuickBooks.
+25%
+Resume Match
+2 of 8 keywords
+Simplify
+Simplify
+V1
+V2
+Employer:                    Uber Technologies, Inc.
 
-FODE powers adoption and awareness, upgrades and conversion, and repeat consumption across high-traffic product surfaces. We are building the next-generation contextual discovery and personalization platform that embeds intelligent, real-time recommendations directly into customer workflows.
+Job Title:                     Software Engineer I
 
-As an SWE1, you will contribute to building scalable, high-performance web experiences that support experimentation, personalization, and AI-driven discovery. You’ll work closely with senior engineers, product managers, designers, and data scientists to help deliver customer-centric experiences that drive measurable business outcomes.
+Job Location:              San Francisco, California
 
-This role is ideal for engineers early in their careers who are excited to build impactful customer-facing features, learn modern web architectures, and grow within a high-visibility, growth-focused platform team.
+Job Type:                    Full Time
 
+Rate of Pay:                $150,000 to $166,000 per year
 
-Responsibilities
+You will be eligible to participate in Uber's bonus program, and may be offered other types of comp. You will also be eligible for various benefits. More details can be found at the following link https://www.uber.com/careers/benefits.
 
-Design, build, and maintain scalable web applications using ReactJS, JavaScript, HTML, and CSS.
+Duties:                         Build customer-facing features and deliver scalable platform capabilities that power rich, performant user experiences. Collaborate across design, product, and platform teams to drive innovation across both front-end and back-end stack. Solve complex problems in business-critical feature flows. Own business-critical core feature flows. Own projects end-to-end and be responsible for working with Product and other stakeholders to refine requirements, create technical designs and specs, implement changes, and see projects through launch and maintenance. May telecommute.
 
-Implement reusable, modular UI components that support experimentation, personalization, and contextual discovery.
+Employer will accept a Bachelor's degree in Computer Science, Computer Systems Engineering, Engineering (Any), Information Technology, Mathematics, Physics, or related field.
 
-Build responsive, accessible (WCAG-compliant), and internationalized experiences across browsers and devices.
+Position requires:
 
-Integrate frontend applications with backend services (Node.js/Java/Kotlin) powering recommendation engines, experimentation platforms, and real-time targeting systems.
+Creating, designing, and maintaining user interfaces;
+Web technologies such as HTML, CSS, and JavaScript;
+Experience with traditional server-side rendering patterns;
+Full stack including Go backend systems;
+Running A/B tests and using results to inform product decisions;
+Interpreting customer behavior and iterating on product flows based on data;
+Building large-scale software;
+Building data-driven experiments.
+Uber's mission is to reimagine the way the world moves for the better. Here, bold ideas create real-world impact, challenges drive growth, and speed fuels progress. What moves us, moves the world - let's move it forward, together.
 
-Write clean, maintainable, and well-tested code following engineering best practices.
+Uber is proud to be an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to sex, gender identity, sexual orientation, race, color, religion, national origin, disability, protected Veteran status, age, or any other characteristic protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. If you have a disability or special need that requires accommodation, please let us know by completing this form.
 
-Develop and maintain automated test coverage using Cypress or Playwright for end-to-end testing.
-
-Contribute to instrumentation and telemetry to measure customer engagement and feature performance.
-
-Participate in code reviews, sprint planning, and continuous integration/continuous deployment (CI/CD) processes.
-
-Troubleshoot, debug, and optimize application performance.
-
-Collaborate effectively with cross-functional partners including product, design, data science, and platform teams.
-
-
-Qualifications
-
-Bachelor’s degree in Computer Science, Engineering, or related field (or equivalent practical experience).
-
-1+ years of software development experience (internships and co-ops included).
-
-Strong proficiency in JavaScript (ES6+), ReactJS, HTML5, and CSS3.
-
-Experience building responsive and component-based web applications.
-
-Familiarity with RESTful APIs and client-server architecture.
-
-Experience with version control systems such as Git.
-
-Exposure to automated testing frameworks such as Cypress or Playwright.
-
-Understanding of software engineering fundamentals including data structures, algorithms, and object-oriented design.
-
-Strong problem-solving skills and a growth mindset.
-
-Ability to work effectively in a collaborative, fast-paced environment.
-
-Preferred Experience
-Experience building or contributing to SaaS or high-traffic web applications.
-
-Familiarity with Node.js or backend service integration.
-
-Experience working with experimentation platforms, feature flags, or A/B testing frameworks.
-
-Exposure to personalization systems or AI-driven user experiences.
-
-Knowledge of performance optimization and frontend observability tools.
-
-Experience contributing to reusable design systems or shared UI libraries.
-
-Why Join FODE?
-
-Work on high-visibility product surfaces that directly impact QuickBooks growth.
-
-Contribute to AI-driven personalization and real-time customer engagement experiences.
-
-Build modern, scalable frontend systems using React and contemporary testing frameworks.
-
-Learn from experienced engineers and grow within a strategic platform team.
-
-See measurable business impact from the features you ship.
-
-
-Intuit provides a competitive compensation package with a strong pay for performance rewards approach. This position will be eligible for a cash bonus, equity rewards and benefits, in accordance with our applicable plans and programs (see more about our compensation and benefits at [1] Intuit®: Careers | Benefits). Pay offered is based on factors such as job-related knowledge, skills, experience, and work location. To drive ongoing fair pay for employees, Intuit conducts regular comparisons across categories of ethnicity and gender. The expected base pay range for this position is: New York: $57.50 - 78.00 /hour References Visible links 1. https://www.intuit.com/careers/benefits/full-time-employees/
+Offices continue to be central to collaboration and Uber’s cultural identity. Unless formally approved to work fully remotely, Uber expects employees to spend at least half of their work time in their assigned office. For certain roles, such as those based at green-light hubs, employees are expected to be in-office for 100% of their time. Please speak with your recruiter to better understand in-office expectations for this role.
