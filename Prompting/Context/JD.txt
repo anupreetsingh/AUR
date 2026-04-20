@@ -1,121 +1,64 @@
-Entry Level Software Engineer/Software Tester
+Software Engineer I – Power Apps Developer
 Apply
-remote type
-On-site
 locations
-US-VA-Dahlgren
+Chicago, IL
+Dallas, TX
+Fort Worth, TX
+San Jose, CA
+San Francisco, CA
+
+View All 8 Locations
 time type
 Full time
 posted on
-Posted 6 Days Ago
+Posted 5 Days Ago
 job requisition id
-R0159211
+R-29868
 
-50%
+45%
 Resume Match
-6 of 12 keywords
+9 of 20 keywords
 Simplify
 Simplify
 V1
 V2
-Amentum is looking for Software engineers to join our USN advance technology development team. Someone code, optimize and build software speed and efficiency in an R&D setting.  Primary work location will be in Fredericksburg or Dahlgren, VA with occasional telecommuting or travel opportunities. 
+What We're Looking For
 
-Software engineer Responsibilities Include:
+At HNTB, you can create a career that is meaningful to you while building communities that matter to all of us. For more than a century, we have been delivering solutions for some of the largest, most complex infrastructure projects across the country. With our historic growth, it is an exciting time to join our team of employee-owners. 
 
-Developing graphical user interfaces for local tools with the team of users.
+We are seeking a talented and experienced Software Engineer I to join our dynamic team, specializing in the development and maintenance of Canvas and Model-driven Power Apps applications. In this role, you will leverage the Microsoft Power Platform to create dynamic, scalable, and interactive applications, while working closely with cross-functional teams and stakeholders to deliver high-quality solutions.
 
-Developing software updates using C++, Rational Team Concert, GitLab and other DevOps tools.
+This opportunity entails being responsible for independently designing and developing software applications that meet business and technical requirements. This role builds on foundational skills and introduces broader responsibilities in technical execution, problem-solving, and team collaboration.
+What You'll Do:
 
-Supporting test events through travel opportunities.   
+Writes, tests, and debugs software using modern programming languages and frameworks.
+Collaborates with team members to understand requirements and deliver functional code.
+Participates in Agile ceremonies such as sprint planning, stand-ups, and retrospectives.
+Contributes to code reviews and follows established coding standards and practices.
+Learns and applies version control, testing, and documentation best practices.
+Assists in troubleshooting and resolving software defects.
+Continuously develops technical skills through mentorship and hands-on experience.
+Performs other duties as assigned.
+What You'll Need:
 
-Minimum Qualifications:
+Bachelor’s degree in computer science or related field, or
+In lieu of education, 4 years of relevant experience.
+What You'll Bring:
 
-Bachelor’s degree in one of the following disciplines: Engineering, Math, Computers Science, and/or Physics with entry level experience.
+Design, develop, and maintain Canvas and Model-driven Power Apps applications to meet business requirements.
+Utilize Power Apps formulas, connectors, and data sources to build dynamic and interactive applications.
+Work with the Dataverse to build and manage data models and ensure proper data governance.
+Troubleshoot, debug, and optimize existing Power Apps applications to ensure optimal performance and user experience.
+Collaborate with other engineers and cross-functional teams to design scalable solutions using the Microsoft Power Platform.
+Proficiency in languages such as Angular, C#, Python, or Java.
+Proficiency with web application frameworks such as React, Angular, Blazor,  or .NET.
+Experience with Git, Jira, Jenkins, or similar tools.
+Strong problem-solving and communication skills.
+What We Prefer:
 
-Must have an Active Secret US Government Clearance. Note: US Citizenship is required to maintain a Secret.
-
-Knowledge in definition and management of software requirements, design, code, benchmark testing, debugging, software development lifecycle, architecture, and documentation.
-
-Plans, performs, and leads software design, coding, and testing.
-
-Experience in an Agile software development environment and familiarity with Agile methodologies.
-
-Atlassian tool suites, Jira (for issue tracking) and Confluence (decision tracking).
-
-Source code tracking tools (i.e. Git, Bitbucket).
-
-C++ or C# (Preferred).
-
-Ability to Commute: to Fredericksburg or Dahlgren, VA (1 hour south of Washington D.C.).
-
-Candidates must maintain a valid Real ID driver’s license required for access to customer site and have access to reliable transportation (rideshare options such as Uber, Lyft etc. are not permitted) as this position requires occasional travel between local worksites during the week.
-
-Benefits and Perks
-
-Health, Vision, and Dental
-
-401K with match
-
-Tuition Reimbursement
-
-Wellness Program
-
-Growth opportunities and career progression
-
-Various company discounts
-
-Basic life and AD&D insurance
-
-Paid time off
-
-Flexible Holidays
-
-Parental Leave
-
-       
-
-Compensation Details:
-
-$75K to $105K
-       
-
-The compensation range or hourly rate listed for this position is provided as a good-faith estimate of what the company intends to offer for this role at the time this posting was issued. Actual compensation may vary based on factors such as job responsibilities, education, experience, skills, internal equity, market data, applicable collective bargaining agreements, and relevant laws.
-
- 
-
-Benefits Overview:
-
-Our health and welfare benefits are designed to support you and your priorities. Offerings include:
-
-Health, dental, and vision insurance
-
-Paid time off and holidays
-
-Retirement benefits (including 401(k) matching)
-
-Educational reimbursement
-
-Parental leave
-
-Employee stock purchase plan
-
-Tax-saving options
-
-Disability and life insurance
-
-Pet insurance
-
- 
-
-Note: Benefits may vary based on employment type, location, and applicable agreements. Positions governed by a Collective Bargaining Agreement (CBA), the McNamara-O'Hara Service Contract Act (SCA), or other employment contracts may include different provisions/benefits.
-
-       
-
-Original Posting:
-
-04/14/2026 - Until Filled
-Amentum anticipates this job requisition will remain open for at least three days, with a closing date no earlier than three days after the original posting. This timeline may change based on business needs.
-
-       
-
-Amentum is proud to be an Equal Opportunity Employer. Our hiring practices provide equal opportunity for employment without regard to race, sex, sexual orientation, pregnancy (including pregnancy, childbirth, breastfeeding, or medical conditions related to pregnancy, childbirth, or breastfeeding), age, ancestry, United States military or veteran status, color, religion, creed,  marital or domestic partner status, medical condition, genetic information, national origin, citizenship status, low-income status, or mental or physical disability so long as the essential functions of the job can be performed with or without reasonable accommodation, or any other protected category under federal, state, or local law. Learn more about your rights under Federal laws and supplemental language at Labor Laws Posters.
+Experience with custom connectors development for Power Apps.
+Familiarity with Copilot Studio for AI-assisted development.
+Experience with Power Pages for building external-facing websites.
+Knowledge of JavaScript and other web development technologies.
+Understanding of Azure cloud services and related technologies.
+Familiarity with CI/CD tools and DevOps practices.
