@@ -1,64 +1,52 @@
-Software Engineer I – Power Apps Developer
-Apply
-locations
-Chicago, IL
-Dallas, TX
-Fort Worth, TX
-San Jose, CA
-San Francisco, CA
+New
+Software Development Engineer 1
+Bellevue, WA
 
-View All 8 Locations
-time type
-Full time
-posted on
-Posted 5 Days Ago
-job requisition id
-R-29868
-
-45%
+24%
 Resume Match
-9 of 20 keywords
+5 of 21 keywords
 Simplify
 Simplify
 V1
 V2
-What We're Looking For
+Immigration / Work Authorization Notice: At this time, iSpot does not provide visa sponsorship or immigration support for this role. Applicants must already be authorized to work in the United States on a full-time, permanent basis without the need for current or future sponsorship.
 
-At HNTB, you can create a career that is meaningful to you while building communities that matter to all of us. For more than a century, we have been delivering solutions for some of the largest, most complex infrastructure projects across the country. With our historic growth, it is an exciting time to join our team of employee-owners. 
+iSpot competes for the best talent. Our compensation packages consist of salary and equity in one of Seattle’s hottest start-ups, as well as other standard benefits. Most importantly, we provide a really interesting working experience, and the chance to contribute to the success of something great.
 
-We are seeking a talented and experienced Software Engineer I to join our dynamic team, specializing in the development and maintenance of Canvas and Model-driven Power Apps applications. In this role, you will leverage the Microsoft Power Platform to create dynamic, scalable, and interactive applications, while working closely with cross-functional teams and stakeholders to deliver high-quality solutions.
+What You’ll Be Part Of:
+You’ll join a team dedicated to helping brands deliver their strongest creative advertising by combining quantitative performance data with qualitative insights. We build systems that evaluate creative effectiveness, surface actionable recommendations, and empower marketers to make smarter decisions. Your work will directly influence how brands understand, measure, and optimize their creative impact at scale.
 
-This opportunity entails being responsible for independently designing and developing software applications that meet business and technical requirements. This role builds on foundational skills and introduces broader responsibilities in technical execution, problem-solving, and team collaboration.
-What You'll Do:
+Responsibilities:
+Develop small, well‑scoped features that support creative analytics, insights, and reporting workflows.
+Write unit, component, contract, and integration tests as part of feature development.
+Debug and validate your own code; document how features should be tested.
+Run all relevant test types (unit, integration, end‑to‑end, regression, performance) to ensure feature quality.
+Contribute to release readiness by reporting status and raising flags when needed.
+Collect and report metrics; assist in investigating incidents and alerts with guidance.
+Participate in root‑cause analysis for standard issues.
+Identify basic risks and dependencies with support from senior engineers.
+Author technical designs for small features or components.
+Apply classical data structures, algorithms, and resource‑management techniques.
+Collaborate with teammates to coordinate work and maintain strong follow‑through.
+Communicate clearly with your manager and small teams; escalate issues appropriately.
+Use AI tools (with guidance) to accelerate coding, testing, documentation, and code exploration.
+Qualifications and Education Requirements:
+Some software engineering experience (professional, academic, or internship).
+Ability to write clean, testable code and debug effectively.
+Understanding of unit, integration, and end‑to‑end testing practices.
+Familiarity with release processes and CI/CD concepts.
+Basic experience with telemetry, metrics, or logging.
+Ability to analyze problems using standard data structures and algorithms.
+Strong communication skills and willingness to ask questions and seek guidance.
+Results‑oriented mindset with attention to quality and follow‑through.
+Preferred Skills:
+Backend Development
 
-Writes, tests, and debugs software using modern programming languages and frameworks.
-Collaborates with team members to understand requirements and deliver functional code.
-Participates in Agile ceremonies such as sprint planning, stand-ups, and retrospectives.
-Contributes to code reviews and follows established coding standards and practices.
-Learns and applies version control, testing, and documentation best practices.
-Assists in troubleshooting and resolving software defects.
-Continuously develops technical skills through mentorship and hands-on experience.
-Performs other duties as assigned.
-What You'll Need:
+Languages & Environments: Golang, Python (Django/Flask), or Java (Spring Boot).
+API Architecture: RESTful APIs (standard) and gRPC (modern alternative).
+Server Logic: Authentication (JWT/OAuth), authorization,
+Database Management
 
-Bachelor’s degree in computer science or related field, or
-In lieu of education, 4 years of relevant experience.
-What You'll Bring:
-
-Design, develop, and maintain Canvas and Model-driven Power Apps applications to meet business requirements.
-Utilize Power Apps formulas, connectors, and data sources to build dynamic and interactive applications.
-Work with the Dataverse to build and manage data models and ensure proper data governance.
-Troubleshoot, debug, and optimize existing Power Apps applications to ensure optimal performance and user experience.
-Collaborate with other engineers and cross-functional teams to design scalable solutions using the Microsoft Power Platform.
-Proficiency in languages such as Angular, C#, Python, or Java.
-Proficiency with web application frameworks such as React, Angular, Blazor,  or .NET.
-Experience with Git, Jira, Jenkins, or similar tools.
-Strong problem-solving and communication skills.
-What We Prefer:
-
-Experience with custom connectors development for Power Apps.
-Familiarity with Copilot Studio for AI-assisted development.
-Experience with Power Pages for building external-facing websites.
-Knowledge of JavaScript and other web development technologies.
-Understanding of Azure cloud services and related technologies.
-Familiarity with CI/CD tools and DevOps practices.
+Relational (SQL): PostgreSQL, MySQL, or SQL Server for structured data.
+Non-Relational (NoSQL): Redis for caching.
+Querying: Proficiency in writing SQL queries and utilizing ORMs (like Prisma or Sequelize).
