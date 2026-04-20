@@ -1,52 +1,67 @@
-New
-Software Development Engineer 1
-Bellevue, WA
+Software Engineer I
+San Diego, CA
+Full Time
+Entry Level
 
-24%
+42%
 Resume Match
-5 of 21 keywords
+5 of 12 keywords
 Simplify
 Simplify
 V1
 V2
-Immigration / Work Authorization Notice: At this time, iSpot does not provide visa sponsorship or immigration support for this role. Applicants must already be authorized to work in the United States on a full-time, permanent basis without the need for current or future sponsorship.
+ABOUT GENALYTE
 
-iSpot competes for the best talent. Our compensation packages consist of salary and equity in one of Seattle’s hottest start-ups, as well as other standard benefits. Most importantly, we provide a really interesting working experience, and the chance to contribute to the success of something great.
+At Genalyte, we’re revolutionizing diagnostic testing to empower a healthier future. Genalyte is a San Diego-based diagnostics company developing the Merlin platform, a novel photonic ring resonator-based system designed to deliver rapid, multiplexed diagnostic results. We believe that timely and accurate health insights shouldn’t be a luxury, but a necessity. We are driven by a vision where advanced diagnostic capabilities are accessible, efficient, and seamlessly integrated into healthcare. Genalyte is more than just a laboratory; we are advocates for health empowerment, dedicated to providing insights that can transform lives and communities.
 
-What You’ll Be Part Of:
-You’ll join a team dedicated to helping brands deliver their strongest creative advertising by combining quantitative performance data with qualitative insights. We build systems that evaluate creative effectiveness, surface actionable recommendations, and empower marketers to make smarter decisions. Your work will directly influence how brands understand, measure, and optimize their creative impact at scale.
+WHY WORK FOR US
 
-Responsibilities:
-Develop small, well‑scoped features that support creative analytics, insights, and reporting workflows.
-Write unit, component, contract, and integration tests as part of feature development.
-Debug and validate your own code; document how features should be tested.
-Run all relevant test types (unit, integration, end‑to‑end, regression, performance) to ensure feature quality.
-Contribute to release readiness by reporting status and raising flags when needed.
-Collect and report metrics; assist in investigating incidents and alerts with guidance.
-Participate in root‑cause analysis for standard issues.
-Identify basic risks and dependencies with support from senior engineers.
-Author technical designs for small features or components.
-Apply classical data structures, algorithms, and resource‑management techniques.
-Collaborate with teammates to coordinate work and maintain strong follow‑through.
-Communicate clearly with your manager and small teams; escalate issues appropriately.
-Use AI tools (with guidance) to accelerate coding, testing, documentation, and code exploration.
-Qualifications and Education Requirements:
-Some software engineering experience (professional, academic, or internship).
-Ability to write clean, testable code and debug effectively.
-Understanding of unit, integration, and end‑to‑end testing practices.
-Familiarity with release processes and CI/CD concepts.
-Basic experience with telemetry, metrics, or logging.
-Ability to analyze problems using standard data structures and algorithms.
-Strong communication skills and willingness to ask questions and seek guidance.
-Results‑oriented mindset with attention to quality and follow‑through.
-Preferred Skills:
-Backend Development
+Joining Genalyte at this pivotal pre-commercial stage means your work will have real, visible impact — on our technology, our culture, and ultimately on how diagnostic testing is delivered to patients. Regardless of your role, you'll be part of a collaborative team working closely with leadership to build something meaningful from the ground up. Genalyte offers competitive compensation including base salary, significant equity participation, and a comprehensive benefits package. This is a rare opportunity to grow alongside a high-impact company at a genuinely exciting moment in its journey.
 
-Languages & Environments: Golang, Python (Django/Flask), or Java (Spring Boot).
-API Architecture: RESTful APIs (standard) and gRPC (modern alternative).
-Server Logic: Authentication (JWT/OAuth), authorization,
-Database Management
+POSITION SUMMARY
 
-Relational (SQL): PostgreSQL, MySQL, or SQL Server for structured data.
-Non-Relational (NoSQL): Redis for caching.
-Querying: Proficiency in writing SQL queries and utilizing ORMs (like Prisma or Sequelize).
+We are seeking a highly motivated  Software Engineer I to join our dynamic team at a leading biomedical device company. This position will involve designing and developing software systems and tools as part of a team.  Focus will be on developing embedded software to power our Merlin blood-testing product, adhering to medical device standards for software quality.
+
+ESSENTIAL FUNCTIONS & RESPONSIBILITIES
+
+These may include but are not limited to: 
+
+Developing software components and participating in integration of software components
+Developing software tools to facilitate software test and integration activities
+Developing and executing software test protocols and generating test reports
+Troubleshooting issues related to system functionality and performance
+Contributing to cross-functional teams
+TECHNICAL KNOWLEDGE
+
+Familiarity with embedded software system design and concepts
+Experience with one or more programming languages such as C/C++/C#/Python, especially .NET
+Experience with build systems, unit testing and general best practices in SW development
+Proficient knowledge of networking and familiarity with Unix and Windows operating systems
+Competent in use of requirements management and issue tracking systems like Jira/Confluence
+ 
+EDUCATION, EXPERIENCE, KNOWLEDGE, SKILLS & ABILITIES
+
+Bachelor’s degree in Computer Science, Computer Engineering, or similar field
+Strong analytical and problem-solving skills
+Excellent communication and teamwork abilities
+Ability to author and present technical documents 
+Familiarity with Agile, Scrum, and Waterfall methodologies
+Experience in life sciences industry is a strong preference
+Demonstrated ability to work productively in a team environment
+ 
+PHYSICAL REQUIREMENTS & WORK ENVIRONMENT
+
+This is a primarily office-based role in San Diego, CA. 
+
+ 
+COMPENSATION
+
+The base salary range for this role is $85,000 - $105,000 per year. Individual pay may vary based on job-related skills, experience, and relevant education or training. In addition to base salary, this role includes meaningful equity participation, eligibility for the annual target bonus plan, and a comprehensive benefits package (health, dental, vision, and flexible time off policy).
+
+ 
+EQUAL EMPLOYMENT OPPORTUNITY
+
+Genalyte, Inc. is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, veteran status, or any other legally protected characteristic.
+
+
+ 
