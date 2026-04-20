@@ -1,60 +1,75 @@
+Job Posting Title:
+
 Software Engineer I
-Apply
-remote type
-In office
-locations
-Plano, TX
-time type
+Req ID:
+
+10147090
+Job Description:
+
+Disney Entertainment and ESPN Product & Technology
+
+Technology is at the heart of Disney’s past, present, and future. Disney Entertainment and ESPN Product & Technology is a global organization of engineers, product developers, designers, technologists, data scientists, and more – all working to build and advance the technological backbone for Disney’s media business globally.
+
+The team marries technology with creativity to build world-class products, enhance storytelling, and drive velocity, innovation, and scalability for our businesses. We are Storytellers and Innovators. Creators and Builders. Entertainers and Engineers. We work with every part of The Walt Disney Company’s media portfolio to advance the technological foundation and consumer media touch points serving millions of people around the world. 
+
+
+Here are a few reasons why we think you’d love working here:
+
+Building the future of Disney’s media: Our Technologists are designing and building the products and platforms that will power our media, advertising, and distribution businesses for years to come.
+
+Reach, Scale & Impact: More than ever, Disney’s technology and products serve as a signature doorway for fans' connections with the company’s brands and stories. Disney+. Hulu. ESPN. ABC. ABC News…and many more. These products and brands – and the unmatched stories, storytellers, and events they carry – matter to millions of people globally. 
+
+Innovation: We develop and implement groundbreaking products and techniques that shape industry norms, and solve complex and distinctive technical problems.
+
+Product Engineering is a unified team responsible for the engineering of Disney Entertainment & ESPN digital and streaming products and platforms. This includes product engineering, media engineering, quality assurance, engineering behind personalization, commerce, lifecycle, and identity.
+
+Job Summary:
+
+The Search Experience Management and Images team at Disney Entertainment and ESPN Product & Technology is looking for Software Engineers to help build and support the metadata and artwork platform for Disney+, ESPN+, and other streaming services. Our systems are collectively responsible for integrating with the studios to bring all the metadata and artwork for Disney, Pixar, Marvel, Lucasfilm, Nat Geo, and Fox content onto the Disney Streaming platform for inclusion in Disney+. This includes distributed systems that handle metadata and artwork ingest, management, curation, personalization, localization, and syndication. Our metadata drives nearly every aspect of the user experience in Disney Streaming products.
+
+We have an engineer-driven culture where teams are able to make their own technology choices based on the task at hand, and team members are encouraged to spend some time on professional development taking online courses, learning new technologies, working on open source or side projects, or writing blog posts. Some of the technologies currently used within Experience Management include Java, Typescript, NodeJS, Kotlin, Javascript, Angular, SQL, Spring Boot, ElasticSearch, Docker, and a wide array of AWS services (Lambda, ECS, S3, SQS, Kinesis, Postgres, DynamoDB, etc.).
+
+Responsibilities and Duties of the Role: 
+
+Work with a team of engineers building software in a collaborative development process
+Build high-performance, stable, scalable systems to be deployed in an enterprise setting
+Assist with AI-related development tasks, such as integrating existing AI or machine-learning services and verifying basic inputs and outputs
+Participate in high-level architecture discussions and planning sessions
+Participate in the code review process by providing feedback on pull requests
+Participate in on-call rotation, supporting systems and services during production incidents
+Required Experience/Skills/Training: 
+
+Strong problem-solving skills with the ability to work independently and learn quickly
+Demonstrated eagerness to learn and adapt to new technologies
+Experience with at least one programming language; preferred languages include TypeScript or Java, with C++ or JavaScript also acceptable
+Solid understanding of object-oriented programming principles
+Familiarity with RESTful services and API concepts
+Understanding of source control fundamentals, with exposure to Git
+Knowledge of data persistence technologies (SQL and/or NoSQL)
+Exposure to build and deployment tools such as Jenkins and Docker
+Excellent written and verbal communication skills
+Required Education:
+
+Bachelor’s degree in Computer Science, Information Systems, Software, Electrical or Electronics Engineering, or comparable field of study, and/or equivalent work experience
+
+The hiring range for this position in NY, NY is $102,100 to $136,900 per year based on a 40 hour work week. The amount of hours scheduled per week may vary based on business needs. The base pay actually offered will take into account internal equity and also may vary depending on the candidate’s geographic region, job-related knowledge, skills, and experience among other factors.  A bonus and/or long-term incentive units may be provided as part of the compensation package, in addition to the full range of medical, financial, and/or other benefits, dependent on the level and position offered.
+Job Posting Segment:
+
+PE - Streaming Backend
+Job Posting Primary Business:
+
+PE - Streaming Backend - Search, Exp Mgmt & Images Engineering
+Primary Job Posting Category:
+
+Software Engineer
+Employment Type:
+
 Full time
-posted on
-Posted 4 Days Ago
-job requisition id
-R0029684
+Primary City, State, Region, Postal Code:
 
-58%
-Resume Match
-7 of 12 keywords
-Simplify
-Simplify
-V1
-V2
-Do you enjoy developing new products and services? Join us! Our Software Engineers work in an agile, collective environment. As a Software Engineer I, you will assist in the development and maintenance of software systems for aerospace applications. You will collaborate with cross-functional teams to ensure software quality and performance throughout the development lifecycle.
-The Mission Solutions and Technologies (MST) business area provides affordable, turn-key command/control, communications, integrated ISR, force protection and security solutions worldwide. The MST team has a long legacy of supporting the Department of Defense, Department of Homeland Security, commercial and international customers with years of experience in platform operations, engineering and full lifecycle management across domains – air, land, sea, space and cyber.
-Responsibilities:
+New York, NY, USA
+Alternate City, State, Region, Postal Code:
 
-Assist in the design, development, and testing of software components.
-Debug and troubleshoot software issues.
-Write and maintain code documentation.
-Collaborate with team members to ensure code quality and adherence to standards.
-Participate in code reviews and provide constructive feedback.
-Support the integration of software with hardware systems.
-Qualifications You Must Have:
+Date Posted:
 
-Bachelor's degree in Computer Science, Software Engineering, or related field.
-0-2+ years of experience in software development.
-Basic proficiency in programming languages such as C++, Java, or Python.
-Familiarity with Linux-based Operating Systems, preferably RedHat or its equivalents.
-Foundational understanding of engineering principles and software development best practices.
-Willingness to collaborate and learn as part of multi-disciplinary teams.
-Demonstrated eagerness to learn and adapt to new technological requirements.
-Basic knowledge of Linux OS system administration tasks (e.g., navigating file systems, managing files and processes).
-Understanding of at least one compiled, object-oriented programming language (e.g., C++, Java), as distinct from interpreted or scripting languages.
-Exposure to scripting languages such as Python or Bash (Bourne-Again Shell).
-Familiarity with software development tools (e.g., version control, issue tracking, code review tools) is a plus.
-Awareness of software development methodologies, such as Agile/Scrum or Waterfall.
-Basic understanding of common data structures (e.g., linked lists, hash tables, arrays) and their use in problem-solving.
-Entry-level role is designed for candidates with 0–2 years of experience. We value a willingness to learn, teamwork, and foundational technical skills. You’ll have the opportunity to grow and develop your expertise in a collaborative environment.
-Qualifications We Prefer:
-
-Internship or cooperative education experience in software development.
-Exposure to the Aerospace and Defense industry.
-Understanding of industry standard software languages such as C, C#, C++, HTML, Java, Python, and Bash.
-Experience with software tools for requirements tracking, code reviews, static analysis, library and artifact repository, and automated build.
-Knowledge of software development methodologies such as Agile/Scrum, Waterfall, and Spiral.
-Familiarity with data structures.
-Essential Functions:
-
-Ability to work on a computer for extended periods.
-Hand/finger dexterity for coding and testing.
-Ability to work in a hybrid environment with occasional travel.
-This posting will be open for application for a minimum of 5 days and may be extended based on business needs.
+2026-04-13
