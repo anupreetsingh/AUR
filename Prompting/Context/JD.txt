@@ -1,37 +1,93 @@
-Who We Are
+Software Engineer 1
+Quality
+Posted on 4/14/2026
 
-Spot & Tango is an innovative pet health & wellness brand that delivers personalized meal plans on a subscription basis. Our recipes are developed by leading animal nutritionists, and are made with only real, human-grade ingredients... and nothing artificial! We have lofty goals (to make every dog in the US and Canada healthier, and every pet parent happier!) and we are looking for the right people to help us get there. This is an exciting opportunity to join a VC-backed, high-growth, e-commerce startup and have an outsized impact in an extremely fast-paced environment. Plus, you get to think about dogs all day!
+Unlock job analytics with
+Simplify+
+Whoop
+Whoop
+1,001-5,000 employees
 
-Who You Are
+Wearable fitness tracker with personalized insights
 
-We are seeking a talented and experienced Jr Software Engineer to join our growing team. We are seeking candidates with expertise primarily in React and Python. As a Jr Software Engineer at Spot & Tango, you will play a pivotal role in building scalable web applications for our customers and for internal company use.
+Compensation Overview
+$105k - $145k/yr
 
-Responsibilities:
++ Equity
+Entry
 
-Play a role in designing and building new features for our core products, primarily using TypeScript, React, React Native, and NextJS
-QA efforts by writing integration tests and thoroughly testing code before merging
-Collaborate with cross-functional stakeholders to ensure web applications achieve their business goals
-Optimize applications for maximum performance and responsiveness, especially on mobile devices
-Troubleshoot, debug, and resolve software defects and issues
-Implement security best practices to ensure the integrity and confidentiality of user data
-Stay up-to-date with emerging technologies and industry trends, and apply them to enhance our products
-Participate in code reviews to maintain code quality and ensure compliance with coding standards
-Contribute to the development of technical documentation and knowledge sharing within the team
-Help us scale the company, the culture, and our products
-Qualifications: 
+Boston, MA, USA
 
-BS in Computer Science, Engineering, or a related field strongly preferred
-0-3 years of professional experience developing software
-Proficiency in NextJS and React, with a strong portfolio showcasing your work
-Experience in developing and deploying web applications
-Ability to work independently and as part of a collaborative team
-Ability to find simple solutions  to complex problems
-Excellent communication skills
-Solid understanding of front-end technologies such as HTML, CSS, and TypeScript
-Experience with AWS services preferred
-Experience with version control systems (e.g., Git)
-Excellent problem-solving skills and attention to detail
-Experience working in a startup environment, and familiarity with DTC (Direct-to- Consumer) business models and e-commerce is a plus
-Familiarity with RESTful APIs and third-party integrations
-Familiarity with SQL, Python, and Django is preferred
-If you have a passion for technology, a desire to work with a high-performing engineering team, and are excited about the prospect of contributing to the growth of a DTC startup, we encourage you to apply for this exciting opportunity.
+In Person
+
+Candidates must be prepared to relocate to Boston, MA.
+
+Category
+
+Software Engineering
+(1)
+
+Software QA & Testing
+Required Skills
+Software Testing
+DevOps
+
+Connection
+Connection
+Connection
+logo
+Get referrals →
+
+You have ways to get a Whoop referral from your network.
+
+
+Applications through a referral are 3x more likely to get an interview!
+
+
+History
+Summary
+Full Job Posting
+You match the following Whoop's candidate preferences
+
+Employers are more likely to interview you if you match these preferences:
+
+Degree
+Experience
+
+Connection
+Connection
+Connection
+You have ways to get a Whoop referral from your network. Get referrals →
+
+Requirements
+Bachelor’s degree in Computer Science or related field (or equivalent experience)
+Basic programming experience in one or more languages
+Familiarity with software testing concepts and methodologies
+Insatiable curiosity and willingness to hold multiple perspectives
+Strong willingness to learn and grow in test automation and quality engineering
+Responsibilities
+Develop and maintain automated tests for core product functionality (unit, integration, and basic end-to-end tests)
+Follow established testing frameworks, patterns, and best practices
+Participate in code reviews and apply feedback to improve test quality
+Contribute to validating new features and ensuring regression coverage
+Ensure critical user journeys are covered by automated tests
+Identify, document, and escalate defects with clear reproduction steps
+Support manual and exploratory testing where needed
+Execute well-defined testing tasks within project timelines
+Begin estimating effort for assigned work and improving accuracy over time
+Support team goals by delivering reliable and maintainable test coverage
+Work closely with engineers, QA, and product managers to understand requirements
+Actively participate in team ceremonies and communicate progress and blockers
+Ask questions to gain clarity and improve implementation
+Build foundational knowledge of system architecture, testing tools, and CI/CD pipelines
+Learn debugging techniques and test design strategies
+Continuously improve based on feedback and mentorship
+
+Keyword Match
+Needs Work - 0 out of 6 found
+Whoop
+Whoop
+
+Website
+View Company Profile
+Whoop offers a subscription-based fitness membership paired with a wearable, the WHOOP Strap 3.0. The device tracks ongoing physiological data—heart rate, sleep, and recovery—and the app analyzes this data to deliver personalized guidance on daily exertion, sleep needs, and overall readiness. The membership gives ongoing access to the app, plus community features like teams and challenges, creating a social and motivational layer around the data insights. Unlike some brands that sell hardware or coaching separately, Whoop includes the strap free with the membership and emphasizes continuous data analysis and community engagement to drive better health and performance. The company’s goal is to help users optimize health and athletic performance while reducing injury risk, generating recurring revenue through its subscription model.
