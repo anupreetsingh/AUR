@@ -1,96 +1,71 @@
-IT Associate - Software Engineer
+Junior Cloud Engineer
 Apply
 locations
-Chattanooga, Tennessee, USA
+Richmond
 time type
 Full time
 posted on
-Posted 11 Days Ago
-time left to apply
-End Date: April 22, 2026 (1 day left to apply)
+Posted 10 Days Ago
 job requisition id
-835051
+R014479
 
-18%
+13%
 Resume Match
-7 of 39 keywords
+2 of 16 keywords
 Simplify
 Simplify
 V1
 V2
-Our Fortune 500 company is driving a digital transformation and looking for forward-thinking innovators to disrupt how our industry thinks about and uses technology. As one of the world's leading employee benefits providers, we help millions of people gain affordable access to benefits that help them protect their families, their finances and their futures.
+MECCA has a large and growing focus in the digital space, and we are looking for a Junior Cloud Engineer to join our Cloud & Platform team. This role is instrumental in supporting and evolving our cloud infrastructure, contributing to a secure, reliable, and scalable AWS environment that powers exceptional digital experiences for our customers and internal teams.
 
-Are you an asker of questions, a solver of problems, and a challenger of the status quo? Our mission is to provide a differentiated customer experience and exceed the expectations people have of technology at any company — not just insurers. 
+The Role You Could Play:
 
-We are seeking individuals to join our team of talented IT professionals who share never-ending passion and an unwavering focus on our customer experience. Team members comfortable working in an agile, fast-paced, and delivery-focused environment thrive in our environment where we value an entrepreneurial spirit and those who challenge the status-quo.
+Reporting to the Cloud Engineering Lead, you will play a hands-on role in supporting MECCA’s cloud infrastructure and operations while developing your skills in cloud engineering within a fast-paced, product-led environment. You will:
 
-Unum is changing, and we’re excited about what’s next. Join us.
+Support the deployment, configuration, and maintenance of AWS cloud infrastructure to ensure reliability and scalability
 
-General Summary:
-Unum is seeking motivated and high-potential individuals to join our IT team as a Software Engineer Associate. This entry level role is designed to attract and support strong candidates as they begin their careers in technology at Unum. As an Associate, you will gain hands-on experience in software development and engineering within an Agile environment while working closely with experienced professionals across various teams, applications, and platforms used within Unum’s IT organization.
-Principal Duties and Responsibilities
+Contribute to Infrastructure as Code (Terraform/OpenTofu), building capability across multi-environment deployments
 
-An Associate is responsible for the analysis, design, testing, implementation, and maintenance of new and existing features for the applications for a given business domain
-Responsible for communication and collaboration with team members and Manager in the delivery of features
-Analyses, Designs, codes, configures, and documents software deliverables using agreed-upon standards and tools. Participates in sizing and estimation activities within the agile team
-Communicates daily with the Scrum Master or Manager and the Agile team on progress made and planned progress for the coming day, and reports any impediments that are blocking their progress
-Embraces learning opportunities such as code reviews and sprint retrospectives; contributing ideas for continuous improvement and readily receives feedback for self-improvement.
-Exercises creativity and resourcefulness in solving technical problems in a way that maximizes customer value
-Responsible for following the quality practices – peer reviews, code reviews, and retrospectives
-Demonstrates an interest in software architecture and seeks to design solutions in alignment with Unum’s stated architecture and standards
-Collaborate with Business Analysts to confirm understanding of business requirements relating to features to be delivered and to help the Business Analyst define requirements that can be delivered from a technical perspective
-Always thinks with the mind of the end customer, ensuring solutions seek to improve the customer experience and delight their customers.
-Job Specifications
+Participate in cloud operations and incident response, following runbooks and contributing to post-incident reviews
 
-Bachelor of Computer Science preferred, or equivalent relevant business experience
-The Associate Software Engineer role is an entry-level role into Unum and typically has zero to two years of IT-related experience.
-Shows evidence of analytical ability
-Takes a logical, analytical approach to problem solving and pays close attention to detail
-Knowledge of Agile Development Methodologies
-Self-motivated and results-oriented
-Demonstrates strong focus on quality delivery and delighting customers; holds self to high standards of delivery
-Demonstrates good oral and written communication skills.
-Strong team player; able to work effectively within a team and more broadly with people from a variety of backgrounds and areas across the organization.
-Ability and drive to learn
-Technology Skills/Knowledge
+Monitor system health using observability tools (Datadog, CloudWatch) and assist in improving alerting and dashboards
 
-An understanding and experience with some of the technologies below is expected, and the candidate is required to develop deep expertise in many of these during their work at Unum:
+Assist with CI/CD pipelines and automation, troubleshooting issues and writing scripts to streamline operational tasks
 
-Languages: HTML, CSS, XML, C#, JavaScript, SQL, SOQL
+Maintain clear and up-to-date documentation, operational procedures, and playbooks to support knowledge sharing and consistency across the team
 
-Development Tools / IDEs: Visual Studio, Visual Studio Code, Browser Dev Tools (Chrome & IE), Fiddler, Charles
+What You Will Bring:
 
-Source Control: Visual Studio Team Services, GitHub, BitBucket
+You are an early-career cloud engineer who is curious, proactive, and eager to learn in a collaborative environment. Ideally, you will bring:
 
-Application Types: ASP.NET MVC, Web API
+Foundational knowledge of AWS services (EC2, Lambda, S3, VPC, IAM) and cloud networking concepts
 
-Frameworks and Libraries: jQuery, NodeJS/NPM, Angular, React, KnockoutJS, Bootstrap, Foundation, Office UI Fabric, Material, Gulp, Grunt, JSLint, Mocha, Chai, Karma, Protractor, Selenium
+Exposure to Infrastructure as Code (Terraform) and version control tools like GitHub
 
-Security and Protocols: NTLM, SAML, OAuth, SOAP, WCF, HTTP/S, TCP/IP, SMTP, REST
+Basic scripting skills (Python, Bash, or PowerShell) and understanding of CI/CD concepts
 
-Cloud Platforms: Azure, AWS, Google Cloud, Salesforce
+Familiarity with observability tools and an awareness of SRE principles (SLIs, SLOs, incident management)
 
-Operating Systems: Windows 10, Windows Server 2008 R2+, Mac OSX, Linux
+Strong communication skills, a service mindset, and a willingness to learn from experienced engineers
 
-Database and Storage Technologies: SQL Server, Azure Storage (various), AWS Storage (various), MongoDB, PostgreSQL
+Your Life At MECCA
 
-Process: Scrum, User Stories, CI/CD Pipeline Awareness, Code Review Practices, Agile Development
+Whilst we are singularly focused on our #CustomerFirst mantra, we know that wouldn’t be possible without an incredible team that is guided by our MECCA values and motivated each and every day to be solutions focused, innovative, collaborative and adaptable, and have a bit of fun along the way!
 
-#LI-TO1
+Some of our other team member benefits include:
 
-#LI-MULTI
+Professional development programs and first-class digitised learning offering
 
-~IN4
+Health and well-being initiatives
 
-Our company is built on helping individuals and families, and this starts with our employees. We want employees to maintain a positive balance, which is why we provide access to the benefits and resources they need to invest in themselves. From our onsite fitness facilities and generous paid time off to employee professional development programs, we are committed to helping employees live and work their best – both inside and outside the office.
+Reward and recognition programs
 
-Unum is an equal opportunity employer, considering all qualified applicants and employees for hiring, placement, and advancement, without regard to a person's race, color, religion, national origin, age, genetic information, military status, gender, sexual orientation, gender identity or expression, disability, or protected veteran status.
+Access to bonus and incentive programs
 
-The base salary range for applicants for this position is listed below. Unless actual salary is indicated above in the job description, actual pay will be based on skill, geographical location and experience.
+Access to quarterly product allowance
 
-$52,000.00-$101,000.00
-Additionally, Unum offers a portfolio of benefits and rewards that are competitive and comprehensive including healthcare benefits (health, vision, dental), insurance benefits (short & long-term disability), performance-based incentive plans, paid time off, and a 401(k) retirement plan with an employer match up to 5% and an additional 4.5% contribution whether you contribute to the plan or not.  All benefits are subject to the terms and conditions of individual Plans.
+Generous discount to spoil yourselves and your immediate family, as well as a generous product allowance, subject to company policy
 
-Company:
+There are also so many other ways in which you’ll be made to feel part of the MECCA story as we love to celebrate, surprise and delight our team along the way.
 
-Unum
+To learn more about life at MECCA Brands, follow us on LinkedIn at MECCA Brands or @lifeatmecca and for all current opportunities, visit www.mecca.com.au/careers

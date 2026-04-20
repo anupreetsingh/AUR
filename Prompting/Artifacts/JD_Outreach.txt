@@ -17,7 +17,7 @@ Subject: Quick Question
 
 Hi [Name],
 
-I'm very interested in the IT Associate - Software Engineer role at Unum in Chattanooga, Tennessee, USA and believe my credentials align with the requirements.
+I'm very interested in the Junior Cloud Engineer role at MECCA in Richmond and believe my credentials align with the requirements.
 
 Would you be able to share any advice on how to stand out, or point me to the right person to connect with?
 
@@ -38,7 +38,7 @@ Subject: Quick Question
 
 Hi [Name], 
 
-I'm very interested in the IT Associate - Software Engineer role at Unum in Chattanooga, Tennessee, USA and have worked on React/Web API features, SQL-backed dashboards, Agile code reviews, and Mocha-tested releases.
+I'm very interested in the Junior Cloud Engineer role at MECCA in Richmond and have worked on AWS Lambda/S3 pipelines, Terraform, CloudWatch alerts, CI/CD checks, and Bash automation.
 
 Could you look at my credentials and see if I would be a good fit? I would be grateful for a referral if you do. 
 
@@ -59,7 +59,7 @@ Subject: Quick Question
 
 Hi [Name],
 
-I'm very interested in the IT Associate - Software Engineer role on your team at Unum in Chattanooga, Tennessee, USA and have worked on React/Web API features, SQL-backed dashboards, Agile code reviews, and Mocha-tested releases.
+I'm very interested in the Junior Cloud Engineer role on your team at MECCA in Richmond and have worked on AWS Lambda/S3 pipelines, Terraform, CloudWatch alerts, CI/CD checks, and Bash automation.
 
 Could we set up a quick chat/call so that I can learn more about the role and the team, and share how my background could contribute? 
 
@@ -76,4 +76,4 @@ Anupreet Singh
 
 #### Why This Company / Why Me
 
-Unum is modernizing customer-facing benefits technology, and I can contribute by building Agile web features with React/Web API, SQL, cloud platforms, code reviews, and tested releases.
+MECCA needs reliable, scalable AWS infrastructure for digital experiences; I can contribute with AWS Lambda/S3 pipelines, Terraform, CloudWatch alerting, CI/CD checks, and runbook-focused operations.
