@@ -1,75 +1,37 @@
-Job Posting Title:
+Who We Are
 
-Software Engineer I
-Req ID:
+Spot & Tango is an innovative pet health & wellness brand that delivers personalized meal plans on a subscription basis. Our recipes are developed by leading animal nutritionists, and are made with only real, human-grade ingredients... and nothing artificial! We have lofty goals (to make every dog in the US and Canada healthier, and every pet parent happier!) and we are looking for the right people to help us get there. This is an exciting opportunity to join a VC-backed, high-growth, e-commerce startup and have an outsized impact in an extremely fast-paced environment. Plus, you get to think about dogs all day!
 
-10147090
-Job Description:
+Who You Are
 
-Disney Entertainment and ESPN Product & Technology
+We are seeking a talented and experienced Jr Software Engineer to join our growing team. We are seeking candidates with expertise primarily in React and Python. As a Jr Software Engineer at Spot & Tango, you will play a pivotal role in building scalable web applications for our customers and for internal company use.
 
-Technology is at the heart of Disney’s past, present, and future. Disney Entertainment and ESPN Product & Technology is a global organization of engineers, product developers, designers, technologists, data scientists, and more – all working to build and advance the technological backbone for Disney’s media business globally.
+Responsibilities:
 
-The team marries technology with creativity to build world-class products, enhance storytelling, and drive velocity, innovation, and scalability for our businesses. We are Storytellers and Innovators. Creators and Builders. Entertainers and Engineers. We work with every part of The Walt Disney Company’s media portfolio to advance the technological foundation and consumer media touch points serving millions of people around the world. 
+Play a role in designing and building new features for our core products, primarily using TypeScript, React, React Native, and NextJS
+QA efforts by writing integration tests and thoroughly testing code before merging
+Collaborate with cross-functional stakeholders to ensure web applications achieve their business goals
+Optimize applications for maximum performance and responsiveness, especially on mobile devices
+Troubleshoot, debug, and resolve software defects and issues
+Implement security best practices to ensure the integrity and confidentiality of user data
+Stay up-to-date with emerging technologies and industry trends, and apply them to enhance our products
+Participate in code reviews to maintain code quality and ensure compliance with coding standards
+Contribute to the development of technical documentation and knowledge sharing within the team
+Help us scale the company, the culture, and our products
+Qualifications: 
 
-
-Here are a few reasons why we think you’d love working here:
-
-Building the future of Disney’s media: Our Technologists are designing and building the products and platforms that will power our media, advertising, and distribution businesses for years to come.
-
-Reach, Scale & Impact: More than ever, Disney’s technology and products serve as a signature doorway for fans' connections with the company’s brands and stories. Disney+. Hulu. ESPN. ABC. ABC News…and many more. These products and brands – and the unmatched stories, storytellers, and events they carry – matter to millions of people globally. 
-
-Innovation: We develop and implement groundbreaking products and techniques that shape industry norms, and solve complex and distinctive technical problems.
-
-Product Engineering is a unified team responsible for the engineering of Disney Entertainment & ESPN digital and streaming products and platforms. This includes product engineering, media engineering, quality assurance, engineering behind personalization, commerce, lifecycle, and identity.
-
-Job Summary:
-
-The Search Experience Management and Images team at Disney Entertainment and ESPN Product & Technology is looking for Software Engineers to help build and support the metadata and artwork platform for Disney+, ESPN+, and other streaming services. Our systems are collectively responsible for integrating with the studios to bring all the metadata and artwork for Disney, Pixar, Marvel, Lucasfilm, Nat Geo, and Fox content onto the Disney Streaming platform for inclusion in Disney+. This includes distributed systems that handle metadata and artwork ingest, management, curation, personalization, localization, and syndication. Our metadata drives nearly every aspect of the user experience in Disney Streaming products.
-
-We have an engineer-driven culture where teams are able to make their own technology choices based on the task at hand, and team members are encouraged to spend some time on professional development taking online courses, learning new technologies, working on open source or side projects, or writing blog posts. Some of the technologies currently used within Experience Management include Java, Typescript, NodeJS, Kotlin, Javascript, Angular, SQL, Spring Boot, ElasticSearch, Docker, and a wide array of AWS services (Lambda, ECS, S3, SQS, Kinesis, Postgres, DynamoDB, etc.).
-
-Responsibilities and Duties of the Role: 
-
-Work with a team of engineers building software in a collaborative development process
-Build high-performance, stable, scalable systems to be deployed in an enterprise setting
-Assist with AI-related development tasks, such as integrating existing AI or machine-learning services and verifying basic inputs and outputs
-Participate in high-level architecture discussions and planning sessions
-Participate in the code review process by providing feedback on pull requests
-Participate in on-call rotation, supporting systems and services during production incidents
-Required Experience/Skills/Training: 
-
-Strong problem-solving skills with the ability to work independently and learn quickly
-Demonstrated eagerness to learn and adapt to new technologies
-Experience with at least one programming language; preferred languages include TypeScript or Java, with C++ or JavaScript also acceptable
-Solid understanding of object-oriented programming principles
-Familiarity with RESTful services and API concepts
-Understanding of source control fundamentals, with exposure to Git
-Knowledge of data persistence technologies (SQL and/or NoSQL)
-Exposure to build and deployment tools such as Jenkins and Docker
-Excellent written and verbal communication skills
-Required Education:
-
-Bachelor’s degree in Computer Science, Information Systems, Software, Electrical or Electronics Engineering, or comparable field of study, and/or equivalent work experience
-
-The hiring range for this position in NY, NY is $102,100 to $136,900 per year based on a 40 hour work week. The amount of hours scheduled per week may vary based on business needs. The base pay actually offered will take into account internal equity and also may vary depending on the candidate’s geographic region, job-related knowledge, skills, and experience among other factors.  A bonus and/or long-term incentive units may be provided as part of the compensation package, in addition to the full range of medical, financial, and/or other benefits, dependent on the level and position offered.
-Job Posting Segment:
-
-PE - Streaming Backend
-Job Posting Primary Business:
-
-PE - Streaming Backend - Search, Exp Mgmt & Images Engineering
-Primary Job Posting Category:
-
-Software Engineer
-Employment Type:
-
-Full time
-Primary City, State, Region, Postal Code:
-
-New York, NY, USA
-Alternate City, State, Region, Postal Code:
-
-Date Posted:
-
-2026-04-13
+BS in Computer Science, Engineering, or a related field strongly preferred
+0-3 years of professional experience developing software
+Proficiency in NextJS and React, with a strong portfolio showcasing your work
+Experience in developing and deploying web applications
+Ability to work independently and as part of a collaborative team
+Ability to find simple solutions  to complex problems
+Excellent communication skills
+Solid understanding of front-end technologies such as HTML, CSS, and TypeScript
+Experience with AWS services preferred
+Experience with version control systems (e.g., Git)
+Excellent problem-solving skills and attention to detail
+Experience working in a startup environment, and familiarity with DTC (Direct-to- Consumer) business models and e-commerce is a plus
+Familiarity with RESTful APIs and third-party integrations
+Familiarity with SQL, Python, and Django is preferred
+If you have a passion for technology, a desire to work with a high-performing engineering team, and are excited about the prospect of contributing to the growth of a DTC startup, we encourage you to apply for this exciting opportunity.
