@@ -1,23 +1,61 @@
-Founded in 1980 as Aardvark Financial, TransMarket Group (TMG) is a privately held global markets proprietary trading firm in Chicago. We use next-generation technology to capture opportunities around the world and manage risk in financial markets. Our mission is to bless others through the services we provide and through the generous stewardship of the wealth we create.
+Junior Software Engineer
+Apply
+locations
+Beavercreek, Ohio
+time type
+Full time
+posted on
+Posted Yesterday
+job requisition id
+R2122294
 
-TMG is a well-established and profitable business as a respected member of the global financial system for over 40 years, but also is like a startup because the potential of our group is at least one order of magnitude greater than what we are currently producing. We have an entrepreneurial culture and collaboratively develop our business with patience and discipline; we work hard, learn constantly, and relentlessly improve our expertise.
+71%
+Resume Match
+5 of 7 keywords
+Simplify
+Simplify
+V1
+V2
+Title:
 
-Description
+Junior Software Engineer
+Why Join Us?
 
-Our Software development team designs and builds low-latency systems that allow us to trade a diverse set of instruments across a wide range of financial marketplaces. This smaller, focused team comes with a high degree of responsibility and ownership. Our systems aim to be clean and understandable while achieving low latency and robust error tolerance. The libraries you work on will become the engine of our firm’s strategies.
+Innovative Projects: KBR’s work is at the forefront of engineering, logistics, operations, science, program management, mission IT and cybersecurity solutions.
+Collaborative Environment: Be part of a dynamic team that thrives on collaboration and innovation, fostering a supportive and intellectually stimulating workplace.
+Impactful Work: Your contributions will be pivotal in designing and optimizing defense systems that ensure national security and shape the future of space defense.
+KBR is seeking a Junior Software Engineer that we can mentor and grow to support the development, integration, and evaluation of software solutions for various RF systems in various operational and signal environments. This role supports control, modeling, simulation, and testing of operationally relevant systems across research and applied DoD programs.
 
-Responsibilities
+This position requires a strong software foundation, interest in RF system fundamentals, and the ability to work across system, algorithm, and integration boundaries with guidance from senior engineers. The software person will work closely with systems engineers, and at times under the direction of systems engineers and hardware teams to implement, test, and analyze position, navigation, and timing (PNT) capabilities in constructive, laboratory and field environments.
 
-Work with Sr. Software Developers to assist and learn all facets of software development applied to the automated trading business
-Develop, code, maintain, and support production-quality automated components for global proprietary trading
-Develop expertise in software development principles, C++, and high-performance automated trading systems
-Collaborate with technology, software, trading, business, and accounting/finance teams
-Requirements
+Key Responsibilities
 
-Bachelor’s degree in a quantitative or technical field
-Passion for software and math applied to markets and trading
-Strong understanding of computing, math, probability, statistics, and finance is also preferred
-Programming proficiency and experience (C++, Python). Linux scripting is a plus
-Strong work ethic and willingness to do what it takes to get the job done
-Excellent technical and non-technical communication skills
-This position requires physical presence and is onsite (no remote work)
+Develop, maintain, test, and document software for systems, simulations, and performance analysis environments
+Implement algorithms and models under guidance, including measurement modeling, error characterization, and estimator behavior under non-ideal conditions
+Implement and integrate algorithms within software frameworks
+Integrate software with hardware- and software-in-the-loop (HITL and SITL) and digital twin environments
+Develop interfaces between software components and external systems
+Support test planning, execution, and analysis for PNT-focused experiments, demonstrations, and evaluations
+Collaborate with systems engineers to align system requirements with software designs and implementations
+Document software implementations, interfaces, and test results to support technical reviews and deliverables
+Required Qualifications
+
+Bachelor’s degree in Computer Engineering, Electrical Engineering, Computer Science, or a related technical discipline
+0–2 years of professional experience developing software for technical systems (experience can include internships, co-ops, or academic projects)
+Programming experience in C#/C++ or Python
+Experience developing software on Linux and Windows based systems
+Familiarity with PNT concepts (e.g., Global Navigation Satellite Systems (GNSSs), inertial navigation, timing, sensor fusion)
+Experience integrating software with complex systems, simulations, or external hardware components
+Ability to obtain and maintain a U.S. DoD security clearance
+Participate in team technical interchange meetings to describe technical activities, progress, issues, improvements, and more
+Desired Qualifications
+
+Academic or project experience with GPS/GNSS signal processing, navigation algorithms, or timing systems
+Strong verbal and written communications skills
+Experience with modeling, simulation, or digital twin environments
+Familiarity with real-time or embedded systems
+Experience with HITL/SITL test architectures or laboratory integration
+Experience supporting DoD programs, laboratory R&D, or operational prototyping efforts
+Basic Compensation: $80,000 - $100,000 (For Beavercreek, OH Only)
+The offered rate will be based on the selected candidate’s knowledge, skills, abilities and/or experience and in consideration of internal parity.
+
