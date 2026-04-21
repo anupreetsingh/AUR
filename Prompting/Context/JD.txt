@@ -1,61 +1,114 @@
-Junior Software Engineer
+Software Engineer I
 Apply
+AFS X Mark
+remote type
+Hybrid
 locations
-Beavercreek, Ohio
+Austin, TX
 time type
 Full time
 posted on
 Posted Yesterday
 job requisition id
-R2122294
+JR104657
 
-71%
+27%
 Resume Match
-5 of 7 keywords
+4 of 15 keywords
 Simplify
 Simplify
 V1
 V2
-Title:
+WHO WE ARE
 
-Junior Software Engineer
-Why Join Us?
+Apex Fintech Solutions (Apex) powers innovation and the future of digital wealth management by building tech-forward solutions that help simplify, automate, and facilitate access to financial markets for all. Our robust suite of fintech software enables us to support clients such as Stash, Betterment, SoFi, Webull, and eToro, amongst many others; collectively, Apex powers access to the stock market for over 22+ million end customers.  
 
-Innovative Projects: KBR’s work is at the forefront of engineering, logistics, operations, science, program management, mission IT and cybersecurity solutions.
-Collaborative Environment: Be part of a dynamic team that thrives on collaboration and innovation, fostering a supportive and intellectually stimulating workplace.
-Impactful Work: Your contributions will be pivotal in designing and optimizing defense systems that ensure national security and shape the future of space defense.
-KBR is seeking a Junior Software Engineer that we can mentor and grow to support the development, integration, and evaluation of software solutions for various RF systems in various operational and signal environments. This role supports control, modeling, simulation, and testing of operationally relevant systems across research and applied DoD programs.
+ 
 
-This position requires a strong software foundation, interest in RF system fundamentals, and the ability to work across system, algorithm, and integration boundaries with guidance from senior engineers. The software person will work closely with systems engineers, and at times under the direction of systems engineers and hardware teams to implement, test, and analyze position, navigation, and timing (PNT) capabilities in constructive, laboratory and field environments.
+ At Apex, we are changing how the securities industry operates by reinventing the status quo, which was manual, slow, and accessible only by the ultra-wealthy. We're digitizing and democratizing systems so that everyone has an opportunity to invest. 
 
-Key Responsibilities
+ 
 
-Develop, maintain, test, and document software for systems, simulations, and performance analysis environments
-Implement algorithms and models under guidance, including measurement modeling, error characterization, and estimator behavior under non-ideal conditions
-Implement and integrate algorithms within software frameworks
-Integrate software with hardware- and software-in-the-loop (HITL and SITL) and digital twin environments
-Develop interfaces between software components and external systems
-Support test planning, execution, and analysis for PNT-focused experiments, demonstrations, and evaluations
-Collaborate with systems engineers to align system requirements with software designs and implementations
-Document software implementations, interfaces, and test results to support technical reviews and deliverables
-Required Qualifications
+When you're at Apex, you drive this change. You're part of a global team with a clear vision: to be the trusted technology that powers the digital economy. Our offices in Austin, Dallas, Chicago, New York, Portland, Belfast, and Manila are home to over 1,000 employees. 
 
-Bachelor’s degree in Computer Engineering, Electrical Engineering, Computer Science, or a related technical discipline
-0–2 years of professional experience developing software for technical systems (experience can include internships, co-ops, or academic projects)
-Programming experience in C#/C++ or Python
-Experience developing software on Linux and Windows based systems
-Familiarity with PNT concepts (e.g., Global Navigation Satellite Systems (GNSSs), inertial navigation, timing, sensor fusion)
-Experience integrating software with complex systems, simulations, or external hardware components
-Ability to obtain and maintain a U.S. DoD security clearance
-Participate in team technical interchange meetings to describe technical activities, progress, issues, improvements, and more
-Desired Qualifications
+ 
 
-Academic or project experience with GPS/GNSS signal processing, navigation algorithms, or timing systems
-Strong verbal and written communications skills
-Experience with modeling, simulation, or digital twin environments
-Familiarity with real-time or embedded systems
-Experience with HITL/SITL test architectures or laboratory integration
-Experience supporting DoD programs, laboratory R&D, or operational prototyping efforts
-Basic Compensation: $80,000 - $100,000 (For Beavercreek, OH Only)
-The offered rate will be based on the selected candidate’s knowledge, skills, abilities and/or experience and in consideration of internal parity.
+Together, we’re shaping the future of financial innovation. Embrace change. Solve big. Win together. And be G.R.E.A.T. — grit, results, empathy, accountability, and teamwork — with Apex. 
 
+ 
+
+We’re proud to be recognized for the innovative work we do, the purpose-driven nature of our work, and the collaborative culture we’ve created. Here are just a few of the many awards we’ve recently received: 
+
+ 
+
+Best Places to Work 
+
+2026, 2025, 2024, 2023 - Presented by BuiltIn 
+
+ 
+
+WealthTech of the Year 
+
+2025 - Presented by US FinTech Awards 
+
+ 
+
+The World’s Top 250 Fintech Companies 
+
+2024 - Presented by CNBC 
+
+ABOUT THIS ROLE
+
+This is an incredible opportunity to join Apex's Account Transfer team in Austin, Texas. As a software engineer you will work closely with other engineers, tech leads, product managers, and architects to build the next generation version of Apex Account Transfer services. The Software Engineer will be an integral part of our team supporting the technology organization in a transformation toward a highly scalable and resilient system. This is a role for someone who flourishes in a fast-paced and collaborative environment.
+
+Duties/Responsibilities
+ 
+
+Working with a variety of languages/frameworks, such as Java, Go, and technologies such as RDBMS, Kubernetes, and Docker, Google Cloud Platform
+
+Designing, developing, testing, deploying, maintaining and improving software
+
+Building resilient, self-scaling, self-healing services that allow you to sleep through the night
+
+Writing high-quality, well-tested code. Maintaining high code-quality standards across your team via code reviews
+
+Encouraging innovation by questioning business processes throughout the company
+
+
+Education And/or Experience
+
+Bachelor’s degree in Computer Science, Software Engineering, Electrical or Computer Engineering, or a related field.
+
+1+ years of prior work experience preferred
+
+
+Required Skills/Abilities
+ 
+
+Experience of software development skills in a modern object-oriented programming language ideally in Golang is also considered a plus, an RDBMS or SQL, and the ability to learn new languages and technologies quickly
+
+Excellent problem-solving skills with high attention to detail
+
+Effective communication skills
+
+Previous knowledge in financial markets isn’t required, but interest is a plus
+
+Adaptability: while you enjoy establishing process and standards, you understand the need to be flexible and enjoy trying new things
+
+
+Work Environment
+
+This job operates operates in hybrid, office environment 3 days per week.
+
+
+#engineering #entry-level #full-time #APEX
+
+​Please note this job description is not designed to cover or contain a comprehensive listing of activities, duties, or responsibilities required of the employee for this job. Duties, responsibilities, and activities may change at any time with or without notice.
+
+Our Rewards
+
+We offer a robust package of employee perks and benefits, including healthcare benefits (medical, dental and vision, EAP), competitive PTO, 401k match, parental leave, and HSA contribution match. We also provide our employees with a paid subscription to the Calm app and offer generous external learning and tuition reimbursement benefits. At AFS, we offer a hybrid work schedule for most roles that allows employees to have the flexibility of working from home and one of our primary offices.
+
+EEO Statement
+
+Apex Fintech Solutions is an equal opportunity employer that does not discriminate on the basis of race, color, religion, sex (including pregnancy, sexual orientation, and gender identity), national origin, age, disability, veteran status, marital status, or any other protected characteristic. Our hiring practices ensure that all qualified applicants receive fair consideration without regard to these characteristics.
