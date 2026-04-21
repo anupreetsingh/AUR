@@ -1,114 +1,96 @@
-Software Engineer I
+2026 University Graduate - Software Development Engineer
 Apply
-AFS X Mark
-remote type
-Hybrid
 locations
-Austin, TX
+San Jose
 time type
 Full time
 posted on
 Posted Yesterday
 job requisition id
-JR104657
+R161172
 
-27%
+19%
 Resume Match
-4 of 15 keywords
+3 of 16 keywords
 Simplify
 Simplify
 V1
 V2
-WHO WE ARE
+Our Company 
 
-Apex Fintech Solutions (Apex) powers innovation and the future of digital wealth management by building tech-forward solutions that help simplify, automate, and facilitate access to financial markets for all. Our robust suite of fintech software enables us to support clients such as Stash, Betterment, SoFi, Webull, and eToro, amongst many others; collectively, Apex powers access to the stock market for over 22+ million end customers.  
+Changing the world through digital experiences is what Adobe’s all about. We give everyone—from emerging artists to global brands— everything they need to design and deliver exceptional digital experiences. We’re passionate about empowering people to create beautiful and powerful images, videos, and apps, and transform how companies interact with customers across every screen. 
+
+We’re on a mission to hire the very best and are committed to creating exceptional employee experiences where everyone is respected and has access to equal opportunity. We realize that new ideas can come from everywhere in the organization, and we know the next big idea could be yours. 
+
+The Opportunity  
+
+Adobe is seeking talented and passionate Software Engineer across all organizations to help plan, design, develop, and test software systems or applications for software enhancements and new products used in local, networked, cloud-based or Internet-related computer programs and products.  
+
+What You’ll Do  
+
+Develop high-performance, reliable, testable and maintainable code. 
+
+Participating in all aspects of software development activities, including design, coding, code review, testing, bug fixing, and code/API documentation. 
+
+Collaborate with engineers and participate in daily or weekly stand ups and meetings. 
+
+Grow with the support of your team and help others on the team grow by providing thoughtful feedback and uplifting those around you. 
+
+Work both independently and collaboratively within a fast-paced development team, with clear, positive, and constructive communication. 
+
+Additional responsibilities as needed based on specific role or team 
+
+What You Need to Succeed 
+
+Bachelor's or Master’s in Computer Science, Computer Engineering, Electrical Engineer, or equivalent experience required  
+
+0-1 + years of experience in specific skill/field(s) 
+
+Strong interest in mobile app development for both Android and iOS platforms.
+
+Completed academic and personal projects using Java, Kotlin, Swift, and TypeScript, with exposure to tools like Jetpack Compose or SwiftUI.
+
+Comfortable learning in fast-paced environments and taking initiative on tasks with guidance.
+
+Familiar with basic UI development, design patterns (MVC, MVVM), and object-oriented programming concepts.
+
+Able to communicate ideas clearly and work well in team settings.
+
+Eager to learn new technologies and adapt to changing project needs.
+
+Basic understanding of CI/CD pipelines and automated testing frameworks like JUnit or XCTest.
+
+About Adobe
+
+Adobe empowers everyone to create through innovative platforms and tools that unleash creativity, productivity and personalized customer experiences. Adobe’s industry-leading offerings including Adobe Acrobat Studio, Adobe Express, Adobe Firefly, Creative Cloud, Adobe Experience Platform, Adobe Experience Manager, and GenStudio enable people and businesses to turn ideas into impact, powered by AI and driven by human ingenuity.
+
+Our 30,000+ employees worldwide are creating the future and raising the bar as we drive the next decade of growth. We’re on a mission to hire the very best and believe in creating a company culture where all employees are empowered to make an impact. At Adobe, we believe that great ideas can come from anywhere in the organization. The next big idea could be yours. 
+
+
+Let’s Adobe together
+
+At Adobe, we believe in creating a company culture where all employees are empowered to make an impact. Learn more about Adobe life, including our values and culture, focus on people, purpose and community, Adobe for All, comprehensive benefits programs, the stories we tell, the customers we serve, and how you can help us advance our mission of empowering everyone to create.
+
+Adobe is proud to be an Equal Employment Opportunity employer. We do not discriminate based on gender, race or color, ethnicity or national origin, age, disability, religion, sexual orientation, gender identity or expression, veteran status, or any other protected characteristic. Learn more.
+
+Adobe aims to make our Careers website and recruiting process accessible to any and all users. If you have a disability or special need that requires accommodation to navigate our website or complete the application process, email accommodations@adobe.com or call +1 408-536-3015. 
+
+AI Use Guidelines for Interviews:
+Our interviews are designed to reflect your own skills and thinking. The use of AI or recording tools during live interviews is not permitted unless explicitly invited by the interviewer or approved in advance as part of a reasonable accommodation. If these tools are used inappropriately or in a way that misrepresents your work, your application may not move forward in the process.
+
+At Adobe, we empower employees to innovate with AI — and we look for candidates eager to do the same. As part of the hiring experience, we provide clear guidance on where AI is encouraged during the process and where it’s restricted during live interviews. See how we think about AI in the hiring experience.
 
  
 
- At Apex, we are changing how the securities industry operates by reinventing the status quo, which was manual, slow, and accessible only by the ultra-wealthy. We're digitizing and democratizing systems so that everyone has an opportunity to invest. 
+Expected Pay Range:
 
+Our compensation reflects the cost of labor across several  U.S. geographic markets, and we pay differently based on those defined markets. The U.S. pay range for this position is $93,200 -- $179,200 annually. Pay within this range varies by work location and may also depend on job-related knowledge, skills, and experience. Your recruiter can share more about the specific salary range for the job location during the hiring process.
  
 
-When you're at Apex, you drive this change. You're part of a global team with a clear vision: to be the trusted technology that powers the digital economy. Our offices in Austin, Dallas, Chicago, New York, Portland, Belfast, and Manila are home to over 1,000 employees. 
-
- 
-
-Together, we’re shaping the future of financial innovation. Embrace change. Solve big. Win together. And be G.R.E.A.T. — grit, results, empathy, accountability, and teamwork — with Apex. 
-
- 
-
-We’re proud to be recognized for the innovative work we do, the purpose-driven nature of our work, and the collaborative culture we’ve created. Here are just a few of the many awards we’ve recently received: 
-
- 
-
-Best Places to Work 
-
-2026, 2025, 2024, 2023 - Presented by BuiltIn 
-
- 
-
-WealthTech of the Year 
-
-2025 - Presented by US FinTech Awards 
-
- 
-
-The World’s Top 250 Fintech Companies 
-
-2024 - Presented by CNBC 
-
-ABOUT THIS ROLE
-
-This is an incredible opportunity to join Apex's Account Transfer team in Austin, Texas. As a software engineer you will work closely with other engineers, tech leads, product managers, and architects to build the next generation version of Apex Account Transfer services. The Software Engineer will be an integral part of our team supporting the technology organization in a transformation toward a highly scalable and resilient system. This is a role for someone who flourishes in a fast-paced and collaborative environment.
-
-Duties/Responsibilities
- 
-
-Working with a variety of languages/frameworks, such as Java, Go, and technologies such as RDBMS, Kubernetes, and Docker, Google Cloud Platform
-
-Designing, developing, testing, deploying, maintaining and improving software
-
-Building resilient, self-scaling, self-healing services that allow you to sleep through the night
-
-Writing high-quality, well-tested code. Maintaining high code-quality standards across your team via code reviews
-
-Encouraging innovation by questioning business processes throughout the company
 
 
-Education And/or Experience
+In California, the pay range for this position is $123,700 - $179,200
+At Adobe, for sales roles starting salaries are expressed as total target compensation (TTC = base + commission), and short-term incentives are in the form of sales commission plans.  Non-sales roles starting salaries are expressed as base salary and short-term incentives are in the form of the Annual Incentive Plan (AIP).
 
-Bachelor’s degree in Computer Science, Software Engineering, Electrical or Computer Engineering, or a related field.
+In addition, certain roles may be eligible for long-term incentives in the form of a new hire equity award.
 
-1+ years of prior work experience preferred
-
-
-Required Skills/Abilities
- 
-
-Experience of software development skills in a modern object-oriented programming language ideally in Golang is also considered a plus, an RDBMS or SQL, and the ability to learn new languages and technologies quickly
-
-Excellent problem-solving skills with high attention to detail
-
-Effective communication skills
-
-Previous knowledge in financial markets isn’t required, but interest is a plus
-
-Adaptability: while you enjoy establishing process and standards, you understand the need to be flexible and enjoy trying new things
-
-
-Work Environment
-
-This job operates operates in hybrid, office environment 3 days per week.
-
-
-#engineering #entry-level #full-time #APEX
-
-​Please note this job description is not designed to cover or contain a comprehensive listing of activities, duties, or responsibilities required of the employee for this job. Duties, responsibilities, and activities may change at any time with or without notice.
-
-Our Rewards
-
-We offer a robust package of employee perks and benefits, including healthcare benefits (medical, dental and vision, EAP), competitive PTO, 401k match, parental leave, and HSA contribution match. We also provide our employees with a paid subscription to the Calm app and offer generous external learning and tuition reimbursement benefits. At AFS, we offer a hybrid work schedule for most roles that allows employees to have the flexibility of working from home and one of our primary offices.
-
-EEO Statement
-
-Apex Fintech Solutions is an equal opportunity employer that does not discriminate on the basis of race, color, religion, sex (including pregnancy, sexual orientation, and gender identity), national origin, age, disability, veteran status, marital status, or any other protected characteristic. Our hiring practices ensure that all qualified applicants receive fair consideration without regard to these characteristics.
