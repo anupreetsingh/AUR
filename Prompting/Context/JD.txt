@@ -1,96 +1,46 @@
-2026 University Graduate - Software Development Engineer
+Software Engineer I
 Apply
 locations
-San Jose
+SAN JOSE
 time type
 Full time
 posted on
 Posted Yesterday
 job requisition id
-R161172
+R50810
 
-19%
+25%
 Resume Match
-3 of 16 keywords
+2 of 8 keywords
 Simplify
 Simplify
 V1
 V2
-Our Company 
+At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology.
+Cadence Design Systems is looking for a highly motivated software engineer to work as a member of the R&D staff on Cadence’s Innovus product.
 
-Changing the world through digital experiences is what Adobe’s all about. We give everyone—from emerging artists to global brands— everything they need to design and deliver exceptional digital experiences. We’re passionate about empowering people to create beautiful and powerful images, videos, and apps, and transform how companies interact with customers across every screen. 
+Innovus is a complete digital implementation product that encompasses physical design and logic synthesis. The product breadth means we are looking for skilled and motivated candidates with backgrounds in placement, routing, optimization, logic synthesis, extraction, static timing and power analysis.
 
-We’re on a mission to hire the very best and are committed to creating exceptional employee experiences where everyone is respected and has access to equal opportunity. We realize that new ideas can come from everywhere in the organization, and we know the next big idea could be yours. 
+You will be part of a team responsible for creating the innovative technologies required for technology leadership in this space.  Development responsibilities include designing, developing, troubleshooting, debugging and supporting the Innovus product.
 
-The Opportunity  
+This specific role will require physical design and synthesis domain knowledge on how each engine and what roles it plays in the digital implementation flows, together with strong data exploration and data analysis skills to then find out the most critical optimization needs in the flow and create plan and/or high-level algorithms to solve it to meet critical customer needs.
 
-Adobe is seeking talented and passionate Software Engineer across all organizations to help plan, design, develop, and test software systems or applications for software enhancements and new products used in local, networked, cloud-based or Internet-related computer programs and products.  
+The successful candidate will possess the following combination of education and experience:
 
-What You’ll Do  
+• MS in Computer Science or Engineering, PhD is preferred
 
-Develop high-performance, reliable, testable and maintainable code. 
+• Strong analysis and problem solving skills
 
-Participating in all aspects of software development activities, including design, coding, code review, testing, bug fixing, and code/API documentation. 
+• Strong ability to learn quickly
 
-Collaborate with engineers and participate in daily or weekly stand ups and meetings. 
+• Excellent programming and software engineering skills, especially C/C++ and UNIX platforms
 
-Grow with the support of your team and help others on the team grow by providing thoughtful feedback and uplifting those around you. 
+• Proficient in Tcl
 
-Work both independently and collaboratively within a fast-paced development team, with clear, positive, and constructive communication. 
+• Prior experience with large software development projects is highly recommended
 
-Additional responsibilities as needed based on specific role or team 
+Most importantly, we are looking for hard working, innovative engineers who enjoy working with a great team in a high-performance culture.
 
-What You Need to Succeed 
+The annual salary range for California is $88,900 to $165,100. You may also be eligible to receive incentive compensation: bonus, equity, and benefits. Sales positions generally offer a competitive On Target Earnings (OTE) incentive compensation structure. Please note that the salary range is a guideline and compensation may vary based on factors such as qualifications, skill level, competencies and work location. Our benefits programs include: paid vacation and paid holidays, 401(k) plan with employer match, employee stock purchase plan, a variety of medical, dental and vision plan options, and more.
 
-Bachelor's or Master’s in Computer Science, Computer Engineering, Electrical Engineer, or equivalent experience required  
-
-0-1 + years of experience in specific skill/field(s) 
-
-Strong interest in mobile app development for both Android and iOS platforms.
-
-Completed academic and personal projects using Java, Kotlin, Swift, and TypeScript, with exposure to tools like Jetpack Compose or SwiftUI.
-
-Comfortable learning in fast-paced environments and taking initiative on tasks with guidance.
-
-Familiar with basic UI development, design patterns (MVC, MVVM), and object-oriented programming concepts.
-
-Able to communicate ideas clearly and work well in team settings.
-
-Eager to learn new technologies and adapt to changing project needs.
-
-Basic understanding of CI/CD pipelines and automated testing frameworks like JUnit or XCTest.
-
-About Adobe
-
-Adobe empowers everyone to create through innovative platforms and tools that unleash creativity, productivity and personalized customer experiences. Adobe’s industry-leading offerings including Adobe Acrobat Studio, Adobe Express, Adobe Firefly, Creative Cloud, Adobe Experience Platform, Adobe Experience Manager, and GenStudio enable people and businesses to turn ideas into impact, powered by AI and driven by human ingenuity.
-
-Our 30,000+ employees worldwide are creating the future and raising the bar as we drive the next decade of growth. We’re on a mission to hire the very best and believe in creating a company culture where all employees are empowered to make an impact. At Adobe, we believe that great ideas can come from anywhere in the organization. The next big idea could be yours. 
-
-
-Let’s Adobe together
-
-At Adobe, we believe in creating a company culture where all employees are empowered to make an impact. Learn more about Adobe life, including our values and culture, focus on people, purpose and community, Adobe for All, comprehensive benefits programs, the stories we tell, the customers we serve, and how you can help us advance our mission of empowering everyone to create.
-
-Adobe is proud to be an Equal Employment Opportunity employer. We do not discriminate based on gender, race or color, ethnicity or national origin, age, disability, religion, sexual orientation, gender identity or expression, veteran status, or any other protected characteristic. Learn more.
-
-Adobe aims to make our Careers website and recruiting process accessible to any and all users. If you have a disability or special need that requires accommodation to navigate our website or complete the application process, email accommodations@adobe.com or call +1 408-536-3015. 
-
-AI Use Guidelines for Interviews:
-Our interviews are designed to reflect your own skills and thinking. The use of AI or recording tools during live interviews is not permitted unless explicitly invited by the interviewer or approved in advance as part of a reasonable accommodation. If these tools are used inappropriately or in a way that misrepresents your work, your application may not move forward in the process.
-
-At Adobe, we empower employees to innovate with AI — and we look for candidates eager to do the same. As part of the hiring experience, we provide clear guidance on where AI is encouraged during the process and where it’s restricted during live interviews. See how we think about AI in the hiring experience.
-
- 
-
-Expected Pay Range:
-
-Our compensation reflects the cost of labor across several  U.S. geographic markets, and we pay differently based on those defined markets. The U.S. pay range for this position is $93,200 -- $179,200 annually. Pay within this range varies by work location and may also depend on job-related knowledge, skills, and experience. Your recruiter can share more about the specific salary range for the job location during the hiring process.
- 
-
-
-
-In California, the pay range for this position is $123,700 - $179,200
-At Adobe, for sales roles starting salaries are expressed as total target compensation (TTC = base + commission), and short-term incentives are in the form of sales commission plans.  Non-sales roles starting salaries are expressed as base salary and short-term incentives are in the form of the Annual Incentive Plan (AIP).
-
-In addition, certain roles may be eligible for long-term incentives in the form of a new hire equity award.
-
+We’re doing work that matters. Help us solve what others can’t.
