@@ -17,9 +17,9 @@ Subject: Quick Question
 
 Hi [Name],
 
-I'm very interested in the Software Engineer I role at Disney Entertainment and ESPN Product & Technology in New York, NY and believe my credentials align with the requirements.
+I'm very interested in the Junior Software Engineer role at TransMarket Group (TMG) in Chicago and believe my credentials align with the requirements.
 
-Would you be able to share any advice on how to stand out, or point me to the right person to connect with?
+Would you be able to share any advice on how to stand out, or point me to the right person, possibly the hiring manager, so I can learn more about the team and discuss how I could contribute?
 
 Thanks in advance!
 Anupreet Singh
@@ -38,7 +38,7 @@ Subject: Quick Question
 
 Hi [Name], 
 
-I'm very interested in the Software Engineer I role at Disney Entertainment and ESPN Product & Technology in New York, NY and have worked on Java/Spring Boot REST APIs, ElasticSearch indexing, Docker/AWS deployment, and TypeScript tests.
+I'm very interested in the Software Developer role at TransMarket Group (TMG) in Chicago and have worked on C++/Python pipelines on Linux, production-quality components, and high-performance computing coursework.
 
 Could you look at my credentials and see if I would be a good fit? I would be grateful for a referral if you do. 
 
@@ -59,7 +59,7 @@ Subject: Quick Question
 
 Hi [Name],
 
-I'm very interested in the Software Engineer I role on your team at Disney Entertainment and ESPN Product & Technology in New York, NY and have worked on Java/Spring Boot REST APIs, ElasticSearch indexing, Docker/AWS deployment, and TypeScript tests.
+I'm very interested in the Software Developer role on your team at TransMarket Group (TMG) in Chicago and have worked on C++/Python pipelines on Linux, production-quality components, and high-performance computing coursework.
 
 Could we set up a quick chat/call so that I can learn more about the role and the team, and share how my background could contribute? 
 
@@ -76,4 +76,4 @@ Anupreet Singh
 
 #### Why This Company / Why Me
 
-Disney's streaming metadata platform needs scalable ingest, curation, and search systems; my Java/Spring Boot, ElasticSearch, Docker/AWS, and TypeScript testing work maps directly to building reliable backend services.
+TMG's automated trading systems need clean, low-latency components; I can contribute with C++/Python, Linux, high-performance systems coursework, and production-style validation pipelines.

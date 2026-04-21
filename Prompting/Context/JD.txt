@@ -1,42 +1,23 @@
-Software Engineer I
-Engineering in San Francisco, California - Full Time
-Apply Now
+Founded in 1980 as Aardvark Financial, TransMarket Group (TMG) is a privately held global markets proprietary trading firm in Chicago. We use next-generation technology to capture opportunities around the world and manage risk in financial markets. Our mission is to bless others through the services we provide and through the generous stewardship of the wealth we create.
 
-25%
-Resume Match
-2 of 8 keywords
-Simplify
-Simplify
-V1
-V2
-Employer:                    Uber Technologies, Inc.
+TMG is a well-established and profitable business as a respected member of the global financial system for over 40 years, but also is like a startup because the potential of our group is at least one order of magnitude greater than what we are currently producing. We have an entrepreneurial culture and collaboratively develop our business with patience and discipline; we work hard, learn constantly, and relentlessly improve our expertise.
 
-Job Title:                     Software Engineer I
+Description
 
-Job Location:              San Francisco, California
+Our Software development team designs and builds low-latency systems that allow us to trade a diverse set of instruments across a wide range of financial marketplaces. This smaller, focused team comes with a high degree of responsibility and ownership. Our systems aim to be clean and understandable while achieving low latency and robust error tolerance. The libraries you work on will become the engine of our firm’s strategies.
 
-Job Type:                    Full Time
+Responsibilities
 
-Rate of Pay:                $150,000 to $166,000 per year
+Work with Sr. Software Developers to assist and learn all facets of software development applied to the automated trading business
+Develop, code, maintain, and support production-quality automated components for global proprietary trading
+Develop expertise in software development principles, C++, and high-performance automated trading systems
+Collaborate with technology, software, trading, business, and accounting/finance teams
+Requirements
 
-You will be eligible to participate in Uber's bonus program, and may be offered other types of comp. You will also be eligible for various benefits. More details can be found at the following link https://www.uber.com/careers/benefits.
-
-Duties:                         Build customer-facing features and deliver scalable platform capabilities that power rich, performant user experiences. Collaborate across design, product, and platform teams to drive innovation across both front-end and back-end stack. Solve complex problems in business-critical feature flows. Own business-critical core feature flows. Own projects end-to-end and be responsible for working with Product and other stakeholders to refine requirements, create technical designs and specs, implement changes, and see projects through launch and maintenance. May telecommute.
-
-Employer will accept a Bachelor's degree in Computer Science, Computer Systems Engineering, Engineering (Any), Information Technology, Mathematics, Physics, or related field.
-
-Position requires:
-
-Creating, designing, and maintaining user interfaces;
-Web technologies such as HTML, CSS, and JavaScript;
-Experience with traditional server-side rendering patterns;
-Full stack including Go backend systems;
-Running A/B tests and using results to inform product decisions;
-Interpreting customer behavior and iterating on product flows based on data;
-Building large-scale software;
-Building data-driven experiments.
-Uber's mission is to reimagine the way the world moves for the better. Here, bold ideas create real-world impact, challenges drive growth, and speed fuels progress. What moves us, moves the world - let's move it forward, together.
-
-Uber is proud to be an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to sex, gender identity, sexual orientation, race, color, religion, national origin, disability, protected Veteran status, age, or any other characteristic protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. If you have a disability or special need that requires accommodation, please let us know by completing this form.
-
-Offices continue to be central to collaboration and Uber’s cultural identity. Unless formally approved to work fully remotely, Uber expects employees to spend at least half of their work time in their assigned office. For certain roles, such as those based at green-light hubs, employees are expected to be in-office for 100% of their time. Please speak with your recruiter to better understand in-office expectations for this role.
+Bachelor’s degree in a quantitative or technical field
+Passion for software and math applied to markets and trading
+Strong understanding of computing, math, probability, statistics, and finance is also preferred
+Programming proficiency and experience (C++, Python). Linux scripting is a plus
+Strong work ethic and willingness to do what it takes to get the job done
+Excellent technical and non-technical communication skills
+This position requires physical presence and is onsite (no remote work)

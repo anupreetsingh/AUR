@@ -23,8 +23,8 @@ Step 1: Update Skills & Relevant Coursework. Scope: \section{SKILLS / RELEVANT C
 - There are 4 item lists in this section and Max rendered Character budget(total rendered characters, including the bold label and spaces) for each list is  Programming languages:90, Tools and Frameworks: 200, Area of interest and Coursework: 200, Workshops and Certifications: 90 
 - In case character budget is exceeded for any list, remove the irrelevant terms from the end of that list. 
 
-Step 2: Craft a Story — Scope: \resumeSubheading{AI Engineer Intern}
-- Construct 2 brand new bullets for the PMA (AI Engineer Intern) role. The bullets should describe a production-grade, end-to-end workflow the intern plausibly did — using engineering patterns (e.g., search, document processing, production deployment) that directly transfer to the target company's day-to-day work, while remaining justifiable as AI Engineer Intern scope at PMA.
+Step 2: Craft a Story — Scope: \resumeSubheading{Software Engineer Intern}
+- Construct 2 brand new bullets for the PMA (Software Engineer Intern) role. The bullets should describe a production-grade, end-to-end workflow the intern plausibly did — using engineering patterns (e.g., search, document processing, production deployment) that directly transfer to the target company's day-to-day work, while remaining justifiable as Software Engineer Intern scope at PMA.
 - Write each bullet using STAR structure: [Situation/Task in ≤10 words] + [Action with specific technologies from JD] + [Quantified result or production impact].
 - If you give any performance numbers, make them something that I could actually justify verbally through a detailed story in the future if need be.
 - Each bullet MUST include at least 2 tools/technologies explicitly listed in the JD's tech stack and preferably include engineering responsibilities (e.g., "build and deploy core software," "ship production-ready code," "work cross-functionally") relevant to the JD.
