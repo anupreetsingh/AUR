@@ -1,36 +1,104 @@
-Overview
-Motivation comes from turning complex information into systems people can trust, analyze, and act on, as well as from building core backend services that operate at global scale. This role offers the opportunity to help build the backend of ArcGIS Data Pipelines, a core geospatial data engineering product used by organizations to make timely decisions and support critical daily operations.
+Esri logo
+Esri
+Share
+Show more options
+Software Development Engineer I 
+St Louis, MO · Reposted 5 days ago · Over 100 applicants
+Promoted by hirer · Actively reviewing applicants
 
-As a backend engineer on the Data Pipelines team, you’ll design, build, and own services that support diverse data workloads. You’ll collaborate closely with product engineers, front-end developers, and platform teams, and play an active role in shaping the technical direction of a growing system.
+
+ On-site
+Matches your job preferences, workplace type is On-site.
+
+ Internship
+Matches your job preferences, job type is Internship.
+
+Easy Apply
+
+Save
+Save Software Development Engineer I  at Esri
+Software Development Engineer I
+Esri · St Louis, MO (On-site)
+
+Easy Apply
+
+Save
+Save Software Development Engineer I  at Esri
+Show more options
+Job match is high, we can help you stand out
+Your profile matches the required qualifications well
+
+
+Show match details
+
+Tailor my resume
+
+Help me stand out
+
+Create cover letter
+
+BETA
+
+Is this information helpful?
+
+
+
+People you can reach out to
+University of Maryland Baltimore County logo
+University of Maryland Baltimore County logo
+School alumni from University of Maryland Baltimore County
+
+Show all
+About the job
+Overview
+
+Are you ready to launch your career by building software that makes a real-world impact? As a developer on our team, you will build software leveraging Esri’s products and APIs for customers across a wide swathe of sectors and focused on the Midwest region.
+
+This is a unique opportunity to grow your technical skills while contributing to projects that matter. You’ll work alongside engineers and mentors in a collaborative, cross-functional environment that values learning, innovation and purpose. From building intuitive AI web interfaces to writing Python for geoprocessing tools and AI agents, you’ll be exposed to the full development lifecycle and cutting-edge GIS solutions.
+
+As part of Esri’s Professional Services division, you’ll be at the forefront of geospatial innovation, breaking ground in new markets, pushing the boundaries of what’s possible, and delivering transformational solutions to high-profile clients. With nearly 1,000 technical and business professionals, our team is committed to helping users succeed and empowering you to grow into a confident, capable developer.
+
+Esri has a Relocation Assistance Program and can provide support with relocating to the St. Louis, MO area for this position.
 
 Responsibilities
-Build services that power geospatial data processing and interactive user experiences
-Create and maintain connectors that integrate data from a wide variety of data sources
-Contribute to systems that run in multiple environments, from cloud-native SaaS to on-premises deployments
-Improve reliability and performance through thoughtful API design, testing, and observability
-Collaborate with teammates to establish requirements, make sound design decisions, and translate ideas into concrete implementations
+
+Support and build software that follows industry-standard design patterns, development methodologies, and deployment models
+Solve complex problems with application design, product development, and user experiences
+Collaborate with other developers, engineers and product managers throughout the development process
+Evolve your language skills in JavaScript by staying current with complementary programming languages, development methodologies, user interface design techniques, and database tools
+Use JavaScript and TypeScript to develop front end applications
+Use Python to develop geoprocessing tools, services, and AI agents
+
 Requirements
-1+ years of industry experience as a software engineer, or equivalent practical experience
-Proficient in one or more backend programming languages such as Python, Java, Scala, or C#
-Solid fundamentals in API design, software design, and system design
-Strong problem-solving, communication, and collaboration skills
-Bachelor's degree in computer science, engineering, or related field
+
+1+ years of JavaScript or TypeScript experience
+Professional experience in a similar position supporting similar responsibilities
+Strong foundation in object-oriented software principles
+Ability to analyze software/algorithms and identify improvements
+An entrepreneurial awareness of how technology enables excellence within governments and organizations, you need to be interested in why we are developing software, not just how we develop software
+Understand the importance of software development methodologies (Agile, Scrum, Waterfall, RAD, RUP) and software design techniques (UML, entity relationship diagramming, use cases, data flow diagramming); know how they impact the quality of your design process, team collaboration, and work product
+Capability to manage multiple projects simultaneously
+US citizenship and willingness and ability to maintain a US Security Clearance
+Bachelor's degree in Computer Science, Mathematics, Geographic Information Systems (GIS), or STEM related field
+
 Recommended Qualifications
-Familiarity with data storage systems such as relational databases and object stores
-Exposure to distributed systems, batch processing, or large-scale data workflows
-Interest in applying AI to improve engineering workflows and end-user features
-An entrepreneurial mindset and a bias towards solutions that help users
-#LI-TA1
 
-#LI-onsite
+Experience with one or more of the following technologies:
+HTML, CSS, JavaScript, Swift, Kotlin
+ReactJS, Vue, Svelte
+Python generative AI, large language models, and agentic systems
+Web AI chatbot interfaces
+Web data visualization techniques combining AI results with 2D and 3D maps
+GIS
+REST Web services
+SQL, SQL Server, PostgreSQL, Oracle, RDBMS
+Master's degree in Computer Science, Mathematics, Geographic Information Systems (GIS), or STEM related field
+Total RewardsEsri’s competitive total rewards strategy includes industry-leading health and welfare benefits: medical, dental, vision, basic and supplemental life insurance for employees (and their families), 401(k) and profit-sharing programs, minimum accrual of 80 hours of vacation leave, twelve paid holidays throughout the calendar year, and opportunities for personal and professional growth. Base salary is one component of our total rewards strategy. Compensation decisions and the base range for this role take into account many factors including but not limited to skill sets; experience and training; licensure and certifications; and other business and organizational needs.
 
-Total Rewards
+A reasonable estimate of the base salary range is: $75,920 USD - $129,480 USD
 
-Esri’s competitive total rewards strategy includes industry-leading health and welfare benefits: medical, dental, vision, basic and supplemental life insurance for employees (and their families), 401(k) and profit-sharing programs, minimum accrual of 80 hours of vacation leave, twelve paid holidays throughout the calendar year, and opportunities for personal and professional growth. Base salary is one component of our total rewards strategy. Compensation decisions and the base range for this role take into account many factors including but not limited to skill sets; experience and training; licensure and certifications; and other business and organizational needs.
+The Company
 
-A reasonable estimate of the base salary range is
-$79,040-$133,016 USD
-About Esri
 At Esri, diversity is more than just a word on a map. When employees of different experiences, perspectives, backgrounds, and cultures come together, we are more innovative and ultimately a better place to work. We believe in having a diverse workforce that is unified under our mission of creating positive global change. We understand that diversity, equity, and inclusion is not a destination but an ongoing process. We are committed to the continuation of learning, growing, and changing our workplace so every employee can contribute to their life’s best work. Our commitment to these principles extends to the global communities we serve by creating positive change with GIS technology. For more information on Esri’s Racial Equity and Social Justice initiatives, please visit our website here.
 
 If you don’t meet all of the preferred qualifications for this position, we encourage you to still apply!
@@ -38,5 +106,3 @@ If you don’t meet all of the preferred qualifications for this position, we en
 Esri is an equal opportunity employer (EOE) and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability status, protected veteran status, or any other characteristic protected by law. If you need reasonable accommodation for any part of the employment process, please email askcareers@esri.com and let us know the nature of your request and your contact information. Please note that only those inquiries concerning a request for reasonable accommodation will be responded to from this e-mail address.
 
 Esri Privacy Esri takes our responsibility to protect your privacy seriously. We are committed to respecting your privacy by providing transparency in how we acquire and use your information, giving you control of your information and preferences, and holding ourselves to the highest national and international standards, including CCPA and GDPR compliance.
-
-Requisition ID: 2026-3882

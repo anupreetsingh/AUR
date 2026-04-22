@@ -1,0 +1,97 @@
+%-------------------------
+% Cover Letter in LaTeX
+% Author: Anupreet Singh
+% Mirrors styling conventions of resume/main.tex (header, fonts, margins)
+% License: MIT
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[empty]{fullpage}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+% Same page geometry as resume/main.tex so visual identity matches
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\addtolength{\textheight}{0.1in}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+
+\pdfgentounicode=1
+
+%-------------------------
+% Per-application variables -- EDIT THESE FOR EACH COMPANY
+%-------------------------
+\newcommand{\companyName}{Company Name}
+\newcommand{\companyTeam}{Team / Division}
+\newcommand{\roleTitle}{Role Title}
+\newcommand{\companyCity}{City, ST}
+\newcommand{\letterDate}{\today}
+\newcommand{\salutation}{Dear \companyName{} Hiring Team,}
+
+%-------------------------
+\begin{document}
+
+%--------- HEADER (matches resume) ---------
+\begin{center}
+    \textbf{\Huge \scshape Anupreet Singh} \\ \vspace{2pt}
+    \small \href{mailto:anupreet2226579@gmail.com}{\underline{anupreet2226579@gmail.com}}
+    $|$
+    \href{https://www.linkedin.com/in/anupreet-singh-71b1861b8/}{\underline{LinkedIn}}
+    $|$
+    \href{https://github.com/anupreetsingh}{\underline{Github}}
+    $|$
+    \underline{+1 (410) 260-9818}
+\end{center}
+
+\vspace{4pt}
+\hrule
+\vspace{10pt}
+
+%--------- DATE & ADDRESSEE ---------
+\letterDate
+
+\vspace{4pt}
+Hiring Team \\
+\companyName \\
+\companyTeam \\
+\companyCity
+
+%--------- SALUTATION ---------
+\salutation
+
+%--------- BODY PARAGRAPHS ---------
+% TODO: Paragraph 1 -- hook + role + why this company
+Replace this paragraph with your opening: state the exact role you are applying for, reference the team or product, and articulate one sentence on why the company's mission resonates with the kind of work you most enjoy.
+
+% TODO: Paragraph 2 -- evidence (most relevant 1-2 experiences with metrics)
+Replace this paragraph with your strongest evidence. Lead with a recent role, name the technologies and responsibilities that mirror the JD, and back it up with a defensible quantified outcome. If a second experience adds a distinct signal (e.g., AI / data pipelines / production deployment), include it briefly here.
+
+% TODO: Paragraph 3 -- fit + close
+Replace this paragraph with the bridge: connect your coursework, projects, and stack (Python, Java, SQL, Docker, etc.) to what the team owns, then express interest in collaborating with adjacent teams (product, frontend, platform) and translating ideas into shipped, well-tested implementations.
+
+%--------- SIGN-OFF ---------
+\vspace{6pt}
+Sincerely, \\
+Anupreet Singh
+
+\end{document}

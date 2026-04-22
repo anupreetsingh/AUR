@@ -1,0 +1,88 @@
+%-------------------------
+% Cover Letter in LaTeX
+% Author: Anupreet Singh
+% Mirrors styling conventions of resume/main.tex (header, fonts, margins)
+% License: MIT
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[empty]{fullpage}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\addtolength{\textheight}{0.1in}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+
+\pdfgentounicode=1
+
+%-------------------------
+% Per-application variables
+%-------------------------
+\newcommand{\companyName}{Esri}
+\newcommand{\companyTeam}{ArcGIS Data Pipelines Team}
+\newcommand{\roleTitle}{Backend Software Engineer}
+\newcommand{\companyCity}{Redlands, CA}
+\newcommand{\letterDate}{\today}
+\newcommand{\salutation}{Dear \companyName{} Hiring Team,}
+
+%-------------------------
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Anupreet Singh} \\ \vspace{2pt}
+    \small \href{mailto:anupreet2226579@gmail.com}{\underline{anupreet2226579@gmail.com}}
+    $|$
+    \href{https://www.linkedin.com/in/anupreet-singh-71b1861b8/}{\underline{LinkedIn}}
+    $|$
+    \href{https://github.com/anupreetsingh}{\underline{Github}}
+    $|$
+    \underline{+1 (410) 260-9818}
+\end{center}
+
+\vspace{4pt}
+\hrule
+\vspace{10pt}
+
+\letterDate
+
+\vspace{4pt}
+Hiring Team \\
+\companyName \\
+\companyTeam \\
+\companyCity
+
+\salutation
+
+I am excited to apply for the \roleTitle{} role on the \companyTeam{}. Your mission of turning complex geospatial information into systems people can trust mirrors the work I most enjoy: building reliable backend services, connectors, and data workflows that help users make timely decisions.
+
+At Product Manager Accelerator, I shipped a Python REST API and source connectors that ingested partner CSV/JSON into PostgreSQL and AWS S3, with CI/CD and OpenTelemetry tracing, cutting analyst onboarding time 30\% across 6 partners. I added pytest API suites and database tracing that reduced production incidents by 40\%. At Platinum Business Services, I am building Cyberdome's retrieval pipelines on Qdrant, integrating OpenAI and local Ollama RAG services for context-aware querying and automated validation, an example of applying AI to improve engineering workflows.
+
+My coursework and projects in API design, system design, distributed systems, and geospatial data processing, paired with hands-on Python, Java, SQL, Docker, and Kubernetes experience, prepare me to design and own services that run from cloud-native SaaS to on-premises deployments. I would welcome the chance to collaborate with your product, frontend, and platform teams to translate ideas into concrete, well-tested implementations.
+
+\vspace{6pt}
+Sincerely, \\
+Anupreet Singh
+
+\end{document}
