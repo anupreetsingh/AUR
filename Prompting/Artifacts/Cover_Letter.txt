@@ -1,10 +1,10 @@
-Dear Hiring Team,
+Dear Esri Hiring Team,
 
-I am excited to apply for the Backend Software Engineer role on Esri's ArcGIS Data Pipelines team. My background in Python, Java, REST APIs, data engineering, and software design aligns well with your work building reliable services for geospatial data processing and interactive user experiences.
+I am excited to apply for the Backend Software Engineer role on the ArcGIS Data Pipelines team. Your mission of turning complex geospatial information into systems people can trust mirrors the work I most enjoy: building reliable backend services, connectors, and data workflows that help users make timely decisions.
 
-Through my internships and academic roles, I have built backend workflows for document ingestion, validation, retrieval pipelines, and full-stack prototypes, while collaborating across teams to turn requirements into tested implementations. I am especially drawn to this role because it combines backend service ownership, data connectors, distributed workflows, and user-focused engineering.
+At Product Manager Accelerator, I shipped a Python REST API and source connectors that ingested partner CSV/JSON into PostgreSQL and AWS S3, with CI/CD and OpenTelemetry tracing, cutting analyst onboarding time 30% across 6 partners. I added pytest API suites and database tracing that reduced production incidents by 40%. At Platinum Business Services, I am building Cyberdome's retrieval pipelines on Qdrant, integrating OpenAI and local Ollama RAG services for context-aware querying and automated validation, an example of applying AI to improve engineering workflows.
 
-I would welcome the opportunity to contribute to systems that help organizations turn complex data into trusted, actionable decisions.
+My coursework and projects in API design, system design, distributed systems, and geospatial data processing, paired with hands-on Python, Java, SQL, Docker, and Kubernetes experience, prepare me to design and own services that run from cloud-native SaaS to on-premises deployments. I would welcome the chance to collaborate with your product, frontend, and platform teams to translate ideas into concrete, well-tested implementations.
 
 Sincerely,
 Anupreet Singh
