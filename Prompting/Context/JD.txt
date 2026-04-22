@@ -1,46 +1,42 @@
-Software Engineer I
-Apply
-locations
-SAN JOSE
-time type
-Full time
-posted on
-Posted Yesterday
-job requisition id
-R50810
+Overview
+Motivation comes from turning complex information into systems people can trust, analyze, and act on, as well as from building core backend services that operate at global scale. This role offers the opportunity to help build the backend of ArcGIS Data Pipelines, a core geospatial data engineering product used by organizations to make timely decisions and support critical daily operations.
 
-25%
-Resume Match
-2 of 8 keywords
-Simplify
-Simplify
-V1
-V2
-At Cadence, we hire and develop leaders and innovators who want to make an impact on the world of technology.
-Cadence Design Systems is looking for a highly motivated software engineer to work as a member of the R&D staff on Cadence’s Innovus product.
+As a backend engineer on the Data Pipelines team, you’ll design, build, and own services that support diverse data workloads. You’ll collaborate closely with product engineers, front-end developers, and platform teams, and play an active role in shaping the technical direction of a growing system.
 
-Innovus is a complete digital implementation product that encompasses physical design and logic synthesis. The product breadth means we are looking for skilled and motivated candidates with backgrounds in placement, routing, optimization, logic synthesis, extraction, static timing and power analysis.
+Responsibilities
+Build services that power geospatial data processing and interactive user experiences
+Create and maintain connectors that integrate data from a wide variety of data sources
+Contribute to systems that run in multiple environments, from cloud-native SaaS to on-premises deployments
+Improve reliability and performance through thoughtful API design, testing, and observability
+Collaborate with teammates to establish requirements, make sound design decisions, and translate ideas into concrete implementations
+Requirements
+1+ years of industry experience as a software engineer, or equivalent practical experience
+Proficient in one or more backend programming languages such as Python, Java, Scala, or C#
+Solid fundamentals in API design, software design, and system design
+Strong problem-solving, communication, and collaboration skills
+Bachelor's degree in computer science, engineering, or related field
+Recommended Qualifications
+Familiarity with data storage systems such as relational databases and object stores
+Exposure to distributed systems, batch processing, or large-scale data workflows
+Interest in applying AI to improve engineering workflows and end-user features
+An entrepreneurial mindset and a bias towards solutions that help users
+#LI-TA1
 
-You will be part of a team responsible for creating the innovative technologies required for technology leadership in this space.  Development responsibilities include designing, developing, troubleshooting, debugging and supporting the Innovus product.
+#LI-onsite
 
-This specific role will require physical design and synthesis domain knowledge on how each engine and what roles it plays in the digital implementation flows, together with strong data exploration and data analysis skills to then find out the most critical optimization needs in the flow and create plan and/or high-level algorithms to solve it to meet critical customer needs.
+Total Rewards
 
-The successful candidate will possess the following combination of education and experience:
+Esri’s competitive total rewards strategy includes industry-leading health and welfare benefits: medical, dental, vision, basic and supplemental life insurance for employees (and their families), 401(k) and profit-sharing programs, minimum accrual of 80 hours of vacation leave, twelve paid holidays throughout the calendar year, and opportunities for personal and professional growth. Base salary is one component of our total rewards strategy. Compensation decisions and the base range for this role take into account many factors including but not limited to skill sets; experience and training; licensure and certifications; and other business and organizational needs.
 
-• MS in Computer Science or Engineering, PhD is preferred
+A reasonable estimate of the base salary range is
+$79,040-$133,016 USD
+About Esri
+At Esri, diversity is more than just a word on a map. When employees of different experiences, perspectives, backgrounds, and cultures come together, we are more innovative and ultimately a better place to work. We believe in having a diverse workforce that is unified under our mission of creating positive global change. We understand that diversity, equity, and inclusion is not a destination but an ongoing process. We are committed to the continuation of learning, growing, and changing our workplace so every employee can contribute to their life’s best work. Our commitment to these principles extends to the global communities we serve by creating positive change with GIS technology. For more information on Esri’s Racial Equity and Social Justice initiatives, please visit our website here.
 
-• Strong analysis and problem solving skills
+If you don’t meet all of the preferred qualifications for this position, we encourage you to still apply!
 
-• Strong ability to learn quickly
+Esri is an equal opportunity employer (EOE) and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability status, protected veteran status, or any other characteristic protected by law. If you need reasonable accommodation for any part of the employment process, please email askcareers@esri.com and let us know the nature of your request and your contact information. Please note that only those inquiries concerning a request for reasonable accommodation will be responded to from this e-mail address.
 
-• Excellent programming and software engineering skills, especially C/C++ and UNIX platforms
+Esri Privacy Esri takes our responsibility to protect your privacy seriously. We are committed to respecting your privacy by providing transparency in how we acquire and use your information, giving you control of your information and preferences, and holding ourselves to the highest national and international standards, including CCPA and GDPR compliance.
 
-• Proficient in Tcl
-
-• Prior experience with large software development projects is highly recommended
-
-Most importantly, we are looking for hard working, innovative engineers who enjoy working with a great team in a high-performance culture.
-
-The annual salary range for California is $88,900 to $165,100. You may also be eligible to receive incentive compensation: bonus, equity, and benefits. Sales positions generally offer a competitive On Target Earnings (OTE) incentive compensation structure. Please note that the salary range is a guideline and compensation may vary based on factors such as qualifications, skill level, competencies and work location. Our benefits programs include: paid vacation and paid holidays, 401(k) plan with employer match, employee stock purchase plan, a variety of medical, dental and vision plan options, and more.
-
-We’re doing work that matters. Help us solve what others can’t.
+Requisition ID: 2026-3882
