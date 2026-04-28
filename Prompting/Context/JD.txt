@@ -1,108 +1,77 @@
-Esri logo
-Esri
-Share
-Show more options
-Software Development Engineer I 
-St Louis, MO · Reposted 5 days ago · Over 100 applicants
-Promoted by hirer · Actively reviewing applicants
+Software Engineer
+Location
+San Francisco Office; Vancouver Office
 
+Employment Type
+Full time
 
- On-site
-Matches your job preferences, workplace type is On-site.
+Department
+Engineering
 
- Internship
-Matches your job preferences, job type is Internship.
-
-Easy Apply
-
-Save
-Save Software Development Engineer I  at Esri
-Software Development Engineer I
-Esri · St Louis, MO (On-site)
-
-Easy Apply
-
-Save
-Save Software Development Engineer I  at Esri
-Show more options
-Job match is high, we can help you stand out
-Your profile matches the required qualifications well
-
-
-Show match details
-
-Tailor my resume
-
-Help me stand out
-
-Create cover letter
-
-BETA
-
-Is this information helpful?
-
-
-
-People you can reach out to
-University of Maryland Baltimore County logo
-University of Maryland Baltimore County logo
-School alumni from University of Maryland Baltimore County
-
-Show all
-About the job
+Compensation
+San Francisco
+Estimated Base Salary $150K – $300K • Offers Equity • Final offer amounts are determined by multiple factors, including, experience and expertise, and may vary from the amounts listed above.
 Overview
+Application
 
-Are you ready to launch your career by building software that makes a real-world impact? As a developer on our team, you will build software leveraging Esri’s products and APIs for customers across a wide swathe of sectors and focused on the Midwest region.
+44%
+Resume Match
+4 of 9 keywords
+Uses advanced AI matching
+Simplify
+Simplify
+V1
+V2
+About Us
+Gumloop is the AI automation platform for the enterprise. We give teams the power to easily build and deploy AI agents, in Slack, Microsoft Teams, or standalone, that automate real work across hundreds of integrations with no engineering background required. The platform has three pillars:
 
-This is a unique opportunity to grow your technical skills while contributing to projects that matter. You’ll work alongside engineers and mentors in a collaborative, cross-functional environment that values learning, innovation and purpose. From building intuitive AI web interfaces to writing Python for geoprocessing tools and AI agents, you’ll be exposed to the full development lifecycle and cutting-edge GIS solutions.
+1. Agents — Conversational AI assistants that use tools (integrations, workflows, code sandbox, MCP servers) to accomplish open-ended tasks. Unlike workflows that follow fixed paths, agents decide which tools to use and when, adapting based on context. Users configure agents with a system prompt, a model, and a set of tools. Agents can be deployed to a chat UI, Slack, or Microsoft Teams, and can run autonomously via scheduled or event-based triggers.
 
-As part of Esri’s Professional Services division, you’ll be at the forefront of geospatial innovation, breaking ground in new markets, pushing the boundaries of what’s possible, and delivering transformational solutions to high-profile clients. With nearly 1,000 technical and business professionals, our team is committed to helping users succeed and empowering you to grow into a confident, capable developer.
+2. Workflows — Visual, drag-and-drop automations composed of connected nodes on a canvas. Each node is a discrete operation (call an API, run AI, read a spreadsheet, send an email). Workflows are deterministic and repeatable. They can be triggered manually, on a schedule, via webhook, or by external events (new email, Slack message, etc.). Workflows can also be attached to agents as callable tools — the agent orchestrates, the workflow executes.
 
-Esri has a Relocation Assistance Program and can provide support with relocating to the St. Louis, MO area for this position.
+3. Gumstack — Enterprise-grade MCP hosting, observability, and AI governance. Organizations provision managed MCP servers, control which AI models are available, audit every tool call, and enforce security policies across all agents and workflows.
 
-Responsibilities
+We're moving fast. Teams at Gusto, Ramp, Shopify, Samsara, Instacart, and Opendoor are already building and deploying AI agents on Gumloop to automate real work across their organizations. That's not a demo. That's production.
 
-Support and build software that follows industry-standard design patterns, development methodologies, and deployment models
-Solve complex problems with application design, product development, and user experiences
-Collaborate with other developers, engineers and product managers throughout the development process
-Evolve your language skills in JavaScript by staying current with complementary programming languages, development methodologies, user interface design techniques, and database tools
-Use JavaScript and TypeScript to develop front end applications
-Use Python to develop geoprocessing tools, services, and AI agents
+We've raised $70M from Benchmark, First Round Capital, Y Combinator, Nexus Ventures, Shopify Ventures, BoxGroup, and The Cannon Project to build a world class team.
 
-Requirements
+Role Overview
+We're looking for a Software Engineer who builds fast and ships faster. You'll work directly with the founders every day, own features from design to production, and turn user feedback into shipped code — often the same day. This is a foundational engineering role at a company growing faster than almost anyone in AI.
 
-1+ years of JavaScript or TypeScript experience
-Professional experience in a similar position supporting similar responsibilities
-Strong foundation in object-oriented software principles
-Ability to analyze software/algorithms and identify improvements
-An entrepreneurial awareness of how technology enables excellence within governments and organizations, you need to be interested in why we are developing software, not just how we develop software
-Understand the importance of software development methodologies (Agile, Scrum, Waterfall, RAD, RUP) and software design techniques (UML, entity relationship diagramming, use cases, data flow diagramming); know how they impact the quality of your design process, team collaboration, and work product
-Capability to manage multiple projects simultaneously
-US citizenship and willingness and ability to maintain a US Security Clearance
-Bachelor's degree in Computer Science, Mathematics, Geographic Information Systems (GIS), or STEM related field
+What You'll Do
+Ship end-to-end features — design, build, test, deploy, and own them in production
 
-Recommended Qualifications
+Turn user feedback into code fast, releasing improvements with same-day turnaround
 
-Experience with one or more of the following technologies:
-HTML, CSS, JavaScript, Swift, Kotlin
-ReactJS, Vue, Svelte
-Python generative AI, large language models, and agentic systems
-Web AI chatbot interfaces
-Web data visualization techniques combining AI results with 2D and 3D maps
-GIS
-REST Web services
-SQL, SQL Server, PostgreSQL, Oracle, RDBMS
-Master's degree in Computer Science, Mathematics, Geographic Information Systems (GIS), or STEM related field
-Total RewardsEsri’s competitive total rewards strategy includes industry-leading health and welfare benefits: medical, dental, vision, basic and supplemental life insurance for employees (and their families), 401(k) and profit-sharing programs, minimum accrual of 80 hours of vacation leave, twelve paid holidays throughout the calendar year, and opportunities for personal and professional growth. Base salary is one component of our total rewards strategy. Compensation decisions and the base range for this role take into account many factors including but not limited to skill sets; experience and training; licensure and certifications; and other business and organizational needs.
+Work directly with the founders every day to keep priorities clear and blockers out of the way
 
-A reasonable estimate of the base salary range is: $75,920 USD - $129,480 USD
+Build polished UIs and reliable backend services that scale with traffic
 
-The Company
+What You Bring
+Relentlessly resourceful — you've built real-world applications with a high bar for quality
 
-At Esri, diversity is more than just a word on a map. When employees of different experiences, perspectives, backgrounds, and cultures come together, we are more innovative and ultimately a better place to work. We believe in having a diverse workforce that is unified under our mission of creating positive global change. We understand that diversity, equity, and inclusion is not a destination but an ongoing process. We are committed to the continuation of learning, growing, and changing our workplace so every employee can contribute to their life’s best work. Our commitment to these principles extends to the global communities we serve by creating positive change with GIS technology. For more information on Esri’s Racial Equity and Social Justice initiatives, please visit our website here.
+If you've personally built something people use, years of experience is basically irrelevant
 
-If you don’t meet all of the preferred qualifications for this position, we encourage you to still apply!
+Comfort working in a small team where speed and ownership are the norm
 
-Esri is an equal opportunity employer (EOE) and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability status, protected veteran status, or any other characteristic protected by law. If you need reasonable accommodation for any part of the employment process, please email askcareers@esri.com and let us know the nature of your request and your contact information. Please note that only those inquiries concerning a request for reasonable accommodation will be responded to from this e-mail address.
+Experience with modern full stack frameworks (frontend and backend)
 
-Esri Privacy Esri takes our responsibility to protect your privacy seriously. We are committed to respecting your privacy by providing transparency in how we acquire and use your information, giving you control of your information and preferences, and holding ourselves to the highest national and international standards, including CCPA and GDPR compliance.
+Bonus
+Prior experience as a founder or founding engineer
+
+Strong sense of product taste
+
+Experience building LLM-powered products
+
+Proficiency in Python, TypeScript, React, TailwindCSS
+
+Benefits
+Highly competitive salary and meaningful equity
+
+Generous paid time off: 24 days for SF employees and 20 days globally, use them as you need
+
+$350/month wellness benefit to spend on gym, spa, equipment, or whatever keeps you at your best
+
+15 days of temporary remote work flexibility per year
+
+401k match up to 6%
