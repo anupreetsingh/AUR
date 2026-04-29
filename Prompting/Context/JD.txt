@@ -1,77 +1,61 @@
-Software Engineer
+Software Engineer - Product (New Grad)
 Location
-San Francisco Office; Vancouver Office
+San Francisco, CA
 
 Employment Type
 Full time
+
+Location Type
+On-site
 
 Department
 Engineering
 
 Compensation
-San Francisco
-Estimated Base Salary $150K – $300K • Offers Equity • Final offer amounts are determined by multiple factors, including, experience and expertise, and may vary from the amounts listed above.
+Salary Range $130K – $150K
 Overview
 Application
 
-44%
+25%
 Resume Match
-4 of 9 keywords
+2 of 8 keywords
 Uses advanced AI matching
 Simplify
 Simplify
 V1
 V2
-About Us
-Gumloop is the AI automation platform for the enterprise. We give teams the power to easily build and deploy AI agents, in Slack, Microsoft Teams, or standalone, that automate real work across hundreds of integrations with no engineering background required. The platform has three pillars:
+Benefits: Health & dental insurance, gym reimbursement, daily team meals, commuter benefits
 
-1. Agents — Conversational AI assistants that use tools (integrations, workflows, code sandbox, MCP servers) to accomplish open-ended tasks. Unlike workflows that follow fixed paths, agents decide which tools to use and when, adapting based on context. Users configure agents with a system prompt, a model, and a set of tools. Agents can be deployed to a chat UI, Slack, or Microsoft Teams, and can run autonomously via scheduled or event-based triggers.
+We are an early stage applied AI startup building agents that automate knowledge work with code. We’re on a mission to enable one billion humans to become software creators, and we are starting with a focus on data science and analysis use cases.
 
-2. Workflows — Visual, drag-and-drop automations composed of connected nodes on a canvas. Each node is a discrete operation (call an API, run AI, read a spreadsheet, send an email). Workflows are deterministic and repeatable. They can be triggered manually, on a schedule, via webhook, or by external events (new email, Slack message, etc.). Workflows can also be attached to agents as callable tools — the agent orchestrates, the workflow executes.
+Today, Julius writes and executes 1 million lines of code every 36 hours, has served over 1 million users and generated over 3 million data visualizations.
 
-3. Gumstack — Enterprise-grade MCP hosting, observability, and AI governance. Organizations provision managed MCP servers, control which AI models are available, audit every tool call, and enforce security policies across all agents and workflows.
+We're a small technical team with experience from Uber, Facebook and Scale AI. We're making revenue and we're backed by some of best investors like AI Grant, YCombinator, Bessemer Venture Partners and founders of Vercel, Notion, Perplexity, Palantir, Replit, Zapier, Intercom, Dropbox and researchers from OpenAI and Google DeepMind.
 
-We're moving fast. Teams at Gusto, Ramp, Shopify, Samsara, Instacart, and Opendoor are already building and deploying AI agents on Gumloop to automate real work across their organizations. That's not a demo. That's production.
+Building intuitive and performant user interfaces is critical to making Julius easy to use for over 1 million users. Our interface has several moving parts including tool use, multi-step reasoning, code generation, code execution, file and secrets management, and more. You will get to define and build the experiences for all of these as we scale to our future milestones.
 
-We've raised $70M from Benchmark, First Round Capital, Y Combinator, Nexus Ventures, Shopify Ventures, BoxGroup, and The Cannon Project to build a world class team.
+What you'll do:
 
-Role Overview
-We're looking for a Software Engineer who builds fast and ships faster. You'll work directly with the founders every day, own features from design to production, and turn user feedback into shipped code — often the same day. This is a foundational engineering role at a company growing faster than almost anyone in AI.
+Build products that bring AI capabilities to millions of people
 
-What You'll Do
-Ship end-to-end features — design, build, test, deploy, and own them in production
+Design and implement intuitive, responsive, and performant user interfaces
 
-Turn user feedback into code fast, releasing improvements with same-day turnaround
+Optimize application performance and ensure cross-browser compatibility
 
-Work directly with the founders every day to keep priorities clear and blockers out of the way
+What we're looking for:
 
-Build polished UIs and reliable backend services that scale with traffic
+Experience with React, Next.js, Tailwind CSS, Python
 
-What You Bring
-Relentlessly resourceful — you've built real-world applications with a high bar for quality
+Have previous internships or relevant experience where you’ve shipped production level code
 
-If you've personally built something people use, years of experience is basically irrelevant
+Strong understanding of frontend frontend primitives: component architecture, state management, streaming UIs, and performance profiling
 
-Comfort working in a small team where speed and ownership are the norm
+Strong understanding of backend systems, in particular - relational databases, caching, background jobs, and auth.
 
-Experience with modern full stack frameworks (frontend and backend)
+Examples of live projects or products you've built
 
-Bonus
-Prior experience as a founder or founding engineer
+About the interview
+Intro call
 
-Strong sense of product taste
+Short paid work trial (2-5 days). Own and ship a project in Julius
 
-Experience building LLM-powered products
-
-Proficiency in Python, TypeScript, React, TailwindCSS
-
-Benefits
-Highly competitive salary and meaningful equity
-
-Generous paid time off: 24 days for SF employees and 20 days globally, use them as you need
-
-$350/month wellness benefit to spend on gym, spa, equipment, or whatever keeps you at your best
-
-15 days of temporary remote work flexibility per year
-
-401k match up to 6%

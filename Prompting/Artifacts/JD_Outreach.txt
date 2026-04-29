@@ -17,7 +17,7 @@ Subject: Quick Question
 
 Hi [Name],
 
-I'm very interested in the Software Engineer I role at Cadence Design Systems in San Jose and believe my credentials align with the requirements.
+I'm very interested in the Software Engineer role at Gumloop in San Francisco or Vancouver and believe my credentials align with the requirements.
 
 Would you be able to share any advice on how to stand out, or point me to the right person, possibly the hiring manager, so I can learn more about the team and discuss how I could contribute?
 
@@ -38,7 +38,7 @@ Subject: Quick Question
 
 Hi [Name], 
 
-I'm very interested in the Software Engineer I role at Cadence Design Systems in San Jose and have worked on C++/Tcl tooling on UNIX, timing/power regression triage, and data analysis workflows.
+I'm very interested in the Software Engineer role at Gumloop in San Francisco or Vancouver and have worked on end-to-end LLM-powered applications with React, TailwindCSS, FastAPI, and Docker, shipped with fast user-feedback loops.
 
 Could you look at my credentials and see if I would be a good fit? I would be grateful for a referral if you do. 
 
@@ -59,7 +59,7 @@ Subject: Quick Question
 
 Hi [Name],
 
-I'm very interested in the Software Engineer I role on your team at Cadence Design Systems in San Jose and have worked on C++/Tcl tooling on UNIX, timing/power regression triage, and data analysis workflows.
+I'm very interested in the Software Engineer role on your team at Gumloop in San Francisco or Vancouver and have worked on end-to-end LLM-powered applications with React, TailwindCSS, FastAPI, and Docker, shipped with fast user-feedback loops.
 
 Could we set up a quick chat/call so that I can learn more about the role and the team, and share how my background could contribute? 
 
@@ -76,4 +76,4 @@ Anupreet Singh
 
 #### Why This Company / Why Me
 
-Innovus depends on strong physical design optimization and fast debug loops; I can contribute with C++/Tcl, UNIX, timing/power analysis, and log-analysis tooling from production-style software work.
+Gumloop is shipping production AI agents, workflows, and MCP-backed tooling fast; I can contribute with React/FastAPI delivery, LLM application work, and same-day iteration from shipped intern products.

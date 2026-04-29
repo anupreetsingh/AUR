@@ -7,21 +7,29 @@
 
 
 ================================================================
-==================  SECTION 1 — FOUNDER  =======================
+==============  SECTION 1 — FOUNDER / BUILDER  =================
 ================================================================
 
 
-#### Founder(Email)
+#### Founder/Founding Engineer(Build Something)
 
 Subject: [Hook]
 
 Hi [Name],
 
-Came across [Company Name] through [Discovery Channel] — love what you're building with [Product Hook].
+I've been following what [Company Name] is building around [Product Hook], and I'm very interested in [Opportunity Phrase].
 
-[Bridge]
+I've worked on [Work Pitch]. I'd love to show you how I think by building something for [Company Name]—maybe a quick prototype or workflow that fits a product that you are currently working on.
 
-Would you be open to a quick chat about how I could contribute on the [Contribution Area] of [Company Name]?
+If there's anything you could use a helping hand with, I'd be happy to jump in.
 
-Thanks,
+Best,
 Anupreet Singh
+
+
+
+================================================================
+==============  SECTION 2 — NOTABLE WORK =======================
+================================================================
+
+I’m particularly proud of my work on cyberdome where I built data workflow pipelines that enabled LLM-based querying (using both the OpenAI API and on-prem Ollama models) over NIST SP 800-53 and FedRAMP control catalogs. This allowed the system to analyze whether a given codebase structure complied with specific security profiles, effectively automating parts of what is typically a manual and time-intensive compliance review process.

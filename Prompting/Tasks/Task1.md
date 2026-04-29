@@ -26,7 +26,7 @@ Using the details in `Prompting/Context/JD.txt`, update `resume/main.tex`.
 | PMA.b2            |    110 |
 | Turfco.b          |    110 |
 | ga.b1             |    220 |
-| ga.b2             |    110 |
+| ga.b2             |    115 |
 | ta.b1             |    110 |
 
 > **Budgets count rendered text only, excluding LaTeX markup.** Commands like `\textbf{}`, `\\`, and `\vspace{}` do not count toward the budget — but the bold label text and the spaces inside the rendered output do. For example, in `\textbf{Programming Languages}{: Python, C/C++, ...}`, the characters that count are `Programming Languages: Python, C/C++, ...`.
