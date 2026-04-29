@@ -76,4 +76,13 @@ Anupreet Singh
 
 #### Why This Company / Why Me
 
-Gumloop is shipping production AI agents, workflows, and MCP-backed tooling fast; I can contribute with React/FastAPI delivery, LLM application work, and same-day iteration from shipped intern products.
+Notion isn't just another productivity app to me — it's the lineage of Engelbart and Alan Kay made practical: software that augments how people think, not just what they ship. I've spent the last year building LLM-driven tools at Platinum and PMA, and the pattern that keeps surprising me is how much leverage a well-designed interface unlocks once AI is embedded in the right place. Notion is the rare product that gets both halves right — the canvas and the intelligence — and I want to help build that next layer for millions of users.
+
+#### AI Technologies I am comfortable with:
+LLM APIs: OpenAI, Anthropic Claude, Ollama, llama.cpp
+Orchestration: LangChain, LlamaIndex, MCP
+Vector & retrieval: Qdrant, pgvector, Pinecone, text-embedding-3, sentence-transformers
+Modeling: PyTorch, Hugging Face Transformers, Datasets, PEFT/LoRA, Mistral-7B, DenseNet-169
+Evals & observability: LangSmith, Ragas, Weights & Biases
+Structured generation: Pydantic, instructor, JSON Schema
+AI-assisted development: Claude Code, Codex, Cursor

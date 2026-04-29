@@ -1,61 +1,78 @@
-Software Engineer - Product (New Grad)
+Software Engineer, New Grad
 Location
-San Francisco, CA
+San Francisco, California
 
 Employment Type
 Full time
 
 Location Type
-On-site
+Hybrid
 
 Department
-Engineering
+University
 
-Compensation
-Salary Range $130K – $150K
 Overview
 Application
 
-25%
+30%
 Resume Match
-2 of 8 keywords
+3 of 10 keywords
 Uses advanced AI matching
 Simplify
 Simplify
 V1
 V2
-Benefits: Health & dental insurance, gym reimbursement, daily team meals, commuter benefits
+About Us:
+Notion helps you build beautiful tools for your life’s work. In today's world of endless apps and tabs, Notion provides one place for teams to get everything done, seamlessly connecting docs, notes, projects, calendar, and email—with AI built in to find answers and automate work. Millions of users, from individuals to large organizations like Toyota, Figma, and OpenAI, love Notion for its flexibility and choose it because it helps them save time and money.
 
-We are an early stage applied AI startup building agents that automate knowledge work with code. We’re on a mission to enable one billion humans to become software creators, and we are starting with a focus on data science and analysis use cases.
+In-person collaboration is essential to Notion's culture. We require all team members to work from our offices on Mondays, Tuesdays, and Thursdays, our designated Anchor Days. Certain teams or positions may require additional in-office workdays.
 
-Today, Julius writes and executes 1 million lines of code every 36 hours, has served over 1 million users and generated over 3 million data visualizations.
+About The Role:
+As an engineer at Notion, you’ll help shape core user experiences and accelerate how people discover value in Notion. You'll tackle meaningful challenges with increasing autonomy, crafting code that millions of users will experience. You'll take ownership of projects that matter, make critical technical decisions, and contribute your unique perspective to our product vision. Working alongside passionate experts across design, product, and data, you'll help shape the future of how people work.
 
-We're a small technical team with experience from Uber, Facebook and Scale AI. We're making revenue and we're backed by some of best investors like AI Grant, YCombinator, Bessemer Venture Partners and founders of Vercel, Notion, Perplexity, Palantir, Replit, Zapier, Intercom, Dropbox and researchers from OpenAI and Google DeepMind.
+We’re hiring new grad engineers to join us across several teams at Notion. Your recruiter will partner with you to find the team that best aligns with your interests and where you can make the highest impact.
 
-Building intuitive and performant user interfaces is critical to making Julius easy to use for over 1 million users. Our interface has several moving parts including tool use, multi-step reasoning, code generation, code execution, file and secrets management, and more. You will get to define and build the experiences for all of these as we scale to our future milestones.
+What You'll Achieve:
+You'll work with others to plan, shape, and build new product features from start to finish: through conception, research, implementation, and maintenance. For example, you might work on driving adoption, by instrumenting key onboarding moments and iterating on activation flows.
 
-What you'll do:
+You'll help improve performance and reliability, or polish existing features. For example, you might update our spell checker to sync dictionaries across browsers or improve search to index file attachments.
 
-Build products that bring AI capabilities to millions of people
+You'll build internal tools to support simplicity and productivity for the whole team. This might include writing a script to import user feedback into Notion.
 
-Design and implement intuitive, responsive, and performant user interfaces
+Qualifications:
+Pursuing a bachelor's or master’s degree in computer science, engineering, or another related field. Must be able to start full-time prior to July 27, 2026.
 
-Optimize application performance and ensure cross-browser compatibility
+Previous internship experience.
 
-What we're looking for:
+Working towards a proficiency of one or more programming languages such as TypeScript, Node.js, or Python.
 
-Experience with React, Next.js, Tailwind CSS, Python
+Skills You'll Need to Bring:
+Impact-driven approach to technology: You see technologies as tools to achieve user impact rather than ends in themselves. You care more about building successful systems that solve real problems than about using specific tech stacks or following trends.
 
-Have previous internships or relevant experience where you’ve shipped production level code
+You stay current with the latest tools like Codex, Claude Code, and other AI-assisted development environments. You're pragmatic about choosing the right tool for the job, focusing on what delivers the most value to users.
 
-Strong understanding of frontend frontend primitives: component architecture, state management, streaming UIs, and performance profiling
+Thoughtful problem-solving: For you, problem-solving starts with a clear and accurate understanding of the context. You can decompose tricky problems and work towards a clean solution, by yourself or with teammates. You're comfortable asking for help when you get stuck. You think about the implications of what you're building and how it will impact real people's lives.
 
-Strong understanding of backend systems, in particular - relational databases, caching, background jobs, and auth.
+Own the outcome: You own your work, communicating clearly about progress and blockers. You don't wait for instructions for every step but rather show initiative in identifying what needs to be done and driving projects forward. You ask questions when needed while independently finding solutions to problems.
 
-Examples of live projects or products you've built
+Team player: For you, work isn't a solo endeavor. You enjoy collaborating cross-functionally to accomplish shared goals, and you care about learning, growing, and helping others to do the same.
 
-About the interview
-Intro call
+Passion for web applications: You can work with others to build and maintain quality user interfaces for a big audience, using Web technologies like HTML, CSS, JavaScript, and a modern UI framework like React.
 
-Short paid work trial (2-5 days). Own and ship a project in Julius
+Familiarity with backend systems: You understand how parts of a system fit together—from the user interface to the data model. Familiarity with database systems like Postgres, MySQL or MongoDB is a plus.
+
+Nice to Haves:
+You have experience with any part of our technology stack: React, TypeScript, Node.js, Postgres, and Elasticsearch.
+
+You’re a builder who finds joy in building software solutions for yourself or others.
+
+You care about the interaction between technology and society, the ways in which they inform each other, and our responsibility as technologists to be conscious of that relationship.
+
+You've heard of computing pioneers like Ada Lovelace, Douglas Engelbart, Alan Kay, and others—and understand why we're big fans of their work.
+
+Our customers come from all walks of life and so do we. We hire great people from a wide variety of backgrounds, not just because it's the right thing to do, but because it makes our company stronger. If you share our values and our enthusiasm for small businesses, you will find a home at Notion.
+
+Notion is proud to be an equal opportunity employer. We do not discriminate in hiring or any employment decision based on race, color, religion, national origin, age, sex (including pregnancy, childbirth, or related medical conditions), marital status, ancestry, physical or mental disability, genetic information, veteran status, gender identity or expression, sexual orientation, or other applicable legally protected characteristic. Notion considers qualified applicants with criminal histories, consistent with applicable federal, state and local law. Notion is also committed to providing reasonable accommodations for qualified individuals with disabilities and disabled veterans in our job application procedures. If you need assistance or an accommodation due to a disability, please let your recruiter know.
+
+Notion is committed to providing highly competitive cash compensation, equity, and benefits. The compensation offered for this role will be based on multiple factors such as location, the role’s scope and complexity, and the candidate’s experience and expertise, and may vary from the range provided below. For roles based in San Francisco or New York City, the estimated salary range for this role is $126,000 - $146,000
 
