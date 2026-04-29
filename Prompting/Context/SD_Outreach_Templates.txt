@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% SD-BASED STARTUP OUTREACH TEMPLATES (immutable source of truth)
-%% Filled outputs are written to Prompting/Artifacts/SD_Outreach.txt by Task4.
+%% Filled outputs are written to Prompting/Artifacts/SD_Outreach.txt by Task5.
 %% Audience: founders / founding members of early-stage startups.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% JD-BASED OUTREACH TEMPLATES (immutable source of truth)
-%% Filled outputs are written to Prompting/Artifacts/JD_Outreach.txt by Task2.
+%% Filled outputs are written to Prompting/Artifacts/JD_Outreach.txt by Task3.
 %% Order: Talent/HR -> Employee -> Manager (typical outreach sequence).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

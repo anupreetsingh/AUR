@@ -33,8 +33,8 @@ Using the details in `Prompting/Context/JD.txt`, update `resume/main.tex`.
 
 ### Compile check
 
-- After Step 1 and Step 2: run `python3 scripts/compile_check.py` (verifies the resume still fits on one page assuming PMA bullets are maxed at their budgets — i.e., Step 3 will still have room).
-- After Step 3: run `python3 scripts/compile_check.py --final` (compiles `main.tex` as-is, with the actual Step 3 PMA bullet text, and verifies the final resume is one page).
+- After Step 0, 1 and 2: run `python3 scripts/compile_check.py` (verifies the resume still fits on one page assuming PMA bullets are maxed at their budgets for Step 3. The CLI prints only `yes` or `no`; `yes` means pass and `no` means fail).
+- After Step 3: run `python3 scripts/compile_check.py --final` (compiles `main.tex` as-is, with the actual Step 3 PMA bullet text, and verifies the final resume is one page. The CLI prints only `yes` or `no`; `yes` means pass and `no` means fail).
 
 ## Step 0: Reset main.tex to a clean baseline
 
@@ -64,7 +64,7 @@ Using the details in `Prompting/Context/JD.txt`, update `resume/main.tex`.
 **Scope:** `PMA.b1` and `PMA.b2`
 
 - Use 3–4 high-priority JD keywords that were added in Step 1 and not already introduced in Step 2.
-- Write 2 brand-new PMA bullets that describe a plausible, production-grade, end-to-end workflow handled by a software engineering intern.
+- Write 2 brand-new PMA bullets that describe a plausible, production-grade, end-to-end workflow handled by the software engineering intern.
 - Use engineering patterns that transfer directly to the target company's work (for example: end-to-end feature delivery, frontend/backend integration, API or workflow orchestration, and production deployment).
 - Write each bullet in XYZ style: achieved X, by doing Y, resulting in Z.
 - If you include performance numbers, keep them modest and easy to justify verbally in a future interview.
