@@ -1,11 +1,11 @@
 #!/bin/bash
 
 if [ $# -ne 2 ]; then
-  echo "Usage: ./final_move.sh <Company> <Role>"
+  echo "Usage: ./scripts/final_move.sh <Company> <Role>"
   exit 1
 fi
 
-PROJECT_ROOT="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 DEST="/Users/manpreetsingh/Documents/Job Hunt/Resume/Tentative/$1-$2"
 
 mkdir -p "$DEST"
@@ -27,4 +27,4 @@ else
 fi
 
 # Edit this line for every company and role and paste it in terminal:
-# ./final_move.sh "Google" "Software Engineer II, Site Reliability"
+# ./scripts/final_move.sh "Google" "Software Engineer II, Site Reliability"
