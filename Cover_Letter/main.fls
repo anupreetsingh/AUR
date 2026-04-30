@@ -2,7 +2,7 @@ PWD /Users/manpreetsingh/Downloads/Study/Development/AUR/Cover_Letter
 INPUT /usr/local/texlive/2026basic/texmf.cnf
 INPUT /usr/local/texlive/2026basic/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2026basic/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT main.tex
+INPUT /Users/manpreetsingh/Downloads/Study/Development/AUR/Cover_Letter/main.tex
 OUTPUT main.log
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/base/article.cls

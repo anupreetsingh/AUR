@@ -1,62 +1,49 @@
-Compiler Engineer, Backend- New College Grad 2026
-Apply
-locations
-US, CA, Santa Clara
-time type
-Full time
-posted on
-Posted Today
-job requisition id
-JR2017290
+Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day.
 
-30%
-Resume Match
-3 of 10 keywords
-Uses advanced AI matching
-Simplify
-Simplify
-V1
-V2
-We are searching for a Backend Compiler Engineer for an exciting and fun role in our GPU Software organization. Our Compiler team is responsible for constructing and emitting the highest performance GPU machine instructions for Graphics (OpenGL, Vulkan, DX) and Compute (CUDA, PTX, OpenCL, Fortran, C++). This team is comprised of worldwide leading compiler engineering experts who provide leading edge performance and capabilities for NVIDIA's current and future complex parallel SIMT architectures.
+We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on LinkedIn and X,  and discover the projects we’re solving on our Blog. Be sure to explore our Interviewing Guide to learn how to ace our interview process.
 
-What you will be doing:
+About the Role
+Join Twitch's Commerce Engineering organization, where we're revolutionizing how viewers engage with their favorite creators. We are the teams behind Subscriptions, Gifting, Bits, Hype Train and Turbo products. From experimental features to established systems used by millions, we're constantly pushing the boundaries of what's possible in live streaming.
 
-Understand, modify, and improve an NVIDIA proprietary GPU compiler backend written in C++
+This position and team are based in Seattle, WA and San Francisco, CA
 
-Develop new register allocation compiler passes and optimizations to produce best-in-class, robust, supportable compiler and tools
+You Will:
+Craft immersive, interactive experiences that keep viewers supporting creators while engaging with the Twitch Community.
+Architect and build robust, scalable applications that can handle millions of concurrent users
+Collaborate across teams to create cohesive solutions that drive business impact
+Transform customer feedback into innovative features that enhance the Twitch experience
+You Have:
+0-2 years of professional software development experience
+Excellent verbal and written communication skills; Ability to effectively collaborate with teammates is critical to success. 
+A track record of building consumer-facing products that users love
+Demonstrable experience  of modern programming languages and frameworks
+Sharp problem-solving skills with a focus on algorithms, data structures, and schema design
+Bachelor's degree in Computer Science or equivalent real-world experience
+Bonus Points
+Experience with mobile development, either native or hybrid
+Familiarity with AWS infrastructure
+Experience with email / notifications technologies
+Experience writing Go in production systems
+Perks
+Medical, Dental, Vision & Disability Insurance
+401(k)
+Maternity & Parental Leave
+Flexible PTO
+Amazon Employee Discount
+Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. 
 
-Work with global compiler, hardware and application teams to oversee improvements and problem resolutions
+Job ID: TW9041
 
-Be part of a team that is at the center of deep-learning compiler technology spanning architecture design and support through functional languages
+The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits.
 
-What we need to see:
+US, WA, Seattle - Annually
 
-B.S./ M.S./PhD. (or equivalent experience); MS/ PhD highly desired 
+$110,500 - $160,000 USD
 
-Compiler code generation experience (preferably with LLVM)
+US, CA, San Francisco - Annually
 
-Proficient hands-on C++ programming skills
+$127,100 - $185,000 USD
 
-Strong background in software engineering principles with a focus on crafting robust and maintainable solutions to challenging problems
+Twitch is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.
 
-Good communication and documentation skills and self-motivated
-
-Ways to stand out from the crowd:
-
-Significant academic compiler related project or thesis work
-
-Background in LLVM code generation including instruction scheduling, software pipelining, register allocation, GlobalISel, TableGen, LLVM IR, and Machine IR (MIR)
-
-Experience in compiler unit testing, IRs, and visualization of IRs
-
-With competitive salaries and a generous benefits package, we are widely considered to be one of the technology world’s most desirable employers. We have some of the most forward-thinking and hardworking people in the world working for us and, due to unprecedented growth, our exclusive engineering teams are rapidly growing. If you're a creative and autonomous engineer with a real passion for technology, we want to hear from you.
-
-Your base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 108,000 USD - 178,250 USD for Level 1, and 124,000 USD - 195,500 USD for Level 2.
-You will also be eligible for equity and benefits.
-
-Applications for this job will be accepted at least until May 3, 2026.
-This posting is for an existing vacancy. 
-
-NVIDIA uses AI tools in its recruiting processes.
-
-NVIDIA is committed to fostering a diverse work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.
+Twitch values your privacy. Please consult our Candidate Privacy Notice, for information about how we collect, use, and disclose personal information of our candidates.

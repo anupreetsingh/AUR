@@ -18,6 +18,7 @@
 \usepackage{fontawesome}
 \input{glyphtounicode}
 
+% Same page geometry as resume/main.tex so visual identity matches
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
@@ -38,18 +39,19 @@
 \pdfgentounicode=1
 
 %-------------------------
-% Per-application variables
+% Per-application variables -- fill per Task 2
 %-------------------------
-\newcommand{\companyName}{Esri}
-\newcommand{\companyTeam}{ArcGIS Data Pipelines Team}
-\newcommand{\roleTitle}{Backend Software Engineer}
-\newcommand{\companyCity}{Redlands, CA}
+\newcommand{\companyName}{Twitch}
+\newcommand{\companyTeam}{Commerce Engineering}
+\newcommand{\roleTitle}{Software Engineer}
+\newcommand{\companyCity}{Seattle, WA}
 \newcommand{\letterDate}{\today}
 \newcommand{\salutation}{Dear \companyName{} Hiring Team,}
 
 %-------------------------
 \begin{document}
 
+%--------- HEADER (matches resume) ---------
 \begin{center}
     \textbf{\Huge \scshape Anupreet Singh} \\ \vspace{2pt}
     \small \href{mailto:anupreet2226579@gmail.com}{\underline{anupreet2226579@gmail.com}}
@@ -65,6 +67,7 @@
 \hrule
 \vspace{10pt}
 
+%--------- DATE & ADDRESSEE ---------
 \letterDate
 
 \vspace{4pt}
@@ -73,14 +76,18 @@ Hiring Team \\
 \companyTeam \\
 \companyCity
 
+%--------- SALUTATION ---------
 \salutation
 
-I am excited to apply for the \roleTitle{} role on the \companyTeam{}. Your mission of turning complex geospatial information into systems people can trust mirrors the work I most enjoy: building reliable backend services, connectors, and data workflows that help users make timely decisions.
+%--------- BODY PARAGRAPHS ---------
+% Replace these three paragraphs per Task 2.
+Twitch's Commerce Engineering team owns the products — Subscriptions, Bits, Gifting, and Hype Train — that form the real-time economic layer between creators and millions of concurrent viewers. I am applying for the Software Engineer role on this team because building consumer-facing transactional systems at live-streaming scale is precisely the kind of engineering challenge I want to work on.
 
-At Product Manager Accelerator, I shipped a Python REST API and source connectors that ingested partner CSV/JSON into PostgreSQL and AWS S3, with CI/CD and OpenTelemetry tracing, cutting analyst onboarding time 30\% across 6 partners. I added pytest API suites and database tracing that reduced production incidents by 40\%. At Platinum Business Services, I am building Cyberdome's retrieval pipelines on Qdrant, integrating OpenAI and local Ollama RAG services for context-aware querying and automated validation, an example of applying AI to improve engineering workflows.
+At Product Manager Accelerator, I built an end-to-end subscription management feature in React and Node.js, backed by a REST API backend that processed 500+ daily transactions, and shipped a companion Go microservice for real-time subscription event alerts that cut notification latency by 70\%. The full-stack scope — transactional backend, consumer-facing UI, and a low-latency delivery path — maps directly to what Twitch Commerce Engineering ships across its subscription and engagement products. An earlier internship building a consumer-facing MERN-stack application with user authentication and payment flows at Turfco Landscape reinforced the same discipline of owning a complete, user-facing system end to end.
 
-My coursework and projects in API design, system design, distributed systems, and geospatial data processing, paired with hands-on Python, Java, SQL, Docker, and Kubernetes experience, prepare me to design and own services that run from cloud-native SaaS to on-premises deployments. I would welcome the chance to collaborate with your product, frontend, and platform teams to translate ideas into concrete, well-tested implementations.
+My coursework in Data Structures \& Algorithms and Distributed Systems has given me the foundations this role requires: algorithm reasoning, schema design, and intuition for systems that hold under concurrent load. That background, combined with production experience across full-stack layers and hands-on AWS usage, positions me to ramp quickly and contribute to Twitch's commerce products. I look forward to collaborating cross-functionally, owning full-stack features end to end, and helping ship the transactional and engagement systems that power the Twitch creator economy.
 
+%--------- SIGN-OFF ---------
 \vspace{6pt}
 Sincerely, \\
 Anupreet Singh
