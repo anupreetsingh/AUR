@@ -1,49 +1,67 @@
-Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day.
+Software Engineer - New Grad
+New York, New York
 
-We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on LinkedIn and X,  and discover the projects we’re solving on our Blog. Be sure to explore our Interviewing Guide to learn how to ace our interview process.
+38%
+Resume Match
+5 of 13 keywords
+Uses advanced AI matching
+Simplify
+Simplify
+V1
+V2
+SeatGeek believes live events are powerful experiences that unite humans. With our technological savvy and fan-first attitude we’re simplifying and modernizing the ticketing industry.
+We’re building an awesome entertainment ecosystem where fans have effortless access to incredible live experiences, while sports teams, venues, and shows have unprecedented access to their audiences – because everyone should expect more from the ticketing industry.
 
-About the Role
-Join Twitch's Commerce Engineering organization, where we're revolutionizing how viewers engage with their favorite creators. We are the teams behind Subscriptions, Gifting, Bits, Hype Train and Turbo products. From experimental features to established systems used by millions, we're constantly pushing the boundaries of what's possible in live streaming.
+Open roles for new graduates
+We are looking for the best and brightest Spring/Summer 2026 college graduates to help us make live entertainment even better! Experience is preferred, but not required – in fact, we look forward to supporting you by teaching you new technologies and mentoring you in software development craft as a member of our world-class engineering team. 
 
-This position and team are based in Seattle, WA and San Francisco, CA
+We have roles open in the following technologies: 
 
-You Will:
-Craft immersive, interactive experiences that keep viewers supporting creators while engaging with the Twitch Community.
-Architect and build robust, scalable applications that can handle millions of concurrent users
-Collaborate across teams to create cohesive solutions that drive business impact
-Transform customer feedback into innovative features that enhance the Twitch experience
-You Have:
-0-2 years of professional software development experience
-Excellent verbal and written communication skills; Ability to effectively collaborate with teammates is critical to success. 
-A track record of building consumer-facing products that users love
-Demonstrable experience  of modern programming languages and frameworks
-Sharp problem-solving skills with a focus on algorithms, data structures, and schema design
-Bachelor's degree in Computer Science or equivalent real-world experience
-Bonus Points
-Experience with mobile development, either native or hybrid
-Familiarity with AWS infrastructure
-Experience with email / notifications technologies
-Experience writing Go in production systems
+Backend (Python, Go, C#)
+Frontend Web (Typescript + React)
+Mobile (Kotlin, Swift)
+Platform (AWS, Docker, Python, Go)
+What you'll do
+Solve unique and challenging customer problems
+Work with leading-edge tech in the cloud or on web and mobile
+Help scale our software as we grow our booming business
+Take on the challenges of building software for a many-sided marketplace
+Empower decision-making at a rapidly growing data-driven company 
+Run experiments and evaluate new technologies that will determine the future of our business for years to come
+Build performant, beautiful, inclusive user interfaces that delight our users and enhance our brand
+What you have
+You are a college student graduating in the Spring/Summer of 2026, ideally in computer science or a related degree
+Experience in building software. We'll be interested in hearing about what you've built and how you built it
+Problem solving abilities, adept at handling technical challenges. SeatGeek engineers create custom solutions to unique ticketing problems, including venue mapping, inventory tracking, and event matching. We'll be excited to hear about the problems you've solved
+Passion for software craftsmanship and product. You hold yourself and your code to a high standard
+Commitment to your teammates. You enjoy working with a diverse group of people with different experiences and take pride in mentoring and learning from others
+Our stack
+You do not need experience with all of these, but we thought you might be curious. What we care about is your experience, skills, and approach to problem-solving. Tools can be learned.
+
+Languages: Python, Go, C#+.NET Core, React+Typescript, Swift, Kotlin
+Datastores: Postgres, Redis, Elasticsearch
+Cloud: AWS
+Version control: Gitlab
 Perks
-Medical, Dental, Vision & Disability Insurance
-401(k)
-Maternity & Parental Leave
-Flexible PTO
-Amazon Employee Discount
-Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. 
+Equity stake
+Discretionary annual bonus
+Flexible work environment, allowing you to work as many days a week in the office as you’d like or 100% remotely
+A WFH stipend to support your home office setup
+Unlimited PTO
+Eligible for the SG discretionary annual bonus based on individual and company performance
+Up to 16 weeks of fully-paid family leave 
+401(k) matching 
+Student loan matching program
+Health, vision, dental, and life insurance
+Up to $25k towards family building, reproductive health services and Gender-affirming care
+$500 per year for wellness expenses
+Subscriptions to Headspace (meditation), Headspace Care (therapy), and One Medical
+$120 per month to spend on tickets to live events
+Annual subscription to Spotify, Apple Music, or Amazon music
+ **Please note you are expected to come into the SeatGeek New York City Office at least 3 days a week**
+The salary range for this role is $110,000-$130,000 USD. This role is equity eligible. In addition, you may receive a discretionary annual bonus based on individual and company performance. Actual compensation packages are based on a wide array of factors unique to each candidate, including but not limited to skill set, years and depth of experience, certifications, and specific location.
 
-Job ID: TW9041
+SeatGeek is committed to providing equal employment opportunities to all employees and applicants for employment regardless of race, color, religion, creed, age, national origin or ancestry, ethnicity, sex, sexual orientation, gender identity or expression, disability, military or veteran status, or any other category protected by federal, state, or local law. As an equal opportunities employer, we recognize that diversity is a positive attribute and we welcome the differences and benefits that a diverse culture brings. Come join us!
 
-The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits.
+To review our candidate privacy notice, click here.
 
-US, WA, Seattle - Annually
-
-$110,500 - $160,000 USD
-
-US, CA, San Francisco - Annually
-
-$127,100 - $185,000 USD
-
-Twitch is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.
-
-Twitch values your privacy. Please consult our Candidate Privacy Notice, for information about how we collect, use, and disclose personal information of our candidates.

@@ -14,12 +14,14 @@ Using the details in `Prompting/Context/JD.txt` and the updated `resume/main.tex
 
 ### Resume Source Priority
 
-When writing the cover letter, prefer resume evidence in this order:
+When writing the cover letter, evaluate the **final state** of `resume/main.tex` as a whole against `Prompting/Context/JD.txt` and pick the evidence that best matches the JD. Do NOT privilege content simply because it was newly written or edited in Task 1; pre-existing roles, projects, and coursework are eligible on equal footing.
 
-1. Newly written or materially updated Task 1 content that directly matches the JD.
-2. Reordered skills/coursework content from Task 1 Step 1.
-3. Minor paraphrases introduced in Task 1 Step 2.
-4. The strongest Task 1 PMA story content from Step 3, when it provides the clearest JD-aligned evidence.
+Ranking when choosing what to cite:
+
+1. Strongest JD overlap, regardless of which section (industry experience, academic experience, projects, or skills/coursework) it lives in. "Overlap" means shared technologies, problem space, product surface, users, or scale.
+2. Among items with comparable overlap, prefer the most recent experience.
+3. If the JD emphasizes a domain the resume covers obliquely (e.g. payments, real-time systems, marketplace flows, ML/AI, security/compliance), pull from any role or project that touches that domain --- including older work or class projects --- rather than forcing in the most recent role.
+4. For the closing, draw on skills/coursework only when a specific item materially strengthens the fit. Rotate which 2--3 items you cite based on the JD's primary axis (scale/data, product breadth, ML/AI, frontend craft, security, etc.) instead of defaulting to the same triplet across applications.
 
 ## Step 0: Reset main.tex to a clean baseline
 
