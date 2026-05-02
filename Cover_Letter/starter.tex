@@ -38,15 +38,15 @@
 
 \pdfgentounicode=1
 
-%-------------------------
-% Per-application variables -- fill per Task 2
-%-------------------------
+%Area: companyName 
 \newcommand{\companyName}{Company Name}
+%Area: companyTeam
 \newcommand{\companyTeam}{Team / Division}
+%Area: roleTitle
 \newcommand{\roleTitle}{Role Title}
+%Area: companyCity
 \newcommand{\companyCity}{City, ST}
-\newcommand{\letterDate}{\today}
-\newcommand{\salutation}{Dear \companyName{} Hiring Team,}
+
 
 %-------------------------
 \begin{document}
@@ -68,7 +68,7 @@
 \vspace{10pt}
 
 %--------- DATE & ADDRESSEE ---------
-\letterDate
+\today
 
 \vspace{4pt}
 Hiring Team \\
@@ -77,15 +77,16 @@ Hiring Team \\
 \companyCity
 
 %--------- SALUTATION ---------
-\salutation
+Dear \companyName{} Hiring Team,
 
 %--------- BODY PARAGRAPHS ---------
-% Replace these three paragraphs per Task 2.
-Replace with opening paragraph.
+% Area: body.p1
 
-Replace with evidence paragraph.
 
-Replace with closing paragraph.
+% Area: body.p2
+
+
+% Area: body.p3
 
 %--------- SIGN-OFF ---------
 \vspace{6pt}

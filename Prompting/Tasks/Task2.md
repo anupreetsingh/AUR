@@ -1,76 +1,100 @@
 # Task 2
 
-Using the details in `Prompting/Context/JD.txt` and the updated `resume/main.tex` from Task 1, update `Cover_Letter/main.tex`.
+## Step 0: Reset main.tex to a clean baseline (FIRST ACTION)
+Before reading any file other than this Task2.md:
+- Run exactly: `cp Cover_Letter/starter.tex Cover_Letter/main.tex`
+- Do NOT read or modify `Cover_Letter/starter.tex` directly at any point — `cp` copies it without exposing its contents to you.
+- After the overwrite, treat the new contents of `Cover_Letter/main.tex` as the current state for all later steps.
+
+
+## Inputs
+
+- Read `Cover_Letter/main.tex`, `resume/main.tex` (the Task 1 final state), and `Prompting/Context/JD.txt` after step 0's cp completes.
+- Use the details in `Prompting/Context/JD.txt` and `resume/main.tex` to update `Cover_Letter/main.tex`.
+- Do not read any other file.
+- If this task requires running a script or compile command, you may execute the explicitly allowed commands and inspect their output, but do not inspect their source code.
+
+
+
 
 ## Global Constraints (MANDATORY)
 
-- Do NOT modify any LaTeX structure or commands (for example: `\documentclass`, `\usepackage`, spacing, or formatting).
+- Do NOT modify any LaTeX structure or commands (for example: `\documentclass`, `\usepackage`, `\newcommand`, spacing, or formatting).
 - Only change plain-text content inside existing command values or body paragraphs.
-- Consider steps sequentially and at each step, only use: the JD, the current contents of `resume/main.tex`, the current contents of `Cover_Letter/main.tex`, and that step's rules.
 - Only modify the content explicitly included in the current step's scope.
-- Use only details that are directly supported by `Prompting/Context/JD.txt` and the Task 1 version of `resume/main.tex`.
+- Use only details that are directly supported by `Prompting/Context/JD.txt` and `resume/main.tex`. 
 - The cover letter must read as one coherent argument, not as a prose version of the resume.
-- Each body paragraph must have a distinct job: `body.p1` = company/role hook, `body.p2` = strongest proof, `body.p3` = fit + close.
+- If at any point you encounter a non-zero exit code,stop and ask the human. Do not improvise around failures.
+- Do not bother runnig any shell commands not mentioned here.
+- Every editable area should be within its character budget.
 
-### Resume Source Priority
 
-When writing the cover letter, evaluate the **final state** of `resume/main.tex` as a whole against `Prompting/Context/JD.txt` and pick the evidence that best matches the JD. Do NOT privilege content simply because it was newly written or edited in Task 1; pre-existing roles, projects, and coursework are eligible on equal footing.
+### Max character budget per editable area. Locate each via its `% Area:` anchor in `main.tex`.
 
-Ranking when choosing what to cite:
+| Area              | Budget |
+| ----------------- | -----: |
+| companyName       |     60 |
+| companyTeam       |     60 |
+| roleTitle         |     80 |
+| companyCity       |     60 |
+| body.p1           |    400 |
+| body.p2           |   1050 |
+| body.p3           |    900 |
 
-1. Strongest JD overlap, regardless of which section (industry experience, academic experience, projects, or skills/coursework) it lives in. "Overlap" means shared technologies, problem space, product surface, users, or scale.
-2. Among items with comparable overlap, prefer the most recent experience.
-3. If the JD emphasizes a domain the resume covers obliquely (e.g. payments, real-time systems, marketplace flows, ML/AI, security/compliance), pull from any role or project that touches that domain --- including older work or class projects --- rather than forcing in the most recent role.
-4. For the closing, draw on skills/coursework only when a specific item materially strengthens the fit. Rotate which 2--3 items you cite based on the JD's primary axis (scale/data, product breadth, ML/AI, frontend craft, security, etc.) instead of defaulting to the same triplet across applications.
+> **Budgets count rendered text only, excluding LaTeX markup.** Commands like `\textbf{}`, `\\`, `\vspace{}`, and `\roleTitle{}` do not count toward the budget — but the text they expand to (e.g. the actual role title) and the spaces inside the rendered output do.
 
-## Step 0: Reset main.tex to a clean baseline
 
-**Scope:** `Cover_Letter/main.tex`
+## Style Rules
 
-- Overwrite `Cover_Letter/main.tex` with the full contents of `Cover_Letter/starter.tex`.
-- Do NOT modify `Cover_Letter/starter.tex` at any point. It is the baseline source of truth.
-- After the overwrite, treat the new contents of `Cover_Letter/main.tex` as the current state for all later steps.
+- No em dashes (`---` or `—`) in body paragraphs. Use commas, parentheses, or two short sentences.
+- Do NOT open `body.p1` with a generic company-mission summary line ("X's Engineering org is integrating AI/ML into products that connect millions...", "X is committed to..."). Lead with role-specific or applicant-specific framing instead.
+- Keep the tone direct, specific, and natural. Do not overstate enthusiasm or invent claims not supported by the resume.
+
 
 ## Step 1: Update Company / Role Variables
 
-**Scope:** `vars.companyName`, `vars.companyTeam`, `vars.roleTitle`, `vars.companyCity`, and `vars.salutation`
+**Scope:** `\companyName`, `\companyTeam`, `\roleTitle`, `\companyCity`. 
 
-- Fill `\companyName`, `\companyTeam`, `\roleTitle`, `\companyCity`, and `\salutation` using the JD.
+- Fill each variable using the JD.
 - Use the exact company name and exact role title from the JD when they are clearly stated.
-- Use the exact team, product group, or division name if the JD clearly provides one. Otherwise use a clean generic value that fits the existing template, such as `Hiring Team`.
-- Use the clearest location string supported by the JD for `\companyCity`.
-- Leave `\letterDate` as `\today` unless the user explicitly asks for a fixed date.
-- Keep `\salutation` natural and conservative. Default to `Dear \companyName{} Hiring Team,` unless the JD clearly supports a more specific team-facing salutation.
+- Use the exact team, product group, or division name if the JD clearly provides one. Otherwise use a clean generic value that fits the existing template (e.g. `Engineering` when the JD names an Engineering org without a specific team; `Hiring Team` as a fallback). Avoid duplicating "Hiring Team" in both the addressee block and `\companyTeam`.
+- Use the clearest location string supported by the JD for `\companyCity`. If the JD lists multiple cities, default to the first listed or the city the user is targeting.
 
-## Step 2: Write the Opening
 
-**Scope:** `body.p1`
+## Step 2: Write the Opening (body.p1)
 
-- Replace the starter placeholder text in the first body paragraph.
-- State the exact role and reference the team, product, users, or engineering problem the JD emphasizes.
-- Lead with a concrete company/problem hook, not generic mission language.
-- Explain in one clear sentence why that work aligns with the kind of engineering problems you most want to solve.
-- Keep the tone direct, specific, and natural. Do not overstate enthusiasm or invent claims not supported by the resume.
+**Scope:** `body.p1`. 
+**Goal:** Explain why the applicant is applying to this role by mapping JD responsibilities to applicant fit.
 
-## Step 3: Craft the Evidence Story
+- Identify 2–3 concrete responsibilities from the JD's day-to-day work sections (e.g. "What You'll Do", "Typical Day", "Responsibilities", "Expertise"), not company mission lines. These are the hooks.
+- For each hook, name the applicant experience (internship, graduate project, academic role) that maps to it. Keep the mapping framing-level: name the experience, not its tools, frameworks, or quantified outcomes. Those belong in `body.p2`.
+- Start by stating the (`\roleTitle{}`) once
+- 2–4 short sentences total.
+- Do NOT begin with a generic company-mission summary. Lead with what about the role's responsibilities drew the applicant in.
 
-**Scope:** `body.p2`
 
-- Use 3–4 high-priority JD keywords that were added in Task 1 and not already introduced in Step 2.
-- Replace the starter placeholder text in the second body paragraph with the strongest evidence paragraph from the updated `resume/main.tex`.
-- Lead with the single most recent or most relevant experience.
-- Name the technologies, responsibilities, and outcomes that mirror the JD.
-- Include defensible quantified outcomes when available.
-- Build the paragraph around one primary proof story. If a second experience adds a distinct signal, include it only as a brief supporting clause rather than a second full story.
-- Do NOT turn this paragraph into a keyword list or a recap of multiple unrelated resume bullets.
-- Keep the paragraph focused on transferable engineering work that directly supports the target role.
+## Step 3: Justify with Ranked Work Evidence (body.p2)
 
-## Step 4: Write the Closing
+**Scope:** `body.p2`. 
+**Goal:** Justify the fit by discussing work from `resume/main.tex` ranked by relevance to the role description in `Prompting/Context/JD.txt`.
 
-**Scope:** `body.p3`
+- Build the candidate set from all work entries in current state of `resume/main.tex`: Industry Experience (Platinum, PMA, Turfco), Academic Experience (Graduate Assistant, Teaching Assistant), and Projects.
+- Score each candidate by JD overlap (shared technologies, problem space, product surface, users, scale, role-level expectations). Most recent breaks ties.
+- Discuss the top 2–4 candidates in descending rank order. Lead with the strongest fit.
+- For each item: name the concrete stack/tool, the work done, and a defensible quantified outcome when the resume supports one. Keep numbers modest and interview-defensible.
+- Do NOT force a fixed split (e.g. AI/ML half vs. production half). If the JD is AI-heavy, lean AI; if production-heavy, lean production. Drop low-rank items rather than padding.
+- Defensibility rule: do NOT swap a resume stack for a JD-named stack the resume does not back up (e.g. Ruby/Rails, Swift, Kotlin). Use the closest defensible stack the resume actually carries; surface unsupported stacks only at the skills level.
+- Use 3–4 high-priority JD keywords from `resume/main.tex` not already introduced in `body.p1`.
+- Do NOT recap every resume bullet. Each named item must do real argumentative work for the JD fit.
 
-- Replace the starter placeholder text in the third body paragraph.
-- Write a tight closing paragraph that explains why your background fits the team's work and how you would contribute.
-- Reference coursework, projects, or tools only when they strengthen that fit directly. Do NOT turn the closing into a stack inventory.
-- Close with a forward-looking sentence about contributing to the team, collaborating cross-functionally, or shipping well-tested software in the role.
-- Keep the paragraph concise, confident, and specific.
+
+
+## Step 4: Write the Closing (body.p3)
+
+**Scope:** `body.p3`. **Goal:** Cover JD soft/culture signals and logistics, show applicant fit on each, and close with how the applicant would like to hear back.
+
+- Identify 2–3 Soft/Culture signals or logistics from the JD: collaboration values, ownership, learning posture, on-call/incident response, code-review and testing culture, mentorship/teaching, location/relocation/remote stance, work authorization, start date or timeline, compensation transparency, interview process notes.
+- For each, write a single concise clause about how it suits the applicant. Pull supporting fit from `resume/main.tex` only when the resume actually backs it (e.g. GA's code reviews and Agile/Scrum work for a JD review-culture signal; TA office-hours mentorship for a JD onboarding/mentorship signal; campus location for a JD city/relocation signal).
+- Do NOT fabricate logistical claims (e.g. visa status, relocation willingness, start date) that the JD does not name AND the user has not supplied. If a JD logistic has no defensible signal on either side, skip it.
+- Close with a forward-looking sentence stating how the applicant would like to hear back: a conversation with the team, the next interview step, or a specific time-bound follow-up. Direct, without overstating enthusiasm.
+- Do NOT turn the closing into a stack inventory or a recap of resume bullets.

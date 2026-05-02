@@ -1,31 +1,66 @@
-At Flexport, we believe global trade can move the human race forward. That’s why it’s our mission to make global commerce so easy there will be more of it. We’re shaping the future of a $10T industry with solutions powered by innovative technology and exceptional people. Today, companies of all sizes—from emerging brands to Fortune 500s—use Flexport technology to move more than $19B of merchandise across 112 countries a year. 
+Software Engineer, Airbnb - New Grad
+San Francisco, Seattle
+Role overview
+Application
+Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.
 
-The recent global supply chain crisis has put Flexport center stage as we continue to play a pivotal role in how goods move around the world. We are proud to have the support of the best investors in the game who believe in our mission, solutions and people. Ready to tackle global challenges that impact business, society, and the environment? Come join us.
+ 
 
-The Opportunity
+The Community You Will Join:
 
-This is a unique opportunity to join a new engineering team at the ground floor. As an SDE 1, you will learn from senior and staff level engineers while contributing to real production systems that power global trade. We are building Flexport’s client-facing rates platform and a new self-serve booking experience, moving the company from an assisted-sales model to a tech-run one.
+At Airbnb, we believe technology has the power to bring people together — and our engineers are the ones building it. Our Engineering org is a diverse, fast-moving group of teams working across Payments, Trust, Marketing, Relevance & Personalization, and more. Together, we're tackling some of the hardest problems in tech: search relevance at global scale, fraud prevention, seamless payments, and fueling growth — all while delivering a product experience that feels effortless and beautiful. We're also at the forefront of integrating AI and machine learning into our products — from personalized search experiences to intelligent trust and safety systems — and we're looking for curious engineers who are excited to grow alongside this technology.
 
-You will help build the "front door" of our Client App: the interfaces and services that allow customers to see pricing and book shipments without manual intervention. This is an AI-first team where you will see firsthand how intelligent automation is applied to real-world logistics. If you are looking for a high-growth environment where you can see your code impact thousands of shipments across 112 countries, this is the team for you.
+If you're energized by engineering that creates real-world human connection — and by the idea that your code will be experienced by millions of people around the world — you'll feel right at home here.
 
-You Will
-Design, develop, test, deploy, and maintain systems that represent the real-world intricacies of global logistics and pricing logic.
-Work within an AI-integrated codebase, learning how to build and maintain services that support autonomous booking and intelligent quoting.
-Contribute to code reviews to maintain code quality, share knowledge, and learn from experienced mentors on the team.
-Collaborate with engineering, product, and design to translate complex business problems into elegant technical solutions.
-Build highly available, secure, and distributed services within a modern microservices architecture.
-Build and launch products rapidly and incrementally: we ship to production dozens of times per day.
-Ensure high-quality standards by incorporating metrics and monitoring into every service you touch.
-You Should Have
-Bachelor’s degree in Computer Science, Software Engineering, or a related field, or equivalent practical experience.
-1+ years of professional experience in software development with demonstrated coding skills: strong internship experience in a product-focused environment is highly valued.
-Proficiency in modern programming languages: specifically Java, Ruby, or TypeScript.
-Familiarity with technologies like databases, API development, and modern frontend frameworks like React.
-AI Curiosity: A strong interest in how AI and LLMs are transforming software development and a desire to learn how to build with these technologies.
-A self-starter attitude: You are curious, eager to learn, and when you see a problem, you look for a way to solve it.
-Product Curiosity: An interest in how users interact with software and a desire to understand the "why" behind the features you build.
-It’s a Plus If You Have
-Experience with elements of our tech stack: Java, Spring Boot, Ruby on Rails, React, AWS.
-Experience using AI coding assistants to accelerate your development workflow.
-Ability to convey technical ideas in common terms to business stakeholders and product managers.
-Excellent written and verbal communication skills.
+ 
+
+The Difference You Will Make:
+
+As a Software Engineer (New Grad) at Airbnb, you’ll play a vital role in building, supporting, and refining the products and systems that make Airbnb’s mission possible. Your work will directly contribute to high-quality, reliable experiences for our global community—whether you’re fixing bugs, launching well-defined features, or enhancing existing components. You'll also have the opportunity to contribute to AI-powered features, applying foundational knowledge of machine learning concepts and modern AI tools to build smarter, more personalized experiences for our hosts and guests. By clearly communicating challenges and collaborating with teammates across functions, you’ll help drive projects forward with transparency and trust.
+
+You’ll foster a sense of belonging by actively seeking feedback, sharing your own learnings, and supporting the onboarding of new team members. You’ll help uphold Airbnb’s commitment to excellence by following best practices, delivering tasks autonomously, and continually improving your technical skills. Your curiosity, empathy, and commitment to candid communication will empower you to make a meaningful impact—on projects, teammates, and Airbnb’s inclusive culture.
+
+ 
+
+A Typical Day: 
+
+Attend team syncs to discuss priorities, share progress, and surface any blockers with transparency.
+Dive into coding—fixing bugs, developing features, or refining APIs and components—while applying best practices for code quality, error handling, and testability. Leverage AI-assisted development tools (e.g., Claude Code or similar) to accelerate your workflow and improve code quality.
+Participate in design or code reviews, ask clarifying questions, and apply feedback to improve your work. Work closely with cross-functional partners like product managers and designers to ensure your tasks align clearly with broader goals.
+Dedicate time to expanding your technical knowledge through documentation, mentorship, or internal knowledge-sharing sessions. This includes staying current on AI/ML developments relevant to your team's domain — whether that's recommendation systems, natural language understanding, or AI safety practices. Seek guidance from managers or tech leads when tackling unfamiliar problems.
+Contribute to team activities, such as onboarding new hires (e.g., being an onboarding buddy), sharing observations from the hiring process, or joining in cultural events focused on diversity, inclusion, and innovation.
+Share updates on your progress and next steps, highlighting challenges or learnings. 
+ 
+
+Your Expertise:
+
+This role is designed for recent graduates (Bachelor's or Master's) with less than 1 year of full-time professional experience who are ready to grow fast and make an impact.
+
+Strong foundation in Computer Science fundamentals — data structures, algorithms, design patterns, and systems thinking
+Proficiency in one or more of: Java, Scala, Ruby, Ruby on Rails, C++, SQL, HTML/CSS, JavaScript, Objective-C, Swift (iOS), or Kotlin (Android)
+Foundational awareness of AI/ML concepts — such as supervised learning, model evaluation, or working with APIs backed by large language models (LLMs) — gained through coursework, personal projects, or internships
+Familiarity with Python and common AI/ML libraries (e.g., NumPy, scikit-learn, or PyTorch) is a plus, as is experience integrating cloud-based AI services or LLM APIs
+An understanding of responsible AI principles — including fairness, privacy, and safety — and a curiosity about how these apply to real-world product development
+Bonus points for leadership experience, community involvement, or teaching/mentoring — we love engineers who invest in others
+ 
+
+Your Location:
+
+Preference for candidates based in San Francisco, California or Seattle, Washington with the ability to commute to the office three days per week. Additional in-person attendance for team meetings or offsites may be required as needed. Domestic Relocation support will be provided for candidates open to relocating.
+
+ 
+
+Our Commitment To Inclusion & Belonging:
+
+Airbnb is committed to working with the broadest talent pool possible. We believe diverse ideas foster innovation and engagement, and allow us to attract creatively-led people, and to develop the best products, services and solutions. All qualified individuals are encouraged to apply.
+
+We strive to also provide a disability inclusive application and interview process. If you are a candidate with a disability and require reasonable accommodation in order to submit an application, please contact us at: reasonableaccommodations@airbnb.com. Please include your full name, the role you’re applying for and the accommodation necessary to assist you with the recruiting process. 
+
+We ask that you only reach out to us if you are a candidate whose disability prevents you from being able to complete our online application.
+
+How We'll Take Care of You:
+
+Our job titles may span more than one career level. The actual base pay is dependent upon many factors, such as: training, transferable skills, work experience, business needs and market demands. The base pay range is subject to change and may be modified in the future. This role may also be eligible for bonus, equity, benefits, and Employee Travel Credits.  
+
+Pay Range
+$128,000—$142,000 USD
