@@ -19,7 +19,7 @@ Before reading any file other than this Task1.md:
 
 - Do NOT modify any LaTeX structure or commands (for example: `\section`, `\subsection`, `\textbf`, spacing, or formatting).
 - Only change plain-text content inside existing lines or bullet points.
-- Consider steps sequentially and at each step, only use: the JD, the current contents of `resume/main.tex`, and that step's rules.
+- Don't form the plan all at once. Consider steps sequentially and only be concerned about the current step.
 - Only modify the content explicitly included in the current step's scope.
 - Assume `resume/main.pdf` must remain one page.
 - If at any point you encounter a non-zero exit code, a compile check failure that the per-step recovery rule does not resolve, a missing file, an ambiguous instruction, or a situation that would require guessing — stop and ask the human. Do not improvise around failures.

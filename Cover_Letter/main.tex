@@ -38,15 +38,15 @@
 
 \pdfgentounicode=1
 
-%-------------------------
-% Per-application variables -- fill per Task 2
-%-------------------------
+%Area: companyName
 \newcommand{\companyName}{Airbnb}
+%Area: companyTeam
 \newcommand{\companyTeam}{Engineering}
+%Area: roleTitle
 \newcommand{\roleTitle}{Software Engineer, New Grad}
+%Area: companyCity
 \newcommand{\companyCity}{San Francisco, CA}
-\newcommand{\letterDate}{\today}
-\newcommand{\salutation}{Dear \companyName{} Hiring Team,}
+
 
 %-------------------------
 \begin{document}
@@ -68,7 +68,7 @@
 \vspace{10pt}
 
 %--------- DATE & ADDRESSEE ---------
-\letterDate
+\today
 
 \vspace{4pt}
 Hiring Team \\
@@ -77,15 +77,17 @@ Hiring Team \\
 \companyCity
 
 %--------- SALUTATION ---------
-\salutation
+Dear \companyName{} Hiring Team,
 
 %--------- BODY PARAGRAPHS ---------
-% Replace these three paragraphs per Task 2.
-I am applying for the \roleTitle{} role because the JD pairs everyday SWE feature delivery with hands-on AI/ML integration in product surfaces like search and personalization. That is the same combination I have been pursuing across my internships and graduate projects.
+% Area: body.p1
+I'm applying for the \roleTitle{} role because the day-to-day, shipping AI-powered features, refining APIs and components, and working with cross-functional product partners, lines up with my two most recent internships at Product Manager Accelerator and Platinum Business Services. My graduate assistantship at UMBC reinforces the cross-team coordination side.
 
-On the AI/ML side, my current Data AI internship at Platinum Business Services has me building RAG retrieval pipelines on Qdrant against OpenAI and local Ollama LLM APIs to automate compliance control validation, complemented by transformer-based graduate projects mapping natural-language player commands to in-game actions with Mistral-7B and a lexically constrained EN-RU machine translation system. On the production engineering side, an internship at Product Manager Accelerator gave me end-to-end full-stack experience shipping a self-serve PM dashboard with a React and TypeScript frontend on a Java Spring Boot REST API, Postgres and Redis on AWS, deployed via Docker on Kubernetes with Kafka event streams, while an earlier MERN-stack build at Turfco Landscape covered consumer-facing essentials like authentication, payments, and a rule-based pricing engine.
+% Area: body.p2
+At Product Manager Accelerator I built an LLM-powered recommendation feature in Python and the OpenAI API, ranking product frameworks for 200+ PMs and shipping a React feedback widget that fed weekly re-ranking iterations. At Platinum Business Services I'm engineering vector embedding and retrieval pipelines on Qdrant for an AI-driven GRC platform (NIST 800-53, FedRAMP), wiring OpenAI API and local Ollama models into RAG-based control validation. Graduate AI/ML projects round it out: Bloodborne Text Adventure used Mistral-7B with few-shot prompting to map natural-language player commands to in-game actions. A separate constrained machine translation project beat the default .generate baseline with a custom beam search algorithm while honoring lexical constraints.
 
-My academic roles at UMBC round out the SWE practices the JD highlights: as a Graduate Assistant, I have run code reviews and coordinated with cross-functional stakeholders across multiple Agile/Scrum teams while grading coursework on software design, testing, and code quality, and as a Teaching Assistant on Data Structures I mentored students during office hours on OOP projects and supported homework design and grading. I would be excited to bring that mix of feature-shipping discipline and investment in others into Airbnb's engineering culture, collaborate cross-functionally with product, design, and data partners, and ship well-tested AI-backed features for hosts and guests.
+% Area: body.p3
+On the team-culture side, the role's emphasis on code reviews, mentorship, and steady delivery matches how I have been working outside of internships. As a Graduate Assistant at UMBC I support Agile/Scrum project development across multiple courses and align deliverables with cross-functional partners, mirroring the design and code review rhythm Airbnb describes. As a Teaching Assistant for Data Structures I held office hours for C++ OOP projects and helped onboard newer students, which lines up with the onboarding-buddy and knowledge-sharing culture you describe. I graduate with my Master's in May 2026 and would welcome a conversation with the team about next steps.
 
 %--------- SIGN-OFF ---------
 \vspace{6pt}

@@ -38,8 +38,8 @@ Before reading any file other than this Task2.md:
 | roleTitle         |     80 |
 | companyCity       |     60 |
 | body.p1           |    400 |
-| body.p2           |   1050 |
-| body.p3           |    900 |
+| body.p2           |   1200 |
+| body.p3           |    600 |
 
 > **Budgets count rendered text only, excluding LaTeX markup.** Commands like `\textbf{}`, `\\`, `\vspace{}`, and `\roleTitle{}` do not count toward the budget — but the text they expand to (e.g. the actual role title) and the spaces inside the rendered output do.
 
