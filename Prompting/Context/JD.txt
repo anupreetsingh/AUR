@@ -1,43 +1,45 @@
-Software Engineer I
-Engineering in Sunnyvale, California - Full Time
-Apply Now
+Who we are
 
-78%
-Resume Match
-7 of 9 keywords
-Uses advanced AI matching
-Simplify
-Simplify
-V1
-V2
-Employer:                    Uber Technologies, Inc.
+At CarGurus (NASDAQ: CARG), our mission is to give people the power to reach their destination. We started as a small team of developers determined to bring trust and transparency to car shopping. Since then, our history of innovation and go-to-market acceleration has driven industry-leading growth. In fact, we’re the largest and fastest-growing automotive marketplace, and we’ve been profitable for over 15 years.
 
-Job Title:                     Software Engineer I
+What we do
 
-Job Location:              Sunnyvale, California
+The market is evolving, and we are too, moving the entire automotive journey online and guiding our customers through every step. That includes everything from the sale of an old car to the financing, purchase, and delivery of a new one. Today, tens of millions of consumers visit CarGurus.com each month, and ~30,000 dealerships use our products. But they're not the only ones who love CarGurus—our employees do, too. We have a people-first culture that fosters kindness, collaboration, and innovation, and empowers our Gurus with tools to fuel their career growth. Disrupting a trillion-dollar industry requires fresh and diverse perspectives. Come join us for the ride!
 
-Job Type:                    Full Time
+Role overview
 
-Rate of Pay:                 $171,000 to $209,000 per year
+As a Software Development Engineer I on Inventory Platform, you’ll be an entry-level engineer building and operating the backend services and data pipelines that keep our marketplace inventory accurate, fast, and reliable. You’ll work with experienced engineers, learn our stack, and ship production code that impacts both shoppers and dealers.
 
-You will be eligible to participate in Uber's bonus program, and may be offered other types of comp. You will also be eligible for various benefits. More details can be found at the following link https://www.uber.com/careers/benefits.
+What you’ll do
 
-Duties:                         Design, develop, and test software applications. Design, develop, and/or test software applications using company technology stack. Apply technical knowledge to evaluate complex data, developments, and projects in order to provide recommendations to resolve technical issues. Support the company's business operations and improve engineering productivity. Build software components that can be integrated into a fully functional software system. Solve production issues in product and system reliability. Build GenAI Bot for Uber Customer Support. May telecommute.
+Design, build, and maintain backend services and batch/stream jobs that ingest, normalize, and enrich vehicle inventory data
+Write clean, well-tested code in our primary stack (e.g., Java, Spring, MongoDB, AWS)
+Collaborate with engineers, Product, and Data to deliver features from design through deployment and monitoring
+Help troubleshoot and resolve production issues, improving reliability and observability along the way
+Participate in agile ceremonies, code reviews, and technical discussions as you grow your skills and ownership
+What you'll bring
 
-Employer will accept a Bachelor's degree in Computer Science, Engineering (Any), Information Technology, Mathematics, Physics, or related field.
+0–2 years of professional software development experience (internships/co-ops welcome)
+Experience with at least one object-oriented language (e.g., Java, Kotlin, C#)
+Understanding of core CS fundamentals (data structures, algorithms, APIs)
+Interest in backend, distributed systems, or data-intensive applications
+Strong communication skills, willingness to ask questions, and a growth mindset
+Exposure to cloud-based environments, containers, or streaming technologies (e.g., AWS SQS) a plus
+Experience with monitoring/observability tools or operating production-like systems a plus
+Experience with database technologies like MySQL or MongoDB a plus
+The displayed range represents the expected annual base salary / On-Target Earnings (OTE) for this position. On-Target Earnings (OTE) is inclusive of base salary and on-target commission earnings, which applies exclusively to sales roles.
 
-Position requires:
+Individual pay within this range is determined by work location and other factors such as job-related skills, experience, and relevant education or training.
 
-C++, Python, Java, GIT, or SVN;
-SQL or MySQL;
-Data structures and algorithms development and functionality;
-Designing technology stacks;
-Debugging and monitoring for production services;
-Distributed systems;
-Software Development Lifecycle;
-Object Oriented Programming.
-Uber's mission is to reimagine the way the world moves for the better. Here, bold ideas create real-world impact, challenges drive growth, and speed fuels progress. What moves us, moves the world - let's move it forward, together.
+This annual base salary forms part of a comprehensive Total Rewards Package. In addition to benefits, this role may qualify for discretionary bonuses/incentives and Restricted Stock Units (RSUs).
 
-Uber is proud to be an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to sex, gender identity, sexual orientation, race, color, religion, national origin, disability, protected Veteran status, age, or any other characteristic protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. If you have a disability or special need that requires accommodation, please let us know by completing this form.
+Position Pay Range
+$97,000—$122,000 USD
 
-Offices continue to be central to collaboration and Uber’s cultural identity. Unless formally approved to work fully remotely, Uber expects employees to spend at least half of their work time in their assigned office. For certain roles, such as those based at green-light hubs, employees are expected to be in-office for 100% of their time. Please speak with your recruiter to better understand in-office expectations for this role.
+Working at CarGurus
+
+We reward our Gurus’ curiosity and passion with best-in-class benefits and compensation, including equity for all employees, both when they start and as they continue to grow with us. Our career development and corporate giving programs, as well as our employee resource groups (ERGs) and communities, help people build connections while making an impact in personally meaningful ways. A flexible hybrid model and robust time off policies encourage work-life balance and individual well-being. Thoughtful perks like daily free lunch, a new car discount, meditation and fitness apps, commuting cost coverage, and more help our people create space for what matters most in their personal and professional lives.
+
+We welcome all
+
+CarGurus strives to be a place to which people can bring the ultimate expression of themselves and their potential—starting with our hiring process. We do not discriminate based on race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, or sexual orientation. We foster an inclusive environment that values people for their skills, experiences, and unique perspectives. That’s why we hope you’ll apply even if you don’t check every box listed in the job description. We also encourage you to tell your recruiter if you require accommodations to participate in our hiring process due to a disability so we can provide the appropriate support. We want to know what only you can bring to CarGurus. #LI-Hybrid

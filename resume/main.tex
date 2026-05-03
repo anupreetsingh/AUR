@@ -20,6 +20,7 @@
 \usepackage{tabularx}
 %Added by Anupreet
 \usepackage[utf8]{inputenc}
+
 \input{glyphtounicode}
 
 
@@ -65,9 +66,6 @@
 
 %-------------------------
 % Custom commands
-
-%---- List \item commands (used inside the itemize wrappers below) ----
-
 \newcommand{\resumeItem}[1]{
   \item\small{
     {#1 \vspace{-2pt}}
@@ -98,16 +96,12 @@
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
-%---- Itemize environment wrappers (containers for the items above) ----
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-%---- Misc: bullet glyph for nested (second-level) itemize ----
-
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -134,33 +128,31 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {University of Maryland, Baltimore County}{Baltimore, MD}
-      {(Master of Science in Computer Science GPA-3.75/4.0)}{August 2024 - May 2026}\\
-    {\vspace{2mm}}
+      {(Master of Science in Computer Science GPA-3.75/4.0)}{August 2024 - May 2026}
+  \resumeSubHeadingListEnd
+  \vspace{-3mm}
+  \resumeSubHeadingListStart
     \resumeSubheading
       {Indian Institute of Information Technology, Sonepat}{Haryana, India}
       {(Bachelor of Technology in Computer Science and Engineering GPA : 8.45/10)}{August 2019 - May 2023} \\
+      \vspace{2mm}
+      % \textit{Summa Cum Laude, \textbf{GPA: 3.93/4.00})}{}
   \resumeSubHeadingListEnd
-  %\vspace{-3mm}
-  
 
 %-----------Skills/Relevant Coursework-----------
 \section{SKILLS / RELEVANT COURSEWORK}
-  \resumeSubHeadingListStart
+ \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
     \vspace{1mm}
-     % area: skills.languages
-     \textbf{Programming Languages}{: Python, C/C++, Java, SQL, JavaScript, C\#, R} \\
+     \textbf{Programming Languages}{: Java, TypeScript, Python, SQL, Kotlin, C++, C\#} \\
      \vspace{1mm}
-     % area: skills.tools
-     \textbf{Tools and Frameworks}{: Git, SVN, MySQL, PyTorch, LangChain, Scikit-learn, Pandas, FastAPI, Express, Node.js, REST APIs, React, PostgreSQL, MongoDB, Qdrant, Redis, AWS, Docker, GitHub Actions}\\
+     \textbf{Tools and Frameworks}{: Spring Boot, Node.js, Angular, REST APIs, ElasticSearch, Docker, AWS, Lambda, ECS, S3, SQS, Kinesis, Postgres, MySQL, MongoDB, Git, Jenkins} \\
      \vspace{1mm}
-     % area: skills.coursework
-     \textbf{Area of interest and Coursework}{: Data Structures \& Algorithms, Object Oriented Programming (OOP), Software Development Lifecycle, Distributed Systems, AI \& LLMs, Natural Language Processing} \\
+     \textbf{Area of interest and Coursework}{: Software Engineering, Distributed Systems, OOP, Data Structures \& Algorithms, Database Systems, Agile/Scrum, Cloud Computing, AI/ML Integration} \\
      \vspace{1mm}
-     % area: skills.cert
      \textbf{Workshops and Certifications}{: Amazon Campus Prep Series-2025 }
     }}
-  \resumeSubHeadingListEnd
+ \end{itemize}
 
  %-----------Experience-----------
 \section{INDUSTRY EXPERIENCE}
@@ -168,28 +160,23 @@
     \resumeSubheading
       {Data AI Intern}{Dec 2025 -- Present}
       {Platinum Business Services LLC}{Catonsville, MD}
-    \resumeItem{
-      % area: platinum.b1
-      - Developed backend services and data workflows for Cyberdome, an AI-driven platform automating GRC assessment across frameworks such as NIST 800-53 and FedRAMP.\\
-      % area: platinum.b2
-      - Engineered vector embedding and retrieval pipelines in Python for control data using Qdrant, enabling RAG-based querying and automated control validation with OpenAI API and local Ollama models.
-    }
+        \resumeItem{
+           - Contributed to the development of Cyberdome, a platform for automating cybersecurity compliance assessment across frameworks such as NIST 800-53 and FedRAMP\\
+           - Engineered vector embedding and retrieval pipelines for control data using Qdrant, enabling RAG systems (OpenAI API and local Ollama models) for context-aware querying and automated validation.
+        }
     \resumeSubheading
-      {Software Engineer Intern}{Sept 2025 -- Dec 2025}
+      {AI Engineer Intern }{Sept 2025 -- Nov 2025}
       {Product Manager Accelerator}{Tallahassee, FL}
-    \resumeItem{
-      % area: PMA.b1
-      - Built a GenAI customer support bot using Python, LangChain, and FastAPI, with a RAG-based knowledge layer over MySQL that deflected recurring learner inquiries and freed mentors for high-touch coaching.\\
-      % area: PMA.b2
-      - Deployed on AWS with Docker and Redis caching, holding p95 latency under 800ms during peak inquiry spikes.\\
-    }
+        \resumeItem{
+        - PM research handoffs lagged; built a Java/Spring Boot REST API with ElasticSearch and Docker on AWS to index AI briefs, cutting prep 30\% and shipping reusable docs.\\
+        - QA checks were manual; added TypeScript API tests and Jenkins gates, catching 12 issues.
+        }
     \resumeSubheading
       {Full Stack Developer Intern}{January 2023 -- June 2023}
       {Turfco Landscape Co.}{Surrey, BC}
-    \resumeItem{
-      % area: Turfco.b
-      - Built a MERN-stack application with user authentication, payments, and a rule-based cost estimation engine.\\
-    }
+        \resumeItem{
+        - Built a Node.js REST prototype with auth, payments, Git-tracked testing notes, and rule-based cost estimation\\
+        }
 \resumeSubHeadingListEnd
  %-----------Experience-----------
 \section{ACADEMIC EXPERIENCE}
@@ -197,19 +184,16 @@
     \resumeSubheading
       {Graduate Assistant}{Aug 2025 -- Present}
       {UMBC - Software Engineering \& Computer Architecture(400 Level Courses)}{Baltimore, MD}
-    \resumeItem{
-      % area: ga.b1
-      - Supported Agile/Scrum-driven Software Development Lifecycle across multiple teams and facilitated coordination between teams and stakeholders to align deliverables with evolving requirements.\\
-      % area: ga.b2
-      - Graded coursework including topics like pipelining, cache design, memory hierarchy, and instruction-level parallelism.\\
-    }
+        \resumeItem{
+        - Supported Agile/Scrum teams through architecture planning, code review feedback, testing guidance, and stakeholder coordination to align deliverables with requirements\\
+        - Graded architecture work on pipelining, caches, memory hierarchy, and scalable system tradeoffs.\\
+        }  
     \resumeSubheading
       {Teaching Assistant}{January 2025 -- June 2025}
       {UMBC - Data Structures (300 Level Course)}{Baltimore, MD}
-    \resumeItem{
-      % area: ta.b1
-      - Held office hours for C++ OOP projects and supported course administration through homework design and grading.\\
-    }
+        \resumeItem{
+        - Held office hours for Java/OOP data structures projects and supported homework design and grading\\
+        }
     
   \resumeSubHeadingListEnd
 
@@ -220,17 +204,17 @@
     \resumeSubheading
       {Bloodborne Text Adventure Edition}{Sep 2025 - Dec 2025}
       {Interpreting free-form player commands using transformer models}{}
-    \resumeItem{
-      - Modeled a Bloodborne-inspired game world using JSON-based character, location, item, and dialogue schemas \\
-      - Leveraged Mistral-7B with few-shot prompting to map natural language player commands to in-game actions.
-    }
+        \resumeItem{
+        - Modeled a Bloodborne-inspired game world using JSON-based character, location, item, and dialogue schemas \\
+        - Leveraged Mistral-7B with few-shot prompting to map natural language player commands to in-game actions.
+        }
 
     \resumeSubheading
       {When Pixels Talk Back}{Jan 2025 -- May 2025}
       {Watermarking impact analysis on computer vision models}{}
-    \resumeItem{
-      - Embedded a 1024-bit blind fragile watermark into RONI regions of lung CT scans, achieving near-lossless quality (SSIM 0.9999) while preserving DenseNet-169 performance (F1 0.952) \\
-    }
+        \resumeItem{
+        - Embedded a 1024-bit blind fragile watermark into RONI regions of lung CT scans, achieving near-lossless quality (SSIM 0.9999) while preserving DenseNet-169 performance (F1 0.952) \\
+        }
 
     \resumeSubheading
       {Nothing Lost in Translation}{Sep 2024 -- Dec 2024}
