@@ -54,7 +54,7 @@ Semantic note: items from the JD that are domain/topic names (e.g., "computer vi
 For all 4 lists:
 1. Build the candidate set:
    - Start with items already present in the list (post-Step 0).
-   - Add every JD-mentioned item to the list that fits its category.. Do not gate additions on whether `main.tex` already supports them.
+   - Add every JD-mentioned item to the list that fits its category. Do not gate additions on whether `main.tex` already supports them.
 2. Rank items by combining JD relevance and base content relevance, where "base content" = the existing `main.tex` bullets in Industry Experience, Academic Experience and Projects:
    - Tier 1 (highest): in the JD AND supported by base content.
    - Tier 2: in the JD but not supported by base content.

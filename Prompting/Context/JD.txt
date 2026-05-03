@@ -1,75 +1,43 @@
-Software Engineer, iOS Core Product - State College, PA, USA
-State College, PA, USA
+Software Engineer I
+Engineering in Sunnyvale, California - Full Time
+Apply Now
 
-13%
+78%
 Resume Match
-1 of 8 keywords
+7 of 9 keywords
 Uses advanced AI matching
 Simplify
 Simplify
 V1
 V2
-The mission of Speechify is to make sure that reading is never a barrier to learning.
+Employer:                    Uber Technologies, Inc.
 
-Over 50 million people use Speechify’s text-to-speech products to turn whatever they’re reading – PDFs, books, Google Docs, news articles, websites – into audio, so they can read faster, read more, and remember more. Speechify’s text-to-speech reading products include its iOS app, Android App, Mac App, Chrome Extension, and Web App. Google recently named Speechify the Chrome Extension of the Year and Apple named Speechify its App of the Day.
+Job Title:                     Software Engineer I
 
-Today, nearly 200 people around the globe work on Speechify in a 100% distributed setting – Speechify has no office. These include frontend and backend engineers, AI research scientists, and others from Amazon, Microsoft, and Google, leading PhD programs like Stanford, high growth startups like Stripe, Vercel, Bolt, and many founders of their own companies.
+Job Location:              Sunnyvale, California
 
-Overview
+Job Type:                    Full Time
 
-With the growth of our iOS app, being the #18 productivity app in the App Store category and also our recent recognition as Apple's 2025 Design Award for Inclusivity, we find the need for a Senior iOS Engineer to help us support the new user base as well as work on new and exciting projects to push our missing forward.   
+Rate of Pay:                 $171,000 to $209,000 per year
 
-This is a key role and ideal for someone who thinks strategically, enjoys fast-paced environments, passionate about making product decisions, and has experience building great user experiences that delight users.
+You will be eligible to participate in Uber's bonus program, and may be offered other types of comp. You will also be eligible for various benefits. More details can be found at the following link https://www.uber.com/careers/benefits.
 
-We are a flat organization that allows anyone to become a leader by showing excellent technical skills and delivering results consistently and fast. Work ethic, solid communication skills, and obsession with winning are paramount. 
+Duties:                         Design, develop, and test software applications. Design, develop, and/or test software applications using company technology stack. Apply technical knowledge to evaluate complex data, developments, and projects in order to provide recommendations to resolve technical issues. Support the company's business operations and improve engineering productivity. Build software components that can be integrated into a fully functional software system. Solve production issues in product and system reliability. Build GenAI Bot for Uber Customer Support. May telecommute.
 
-Our interview process involves several technical interviews and we aim to complete them within 1 week. 
+Employer will accept a Bachelor's degree in Computer Science, Engineering (Any), Information Technology, Mathematics, Physics, or related field.
 
-What You’ll Do
+Position requires:
 
-Opportunity to lead key engineering and product decisions
-Actively shipping production code for the Speechify iOS app
-Work within a dedicated product team
-Participate in product discussions to shape the product roadmap
-Maintain and enhance the existing complex app architecture
-An Ideal Candidate Should Have
+C++, Python, Java, GIT, or SVN;
+SQL or MySQL;
+Data structures and algorithms development and functionality;
+Designing technology stacks;
+Debugging and monitoring for production services;
+Distributed systems;
+Software Development Lifecycle;
+Object Oriented Programming.
+Uber's mission is to reimagine the way the world moves for the better. Here, bold ideas create real-world impact, challenges drive growth, and speed fuels progress. What moves us, moves the world - let's move it forward, together.
 
-Experience. You've worked on products that scaled to a large user base
-Track record. You have worked on various products from inception to decent traction. You have been responsible for engineering the product
-Customer obsession. We expect every team member whose responsibilities directly impact customers to be constantly obsessed about providing the best possible experience
-Product thinking. You make thoughtful decisions about the evolution of your product and support internal teams and designers into taking the right direction
-Speed. You work quickly to generate ideas and know how to decide which things can ship now and what things need time
-Focus. We’re a high-growth startup with a busy, remote team. You know how and when to engage or be heads down
-Technical skills. Swift, SwiftUI
-Technical Requirements:
+Uber is proud to be an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to sex, gender identity, sexual orientation, race, color, religion, national origin, disability, protected Veteran status, age, or any other characteristic protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. If you have a disability or special need that requires accommodation, please let us know by completing this form.
 
-Swift Programming Language
-SwiftUI experience
-Experience in Multithreading Programming
-Working with CI/CD infrastructure
-Experience with Fastlane
-SOLID principles, the ability to write every single class according to SOLID
-Experience with Git and understanding of different Git strategies
-What We offer:
-
-A fast-growing environment where you can help shape the company and product
-An entrepreneurial crew that supports risk, intuition, and hustle
-The opportunity to make a big impact in a transformative industry
-A competitive salary, a collegiate atmosphere, and a commitment to building a great asynchronous culture
-Work on a product that millions of people use and where daily feedback includes users sharing that they cried when they first found the product because it was so impactful on their lives
-Support people with learning differences like Dyslexia, ADD, Low Vision, Concussions, Autism, and Second Language Learners, and give reading superpowers to professionals all over the world
-Work in one of the fastest growing sectors of tech: Intersection of Artificial Intelligence and Audio 
-The United States Based Salary range for this role is: 140,000-200,000 USD/Year + Bonus + Stock depending on experience
-
-Think you’re a good fit for this job? 
-
-Tell us more about yourself and why you're interested in the role when you apply.
-And don’t forget to include links to your portfolio and LinkedIn.
-
-Not looking but know someone who would make a great fit? 
-
-Refer them! 
-
-Speechify is committed to a diverse and inclusive workplace.
-
-Speechify does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status.
+Offices continue to be central to collaboration and Uber’s cultural identity. Unless formally approved to work fully remotely, Uber expects employees to spend at least half of their work time in their assigned office. For certain roles, such as those based at green-light hubs, employees are expected to be in-office for 100% of their time. Please speak with your recruiter to better understand in-office expectations for this role.

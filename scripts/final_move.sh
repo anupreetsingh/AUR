@@ -14,6 +14,48 @@ extract_tex_value() {
   sed -nE "s/^\\\\newcommand\\{\\\\${key}\\}\\{(.*)\\}$/\\1/p" "$file" | head -n 1
 }
 
+build_dated_dest() {
+  local base_dest="$1"
+  local dated_dest
+  local counter=2
+  local date_suffix
+
+  date_suffix="$(date '+%B %e' | tr -s ' ' | sed 's/ /-/g')"
+  dated_dest="${base_dest}-${date_suffix}"
+
+  while [ -e "$dated_dest" ]; do
+    dated_dest="${base_dest}-${date_suffix}-${counter}"
+    counter=$((counter + 1))
+  done
+
+  printf '%s\n' "$dated_dest"
+}
+
+if [ -e "$DEST" ]; then
+  echo "Destination path already exists:"
+  echo "  $DEST"
+
+  while true; do
+    read -r -p "Choose [r]eplace or create [n]ew dated folder: " folder_choice
+
+    case "$folder_choice" in
+      r|R|replace|Replace)
+        rm -rf "$DEST"
+        break
+        ;;
+      n|N|new|New)
+        DEST="$(build_dated_dest "$DEST")"
+        echo "Using new folder:"
+        echo "  $DEST"
+        break
+        ;;
+      *)
+        echo "Please enter 'r' to replace or 'n' to create a dated folder."
+        ;;
+    esac
+  done
+fi
+
 mkdir -p "$DEST"
 
 # Resume (always expected)
