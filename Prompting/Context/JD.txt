@@ -1,45 +1,66 @@
-Who we are
+Forward Deployed Engineer I, GenAI, Google Cloud
+corporate_fare
+Google
+place
+San Francisco, CA, USA
+; Atlanta, GA, USA
+; +28 more
+info_outline
+X
+The application window will be open until at least May 18, 2026. This opportunity will remain online based on business needs which may be before or after the specified date.
 
-At CarGurus (NASDAQ: CARG), our mission is to give people the power to reach their destination. We started as a small team of developers determined to bring trust and transparency to car shopping. Since then, our history of innovation and go-to-market acceleration has driven industry-leading growth. In fact, we’re the largest and fastest-growing automotive marketplace, and we’ve been profitable for over 15 years.
+Applicants in the County of Los Angeles: Qualified applications with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act.
 
-What we do
+This role may also be located in our Playa Vista, CA campus.
 
-The market is evolving, and we are too, moving the entire automotive journey online and guiding our customers through every step. That includes everything from the sale of an old car to the financing, purchase, and delivery of a new one. Today, tens of millions of consumers visit CarGurus.com each month, and ~30,000 dealerships use our products. But they're not the only ones who love CarGurus—our employees do, too. We have a people-first culture that fosters kindness, collaboration, and innovation, and empowers our Gurus with tools to fuel their career growth. Disrupting a trillion-dollar industry requires fresh and diverse perspectives. Come join us for the ride!
+Applicants in San Francisco: Qualified applications with arrest or conviction records will be considered for employment in accordance with the San Francisco Fair Chance Ordinance for Employers and the California Fair Chance Act.
 
-Role overview
+In accordance with Washington state law, we are highlighting our comprehensive benefits package, which is available to all eligible US based employees. Benefits for this role include:
 
-As a Software Development Engineer I on Inventory Platform, you’ll be an entry-level engineer building and operating the backend services and data pipelines that keep our marketplace inventory accurate, fast, and reliable. You’ll work with experienced engineers, learn our stack, and ship production code that impacts both shoppers and dealers.
+Health, dental, vision, life, disability insurance
+Retirement Benefits: 401(k) with company match
+Paid Time Off: 20 days of vacation per year, accruing at a rate of 6.15 hours per pay period for the first five years of employment
+Sick Time: 40 hours/year (increased to 69 hours/year for Seattle) including 5 discretionary sick days per instance
+Maternity Leave (Short-Term Disability + Baby Bonding): 28-30 weeks
+Baby Bonding Leave: 18 weeks
+Holidays: 13 paid days per year
+This posting is for a new vacancy.
+Note: By applying to this position you will have an opportunity to share your preferred working location from the following: San Francisco, CA, USA; Atlanta, GA, USA; Austin, TX, USA; Boulder, CO, USA; Cambridge, MA, USA; Chicago, IL, USA; Addison, TX, USA; Detroit, MI, USA; Irvine, CA, USA; Kirkland, WA, USA; Miami, FL, USA; New York, NY, USA; Portland, OR, USA; Los Angeles, CA, USA; Reston, VA, USA; Seattle, WA, USA; Sunnyvale, CA, USA; Washington D.C., DC, USA; Calgary, AB, Canada; Ottawa, ON, Canada; Toronto, ON, Canada; Vancouver, BC, Canada; Waterloo, ON, Canada; Ann Arbor, MI, USA; Houston, TX, USA; Madison, WI, USA; Pittsburgh, PA, USA; Raleigh, NC, USA; Durham, NC, USA; San Diego, CA, USA.
 
-What you’ll do
+Minimum qualifications:
+Bachelor's degree in Science, Technology, Engineering, Mathematics, or equivalent practical experience.
+Experience building and shipping production-grade AI-driven solutions to external or internal customers using Python, Typescript or comparable languages.
+Experience in applied AI, with a focus on building systems around pretrained models (e.g., prompt engineering, fine-tuning, Retrieval-Augmented Generation (RAG), orchestrating model interactions with external tools to deliver solutions).
+Experience architecting, deploying, or managing solutions on a Cloud Platform (e.g., Google Cloud Platform).
 
-Design, build, and maintain backend services and batch/stream jobs that ingest, normalize, and enrich vehicle inventory data
-Write clean, well-tested code in our primary stack (e.g., Java, Spring, MongoDB, AWS)
-Collaborate with engineers, Product, and Data to deliver features from design through deployment and monitoring
-Help troubleshoot and resolve production issues, improving reliability and observability along the way
-Participate in agile ceremonies, code reviews, and technical discussions as you grow your skills and ownership
-What you'll bring
+Preferred qualifications:
+Master’s degree or PhD in AI, Computer Science, or a related technical field.
+Experience implementing multi-agent systems using frameworks (e.g., LangGraph, CrewAI, or Google’s ADK) and patterns like ReAct, self-reflection, and hierarchical delegation.
+Knowledge of "LLM-native" metrics (e.g., tokens/sec, cost-per-request) and techniques for optimizing state management and granular tracing.
+About the job
 
-0–2 years of professional software development experience (internships/co-ops welcome)
-Experience with at least one object-oriented language (e.g., Java, Kotlin, C#)
-Understanding of core CS fundamentals (data structures, algorithms, APIs)
-Interest in backend, distributed systems, or data-intensive applications
-Strong communication skills, willingness to ask questions, and a growth mindset
-Exposure to cloud-based environments, containers, or streaming technologies (e.g., AWS SQS) a plus
-Experience with monitoring/observability tools or operating production-like systems a plus
-Experience with database technologies like MySQL or MongoDB a plus
-The displayed range represents the expected annual base salary / On-Target Earnings (OTE) for this position. On-Target Earnings (OTE) is inclusive of base salary and on-target commission earnings, which applies exclusively to sales roles.
+25%
+Resume Match
+2 of 8 keywords
+Uses advanced AI matching
+Simplify
+Simplify
+V1
+V2
+As a Generative AI Forward Deployed Engineer (FDE) at Google Cloud, you will be an embedded builder who bridges the gap between frontier AI products and production-grade reality within customer environments. You will function as an innovator-builder, moving beyond high-level architecture to code, debug, and jointly ship bespoke agentic solutions directly within the customer’s environment. You will address blockers to production, including solving the integration complexities, data readiness issues, and state-management issues that prevent AI from reaching enterprise-grade maturity and by embedding with accounts, you will serve a dual purpose, providing white-glove deployment of AI systems and acting as a critical feedback loop, transforming real-world field insights into Google Cloud’s future product roadmap.It's an exciting time to join Google Cloud’s Go-To-Market team, leading the AI revolution for businesses worldwide. You’ll excel by leveraging Google's brand credibility—a legacy built on inventing foundational technologies and proven at scale. We’ll provide you with the world's most advanced AI portfolio, including frontier Gemini models, and the complete Vertex AI platform, helping you to solve business problems. We’re a collaborative culture providing direct access to DeepMind's engineering and research minds, empowering you to solve customer challenges. Join us to be the catalyst for our mission, drive customer success, and define the new cloud era—the market is yours.
 
-Individual pay within this range is determined by work location and other factors such as job-related skills, experience, and relevant education or training.
+For United States Applicants:
+The US base salary range for this full-time position is $102,000-$145,000 + bonus + equity + benefits. Our salary ranges are determined by role, level, and location. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific salary range for your preferred location during the hiring process.
 
-This annual base salary forms part of a comprehensive Total Rewards Package. In addition to benefits, this role may qualify for discretionary bonuses/incentives and Restricted Stock Units (RSUs).
+Please note that the compensation details listed in US role postings reflect the base salary only, and do not include bonus, equity, or benefits. Learn more about benefits at Google.
 
-Position Pay Range
-$97,000—$122,000 USD
+For Canada Applicants:
+The Canada base salary range for this full-time position is CAD 114,000-117,000 + bonus + equity + benefits. Our salary ranges are determined by role, level, and location. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training.
 
-Working at CarGurus
-
-We reward our Gurus’ curiosity and passion with best-in-class benefits and compensation, including equity for all employees, both when they start and as they continue to grow with us. Our career development and corporate giving programs, as well as our employee resource groups (ERGs) and communities, help people build connections while making an impact in personally meaningful ways. A flexible hybrid model and robust time off policies encourage work-life balance and individual well-being. Thoughtful perks like daily free lunch, a new car discount, meditation and fitness apps, commuting cost coverage, and more help our people create space for what matters most in their personal and professional lives.
-
-We welcome all
-
-CarGurus strives to be a place to which people can bring the ultimate expression of themselves and their potential—starting with our hiring process. We do not discriminate based on race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, or sexual orientation. We foster an inclusive environment that values people for their skills, experiences, and unique perspectives. That’s why we hope you’ll apply even if you don’t check every box listed in the job description. We also encourage you to tell your recruiter if you require accommodations to participate in our hiring process due to a disability so we can provide the appropriate support. We want to know what only you can bring to CarGurus. #LI-Hybrid
+Please note that the compensation details listed in Canada role postings reflect the base salary only, and do not include bonus, equity, or benefits. Learn more about benefits at Google.
+Responsibilities
+Serve as a developer for AI applications, transitioning from rapid prototypes to production-grade agentic workflows (e.g., multi-agent systems, Model Context Protocol (MCP) servers) that drive measurable Return on Investment (ROI).
+Architect and engineer the "connective tissue" linking Google’s AI products to customers' live infrastructure, including APIs, legacy data silos, and security perimeters as part of an expert team.
+Build high-performance evaluation pipelines and observability frameworks to ensure agentic systems meet requirements for accuracy, safety, and latency.
+Identify recurring field patterns and friction points across Google’s AI stack, converting them into reusable modules or formal product feature requests for the Engineering teams.
+Collaborate with customer engineering teams to instill Google-grade development best practices, ensuring long-term project success and high end-user adoption.
