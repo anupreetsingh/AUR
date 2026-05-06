@@ -1,46 +1,56 @@
-Overview
-At Esri, our users come first. With thousands of customers and millions of users worldwide, we want your help building the next generation of ArcGIS Enterprise, a suite of products delivering state-of-the-art mapping and analytics capability. Our team builds cutting-edge, highly scalable, and reliable distributed software for on-premises and the cloud to make maps, geographic information, and analyses available on any device, anywhere, at any time.
+Compa is a venture-backed AI startup revolutionizing the future of compensation.
 
-As a Software Engineer with focus on Agentic AI development, you will build and operate intelligent, goal driven features within production software systems. In this role, you will apply strong software engineering fundamentals to ship reliable software embedding agentic AI capabilities into APIs, services, and applications that scale, integrate cleanly with existing systems, and meet product and operational requirements.
+In a dynamic job market with hiring challenges, accountability, and the rise of AI, companies need the best data to stay ahead of industry changes, competition, and costs. Compa has developed the premier real-time compensation data platform, delivering top-tier compensation intelligence to leading enterprise teams.
 
-Responsibilities
-Design, implement and own production features and services that support agentic AI behavior
-Develop backend systems, APIs, and data integrations that support agentic workflows as scale
-Add logging, metrics, and tracing to ensure systems are observable and debuggable in production
-Collaborate with product, design, and platform teams to translate workflows and requirements into technical solutions
-Participate actively in code reviews, design discussions, and security reviews
-Requirements
-1+ years professional software engineering experience, with strong proficiency in Python or a similar backend language
-Experience designing and operating production services or distributed systems
-Hands on experience using LLMs or generative AI APIs in real applications
-Solid understanding of agentic AI patterns, including tool use, task decomposition, planning, and feedback loops
-Experience integrating with REST APIs, databases, queues, and third party services
-Experience with observability and evaluation of AI systems (logging, tracing, offline or online evaluation)
-Ability to reason about scalability, latency, reliability, and cost trade offs
-Clear written and verbal communication skills, with attention to detail
-Bachelor's degree in computer science, engineering, or related field
-Recommended Qualifications
-Experience using agentic AI or orchestration frameworks (such as LangChain/LangGraph, CrewAI, and more)
-Familiarity with cloud infrastructure, containerization, and CI/CD pipelines
-Demonstrated ability to learn and apply emerging AI tools and patterns quickly
-Exposure to ArcGIS Enterprise, ArcGIS Online or other geospatial technologies
-#LI-TA1
+Compa is a compensation intelligence company built to augment enterprise compensation teams in the era of AI.
 
-#LI-Onsite
+Our customers include the world’s biggest companies: NVIDIA, Stripe, DoorDash, Open AI, TMobile, Moderna, Workday, Ulta, Target, and more.
 
-Total Rewards
+Locations:
 
-Esri’s competitive total rewards strategy includes industry-leading health and welfare benefits: medical, dental, vision, basic and supplemental life insurance for employees (and their families), 401(k) and profit-sharing programs, minimum accrual of 80 hours of vacation leave, twelve paid holidays throughout the calendar year, and opportunities for personal and professional growth. Base salary is one component of our total rewards strategy. Compensation decisions and the base range for this role take into account many factors including but not limited to skill sets; experience and training; licensure and certifications; and other business and organizational needs.
+Compa headquarters are located in Irvine, California, with growing sites in Denver, Colorado and San Francisco, California. We’re a collaborative, curious, and driven team that values transparency, ownership, and continuous learning and prioritizing in person work where possible.
 
-A reasonable estimate of the base salary range is
-$79,040-$133,016 USD
-About Esri
-At Esri, diversity is more than just a word on a map. When employees of different experiences, perspectives, backgrounds, and cultures come together, we are more innovative and ultimately a better place to work. We believe in having a diverse workforce that is unified under our mission of creating positive global change. We understand that diversity, equity, and inclusion is not a destination but an ongoing process. We are committed to the continuation of learning, growing, and changing our workplace so every employee can contribute to their life’s best work. Our commitment to these principles extends to the global communities we serve by creating positive change with GIS technology. For more information on Esri’s Racial Equity and Social Justice initiatives, please visit our website here.
+At Compa, we’re building the future of enterprise compensation. Our platform helps the world’s largest companies make smarter, fairer, and more transparent pay decisions—powered by live data and thoughtful design.
 
-If you don’t meet all of the preferred qualifications for this position, we encourage you to still apply!
+As a Software Engineer, you’ll have significant ownership and autonomy to build the systems and infrastructure that power Compa’s core products. You’ll work across the stack, collaborate closely with product and design, and contribute to features that directly impact enterprise customers.
 
-Esri is an equal opportunity employer (EOE) and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability status, protected veteran status, or any other characteristic protected by law. If you need reasonable accommodation for any part of the employment process, please email askcareers@esri.com and let us know the nature of your request and your contact information. Please note that only those inquiries concerning a request for reasonable accommodation will be responded to from this e-mail address.
+In this role, you will:
 
-Esri Privacy Esri takes our responsibility to protect your privacy seriously. We are committed to respecting your privacy by providing transparency in how we acquire and use your information, giving you control of your information and preferences, and holding ourselves to the highest national and international standards, including CCPA and GDPR compliance.
+Ship production-grade software across Compa’s web app and backend systems
 
-Requisition ID: 2026-4074
+Build new features and improve existing workflows in collaboration with Product and Design
+
+Write clean, scalable code and contribute to system architecture decisions
+
+Participate in code reviews, team rituals, and roadmap discussions
+
+Solve real problems for enterprise compensation teams—from data pipelines to user experience
+
+Minimum Qualifications
+Spring 2026 graduation date
+
+Proficiency in at least one modern web development language or framework
+
+Comfortable working across the stack or specializing in either frontend or backend
+
+Proven ability to work autonomously and follow through on commitments
+
+Pragmatic and thoughtful about trade-offs—focus on outcomes over tools
+
+Strong communication and collaboration skills
+
+Preferred Qualifications
+Interest or experience in AI systems or ML infrastructure (a plus, not a requirement)
+
+Comfortable navigating ambiguity and working in fast-paced, iterative environments
+
+Tech Stack
+You don’t need experience with all of these, but familiarity with any is a plus:
+
+Backend: Django, Python
+
+Frontend: React, TypeScript, GraphQL
+
+Infrastructure: AWS
+
+Other Tools: vLLM, Linear, Slack, Notion, Metabase
