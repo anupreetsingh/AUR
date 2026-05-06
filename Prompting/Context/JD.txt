@@ -1,48 +1,46 @@
-ServiceNow logo
+Overview
+At Esri, our users come first. With thousands of customers and millions of users worldwide, we want your help building the next generation of ArcGIS Enterprise, a suite of products delivering state-of-the-art mapping and analytics capability. Our team builds cutting-edge, highly scalable, and reliable distributed software for on-premises and the cloud to make maps, geographic information, and analyses available on any device, anywhere, at any time.
 
+As a Software Engineer with focus on Agentic AI development, you will build and operate intelligent, goal driven features within production software systems. In this role, you will apply strong software engineering fundamentals to ship reliable software embedding agentic AI capabilities into APIs, services, and applications that scale, integrate cleanly with existing systems, and meet product and operational requirements.
 
-Associate Software Engineer, Search Infrastructure - Moveworks
-1400 Terra Bella Avenue, 94043 Mountain View, CALIFORNIA, United States
-Full-time
-Employee Type: Regular
-Region: AMS - North America and Canada
-Work Persona: Required in Office
-Company Description
-It all started in sunny San Diego, California in 2004 when a visionary engineer, Fred Luddy, saw the potential to transform how we work. Fast forward to today — ServiceNow stands as a global market leader, bringing innovative AI-enhanced technology to over 8,100 customers, including 85% of the Fortune 500®. Our intelligent cloud-based platform seamlessly connects people, systems, and processes to empower organizations to find smarter, faster, and better ways to work. But this is just the beginning of our journey. Join us as we pursue our purpose to make the world work better for everyone.
+Responsibilities
+Design, implement and own production features and services that support agentic AI behavior
+Develop backend systems, APIs, and data integrations that support agentic workflows as scale
+Add logging, metrics, and tracing to ensure systems are observable and debuggable in production
+Collaborate with product, design, and platform teams to translate workflows and requirements into technical solutions
+Participate actively in code reviews, design discussions, and security reviews
+Requirements
+1+ years professional software engineering experience, with strong proficiency in Python or a similar backend language
+Experience designing and operating production services or distributed systems
+Hands on experience using LLMs or generative AI APIs in real applications
+Solid understanding of agentic AI patterns, including tool use, task decomposition, planning, and feedback loops
+Experience integrating with REST APIs, databases, queues, and third party services
+Experience with observability and evaluation of AI systems (logging, tracing, offline or online evaluation)
+Ability to reason about scalability, latency, reliability, and cost trade offs
+Clear written and verbal communication skills, with attention to detail
+Bachelor's degree in computer science, engineering, or related field
+Recommended Qualifications
+Experience using agentic AI or orchestration frameworks (such as LangChain/LangGraph, CrewAI, and more)
+Familiarity with cloud infrastructure, containerization, and CI/CD pipelines
+Demonstrated ability to learn and apply emerging AI tools and patterns quickly
+Exposure to ArcGIS Enterprise, ArcGIS Online or other geospatial technologies
+#LI-TA1
 
-Job Description
-Build out core infrastructure services and microservices that impact our machine learning, frontend, and platform teams.
-Build out core infrastructure for various functionalities such as: distributed configuration management, rate limiting, feature flag, A/B testing, and traffic capture and replay.
-Improve the performance, scalability and observability of the Moveworks cloud infrastructure.
-Deliver deadline sensitive work regularly that is interdependent with other engineering teams.
-Own features end-to-end, and regularly influence the infrastructure roadmap.
-This is a highly collaborative, in-person role, working cross functionally with Core and ML engineering teams, and more.
-Qualifications
-0-3 years of experience
-Familiarity with Python/Golang/Java/C++.
-Experience with containers/Docker, and with cloud infrastructure like AWS/GCP/Azure.
-Experience working with and operating open source technologies like Kafka, Elasticsearch or Opensearch, Istio, Vector DB, etc. at scale.
-Desire to work at a startup pace with a high degree of ownership.
-Experience solving for performance, optimization, scalability, latency, and monitoring.
-Strong motivation, gumption, and an appetite for continuous, incremental changes and completing challenging projects quickly.
-BS in computer science or a related field.
-High level of curiosity about engineering outside of your immediate discipline and an incessant desire to learn.
-Additional Information
-Work Personas
+#LI-Onsite
 
-We approach our distributed world of work with flexibility and trust. Work personas (flexible, remote, or required in office) are categories that are assigned to ServiceNow employees depending on the nature of their work and their assigned work location. Learn more here. To determine eligibility for a work persona, ServiceNow may confirm the distance between your primary residence and the closest ServiceNow office using a third-party service.
+Total Rewards
 
-Equal Opportunity Employer
+Esri’s competitive total rewards strategy includes industry-leading health and welfare benefits: medical, dental, vision, basic and supplemental life insurance for employees (and their families), 401(k) and profit-sharing programs, minimum accrual of 80 hours of vacation leave, twelve paid holidays throughout the calendar year, and opportunities for personal and professional growth. Base salary is one component of our total rewards strategy. Compensation decisions and the base range for this role take into account many factors including but not limited to skill sets; experience and training; licensure and certifications; and other business and organizational needs.
 
-ServiceNow is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, creed, religion, sex, sexual orientation, national origin or nationality, ancestry, age, disability, gender identity or expression, marital status, veteran status, or any other category protected by law. In addition, all qualified applicants with arrest or conviction records will be considered for employment in accordance with legal requirements. 
+A reasonable estimate of the base salary range is
+$79,040-$133,016 USD
+About Esri
+At Esri, diversity is more than just a word on a map. When employees of different experiences, perspectives, backgrounds, and cultures come together, we are more innovative and ultimately a better place to work. We believe in having a diverse workforce that is unified under our mission of creating positive global change. We understand that diversity, equity, and inclusion is not a destination but an ongoing process. We are committed to the continuation of learning, growing, and changing our workplace so every employee can contribute to their life’s best work. Our commitment to these principles extends to the global communities we serve by creating positive change with GIS technology. For more information on Esri’s Racial Equity and Social Justice initiatives, please visit our website here.
 
-Accommodations
+If you don’t meet all of the preferred qualifications for this position, we encourage you to still apply!
 
-We strive to create an accessible and inclusive experience for all candidates. If you require a reasonable accommodation to complete any part of the application process, or are unable to use this online application and need an alternative method to apply, please contact globaltalentss@servicenow.com for assistance. 
+Esri is an equal opportunity employer (EOE) and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability status, protected veteran status, or any other characteristic protected by law. If you need reasonable accommodation for any part of the employment process, please email askcareers@esri.com and let us know the nature of your request and your contact information. Please note that only those inquiries concerning a request for reasonable accommodation will be responded to from this e-mail address.
 
-Export Control Regulations
+Esri Privacy Esri takes our responsibility to protect your privacy seriously. We are committed to respecting your privacy by providing transparency in how we acquire and use your information, giving you control of your information and preferences, and holding ourselves to the highest national and international standards, including CCPA and GDPR compliance.
 
-For positions requiring access to controlled technology subject to export control regulations, including the U.S. Export Administration Regulations (EAR), ServiceNow may be required to obtain export control approval from government authorities for certain individuals. All employment is contingent upon ServiceNow obtaining any export license or other approval that may be required by relevant export control authorities. 
-
-From Fortune. ©2025 Fortune Media IP Limited. All rights reserved. Used under license. 
-
+Requisition ID: 2026-4074
