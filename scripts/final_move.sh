@@ -92,3 +92,8 @@ fi
 
 # Edit this line for every company and role and paste it in terminal:
 # ./scripts/final_move.sh "Google" "Software Engineer II, Site Reliability"
+
+# For marking a template tag
+# git tag -a Template/AI -m "<Message for the Tag>" <commit-to-tag>
+
+# git tag -fa Template/AI -m "<new message>" <new-commit>
