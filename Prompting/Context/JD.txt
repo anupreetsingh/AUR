@@ -1,62 +1,47 @@
-Description
-If you are interested in this position, please apply on Twitch's Career site https://www.twitch.tv/jobs/en/
+Software Engineer I
 
 About Us:
 
-Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day.
-
-We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on LinkedIn and X, and discover the projects we’re solving on our Blog. Be sure to explore our Interviewing Guide to learn how to ace our interview process.
-
-About the Role
-
-Join Twitch's Commerce Engineering organization, where we're revolutionizing how viewers engage with their favorite creators. We are the teams behind Subscriptions, Gifting, Bits, Hype Train and Turbo products. From experimental features to established systems used by millions, we're constantly pushing the boundaries of what's possible in live streaming.
-
-You can work from Seattle, WA or San Francisco, CA.
-
-You Will
-
-- Craft immersive, interactive experiences that keep viewers supporting creators while engaging with the Twitch Community
-- Architect and build robust, scalable applications that can handle millions of concurrent users
-- Collaborate across teams to create cohesive solutions that drive business impact
-- Transform customer feedback into innovative features that enhance the Twitch experience
-
-Perks
-* Medical, Dental, Vision & Disability Insurance
-* 401(k)
-* Maternity & Parental Leave
-* Flexible PTO
-* Amazon Employee Discount
-
-About the team
-Twitch is all about community, and our Community Team is a core pillar of what makes Twitch, Twitch. Teams within Community are responsible for a myriad of product areas impacting the creator, viewer, and moderator journeys on our platform. As a member of our team, you'll build solutions that improve g the experience of millions of daily active users on our platform and create tools that keep both streamers and viewers engaged and connected on our platform.
-
-Basic Qualifications
-- Bachelor's degree in Computer Science, Engineering, a related field, or equivalent experience
-- Excellent verbal and written communication skills; Ability to effectively collaborate with teammates is critical to success.
-- A track record of building consumer-facing products that users love
-- Demonstrable experience of modern programming languages and frameworks
-- Sharp problem-solving skills with a focus on algorithms, data structures, and schema design
-
-Preferred Qualifications
-- Experience with mobile development, either native or hybrid
-- Familiarity with Twitch's tech stack: Golang, Typescript/React
-- Experience with AWS technologies like ECS, DynamoDB, Lambda, SQS, and Step Functions
-- A passion for gaming, streaming, or the Twitch platform
-
-Twitch is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.
-
-Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.
-
-Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.
-
-Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.
+At Fullbay, our mission is simple — to create safer roads for our families and yours. As leaders in the heavy-duty repair industry, we power shops with technology that helps them run smarter and more efficiently. As an AI-First company, we invite artificial intelligence to eliminate friction, spark innovation, and drive efficiencies in every conversation— for our teams and our customers.
 
 
-The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits.
+Position Overview:
+The Software Engineer I will design, code, and test software functions and modules, under the guidance of senior engineers. This junior role involves understanding problems, developing solutions, and engaging with key stakeholders to refine approaches. The successful candidate will write complete, efficient, and well-commented code that meets customer experience needs and project requirements. They will also create unit and feature tests to ensure compliance with performance, scalability, and security standards. Additionally, the engineer will address bugs within the product, continuously learn, and explore in-depth project requirements.
 
 
+Primary Duties & Responsibilities:
 
-USA, CA, SAN FRANCISCO - 127,100.00 - 185,000.00 USD annually
-USA, CA, San Francisco - 127,100.00 - 185,000.00 USD annually
-USA, WA, SEATTLE - 110,500.00 - 160,000.00 USD annually
-USA, WA, Seattle - 110,500.00 - 160,000.00 USD annually
+You develop a design (including system architecture, layout of services, APIs, backend and frontend changes) for your project and area, consider possible options to solve the problem, contribute to estimations while considering cost and long term impact of the design with support from senior engineers. You address currently planned use cases as well as required extensibility to support future applicable use cases. You review your design with your peers and collect feedback, incorporate it.
+You write software that consistently meets horizontal quality standards — scalability, performance, security, accessibility, and localizability — while building a working understanding of the cloud infrastructure your work runs on. With guidance, you apply the company's design principles, frameworks, and third-party tooling to your solutions, and you take ownership of identifying cross-system dependencies early, ensuring the services and integrations your code relies on are in place before you ship.
+You develop high quality code that is efficient (address space and time complexity), is modular, follows coding guidelines including naming conventions and other code etiquette. Your code is production-ready. You learn from your past mistakes and any future feedback reflects improvement in the quality of your code. The code reviews of your code progresses smoothly and with no fundamental issues in the logic, semantics and syntax. 
+You solve problems that have ambiguity in requirements, risks, and conflicting constraints. You make good tradeoffs between short-term delivery and long-term maintainability of your organization’s architecture with guidance from senior teammates. You learn to recognize & identify risks that are not readily apparent and proactively take action to prevent problems before they occur.
+You drive bug fixing and resolution throughout the Product life cycle to ensure the stakeholders have a view of what sequence and order we fix issues. This includes all sources of bugs including feature testing and QA testing issues found, customer issues and pain points reported
+You test your work by creating unit and feature tests needed to complete the work and ensure it is ready for handing off to QA. You ensure your code is reviewed and you have incorporated the feedback appropriately with guidance from the senior engineer 
+Adheres to all confidentiality and compliance regulations.
+Performs other duties as assigned.
+
+Minimum Education & Work Experience:
+
+B.S in Computer Science or equivalent with 1-3 years of experience in developing design, code and testing software in modern systems and languages. 
+
+Key Skills and Qualifications:
+
+Growing proficiency in modern software design and programming paradigms, including Java, React, Dynamo, and AWS, among others
+Proficient using AI-assisted development tools (e.g., Claude Code, GitHub Copilot, Cursor) as part of your daily workflow 
+Awareness and knowledge of Software Design and Coding methodologies 
+Familiarity with development and design best practices, with a commitment to continuous learning 
+Exposure to third-party technologies and a developing ability to evaluate tradeoffs when making software decisions
+Knowledge and experience with Development and Test methodologies and tools to develop design, code and test
+Contribute to the process and frameworks for how development will happen in Engineering
+Communicate clearly and professionally with peers & others throughout the company
+Foundational understanding of Performance, Scale and Availability of software and modern capabilities like processor, caching and backend accelerators of performance
+
+Physical Demands and Work Environment:
+
+The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions
+
+Regularly required to sit at a desk in front of a computer and use hands to finger, handle, or feel objects, tools, or controls (including a computer keyboard and operating a telephone), lift and/or move up to 10 pounds. 
+Frequently requires the use of hands and arms for reaching, as well as the ability to walk and communicate effectively through speaking and listening.
+Specific vision abilities required by this position include close vision, color vision, and the ability to adjust focus.   
+Noise level in the work environment is usually moderate.
+Type on a computer keyboard and look at a computer monitor, and operate a cell phone or a computer-based phone

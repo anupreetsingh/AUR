@@ -96,4 +96,4 @@ fi
 # For marking a template tag
 # git tag -a Template/AI -m "<Message for the Tag>" <commit-to-tag>
 
-# git tag -fa Template/AI -m "<new message>" <new-commit>
+# git tag -fa <tag-name> -m "<new message>" <new-commit>
