@@ -1,48 +1,62 @@
-Software Engineer, University Grad
-San Francisco Bay Area
-About Glean:
- 
-Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles.
- 
-At its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powers Glean’s agentic capabilities - AI agents that automate real work across teams by accessing the industry’s broadest range of data: enterprise and world, structured and unstructured, historical and real-time. The result: measurable business impact through faster onboarding, hours of productivity gained each week, and smarter, safer decisions at every level.
- 
-Recognized by Fast Company as one of the World’s Most Innovative Companies (Top 10, 2025), by CNBC’s Disruptor 50, Bloomberg’s AI Startups to Watch (2026), Forbes AI 50, and Gartner’s Tech Innovators in Agentic AI, Glean continues to accelerate its global impact. With customers across 50+ industries and 1,000+ employees in more than 25 countries, we’re helping the world’s largest organizations make every employee AI-fluent, and turning the superintelligent enterprise from concept into reality.
- 
-If you’re excited to shape how the world works, you’ll help build systems used daily across Microsoft Teams, Zoom, ServiceNow, Zendesk, GitHub, and many more - deeply embedded where people get things done. You’ll ship agentic capabilities on an open, extensible stack, with the craft and care required for enterprise trust, as we bring Work AI to every employee, in every company.
- 
-About the Role:
- 
-Are you a recent university graduate with a passion for software engineering and a desire to make a difference in the tech world? We are seeking highly motivated and creative graduates to join our team in various software engineering roles: Backend Engineer, Product Engineer, and ML Engineer. As a University Graduate Software Engineer, you will participate in designing, developing, and maintaining software solutions that power our products and services. Team placements will be made at the end of the process based on interest and open roles.
- 
-You will:
-Own impactful infrastructure problems from inception and architecture to production launch
-Write well thought out design documents and ship robust, high-quality, well-tested code
-Work collaboratively with a strong team to identify the most impactful projects we should be prioritizing in our roadmap
-Mentor more junior engineers and learn from experienced ones
-About you:
-Undergraduate/graduate degree in Computer Science, or related degree - degree must be completed before joining
-Strong coding skills (e.g., Go, Python, Java, Javascript, or C++) with solid understanding of data structures, algorithms, and software design principles
-Experience working on infrastructure for distributed systems or cloud-native applications
-Experience building and shipping ML models and/or solving NLP problems
-A team player who thrives in a fast-paced, customer-focused environment, with a passion for learning and staying current with industry trends
-Location: 
-This role is hybrid (3-4 days a week in one of our SF Bay Area offices)
-Compensation & Benefits:
- 
-The standard base salary range for this position is $140,000 - $150,000 annually. Compensation offered will be determined by factors such as location, level, job-related knowledge, skills, and experience. Certain roles may be eligible for variable compensation, equity, and benefits.
- 
-We offer a comprehensive benefits package including competitive compensation, Medical, Vision, and Dental coverage, generous time-off policy, and the opportunity to contribute to your 401k plan to support your long-term goals. When you join, you'll receive a home office improvement stipend, as well as an annual education and wellness stipends to support your growth and wellbeing. We foster a vibrant company culture through regular events, and provide healthy lunches daily to keep you fueled and focused.
- 
-We are a diverse bunch of people and we want to continue to attract and retain a diverse range of people into our organization. We're committed to an inclusive and diverse company. We do not discriminate based on gender, ethnicity, sexual orientation, religion, civil or family status, age, disability, or race.
- 
-#LI-HYBRID
- 
-AI-First Mindset at Glean:
- 
-At Glean, AI fluency is core to how we work and we're committed to ensuring every new hire feels confident integrating AI into their everyday work. As part of the interview process, you'll complete a brief AI-focused exercise or discussion so we can understand how you think about, design, and use AI to drive impact in your role. Feel free to reference any tools, platforms, or workflows you use today — prior Glean experience isn't required.
- 
-Global Data Privacy Notice for Job Candidates and Applicants:
- 
-Depending on your location, the General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), or other privacy laws may regulate the way we manage the data of job applicants. Our full notice outlining how data will be processed as part of the application procedure for applicable locations is available in our Privacy Policy. By submitting your application, you are agreeing to our use and processing of your data as required. US applicants and their applications are subject to arbitration of disputes as outlined in our Applicant Arbitration Agreement.
+Description
+If you are interested in this position, please apply on Twitch's Career site https://www.twitch.tv/jobs/en/
 
-By clicking “Submit Application,” I confirm that I have read the Global Data Privacy Notice and the Applicant Arbitration Agreement, and I agree to the terms. 
+About Us:
+
+Twitch is the world’s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for whatever, every day.
+
+We’re about community, inside and out. You’ll find coworkers who are eager to team up, collaborate, and smash (or elegantly solve) problems together. We’re on a quest to empower live communities, so if this sounds good to you, see what we’re up to on LinkedIn and X, and discover the projects we’re solving on our Blog. Be sure to explore our Interviewing Guide to learn how to ace our interview process.
+
+About the Role
+
+Join Twitch's Commerce Engineering organization, where we're revolutionizing how viewers engage with their favorite creators. We are the teams behind Subscriptions, Gifting, Bits, Hype Train and Turbo products. From experimental features to established systems used by millions, we're constantly pushing the boundaries of what's possible in live streaming.
+
+You can work from Seattle, WA or San Francisco, CA.
+
+You Will
+
+- Craft immersive, interactive experiences that keep viewers supporting creators while engaging with the Twitch Community
+- Architect and build robust, scalable applications that can handle millions of concurrent users
+- Collaborate across teams to create cohesive solutions that drive business impact
+- Transform customer feedback into innovative features that enhance the Twitch experience
+
+Perks
+* Medical, Dental, Vision & Disability Insurance
+* 401(k)
+* Maternity & Parental Leave
+* Flexible PTO
+* Amazon Employee Discount
+
+About the team
+Twitch is all about community, and our Community Team is a core pillar of what makes Twitch, Twitch. Teams within Community are responsible for a myriad of product areas impacting the creator, viewer, and moderator journeys on our platform. As a member of our team, you'll build solutions that improve g the experience of millions of daily active users on our platform and create tools that keep both streamers and viewers engaged and connected on our platform.
+
+Basic Qualifications
+- Bachelor's degree in Computer Science, Engineering, a related field, or equivalent experience
+- Excellent verbal and written communication skills; Ability to effectively collaborate with teammates is critical to success.
+- A track record of building consumer-facing products that users love
+- Demonstrable experience of modern programming languages and frameworks
+- Sharp problem-solving skills with a focus on algorithms, data structures, and schema design
+
+Preferred Qualifications
+- Experience with mobile development, either native or hybrid
+- Familiarity with Twitch's tech stack: Golang, Typescript/React
+- Experience with AWS technologies like ECS, DynamoDB, Lambda, SQS, and Step Functions
+- A passion for gaming, streaming, or the Twitch platform
+
+Twitch is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.
+
+Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.
+
+Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.
+
+Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.
+
+
+The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits.
+
+
+
+USA, CA, SAN FRANCISCO - 127,100.00 - 185,000.00 USD annually
+USA, CA, San Francisco - 127,100.00 - 185,000.00 USD annually
+USA, WA, SEATTLE - 110,500.00 - 160,000.00 USD annually
+USA, WA, Seattle - 110,500.00 - 160,000.00 USD annually
