@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1777780066.53634 "/Users/manpreetsingh/Downloads/Study/Development/AUR/Cover_Letter/main.tex" "main.pdf" "main" 1777780066.82465 0
-  "/Users/manpreetsingh/Downloads/Study/Development/AUR/Cover_Letter/main.tex" 1777780066.23124 3832 c4b2a711987b05c121e1c255c43889cd ""
+["pdflatex"] 1778295494.42984 "/Users/manpreetsingh/Downloads/Study/Development/AUR/Cover_Letter/main.tex" "main.pdf" "main" 1778295494.70847 0
+  "/Users/manpreetsingh/Downloads/Study/Development/AUR/Cover_Letter/main.tex" 1778295494.11009 4136 dc7c12e2437c16a52615787d4c790204 ""
   "/usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -61,9 +61,9 @@
   "/usr/local/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1775946025 79584 dc1b64e78fc6a56b1688b4b486ecd109 ""
   "/usr/local/texlive/2026basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1772405612 2966183 588a2f29d0aaf280e3a142a37c2dd621 ""
   "/usr/local/texlive/2026basic/texmf.cnf" 1772405582 628 bbc09d6d38872d53c11bb48dc9b14e88 ""
-  "main.aux" 1777780066.79083 280 6b828094e00234c0864beebb1893eb25 "pdflatex"
-  "main.out" 1777780066.77919 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1777780066.23124 3832 c4b2a711987b05c121e1c255c43889cd ""
+  "main.aux" 1778295494.67798 280 6b828094e00234c0864beebb1893eb25 "pdflatex"
+  "main.out" 1778295494.66555 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1778295494.11009 4136 dc7c12e2437c16a52615787d4c790204 ""
   (generated)
   "main.aux"
   "main.log"

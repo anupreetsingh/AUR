@@ -1,47 +1,34 @@
-Software Engineer I
+JOB DESCRIPTION
 
-About Us:
+You and your team will build a new product from the ground up in 3 months. Your team will be small, flat, and cross functional. Contribute technical know-how, help them make architectural decisions, and take the idea from the first commit to the final MVP. This is a founder-style environment where roles overlap and evolve. You are expected to bring your specialized skills to bear for your team but prepare to wear as many hats as it takes to get the job done. Individual performance matters, but success is ultimately measured by the progress of your team’s startup. Startup Lab Engineering Associates can expect to:
 
-At Fullbay, our mission is simple — to create safer roads for our families and yours. As leaders in the heavy-duty repair industry, we power shops with technology that helps them run smarter and more efficiently. As an AI-First company, we invite artificial intelligence to eliminate friction, spark innovation, and drive efficiencies in every conversation— for our teams and our customers.
+Assist your team as necessary to find product-market fit and launch an MVP.
+Embrace core concepts and design patterns used in agile software engineering.
+Review code from peers to enforce best practices.
+Communicate development status to stakeholders.
+Learn and leverage relevant new technologies, tools, methods and processes in your development efforts.
+Develop the confidence to take new ideas from concept to reality.
+ 
 
+QUALIFICATIONS
 
-Position Overview:
-The Software Engineer I will design, code, and test software functions and modules, under the guidance of senior engineers. This junior role involves understanding problems, developing solutions, and engaging with key stakeholders to refine approaches. The successful candidate will write complete, efficient, and well-commented code that meets customer experience needs and project requirements. They will also create unit and feature tests to ensure compliance with performance, scalability, and security standards. Additionally, the engineer will address bugs within the product, continuously learn, and explore in-depth project requirements.
+Pursuing or recently completed a Bachelor’s or advanced degree in Computer Science, Data Science, or a related field from a top-tier university/college, or able to demonstrate significant, relevant professional experience.
+Experience developing with high-level programming languages, frameworks, and tools. (Python, JavaScript, Swift, etc.)
+Embrace core concepts and design patterns used in modern software engineering, including object-oriented, protocol-oriented, and reactive programming.
+Experience with approaches and tools for automated testing, i.e., Playwright.
+Review code from peer engineers to promulgate best practices.
+Comfortable with ambiguity.
+Strong interpersonal, communication, and organizational skills.
+Depth of skill in software engineering, with the patience and willingness to collaborate across other disciplines.
+Entrepreneurial mindset, biased towards action, comfortable with fast-paced. environment. Startup experience is a plus.
+You must be fully available—onsite—from June 1, 2026 through August 28, 2026.
+ 
 
+COMPENSATION & PERKS
 
-Primary Duties & Responsibilities:
-
-You develop a design (including system architecture, layout of services, APIs, backend and frontend changes) for your project and area, consider possible options to solve the problem, contribute to estimations while considering cost and long term impact of the design with support from senior engineers. You address currently planned use cases as well as required extensibility to support future applicable use cases. You review your design with your peers and collect feedback, incorporate it.
-You write software that consistently meets horizontal quality standards — scalability, performance, security, accessibility, and localizability — while building a working understanding of the cloud infrastructure your work runs on. With guidance, you apply the company's design principles, frameworks, and third-party tooling to your solutions, and you take ownership of identifying cross-system dependencies early, ensuring the services and integrations your code relies on are in place before you ship.
-You develop high quality code that is efficient (address space and time complexity), is modular, follows coding guidelines including naming conventions and other code etiquette. Your code is production-ready. You learn from your past mistakes and any future feedback reflects improvement in the quality of your code. The code reviews of your code progresses smoothly and with no fundamental issues in the logic, semantics and syntax. 
-You solve problems that have ambiguity in requirements, risks, and conflicting constraints. You make good tradeoffs between short-term delivery and long-term maintainability of your organization’s architecture with guidance from senior teammates. You learn to recognize & identify risks that are not readily apparent and proactively take action to prevent problems before they occur.
-You drive bug fixing and resolution throughout the Product life cycle to ensure the stakeholders have a view of what sequence and order we fix issues. This includes all sources of bugs including feature testing and QA testing issues found, customer issues and pain points reported
-You test your work by creating unit and feature tests needed to complete the work and ensure it is ready for handing off to QA. You ensure your code is reviewed and you have incorporated the feedback appropriately with guidance from the senior engineer 
-Adheres to all confidentiality and compliance regulations.
-Performs other duties as assigned.
-
-Minimum Education & Work Experience:
-
-B.S in Computer Science or equivalent with 1-3 years of experience in developing design, code and testing software in modern systems and languages. 
-
-Key Skills and Qualifications:
-
-Growing proficiency in modern software design and programming paradigms, including Java, React, Dynamo, and AWS, among others
-Proficient using AI-assisted development tools (e.g., Claude Code, GitHub Copilot, Cursor) as part of your daily workflow 
-Awareness and knowledge of Software Design and Coding methodologies 
-Familiarity with development and design best practices, with a commitment to continuous learning 
-Exposure to third-party technologies and a developing ability to evaluate tradeoffs when making software decisions
-Knowledge and experience with Development and Test methodologies and tools to develop design, code and test
-Contribute to the process and frameworks for how development will happen in Engineering
-Communicate clearly and professionally with peers & others throughout the company
-Foundational understanding of Performance, Scale and Availability of software and modern capabilities like processor, caching and backend accelerators of performance
-
-Physical Demands and Work Environment:
-
-The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions
-
-Regularly required to sit at a desk in front of a computer and use hands to finger, handle, or feel objects, tools, or controls (including a computer keyboard and operating a telephone), lift and/or move up to 10 pounds. 
-Frequently requires the use of hands and arms for reaching, as well as the ability to walk and communicate effectively through speaking and listening.
-Specific vision abilities required by this position include close vision, color vision, and the ability to adjust focus.   
-Noise level in the work environment is usually moderate.
-Type on a computer keyboard and look at a computer monitor, and operate a cell phone or a computer-based phone
+Competitive salary based on experience.
+Opportunities for travel.
+Social and team-building events, like K1-Speed, rock-climbing, and more.
+Fully stocked kitchen with assorted drinks & snacks.
+Professional development through mentors, training, and networking.
+Future opportunities—simplified pathway to employment.
