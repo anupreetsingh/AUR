@@ -1,34 +1,52 @@
-JOB DESCRIPTION
+Job description
+We're looking for the next wave of curious and passionate individuals to join our new internship program.
 
-You and your team will build a new product from the ground up in 3 months. Your team will be small, flat, and cross functional. Contribute technical know-how, help them make architectural decisions, and take the idea from the first commit to the final MVP. This is a founder-style environment where roles overlap and evolve. You are expected to bring your specialized skills to bear for your team but prepare to wear as many hats as it takes to get the job done. Individual performance matters, but success is ultimately measured by the progress of your team’s startup. Startup Lab Engineering Associates can expect to:
-
-Assist your team as necessary to find product-market fit and launch an MVP.
-Embrace core concepts and design patterns used in agile software engineering.
-Review code from peers to enforce best practices.
-Communicate development status to stakeholders.
-Learn and leverage relevant new technologies, tools, methods and processes in your development efforts.
-Develop the confidence to take new ideas from concept to reality.
  
 
-QUALIFICATIONS
+Shared Context Lab is a consumer AI company with the mission of bringing personal life agents to the next billion people.
 
-Pursuing or recently completed a Bachelor’s or advanced degree in Computer Science, Data Science, or a related field from a top-tier university/college, or able to demonstrate significant, relevant professional experience.
-Experience developing with high-level programming languages, frameworks, and tools. (Python, JavaScript, Swift, etc.)
-Embrace core concepts and design patterns used in modern software engineering, including object-oriented, protocol-oriented, and reactive programming.
-Experience with approaches and tools for automated testing, i.e., Playwright.
-Review code from peer engineers to promulgate best practices.
-Comfortable with ambiguity.
-Strong interpersonal, communication, and organizational skills.
-Depth of skill in software engineering, with the patience and willingness to collaborate across other disciplines.
-Entrepreneurial mindset, biased towards action, comfortable with fast-paced. environment. Startup experience is a plus.
-You must be fully available—onsite—from June 1, 2026 through August 28, 2026.
  
 
-COMPENSATION & PERKS
+About the position
 
-Competitive salary based on experience.
-Opportunities for travel.
-Social and team-building events, like K1-Speed, rock-climbing, and more.
-Fully stocked kitchen with assorted drinks & snacks.
-Professional development through mentors, training, and networking.
-Future opportunities—simplified pathway to employment.
+Our goal is to give you a real sense of working at an AI-forward startup in the consumer space.
+
+You’ll work on real product surfaces, infrastructure, and AI agents that will power the next 1M user experiences. You will not be sitting in the corner fixing tiny bugs. You’ll work side by side with the founders and technical staff, to ship products and apply technical expertise - we care deeply about design, UX, and human-centered thinking.
+
+At Shared Context, we continually think about the kinds of technologies & experiences we need to build, in order to achieve our vision of making personal agents actually useful & interesting.
+
+ 
+
+You’ll spend the bulk of your internship working closely with the founders. Your day-to-day might look like:
+
+Work directly with the founding team on scoped engineering projects across product, infrastructure, and internal tools
+Build and polish product features that support real users
+Prototype new AI-powered experiences that reimagine human-computer interaction
+Support frontend and backend work across website APIs, integrations, agents, background jobs, and internal systems
+Use agentic coding and product development tools to move quickly and learn faster
+Ship, get feedback, iterate, and build strong product engineering instincts
+ 
+
+About You
+
+If you have a curious mind and a passion for solving interesting problems, we have a feeling you’ll fit right in. You should be:
+A student or recent graduate with a computer science degree (or self-taught ability to code)
+A builder/tinkerer at heart - tell us about something cool, whether through internships, side projects, school projects, hackathons, open source, or your own experiments
+Eager to ask questions, admit mistakes, and learn new things
+Interest in LLMs, agents, personal AI, memory systems, and human-computer interaction
+Strong product instincts and genuine care for design, UX, and craft
+ 
+
+Bonus points
+
+You’ve built your own agent, chatbot, automation, AI app, or personal tool
+You’ve shipped something used by real people
+You have a strong eye for interaction design and frontend polish
+You like working fast, learning fast, and being close to the product
+ 
+
+If you want to be early, close to the work, and hands-on in building something people truly love, we’d love to talk.
+
+ 
+
+This is a paid, in-person internship. Candidates must be authorized to work in the United States for the duration of the internship. You must apply directly at https://jobs.ashbyhq.com/sharedcontextlab/6551f833-7937-4297-b52a-d465500025c8
