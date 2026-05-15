@@ -94,6 +94,6 @@ fi
 # ./scripts/final_move.sh "Google" "Software Engineer II, Site Reliability"
 
 # For marking a template tag
-# git tag -a Template/AI -m "<Message for the Tag>" <commit-to-tag>
+# git tag -a <tag-name> -m "<Message for the Tag>" <commit-to-tag>
 
 # git tag -fa <tag-name> -m "<new message>" <new-commit>
