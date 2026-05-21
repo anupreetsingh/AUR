@@ -93,7 +93,15 @@ fi
 # Edit this line for every company and role and paste it in terminal:
 # ./scripts/final_move.sh "Google" "Software Engineer II, Site Reliability"
 
-# For marking a template tag
+# For marking a template commit with a normal lightweight tag:
+# git tag <tag-name> <commit-to-tag>
+
+# For moving a normal tag to a new commit:
+# git tag -f <tag-name>  <new-commit>
+
+# For marking a new template as an annotated tag(skip the -m <Message for tag part if you want the same message):
 # git tag -a <tag-name> -m "<Message for the Tag>" <commit-to-tag>
 
+# For moving an annotated tag to a new commit:
 # git tag -fa <tag-name> -m "<new message>" <new-commit>
+
