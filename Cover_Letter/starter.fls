@@ -1,8 +1,8 @@
-PWD /Users/manpreetsingh/Downloads/Study/Development/AUR/Cover_Letter
+PWD /Users/manpreetsingh/Downloads/Study/Dev Projects/AUR/Cover_Letter
 INPUT /usr/local/texlive/2026basic/texmf.cnf
 INPUT /usr/local/texlive/2026basic/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2026basic/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/manpreetsingh/Downloads/Study/Development/AUR/Cover_Letter/starter.tex
+INPUT /Users/manpreetsingh/Downloads/Study/Dev Projects/AUR/Cover_Letter/starter.tex
 OUTPUT starter.log
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/base/article.cls

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  2 MAY 2026 03:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  23 JUN 2026 21:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/manpreetsingh/Downloads/Study/Development/AUR/Cover_Letter/starter.tex
-(/Users/manpreetsingh/Downloads/Study/Development/AUR/Cover_Letter/starter.tex
+**"/Users/manpreetsingh/Downloads/Study/Dev Projects/AUR/Cover_Letter/starter.tex"
+(/Users/manpreetsingh/Downloads/Study/Dev Projects/AUR/Cover_Letter/starter.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/article.cls
@@ -278,14 +278,14 @@ Package rerunfilecheck Info: File `starter.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  11575 strings out of 469006
- 182154 string characters out of 5454814
+ 182159 string characters out of 5454814
  603850 words of memory out of 5000000
  40175 multiletter control sequences out of 15000+600000
  628636 words of font info for 43 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,11n,79p,1262b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,1265b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on starter.pdf (1 page, 39223 bytes).
+Output written on starter.pdf (1 page, 39384 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
