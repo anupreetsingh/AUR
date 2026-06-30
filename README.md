@@ -1,6 +1,6 @@
 # Notes
 
-## Final Move Script
+## Copy PDF into Tentative/
 
 Edit the company and role values for each application, then run the command from the repo root:
 
@@ -36,7 +36,7 @@ git tag -fa <tag-name> -m "<new-message>" <new-commit>
 
 If you want to reuse the existing annotated tag message, skip the `-m "<new-message>"` part.
 
-## Building PDFs
+## Compiling PDFs
 
 If a PDF is not generated after saving a `.tex` file, first delete the generated add-on files and save the `.tex` file again.
 
@@ -57,3 +57,9 @@ bash Cover_Letter/build.sh
 ```
 
 Each script cleans and rebuilds both `main.tex` and `starter.tex`, then opens the generated PDFs.
+
+## Resume `.tex` Structure
+
+The \Section is reformatted to edit the appearance of the title
+
+Each Section is made up of SectionLists with the items being either a subheading of some type or a bullet.

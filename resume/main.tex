@@ -1,15 +1,14 @@
+
 %-------------------------
-% Resume in Latex
-% Author : Jake Gutierrez
-% Based off of: https://github.com/sb2nov/resume
-% License : MIT
+% RESUME MAIN FILE
+% AUTHOR: ANUPREET SINGH
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
 
 
 %-------------------------
-% Preamble
+% PREAMBLE
 %-------------------------
 
 \usepackage{latexsym}
@@ -23,7 +22,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-%Added by Anupreet
+%Added by Anupreet Singh
 \usepackage[utf8]{inputenc}
 \input{glyphtounicode}
 \usepackage{comment}
@@ -31,7 +30,7 @@
 \usepackage[hidelinks]{hyperref}
 
 
-%----------FONT OPTIONS----------
+%----------Font Options----------
 % sans-serif
 % \usepackage[sfdefault]{FiraSans}
 % \usepackage[sfdefault]{roboto}
@@ -78,56 +77,45 @@
 \pdfgentounicode=1
 
 %-------------------------
-% Custom commands
+% CUSTOM COMMANDS
 %-------------------------
 
 %---- Custom Itemize environment wrappers ----
 
-\newcommand{\resumeSubHeadingListBegin}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-
+\newcommand{\SectionListBegin}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\SectionListEnd}{\end{itemize}}
 
 %---- Custom \item wrappers (used inside the itemize wrappers) ----
 
 % For writing bullet points in the resume
-\newcommand{\resumeItem}[1]{
+\newcommand{\BulletItem}[1]{
   \item\small{
     {#1 \vspace{-4pt}}
   }
 }
 
-% For writing sub-bullet points in the resume
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
-\newcommand{\resumeExperienceHeading}[4]{
+% For writing Single Line Subheading items with Four fields (e.g., title, Organization, location, date)
+\newcommand{\SLSubheadingItemFF}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} \textbar{} \textit{\small #2} \textbar{} \textit{\small #3} & {\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubheading}[4]{
+% For writing Single Line Subheading items with Two fields (e.g., title and date)
+\newcommand{\SLSubheadingItemTF}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% For writing Double Line Subheading items with Four fields (e.g., title, date, Organization, location)
+\newcommand{\DLSubheadingItem}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & {\small #2} \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -156,21 +144,21 @@
 
 %-----------EDUCATION-----------
 \section{EDUCATION}
-  \resumeSubHeadingListBegin
-    \resumeSubheading
+  \SectionListBegin
+    \DLSubheadingItem
       {University of Maryland, Baltimore County}{Baltimore, MD}
       {(Master of Science in Computer Science GPA-3.8/4.0)}{Aug 2024 - May 2026}\\
     {\vspace{2mm}}
-    \resumeSubheading
+    \DLSubheadingItem
       {Indian Institute of Information Technology, Sonepat}{Haryana, India}
       {(Bachelor of Technology in Computer Science and Engineering GPA : 8.45/10)}{Aug 2019 - May 2023} \\
-  \resumeSubHeadingListEnd
+  \SectionListEnd
   %\vspace{-3mm}
   
 
 %-----------Skills/Relevant Coursework-----------
 \section{SKILLS / RELEVANT COURSEWORK}
-  \resumeSubHeadingListBegin
+  \SectionListBegin
     \small{\item{
     \vspace{1mm}
      % area: skills.languages
@@ -185,118 +173,106 @@
      % area: skills.cert
      \textbf{Workshops and Certifications}{: Amazon Campus Prep Series-2025 }
     }}
-  \resumeSubHeadingListEnd
+  \SectionListEnd
 
- %-----------Experience-----------
+ %-----------Industry Experience-----------
 \section{INDUSTRY EXPERIENCE}
-  \resumeSubHeadingListBegin
-  
-    \resumeExperienceHeading
+  \SectionListBegin
+    % Industry Experience 1
+    \SLSubheadingItemFF
       {Data AI Intern}
       {Platinum Business Services(R\&D Team)}
       {Catonsville, MD}
       {Dec 2025 -- Present}
-
-    \resumeItem{
+    \BulletItem{
       % area: platinum.b1
       - Developed backend services and data workflows for Cyberdome, an AI-driven platform automating GRC assessment across frameworks such as NIST 800-53 and FedRAMP.\\
       % area: platinum.b2
       - Engineered vector embedding and retrieval pipelines for control data using Qdrant, enabling RAG-based querying and automated control validation with OpenAI API and local Ollama models.\\
+      % area: platinum.b3
       - placeholder line \\
     }
-    \resumeExperienceHeading
+    % Industry Experience 2
+    \SLSubheadingItemFF
       {Software Engineer(AI) Intern}
       {PMA}
       {Tallahassee, FL}
       {Sept 2025 -- Dec 2025}
-    \resumeItem{
+    \BulletItem{
       % area: PMA.b1
       - Developed a Django + React web app where PM trainees submit assignments and an AI Agent flags common mistakes, helping coaches plan sessions $\sim$40\% faster.\\
       % area: PMA.b2
       - Hosted on AWS with DynamoDB; reused across multiple cohort cycles after the pilot run.\\
+      % area: PMA.b3
       - placeholder line
     }
-    \resumeExperienceHeading
+    % Industry Experience 3
+    \SLSubheadingItemFF
       {Full Stack Developer}
       {Turfco Landscape Co.}
       {Surrey, BC}
       {Jan 2023 -- June 2024}
-    \resumeItem{
-      % area: Turfco.b
+    \BulletItem{
+      % area: Turfco.b1
       - Developed a MERN-stack application with user authentication, payments, and a rule-based cost estimation engine.\\
+      % area: Turfco.b2
       - placeholder line \\
     }
-  \resumeSubHeadingListEnd
- %-----------Experience-----------
+  \SectionListEnd
+ %-----------Academic Experience-----------
 \section{ACADEMIC EXPERIENCE}
-  \resumeSubHeadingListBegin
-    \resumeSubheading
+  \SectionListBegin
+    % Academic Experience 1
+    \DLSubheadingItem
       {Graduate Assistant}{Aug 2025 -- June 2026}
       {UMBC - Software Engineering \& Computer Architecture(400 Level Courses)}{Baltimore, MD}
-    \resumeItem{
+    \BulletItem{
       % area: ga.b1
       - Supported Agile/Scrum project development across multiple teams and facilitated coordination between teams and stakeholders to align deliverables with evolving requirements.\\
       % area: ga.b2
       - Graded coursework including topics like pipelining, cache design, memory hierarchy, and instruction-level parallelism.\\
     }
-    \resumeSubheading
+
+    % Academic Experience 2
+    \DLSubheadingItem
       {Teaching Assistant}{Jan 2025 -- June 2025}
       {UMBC - Data Structures (300 Level Course)}{Baltimore, MD}
-    \resumeItem{
+    \BulletItem{
       % area: ta.b1
       - Held office hours for C++ OOP projects and supported course administration through homework design and grading.\\
     }
     
-  \resumeSubHeadingListEnd
+  \SectionListEnd
 
 %-----------Projects-----------
 \section{PROJECTS}
-  \resumeSubHeadingListBegin
-
-    \resumeSubheading
+  \SectionListBegin
+    % Project 1
+    \DLSubheadingItem
       {Bloodborne Text Adventure Edition}{Sep 2025 - Dec 2025}
       {Interpreting free-form player commands using transformer models}{}
-    \resumeItem{
+    \BulletItem{
       - Modeled a Bloodborne-inspired game world using JSON-based character, location, item, and dialogue schemas \\
       - Leveraged Mistral-7B with few-shot prompting to map natural language player commands to in-game actions.
     }
 
-    \resumeSubheading
+    % Project 2
+    \DLSubheadingItem
       {When Pixels Talk Back}{Jan 2025 -- May 2025}
       {Watermarking impact analysis on computer vision models}{}
-    \resumeItem{
+    \BulletItem{
       - Embedded a 1024-bit blind fragile watermark into RONI regions of lung CT scans, achieving near-lossless quality (SSIM 0.9999) while preserving DenseNet-169 performance (F1 0.952) \\
     }
 
-    \resumeSubheading
+    % Project 3
+    \DLSubheadingItem
       {Nothing Lost in Translation}{Sep 2024 -- Dec 2024}
       {Lexically constrained machine translation}{}
-        \resumeItem{
-        - Implemented lexical constraints for EN-RU translation using a custom beam search algorithm, outperforming the default .generate method with higher BLEU scores while ensuring inclusion of missing n-grams \\
-        }
+    \BulletItem{
+    - Implemented lexical constraints for EN-RU translation using a custom beam search algorithm, outperforming the default .generate method with higher BLEU scores while ensuring inclusion of missing n-grams \\
+    }
 
-  \resumeSubHeadingListEnd
+  \SectionListEnd
 
-      
 
-    
-
-\begin{comment}
-%-----------Courses-----------
-\section{Classes}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-    \vspace{1mm}
-     \textbf{Courses}{: AP Calulus BC, AP Chemistry, AP Physics, AP World History, AP U.S. History, AP Statistics, AP Literature} \\
-
-    }}
- \end{itemize}
-
- \begin{center}
-    
-\small 123-456-7890 $|$
-\href{mailto:ADD EMAIL HERE@x.com}{\underline{andrew@gmail.com}} $|$
-\href{ADD LINKEDIN PAGE HERE}{\underline{linkedin.com/in/andrew}} 
-\end{center}
-\end{comment}
 \end{document}
