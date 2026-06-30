@@ -7,6 +7,11 @@
 
 \documentclass[letterpaper,11pt]{article}
 
+
+%-------------------------
+% Preamble
+%-------------------------
+
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -21,6 +26,9 @@
 %Added by Anupreet
 \usepackage[utf8]{inputenc}
 \input{glyphtounicode}
+\usepackage{comment}
+\usepackage{fontawesome}
+\usepackage[hidelinks]{hyperref}
 
 
 %----------FONT OPTIONS----------
@@ -55,23 +63,50 @@
 \raggedright
 \setlength{\tabcolsep}{0in}
 
-% Sections formatting
-\titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+%----------Customizing Section Formatting----------
 
-% Ensure that generate pdf is machine readable/ATS parsable
+% Using the \titleformat command from the titlesec package. 
+% Updating section style 
+\titleformat{\section}
+  {\vspace{-4pt}\scshape\raggedright\large}
+  {}
+  {0em}
+  {}
+  [\color{black}\titlerule \vspace{-5pt}]
+
+%--- Ensure that compilers using the pdfTex-engine generate pdf that is machine readable/ATS parsable----
 \pdfgentounicode=1
 
 %-------------------------
 % Custom commands
+%-------------------------
 
-%---- List \item commands (used inside the itemize wrappers below) ----
+%---- Custom Itemize environment wrappers ----
 
+\newcommand{\resumeSubHeadingListBegin}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+%---- Custom \item wrappers (used inside the itemize wrappers) ----
+
+% For writing bullet points in the resume
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    {#1 \vspace{-4pt}}
   }
+}
+
+% For writing sub-bullet points in the resume
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\newcommand{\resumeExperienceHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} \textbar{} \textit{\small #2} \textbar{} \textit{\small #3} & {\small #4} \\
+    \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubheading}[4]{
@@ -96,25 +131,15 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
-%---- Itemize environment wrappers (containers for the items above) ----
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %---- Misc: bullet glyph for nested (second-level) itemize ----
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------
+% RESUME CONTENT STARTS HERE
+%-------------------------
 
-\usepackage{comment}
-\usepackage{fontawesome}
-\usepackage[hidelinks]{hyperref}
 \begin{document}
 
 \begin{center}
@@ -131,21 +156,21 @@
 
 %-----------EDUCATION-----------
 \section{EDUCATION}
-  \resumeSubHeadingListStart
+  \resumeSubHeadingListBegin
     \resumeSubheading
       {University of Maryland, Baltimore County}{Baltimore, MD}
-      {(Master of Science in Computer Science GPA-3.8/4.0)}{August 2024 - May 2026}\\
+      {(Master of Science in Computer Science GPA-3.8/4.0)}{Aug 2024 - May 2026}\\
     {\vspace{2mm}}
     \resumeSubheading
       {Indian Institute of Information Technology, Sonepat}{Haryana, India}
-      {(Bachelor of Technology in Computer Science and Engineering GPA : 8.45/10)}{August 2019 - May 2023} \\
+      {(Bachelor of Technology in Computer Science and Engineering GPA : 8.45/10)}{Aug 2019 - May 2023} \\
   \resumeSubHeadingListEnd
   %\vspace{-3mm}
   
 
 %-----------Skills/Relevant Coursework-----------
 \section{SKILLS / RELEVANT COURSEWORK}
-  \resumeSubHeadingListStart
+  \resumeSubHeadingListBegin
     \small{\item{
     \vspace{1mm}
      % area: skills.languages
@@ -164,38 +189,49 @@
 
  %-----------Experience-----------
 \section{INDUSTRY EXPERIENCE}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Data AI Intern}{Dec 2025 -- Present}
-      {Platinum Business Services(R\&D Team)}{Catonsville, MD}
+  \resumeSubHeadingListBegin
+  
+    \resumeExperienceHeading
+      {Data AI Intern}
+      {Platinum Business Services(R\&D Team)}
+      {Catonsville, MD}
+      {Dec 2025 -- Present}
+
     \resumeItem{
       % area: platinum.b1
       - Developed backend services and data workflows for Cyberdome, an AI-driven platform automating GRC assessment across frameworks such as NIST 800-53 and FedRAMP.\\
       % area: platinum.b2
-      - Engineered vector embedding and retrieval pipelines for control data using Qdrant, enabling RAG-based querying and automated control validation with OpenAI API and local Ollama models.
+      - Engineered vector embedding and retrieval pipelines for control data using Qdrant, enabling RAG-based querying and automated control validation with OpenAI API and local Ollama models.\\
+      - placeholder line \\
     }
-    \resumeSubheading
-      {Software Engineer(AI) Intern}{Sept 2025 -- Dec 2025}
-      {PMA}{Tallahassee, FL}
+    \resumeExperienceHeading
+      {Software Engineer(AI) Intern}
+      {PMA}
+      {Tallahassee, FL}
+      {Sept 2025 -- Dec 2025}
     \resumeItem{
       % area: PMA.b1
       - Developed a Django + React web app where PM trainees submit assignments and an AI Agent flags common mistakes, helping coaches plan sessions $\sim$40\% faster.\\
       % area: PMA.b2
       - Hosted on AWS with DynamoDB; reused across multiple cohort cycles after the pilot run.\\
+      - placeholder line
     }
-    \resumeSubheading
-      {Full Stack Developer}{January 2023 -- June 2024}
-      {Turfco Landscape Co.}{Surrey, BC}
+    \resumeExperienceHeading
+      {Full Stack Developer}
+      {Turfco Landscape Co.}
+      {Surrey, BC}
+      {Jan 2023 -- June 2024}
     \resumeItem{
       % area: Turfco.b
       - Developed a MERN-stack application with user authentication, payments, and a rule-based cost estimation engine.\\
+      - placeholder line \\
     }
-\resumeSubHeadingListEnd
+  \resumeSubHeadingListEnd
  %-----------Experience-----------
 \section{ACADEMIC EXPERIENCE}
-  \resumeSubHeadingListStart
+  \resumeSubHeadingListBegin
     \resumeSubheading
-      {Graduate Assistant}{Aug 2025 -- Present}
+      {Graduate Assistant}{Aug 2025 -- June 2026}
       {UMBC - Software Engineering \& Computer Architecture(400 Level Courses)}{Baltimore, MD}
     \resumeItem{
       % area: ga.b1
@@ -204,7 +240,7 @@
       - Graded coursework including topics like pipelining, cache design, memory hierarchy, and instruction-level parallelism.\\
     }
     \resumeSubheading
-      {Teaching Assistant}{January 2025 -- June 2025}
+      {Teaching Assistant}{Jan 2025 -- June 2025}
       {UMBC - Data Structures (300 Level Course)}{Baltimore, MD}
     \resumeItem{
       % area: ta.b1
@@ -215,7 +251,7 @@
 
 %-----------Projects-----------
 \section{PROJECTS}
-  \resumeSubHeadingListStart
+  \resumeSubHeadingListBegin
 
     \resumeSubheading
       {Bloodborne Text Adventure Edition}{Sep 2025 - Dec 2025}

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1782266121.14298 "/Users/manpreetsingh/Downloads/Study/Dev Projects/AUR/resume/main.tex" "main.pdf" "main" 1782266121.45897 0
-  "/Users/manpreetsingh/Downloads/Study/Dev Projects/AUR/resume/main.tex" 1782266120.88368 9044 e6bae17449daf9d05e88340fa78883e0 ""
+["pdflatex"] 1782830265.7783 "/Users/manpreetsingh/Downloads/Study/Dev Projects/AUR/resume/main.tex" "main.pdf" "main" 1782830266.49685 0
+  "/Users/manpreetsingh/Downloads/Study/Dev Projects/AUR/resume/main.tex" 1782830264.3937 9734 21ddf8f7a9a6cd2d07d9421762017bbc ""
   "/usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm" 1136768653 1300 63a6111ee6274895728663cf4b4e7e81 ""
@@ -49,6 +49,7 @@
   "/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/article.cls" 1748806692 20144 b966087dda3b194755eb460d32e2ef75 ""
   "/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/inputenc.sty" 1738182759 5048 0270515b828149155424600fd2d58ac5 ""
   "/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/latexsym.sty" 1738182759 2853 45a98f589f86476fadff19a8edda5ea9 ""
+  "/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/omscmr.fd" 1738182759 2469 c75f72b1dc17277decdd842fa4a321a8 ""
   "/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/size11.clo" 1748806692 8464 f339f4d5391fbe0425b2d94c90e6819e ""
   "/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/ulasy.fd" 1738182759 2233 b5d3114ec3e0616e658a8e7b74e810f1 ""
   "/usr/local/texlive/2026basic/texmf-dist/tex/latex/comment/comment.sty" 1472166125 10197 204f75d5d8d88aa345a8c402e879e63b ""
@@ -86,9 +87,9 @@
   "/usr/local/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1775946025 79584 dc1b64e78fc6a56b1688b4b486ecd109 ""
   "/usr/local/texlive/2026basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1772405612 2966183 588a2f29d0aaf280e3a142a37c2dd621 ""
   "/usr/local/texlive/2026basic/texmf.cnf" 1772405582 628 bbc09d6d38872d53c11bb48dc9b14e88 ""
-  "main.aux" 1782266121.41918 848 c35fb431e268e5112e4102e4faa81dee "pdflatex"
-  "main.out" 1782266121.41957 645 d69e8f7133908f124abf1937ee312f94 "pdflatex"
-  "main.tex" 1782266120.88368 9044 e6bae17449daf9d05e88340fa78883e0 ""
+  "main.aux" 1782830266.45846 848 c35fb431e268e5112e4102e4faa81dee "pdflatex"
+  "main.out" 1782830266.45882 645 d69e8f7133908f124abf1937ee312f94 "pdflatex"
+  "main.tex" 1782830264.3937 9734 21ddf8f7a9a6cd2d07d9421762017bbc ""
   (generated)
   "main.aux"
   "main.log"
