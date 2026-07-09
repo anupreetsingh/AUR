@@ -1,11 +1,15 @@
+
 %-------------------------
-% Resume in Latex
-% Author : Jake Gutierrez
-% Based off of: https://github.com/sb2nov/resume
-% License : MIT
+% RESUME MAIN FILE
+% AUTHOR: ANUPREET SINGH
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
+
+
+%-------------------------
+% PREAMBLE
+%-------------------------
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -18,12 +22,17 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-%Added by Anupreet
+%Added by Anupreet Singh
+\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+\usepackage{textcomp}
 \input{glyphtounicode}
+\usepackage{comment}
+\usepackage{fontawesome}
+\usepackage[hidelinks]{hyperref}
 
 
-%----------FONT OPTIONS----------
+%----------Font Options----------
 % sans-serif
 % \usepackage[sfdefault]{FiraSans}
 % \usepackage[sfdefault]{roboto}
@@ -55,26 +64,74 @@
 \raggedright
 \setlength{\tabcolsep}{0in}
 
-% Sections formatting
-\titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+%----------Customizing Section Formatting----------
 
-% Ensure that generate pdf is machine readable/ATS parsable
+% Using the \titleformat command from the titlesec package. 
+% Updating section style 
+\titleformat{\section}
+  {\vspace{-4pt}\scshape\raggedright\large}
+  {}
+  {0em}
+  {}
+  [\color{black}\titlerule \vspace{-5pt}]
+
+%--- Ensure that compilers using the pdfTex-engine generate pdf that is machine readable/ATS parsable----
 \pdfgentounicode=1
 
 %-------------------------
-% Custom commands
+% CUSTOM COMMANDS
+%-------------------------
 
-%---- List \item commands (used inside the itemize wrappers below) ----
+%---- Custom Itemize environment wrappers ----
 
-\newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
+\newcommand{\SectionListBegin}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\SectionListEnd}{\end{itemize}}
+
+%---- \items inside \SectionList environment ----
+
+% For writing bullet points in the resume. Internally makes a nested itemize environment and the arugment is the items of that itemzie environment. with a dash as the bullet point.
+\newcommand{\BulletItems}[1]{
+  \item
+    \begin{itemize}[label={-}, leftmargin=*, labelsep=0.3em, topsep=0pt, partopsep=0pt, itemsep=0pt, parsep=0pt]\small
+      #1
+    \end{itemize}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubheading}[4]{
+% For writing Single Line Subheading items with Four fields (e.g., title, Organization, location, date)
+\newcommand{\SLSubheadingItemFF}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} \textbar{} \textit{\small #2} \textbar{} \textit{\small #3} & {\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% For writing Single Line Subheading items with Three fields (e.g., title, Organization, date)
+\newcommand{\SLSubheadingItemThF}[3]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} \textbar{} \textit{\small #2} & {\small #3} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% For writing Single Line Subheading items with Two fields (e.g., title and date)
+\newcommand{\SLSubheadingItemTF}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+% For writing Single Line Subheading items with a Hyperlink (Mainly used for linking to project repositories) with Four fields (e.g., title, link, description, date)
+\newcommand{\SLSubheadingItemLink}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\href{#2}{#1}} \textbar{} \textit{\small #3} & {\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% For writing Double Line Subheading items with Four fields (e.g., title, date, Organization, location)
+\newcommand{\DLSubheadingItem}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & {\small #2} \\
@@ -82,39 +139,17 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
 
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
-}
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
-%---- Itemize environment wrappers (containers for the items above) ----
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %---- Misc: bullet glyph for nested (second-level) itemize ----
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------
+% RESUME CONTENT STARTS HERE
+%-------------------------
 
-\usepackage{comment}
-\usepackage{fontawesome}
-\usepackage[hidelinks]{hyperref}
 \begin{document}
 
 \begin{center}
@@ -123,7 +158,7 @@
 	$|$ 
 	\small {\href{https://www.linkedin.com/in/anupreet-singh-71b1861b8/}{\underline{LinkedIn}}}
     $|$ 
-	\small {\href{https://github.com/anupreetsingh}{\underline{Github}}}
+	\small {\href{https://github.com/anupreetsingh}{\underline{GitHub}}}
     $|$ 
 {\underline{+1 (410) 260-9818}} 
 \end{center}
@@ -131,136 +166,137 @@
 
 %-----------EDUCATION-----------
 \section{EDUCATION}
-  \resumeSubHeadingListStart
-    \resumeSubheading
+  \SectionListBegin
+    \DLSubheadingItem
       {University of Maryland, Baltimore County}{Baltimore, MD}
-      {(Master of Science in Computer Science GPA-3.8/4.0)}{August 2024 - May 2026}\\
+      {(Master of Science in Computer Science, GPA: 3.8/4.0)}{Aug 2024 -- May 2026}\\
     {\vspace{2mm}}
-    \resumeSubheading
+    \DLSubheadingItem
       {Indian Institute of Information Technology, Sonepat}{Haryana, India}
-      {(Bachelor of Technology in Computer Science and Engineering GPA : 8.45/10)}{August 2019 - May 2023} \\
-  \resumeSubHeadingListEnd
+      {(Bachelor of Technology in Computer Science and Engineering, GPA: 8.45/10)}{Aug 2019 -- May 2023} \\
+  \SectionListEnd
   %\vspace{-3mm}
   
 
 %-----------Skills/Relevant Coursework-----------
 \section{SKILLS / RELEVANT COURSEWORK}
-  \resumeSubHeadingListStart
+  \SectionListBegin
     \small{\item{
     \vspace{1mm}
      % area: skills.languages
-     \textbf{Programming Languages}{: Python, C/C++, C\#, SQL, JavaScript, Java, R} \\
+     \textbf{Programming Languages}{: Python, JavaScript/TypeScript, C/C++, Java, SQL} \\
      \vspace{1mm}
      % area: skills.tools
-     \textbf{Tools and Frameworks}{: PyTorch, LangChain, Scikit-learn, Pandas, FastAPI, Express, Node.js, REST APIs, React, PostgreSQL, MongoDB, Qdrant, Redis, AWS, Docker, GitHub Actions, Git, Linux, JIRA, Agile/Scrum}\\
+     \textbf{Tools and Frameworks}{: PyTorch, LangChain, CrewAI, Qdrant, Django, FastAPI, React, Next.js, MongoDB, PostgreSQL, AWS, PyTest, GoogleTest, Docker, Kubernetes, GitHub Actions(CI/CD), Claude Code, Codex}\\
      \vspace{1mm}
      % area: skills.coursework
-     \textbf{Area of interest and Coursework}{: AI \& LLMs, Natural Language Processing, Object Oriented Design (OOD), Software Engineering, Advanced Computer Architecture, Cryptography, Data Structures \& Algorithms} \\
+     \textbf{Areas of Interest and Coursework}{: AI \& LLMs, Data Structures \& Algorithms, Software Engineering (SDLC), System Design, Object Oriented Design (OOD), Computer Architecture} \\
      \vspace{1mm}
      % area: skills.cert
-     \textbf{Workshops and Certifications}{: Amazon Campus Prep Series-2025 }
+     %\textbf{Workshops and Certifications}{: Amazon Campus Prep Series-2025 }
     }}
-  \resumeSubHeadingListEnd
+  \SectionListEnd
 
- %-----------Experience-----------
+ %-----------Industry Experience-----------
 \section{INDUSTRY EXPERIENCE}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Data AI Intern}{Dec 2025 -- Present}
-      {Platinum Business Services LLC}{Catonsville, MD}
-    \resumeItem{
+  \SectionListBegin
+    % Industry Experience 1
+    \SLSubheadingItemFF
+      {Data AI Intern}
+      {Platinum Business Services (R\&D Team)}
+      {Catonsville, MD}
+      {Dec 2025 -- Present}
+    \BulletItems{
       % area: platinum.b1
-      - Developed backend services and data workflows for Cyberdome, an AI-driven platform automating GRC assessment across frameworks such as NIST 800-53 and FedRAMP.\\
-      % area: platinum.b2
-      - Engineered vector embedding and retrieval pipelines for control data using Qdrant, enabling RAG-based querying and automated control validation with OpenAI API and local Ollama models.
+      \item Developed backend services for an AI-native GRC platform automating NIST 800-53 assessment of \textbf{$\sim$1,200} controls for RFP bidders, cutting reviews from \textbf{days of manual work to minutes}.
+      \item Implemented a fallback mechanism across 5 embedding models (OpenAI, Ollama) for RAG queries with no relevant control citations, guaranteeing an answer for \textbf{100\%} of compliance Q\&A requests.
+      \item Diagnosed an OOM bug where freshly pulled 4--5 GB LLM weights lingered in the OS page cache; fixed it with targeted \texttt{posix\_fadvise} eviction, \textbf{eliminating model-load failures}.
     }
-    \resumeSubheading
-      {Software Engineer Intern}{Sept 2025 -- Dec 2025}
-      {Product Manager Accelerator}{Tallahassee, FL}
-    \resumeItem{
+    % Industry Experience 2
+    \SLSubheadingItemFF
+      {Software Engineer (AI) Intern}
+      {PMA}
+      {Tallahassee, FL}
+      {Sep 2025 -- Dec 2025}
+    \BulletItems{
       % area: PMA.b1
-      - \\
+      \item Built a React + Django AI assignment-review platform to flag rubric mistakes, cutting coach prep from \textbf{5 to 2 hours}.
       % area: PMA.b2
-      - \\
+      \item Architected a fully serverless AWS stack using an SQS-triggered Lambda AI worker, DynamoDB, and S3/CloudFront, sustaining 200+ submissions across 5 cohorts at \textbf{$\sim$\$3/month} idle cost.
     }
-    \resumeSubheading
-      {Full Stack Developer Intern}{January 2023 -- June 2023}
-      {Turfco Landscape Co.}{Surrey, BC}
-    \resumeItem{
-      % area: Turfco.b
-      - Built a MERN-stack application with user authentication, payments, and a rule-based cost estimation engine.\\
+    % Industry Experience 3
+    \SLSubheadingItemFF
+      {Full Stack Developer}
+      {Turfco Landscape Co.}
+      {Surrey, BC}
+      {Jan 2023 -- June 2024}
+    \BulletItems{
+      % area: Turfco.b1
+      \item Engineered an admin-configurable cost estimation engine, cutting quote turnaround from \textbf{$\sim$2 days} to \textbf{\textless{}1 min}.
+      \item Implemented JWT auth and idempotent Stripe webhooks, moving deposit collection online with \textbf{zero} duplicate charges.
+      \item Sustained \textbf{10K} daily requests at \textbf{\textless100 ms} latency on one EC2 instance via Nginx, caching, and MongoDB indexing.
     }
-\resumeSubHeadingListEnd
- %-----------Experience-----------
+  \SectionListEnd
+ %-----------Academic Experience-----------
 \section{ACADEMIC EXPERIENCE}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Graduate Assistant}{Aug 2025 -- Present}
-      {UMBC - Software Engineering \& Computer Architecture(400 Level Courses)}{Baltimore, MD}
-    \resumeItem{
+  \SectionListBegin
+    % Academic Experience 1
+    \SLSubheadingItemThF
+      {Graduate Assistant}
+      {UMBC - Computer Architecture \& Software Engineering }
+      {Aug 2025 -- June 2026}
+    \BulletItems{
       % area: ga.b1
-      - Supported Agile/Scrum project development across multiple teams and facilitated coordination between teams and stakeholders to align deliverables with evolving requirements.\\
-      % area: ga.b2
-      - Graded coursework including topics like pipelining, cache design, memory hierarchy, and instruction-level parallelism.\\
+      \item Designed a C++ assignment on virtual memory (testing knowledge of MMU address translation, multi-level page tables, and kernel page-fault handling) and graded coursework in computer architecture for \textbf{40+} students.
+      \item Coached \textbf{10} student Scrum teams through sprint planning, reviews, and backlog refinement for their projects.
+      \item Coordinated between 40 students and stakeholders, keeping all \textbf{10} projects on schedule amid evolving requirements.
     }
-    \resumeSubheading
-      {Teaching Assistant}{January 2025 -- June 2025}
-      {UMBC - Data Structures (300 Level Course)}{Baltimore, MD}
-    \resumeItem{
+
+    % Academic Experience 2
+    \SLSubheadingItemThF
+      {Teaching Assistant}
+      {UMBC - Data Structures}
+      {Jan 2025 -- June 2025}
+    \BulletItems{
       % area: ta.b1
-      - Held office hours for C++ OOP projects and supported course administration through homework design and grading.\\
+      \item Developed 20+ unit tests for the hash table project, automating logic checking and reducing grading time by \textbf{80\%}.
+      \item Helped \textbf{50+} students design and debug C++ projects implementing core data structures and graded homework.
+      
     }
     
-  \resumeSubHeadingListEnd
+  \SectionListEnd
 
 %-----------Projects-----------
 \section{PROJECTS}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Bloodborne Text Adventure Edition}{Sep 2025 - Dec 2025}
-      {Interpreting free-form player commands using transformer models}{}
-    \resumeItem{
-      - Modeled a Bloodborne-inspired game world using JSON-based character, location, item, and dialogue schemas \\
-      - Leveraged Mistral-7B with few-shot prompting to map natural language player commands to in-game actions.
+  \SectionListBegin
+    % Project 1
+    \SLSubheadingItemLink
+      {Bloodborne TAG}{https://github.com/anupreetsingh/Bloodborne-TAG}
+      {Text Adventure Game with natural language command parsing}{Sep 2025 -- Dec 2025}
+    \BulletItems{
+      \item Engineered a command parser using few-shot Mistral-7B for slot extraction and embedding-similarity-based intent matching, correctly mapping \textbf{100\%} of free-form playtest commands to 14 deterministic actions.
+      \item Architected a data-driven game engine with a \textbf{41-room} world and 60+ items/NPCs, extensible without code changes.
     }
 
-    \resumeSubheading
-      {When Pixels Talk Back}{Jan 2025 -- May 2025}
-      {Watermarking impact analysis on computer vision models}{}
-    \resumeItem{
-      - Embedded a 1024-bit blind fragile watermark into RONI regions of lung CT scans, achieving near-lossless quality (SSIM 0.9999) while preserving DenseNet-169 performance (F1 0.952) \\
+    % Project 2
+    \SLSubheadingItemLink
+      {When Pixels Talk Back}{https://github.com/anupreetsingh/When-Pixels-Talk-Back}
+      {Watermarking impact analysis on computer vision models}{Jan 2025 -- May 2025}
+    \BulletItems{
+      \item Embedded a 1024-bit blind fragile watermark into RONI regions of COVID-19 lung CT scans, achieving near-lossless quality (SSIM \textbf{0.9999}) while preserving DenseNet-169 performance (F1 \textbf{0.952}).
+      \item Benchmarked 3 watermarking algorithms against 3 CNN classifiers, showing robust watermarks cut positive-case detection to \textbf{48\%} and skew errors toward false negatives.
     }
 
-    \resumeSubheading
-      {Nothing Lost in Translation}{Sep 2024 -- Dec 2024}
-      {Lexically constrained machine translation}{}
-        \resumeItem{
-        - Implemented lexical constraints for EN-RU translation using a custom beam search algorithm, outperforming the default .generate method with higher BLEU scores while ensuring inclusion of missing n-grams \\
-        }
+    % Project 3
+    \SLSubheadingItemLink
+      {Nothing Lost in Translation}{https://github.com/anupreetsingh/Nothing-Lost-in-Translation}
+      {Lexically constrained Sequence Generation}{Sep 2024 -- Dec 2024}
+    \BulletItems{
+      \item Built a Grid Beam Search decoder guaranteeing positive/negative lexical constraint satisfaction and raising BLEU by \textbf{15 points} (25.45 → 40.59) for English-to-Russian NMT.
+      \item Reconstructed a beam search decoder from scratch, outperforming HuggingFace's stock \texttt{.generate()} by \textbf{1.45 BLEU}.
+    }
 
-  \resumeSubHeadingListEnd
+  \SectionListEnd
 
-      
 
-    
-
-\begin{comment}
-%-----------Courses-----------
-\section{Classes}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-    \vspace{1mm}
-     \textbf{Courses}{: AP Calulus BC, AP Chemistry, AP Physics, AP World History, AP U.S. History, AP Statistics, AP Literature} \\
-
-    }}
- \end{itemize}
-
- \begin{center}
-    
-\small 123-456-7890 $|$
-\href{mailto:ADD EMAIL HERE@x.com}{\underline{andrew@gmail.com}} $|$
-\href{ADD LINKEDIN PAGE HERE}{\underline{linkedin.com/in/andrew}} 
-\end{center}
-\end{comment}
 \end{document}
