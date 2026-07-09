@@ -38,6 +38,13 @@ If you want to reuse the existing annotated tag message, skip the `-m "<new-mess
 
 ## Compiling PDFs
 
+Dependency: the `cm-super` fonts must be installed, or the PDFs silently compile with bitmap fonts that break copy-paste (dropped `fi` ligatures and dashes) and lose the bold small-caps name header:
+
+```bash
+tlmgr init-usertree
+tlmgr --usermode install cm-super
+```
+
 If a PDF is not generated after saving a `.tex` file, first delete the generated add-on files and save the `.tex` file again.
 
 If the PDF is still not generated, rebuild it from scratch with the relevant build script.
