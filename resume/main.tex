@@ -184,10 +184,10 @@
     \small{\item{
     \vspace{1mm}
      % area: skills.languages
-     \textbf{Programming Languages}{: Python, C++, TypeScript, Java, SQL} \\
+     \textbf{Programming Languages}{: Python, TypeScript, C++, Java, SQL} \\
      \vspace{1mm}
      % area: skills.tools
-     \textbf{Tools and Frameworks}{: PyTorch, Hugging Face Transformers, LangChain, LlamaIndex, Qdrant, Pinecone, PyTest, Docker, Kubernetes, GitHub Actions (CI/CD), AWS, Django, Next.js, PostgreSQL, Claude Code}\\
+     \textbf{Tools and Frameworks}{: PyTorch, Hugging Face Transformers, LangChain, Qdrant, Weaviate, Django, FastAPI, Next.js, PostgreSQL, AWS, PyTest, Docker, Kubernetes, OpenTelemetry, GitHub Actions (CI/CD), Claude Code}\\
      \vspace{1mm}
      % area: skills.coursework
      \textbf{Areas of Interest and Coursework}{: AI Agents \& LLMs, Data Structures \& Algorithms, Distributed System Design, Software Engineering (SDLC), Object Oriented Design (OOD), Computer Architecture} \\
@@ -233,6 +233,7 @@
     \BulletItems{
       % area: Turfco.b1
       \item Engineered an admin-configurable cost estimation engine, cutting quote turnaround from \textbf{$\sim$2 days} to \textbf{\textless{}1 min}.
+      \item Implemented JWT auth and idempotent Stripe webhooks, moving deposit collection online with \textbf{zero} duplicate charges.
       \item Sustained \textbf{10K} daily requests at \textbf{\textless100 ms} latency on one EC2 instance via Nginx, caching, and MongoDB indexing.
     }
   \SectionListEnd
@@ -265,7 +266,7 @@
   \SectionListEnd
 
 %-----------Projects-----------
-\section{RESEARCH PROJECTS}
+\section{PROJECTS}
   \SectionListBegin
 
     % Project 3
@@ -274,8 +275,8 @@
       {Lexically constrained Sequence Generation}{Sep 2024 -- Dec 2024}
     \BulletItems{
       \item Built a Grid Beam Search decoder guaranteeing positive/negative lexical constraint satisfaction and raising BLEU by \textbf{15 points} (25.45 → 40.59) for English-to-Russian NMT.
-      \item Demonstrated \textbf{inference-time safety control} by enforcing negative lexical constraints at decode time, guaranteeing exclusion of unsafe content without retraining or post-hoc filtering.
       \item Reconstructed a beam search decoder from scratch, outperforming HuggingFace's stock \texttt{.generate()} by \textbf{1.45 BLEU}.
+      \item Demonstrated \textbf{inference-time safety control} by enforcing negative lexical constraints at decode time.
     }
 
     % Project 2
