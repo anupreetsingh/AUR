@@ -184,13 +184,14 @@
     \small{\item{
     \vspace{1mm}
      % area: skills.languages
-     \textbf{Programming Languages}{: Python, TypeScript, C++, Java, SQL} \\
+     \textbf{Programming Languages}{: Python, C++, TypeScript, Java, SQL} \\
      \vspace{1mm}
      % area: skills.tools
-     \textbf{Tools and Frameworks}{: PyTorch, Hugging Face Transformers, LangChain, Qdrant, Weaviate, Django, FastAPI, Next.js, PostgreSQL, AWS, PyTest, Docker, Kubernetes, OpenTelemetry, GitHub Actions (CI/CD), Claude Code}\\
+     \textbf{Tools and Frameworks}{: PyTorch, OpenCV, LangChain, Qdrant, Django, FastAPI, React, Next.js, MongoDB, PostgreSQL, PyTest, AWS, Docker, Kubernetes, Git, GitHub Actions(CI/CD), Claude Code}\\
+     % Add-On: Weaviate, Pinecone, OpenTelemetry, Prometheus, Grafana, Codex
      \vspace{1mm}
      % area: skills.coursework
-     \textbf{Areas of Interest and Coursework}{: AI Agents \& LLMs, Data Structures \& Algorithms, Distributed System Design, Software Engineering (SDLC), Object Oriented Design (OOD), Computer Architecture} \\
+     \textbf{Areas of Interest and Coursework}{: Computer Vision \& LLMs, Data Structures \& Algorithms, Distributed System Design, Software Engineering (SDLC), Object Oriented Design (OOD), Computer Architecture} \\
      \vspace{1mm}
      % area: skills.cert
      %\textbf{Workshops and Certifications}{: Amazon Campus Prep Series-2025 }
@@ -209,8 +210,9 @@
     \BulletItems{
       % area: platinum.b1
       \item Developed backend services for an AI-native GRC platform automating NIST 800-53 assessment of \textbf{$\sim$1,200} controls for RFP bidders, cutting reviews from \textbf{days of manual work to minutes}.
-      \item Implemented a fallback mechanism across 5 embedding models (Claude, OpenAI, Ollama) for RAG queries with no relevant control citations, guaranteeing an answer for \textbf{100\%} of compliance Q\&A requests.
+      \item Implemented a fallback mechanism across 5 embedding models (OpenAI, Ollama) for RAG queries with no relevant control citations, guaranteeing an answer for \textbf{100\%} of compliance Q\&A requests.
       \item Diagnosed an OOM bug where freshly pulled 4--5 GB LLM weights lingered in the OS page cache; fixed it with targeted \texttt{posix\_fadvise} eviction, \textbf{eliminating model-load failures}.
+      % Add-On(Alternative): \item Diagnosed an OOM bug via \textbf{memory telemetry}, tracing it to freshly pulled 4--5 GB LLM weights lingering in the OS cache; fixed it with targeted \texttt{posix\_fadvise} eviction, eliminating \textbf{model-load failures}.
     }
     % Industry Experience 2
     \SLSubheadingItemFF
@@ -248,6 +250,7 @@
     \BulletItems{
       % area: ga.b1
       \item Designed a C++ assignment on virtual memory (testing knowledge of MMU address translation, multi-level page tables, and kernel page-fault handling) and graded coursework in computer architecture for \textbf{40+} students.
+      \item Coached \textbf{10} student Scrum teams through sprint planning, reviews, and backlog refinement for their projects.
       \item Coordinated between 40 students and stakeholders, keeping all \textbf{10} projects on schedule amid evolving requirements.
     }
 
@@ -268,17 +271,6 @@
 %-----------Projects-----------
 \section{PROJECTS}
   \SectionListBegin
-
-    % Project 3
-    \SLSubheadingItemLink
-      {Nothing Lost in Translation}{https://github.com/anupreetsingh/Nothing-Lost-in-Translation}
-      {Lexically constrained Sequence Generation}{Sep 2024 -- Dec 2024}
-    \BulletItems{
-      \item Built a Grid Beam Search decoder guaranteeing positive/negative lexical constraint satisfaction and raising BLEU by \textbf{15 points} (25.45 → 40.59) for English-to-Russian NMT.
-      \item Reconstructed a beam search decoder from scratch, outperforming HuggingFace's stock \texttt{.generate()} by \textbf{1.45 BLEU}.
-      \item Demonstrated \textbf{inference-time safety control} by enforcing negative lexical constraints at decode time.
-    }
-
     % Project 2
     \SLSubheadingItemLink
       {When Pixels Talk Back}{https://github.com/anupreetsingh/When-Pixels-Talk-Back}
@@ -298,6 +290,15 @@
     }
 
     
+    % Project 3
+    \SLSubheadingItemLink
+      {Nothing Lost in Translation}{https://github.com/anupreetsingh/Nothing-Lost-in-Translation}
+      {Lexically constrained Sequence Generation}{Sep 2024 -- Dec 2024}
+    \BulletItems{
+      \item Built a Grid Beam Search decoder guaranteeing positive/negative lexical constraint satisfaction and raising BLEU by \textbf{15 points} (25.45 → 40.59) for English-to-Russian NMT.
+      % Add-On: \item Demonstrated \textbf{inference-time safety control} by enforcing negative lexical constraints at decode time, guaranteeing exclusion of unsafe content without retraining or post-hoc filtering.
+      \item Reconstructed a beam search decoder from scratch, outperforming HuggingFace's stock \texttt{.generate()} by \textbf{1.45 BLEU}.
+    }
 
   \SectionListEnd
 
