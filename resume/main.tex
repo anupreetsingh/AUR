@@ -184,14 +184,14 @@
     \small{\item{
     \vspace{1mm}
      % area: skills.languages
-     \textbf{Programming Languages}{: Python, C++, TypeScript, Java, SQL} \\
+     \textbf{Programming Languages}{: Python, TypeScript, C++, Java, SQL} \\
      \vspace{1mm}
      % area: skills.tools
-     \textbf{Tools and Frameworks}{: Django, FastAPI, React, Next.js, MySQL, PostgreSQL, PyTest, AWS, Redis, OpenTelemetry, Docker, Kubernetes, GitHub Actions(CI/CD), PyTorch, LangChain, Qdrant, Claude Code}\\
-     % Add-On: Numpy, OpenCV, Weaviate, Pinecone, OpenTelemetry, Prometheus, Grafana, Codex
+     \textbf{Tools and Frameworks}{: Django, FastAPI, React, Next.js, PyTorch, Huggingface, LangChain, Qdrant, PostgreSQL, PyTest, Jest, AWS, OpenTelemetry, Kafka, Docker, Kubernetes, GitHub Actions(CI/CD)}\\
+     % Add-On: Numpy, OpenCV, Weaviate, Pinecone, Redis, OpenTelemetry, Prometheus, Grafana, Codex
      \vspace{1mm}
      % area: skills.coursework
-     \textbf{Areas of Interest and Coursework}{: Distributed System Design, Data Structures \& Algorithms, AI \& LLMs, Software Engineering (SDLC), Object Oriented Design (OOD), Computer Architecture} \\
+     \textbf{Areas of Interest and Coursework}{: AI \& LLMs, Data Structures \& Algorithms, Software Engineering (SDLC), Distributed System Design, Object Oriented Design (OOD), Computer Architecture} \\
      \vspace{1mm}
      % area: skills.cert
      %\textbf{Workshops and Certifications}{: Amazon Campus Prep Series-2025 }
@@ -209,10 +209,9 @@
       {Dec 2025 -- Present}
     \BulletItems{
       % area: platinum.b1
-      \item Developed backend services for an AI-native GRC platform automating NIST 800-53 assessment of \textbf{$\sim$1,200} controls for RFP bidders, cutting reviews from \textbf{days of manual work to minutes}.
+      \item Developed backend services for an AI-native GRC platform automating NIST 800-53 compliance workflows for \textbf{$\sim$1,200} controls for RFP bidders, cutting reviews from \textbf{days of manual work to minutes}.
       \item Implemented a fallback mechanism across 5 embedding models (OpenAI, Ollama) for RAG queries with no relevant control citations, guaranteeing an answer for \textbf{100\%} of compliance Q\&A requests.
-      \item Diagnosed an OOM bug where freshly pulled 4--5 GB LLM weights lingered in the OS page cache; fixed it with targeted \texttt{posix\_fadvise} eviction, \textbf{eliminating model-load failures}.
-      % Add-On(Alternative): \item Diagnosed an OOM bug via \textbf{memory telemetry}, tracing it to freshly pulled 4--5 GB LLM weights lingering in the OS cache; fixed it with targeted \texttt{posix\_fadvise} eviction, eliminating \textbf{model-load failures}.
+      \item Diagnosed an OOM bug via \textbf{memory telemetry}, tracing it to freshly pulled 4--5 GB LLM weights lingering in the OS cache; fixed it with targeted \texttt{posix\_fadvise} eviction, eliminating \textbf{model-load failures}.
     }
     % Industry Experience 2
     \SLSubheadingItemFF
@@ -228,14 +227,14 @@
     }
     % Industry Experience 3
     \SLSubheadingItemFF
-      {Backend Engineer}
+      {Full Stack Developer}
       {Turfco Landscape Co.}
       {Surrey, BC}
       {Jan 2023 -- June 2024}
     \BulletItems{
       % area: Turfco.b1
-      \item Implemented JWT auth and idempotent Stripe webhooks, moving payment flow online with \textbf{zero} duplicate charges.
       \item Engineered an admin-configurable cost estimation engine, cutting quote turnaround from \textbf{$\sim$2 days} to \textbf{\textless{}1 min}.
+      \item Implemented JWT auth and idempotent Stripe webhooks, moving deposit collection online with \textbf{zero} duplicate charges.
       \item Sustained \textbf{10K} daily requests at \textbf{\textless100 ms} latency on one EC2 instance via Nginx, caching, and MongoDB indexing.
     }
   \SectionListEnd
@@ -250,8 +249,7 @@
     \BulletItems{
       % area: ga.b1
       \item Designed a C++ assignment on virtual memory (testing knowledge of MMU address translation, multi-level page tables, and kernel page-fault handling) and graded coursework in computer architecture for \textbf{40+} students.
-      \item Coached \textbf{10} student Scrum teams through sprint planning, reviews, and backlog refinement for their projects.
-      \item Coordinated between 40 students and stakeholders, keeping all \textbf{10} projects on schedule amid evolving requirements.
+      \item Coordinated between 40 students and \textbf{stakeholders}, keeping all 10 projects on schedule amid evolving requirements.
     }
 
     % Academic Experience 2
@@ -271,13 +269,15 @@
 %-----------Projects-----------
 \section{PROJECTS}
   \SectionListBegin
-    % Project 1
+
+    % Project 3
     \SLSubheadingItemLink
-      {Bloodborne TAG}{https://github.com/anupreetsingh/Bloodborne-TAG}
-      {Text Adventure Game with natural language command parsing}{Sep 2025 -- Dec 2025}
+      {Nothing Lost in Translation}{https://github.com/anupreetsingh/Nothing-Lost-in-Translation}
+      {Lexically constrained Sequence Generation}{Sep 2024 -- Dec 2024}
     \BulletItems{
-      \item Engineered a command parser using few-shot Mistral-7B for slot extraction and embedding-similarity-based intent matching, correctly mapping \textbf{100\%} of free-form playtest commands to 14 deterministic actions.
-      \item Architected a data-driven game engine with a \textbf{41-room} world and 60+ items/NPCs, extensible without code changes.
+      \item Built a Grid Beam Search decoder guaranteeing positive/negative lexical constraint satisfaction and raising BLEU by \textbf{15 points} (25.45 → 40.59) for English-to-Russian NMT.
+      \item Demonstrated \textbf{inference-time safety control} by enforcing negative lexical constraints at decode time.
+      \item Reconstructed a beam search decoder from scratch, outperforming HuggingFace's stock \texttt{.generate()} by \textbf{1.45 BLEU}.
     }
 
     % Project 2
@@ -289,15 +289,15 @@
       \item Benchmarked 3 watermarking algorithms against 3 Computer Vision models, showing robust watermarks cut positive-case detection to \textbf{48\%} and skew errors toward false negatives.
     }
 
-    % Project 3
+    % Project 1
     \SLSubheadingItemLink
-      {Nothing Lost in Translation}{https://github.com/anupreetsingh/Nothing-Lost-in-Translation}
-      {Lexically constrained Sequence Generation}{Sep 2024 -- Dec 2024}
+      {Bloodborne TAG}{https://github.com/anupreetsingh/Bloodborne-TAG}
+      {Text Adventure Game with natural language command parsing}{Sep 2025 -- Dec 2025}
     \BulletItems{
-      \item Built a Grid Beam Search decoder guaranteeing positive/negative lexical constraint satisfaction and raising BLEU by \textbf{15 points} (25.45 → 40.59) for English-to-Russian NMT.
-      % Add-On: \item Demonstrated \textbf{inference-time safety control} by enforcing negative lexical constraints at decode time, guaranteeing exclusion of unsafe content without retraining or post-hoc filtering.
-      \item Reconstructed a beam search decoder from scratch, outperforming HuggingFace's stock \texttt{.generate()} by \textbf{1.45 BLEU}.
+      \item Engineered a command parser using few-shot Mistral-7B for slot extraction and embedding-similarity-based intent matching, correctly mapping \textbf{100\%} of free-form playtest commands to 14 deterministic actions.
+      \item Architected a data-driven game engine with a \textbf{41-room} world and 60+ items/NPCs, extensible without code changes.
     }
+
 
   \SectionListEnd
 
