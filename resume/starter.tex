@@ -210,7 +210,7 @@
     \BulletItems{
       % area: platinum.b1
       \item Developed backend services for an AI-native GRC platform automating NIST 800-53 compliance workflows for \textbf{$\sim$1,200} controls for RFP bidders, cutting reviews from \textbf{days of manual work to minutes}.
-      \item Implemented a fallback mechanism across 5 embedding models (OpenAI, Ollama) for RAG queries with no relevant control citations, guaranteeing an answer for \textbf{100\%} of compliance Q\&A requests.
+      \item Implemented a fallback mechanism across 5 embedding models (OpenAI, Ollama) that re-runs RAG queries with insufficient control citation hits, lifting retrieval from \textbf{32/50 to 50/50} hand-reviewed compliance queries.
       \item Diagnosed an OOM bug where freshly pulled 4--5 GB LLM weights lingered in the OS page cache; fixed it with targeted \texttt{posix\_fadvise} eviction, \textbf{eliminating model-load failures}.
       % Add-On(Alternative): \item Diagnosed an OOM bug via \textbf{memory telemetry}, tracing it to freshly pulled 4--5 GB LLM weights lingering in the OS cache; fixed it with targeted \texttt{posix\_fadvise} eviction, eliminating \textbf{model-load failures}.
     }
