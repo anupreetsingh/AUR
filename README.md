@@ -83,6 +83,13 @@ Start with a strong action verb, explain the specific method or tool, then close
 [Action verb] [what you did] by [Method/Tool/Approach], resulting in [measurable or observable impact].
 ```
 
+### Bolding
+
+When deciding what to bold for each sentence, think of the recruiter screening your resume and for each bullet they are able to see "Built **X**, moved **Y**":
+
+- **X** — the feature, system, or project name.
+- **Y** — the measurable metric.
+
 Examples:
 
 ```text
@@ -97,7 +104,7 @@ Increased onboarding completion by redesigning the signup flow and adding progre
 Reduced production errors by adding validation and structured logging, helping engineers identify root causes faster.
 ```
 
-### Reusable Templates
+**Reusable Templates:**
 
 ```text
 Improved [metric/process/system] by [specific technical action], resulting in [business/user/team impact].
