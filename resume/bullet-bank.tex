@@ -193,6 +193,7 @@
      % Add-On Misc: Redis
         % ML Libraries: Numpy, PyTorch, TensorFlow, HuggingFace Transformers, OpenCV
         % Vector Databases: Qdrant, Weaviate, Pinecone
+        % Databases: PostgreSQL, RDS, DynamoDB, Cassandra(High write thoughput + Availability in horizontal scaling)
         % Coding Agents: Codex, Copilot, Claude Code
         % Messaging Services: RabbitMQ, SQS, Kafka, Celery(Distributed Task Queue)
         % Observability: OpenTelemetry, Prometheus, Grafana, Datadogs
@@ -215,15 +216,14 @@
       {Catonsville, MD}
       {Dec 2025 -- Present}
     \BulletItems{
-      % area: platinum.b1
-      \item Developed backend services for an AI-native GRC platform that automaes compliance check of a system security plan draft with NIST 800-53\swallow{ for RFP bidders}, cutting reviews from \textbf{days of manual work to minutes}.
-      \item Classified each control as fully, partially, or not satisfied by the uploaded plan and generated a gap report citing the evidence behind every verdict, replacing a manual control-by-control walkthrough.
-      \item Built a parsing and chunking pipeline that splits \textbf{$\sim$1,200} \swallow{ OSCAL}controls into requirement, guidance, and assessment-objective sections, letting answers cite the exact sub-clause rather than the whole control.
-      \item Implemented a fallback mechanism across 5 embedding models (OpenAI, Ollama) that re-runs RAG queries with insufficient control citation hits, lifting retrieval from \textbf{32/50 to 50/50} hand-reviewed compliance queries.
-      \item Enforced a grounding contract that assembles citations only from retrieved chunks and short-circuits to an \texttt{Insufficient evidence} reply before any model call, so no compliance verdict rests on \textbf{fabricated control text}.
-      \item Built the React interface for plan upload, gap-report review, and follow-up Q\&A on unmet controls, along with exposing embedding and chat model selection options to users.
-      \item Diagnosed an OOM bug where freshly pulled 4--5 GB LLM weights lingered in the OS page cache; fixed it with targeted \texttt{posix\_fadvise} eviction, \textbf{eliminating model-load failures}.
-      % (Alt): \item Diagnosed an OOM bug via \textbf{memory telemetry}, tracing it to freshly pulled 4--5 GB LLM weights lingering in the OS cache; fixed it with targeted \texttt{posix\_fadvise} eviction, eliminating \textbf{model-load failures}.
+     % area: platinum.b1
+    \item Developed backend services for an AI-native \textbf{GRC platform} that audits an SSP draft for compliance with NIST 800-53\swallow{ for RFP bidders}, chunking \textbf{$\sim$1,200} \swallow{ OSCAL}controls into a per-model vector index with linkage metadata tying each chunk to its parent control and sibling clauses\swallow{ (AC-2(1)(a) to AC-2(1) and AC-2)}, cutting a control-by-control review from \textbf{days of manual work to \textless{}10 minutes}.
+    % area: platinum.b2
+    \item Implemented the \textbf{RAG chat agent} with its React interface, marking each control fully, partially, or not satisfied and answering follow-up questions on the unmet ones, with every answer grounded in citations retrieved from the vector index, so no compliance verdict rests on \textbf{fabricated control text}.
+    % area: platinum.b3
+    \item Implemented a priority-ordered \textbf{fallback across 5 embedding models} (OpenAI, Ollama), each searching its own vector index, that re-embeds and re-runs any query with too few control citations against the next model's index, recovering clauses the primary embedder's vector space missed and lifting retrieval from \textbf{32/50 to 50/50} hand-reviewed compliance queries.
+    % area: platinum.b4
+    \item Diagnosed an out-of-memory failure in that fallback path, tracing it to freshly pulled 4--5 GB model weights lingering in the OS page cache, and fixed it with targeted \texttt{posix\_fadvise} eviction, \textbf{eliminating model-load failures}.
     }
     % Industry Experience 2
     \SLSubheadingItemFF
@@ -232,11 +232,11 @@
       {Tallahassee, FL}
       {Sep 2025 -- Dec 2025}
     \BulletItems{
-      % area: PMA.b1
-      \item Built a React + Django AI assignment-review platform to flag rubric mistakes, cutting coach prep from \textbf{5 to 2 hours}.
+     % area: PMA.b1
+      \item Built an AI-powered \textbf{PRD review platform} in React and Django that compares each uploaded draft PDF against a reference PRD and emits schema-validated gap flags for a human-in-the-loop reviewer to confirm or dismiss, giving a cohort-wide matrix that replaces a read of every draft and cuts feedback-session prep from \textbf{8 to 2 hours}.
       % area: PMA.b2
-      \item Architected a fully serverless AWS stack using an SQS-triggered Lambda AI worker, DynamoDB, and S3/CloudFront, sustaining 200+ submissions across 5 cohorts at \textbf{$\sim$\$3/month} idle cost.
-    }
+      \item Architected a fully \textbf{serverless review pipeline} on AWS (S3 + CloudFront-hosted React SPA, Django on Lambda, DynamoDB, and an SQS-triggered Lambda AI worker) that retries failed analyses off a dead-letter queue and logs per-report model API spend, sustaining \textbf{200+} submissions across 5 cohorts at \textbf{$\sim$\$3/month} idle cost.
+      }
     % Industry Experience 3
     \SLSubheadingItemFF
       {Full Stack Developer}
@@ -244,14 +244,11 @@
       {Surrey, BC}
       {Jan 2023 -- June 2024}
     \BulletItems{
-      % area: Turfco.b1
-      \item Engineered an admin-configurable cost estimation engine, cutting quote turnaround from \textbf{$\sim$2 days} to \textbf{\textless{}1 min}.
-      \item Shipped an admin pricing console that cut price-change lead time from a \textbf{developer deploy} to an \textbf{instant edit}, letting non-technical staff run seasonal updates unassisted.
-      \item Implemented idempotent \swallow{, signature-verified}Stripe webhooks, moving deposit collection online with \textbf{zero} duplicate charges.
-      \item Developed and shipped the React SPA with client-side routing, role-aware protected routes and form state validated against the same schema as the API, serving customer and admin experiences from one bundle.
-      \item Sustained \textbf{300} req/s at \textbf{\textless100 ms} p95 latency on one EC2 instance via Redis caching and PostgreSQL indexing.
-
-      % (Alt): \item Sustained \textbf{10K} requests/hour at \textbf{\textless100 ms} latency on one EC2 instance via Nginx, Redis caching, and PostgreSQL indexing.
+      % area: turfco.b1
+      \item Architected a \textbf{self-serve quoting platform} that priced jobs with deterministic multi-stage evaluation, JSONB encoded conditions, per-quote audit trails of every rule applied, and a write-invalidated \textbf{Redis} cache, all driven by rules editable from an admin console instead of a developer deploy, cutting quote turnaround from \textbf{$\sim$2 days} to \textbf{\textless{}1 min}.
+      \item Built the \textbf{online ordering and booking platform} by taking self-serve orders through Stripe Checkout deposits, confirming them with signature-verified idempotent webhooks, and relaying a transactional outbox to Kafka\swallow{SQS + SNS} workers for order confirmation, customer notification, and crew allocation, taking \textbf{\$600K+} in online bookings across $\sim$1{,}100 orders. 
+      \item Delivered the \textbf{React SPA} that carried a customer from property details to instant estimate to paid deposit in one client-routed flow, with role-gated admin routes and JWT access tokens backed by httpOnly refresh cookies, enabling a streamlined booking flow with \textbf{$\sim$40\%} of bookings occuring outside office hours without phone support.
+      \item Designed and deployed the \textbf{AWS architecture} that took the business off a WordPress brochure site, with SPA on CloudFront, autoscaling Express tier behind an ALB across two AZs, Multi-AZ RDS, sized for $\sim$10$\times$ seasonal peaks and load-tested to \textbf{$\sim$50 quote requests/sec at \textless{}120\,ms p99} with zero-downtime rolling deploys.
     } 
   \SectionListEnd
  %-----------Academic Experience-----------
