@@ -191,7 +191,7 @@
      % area: skills.tools
      \textbf{Tools and Frameworks}{: PyTorch, LangChain, CrewAI, Qdrant, Django, FastAPI, React, Next.js, MongoDB, PostgreSQL, PyTest, GoogleTest, AWS, Docker, Kubernetes, GitHub Actions(CI/CD), Claude Code}\\
      % Add-On Misc: Redis
-        % ML Libraries: Numpy, PyTorch, TensorFlow, HuggingFace Transformers, OpenCV
+        % ML Libraries: Numpy, scikit-learn,PyTorch, TensorFlow, HuggingFace Transformers, OpenCV
         % Vector Databases: Qdrant, Weaviate, Pinecone
         % Databases: PostgreSQL, RDS, DynamoDB, Cassandra(High write thoughput + Availability in horizontal scaling)
         % Coding Agents: Codex, Copilot, Claude Code
@@ -221,7 +221,7 @@
     % area: platinum.b2
     \item Implemented the \textbf{RAG chat agent} with its React interface, marking each control fully, partially, or not satisfied and answering follow-up questions on the unmet ones, with every answer grounded in citations retrieved from the vector index, so no compliance verdict rests on \textbf{fabricated control text}.
     % area: platinum.b3
-    \item Implemented a priority-ordered \textbf{fallback across 5 embedding models} (OpenAI, Ollama), each searching its own vector index, that re-embeds and re-runs any query with too few control citations against the next model's index, recovering clauses the primary embedder's vector space missed and lifting retrieval from \textbf{32/50 to 50/50} hand-reviewed compliance queries.
+    \item Built a priority-ordered \textbf{fallback across 5 embedding models}, re-embedding and re-running low-citation queries against each successive model's vector index to exploit differences in embedding representation and surface SSP evidence missed by higher-priority indexes, raising \textbf{evidence-backed control assessment accuracy from 64\% to 92\%}.
     % area: platinum.b4
     \item Diagnosed an out-of-memory failure in that fallback path, tracing it to freshly pulled 4--5 GB model weights lingering in the OS page cache, and fixed it with targeted \texttt{posix\_fadvise} eviction, \textbf{eliminating model-load failures}.
     }

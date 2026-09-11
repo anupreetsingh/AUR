@@ -182,7 +182,6 @@
 
 %-----------Skills/Relevant Coursework-----------
 \section{SKILLS / RELEVANT COURSEWORK}
-\section{SKILLS / RELEVANT COURSEWORK}
   \SectionListBegin
     \small{\item{
     \vspace{1mm}
@@ -223,7 +222,7 @@
     % area: platinum.b2
     \item Implemented the \textbf{RAG chat agent} with its React interface, marking each control fully, partially, or not satisfied and answering follow-up questions on the unmet ones, with every answer grounded in citations retrieved from the vector index, so no compliance verdict rests on \textbf{fabricated control text}.
     % area: platinum.b3
-    \item Implemented a priority-ordered \textbf{fallback across 5 embedding models} (OpenAI, Ollama), each searching its own vector index, that re-embeds and re-runs any query with too few control citations against the next model's index, recovering clauses the primary embedder's vector space missed and lifting retrieval from \textbf{32/50 to 50/50} hand-reviewed compliance queries.
+    \item Built a priority-ordered \textbf{fallback across 5 embedding models}, re-embedding and re-running low-citation queries against each successive model's vector index to exploit differences in embedding representation and surface SSP evidence missed by higher-priority indexes, raising \textbf{evidence-backed control assessment accuracy from 64\% to 92\%}.
     % area: platinum.b4
     \item Diagnosed an out-of-memory failure in that fallback path, tracing it to freshly pulled 4--5 GB model weights lingering in the OS page cache, and fixed it with targeted \texttt{posix\_fadvise} eviction, \textbf{eliminating model-load failures}.
     }
@@ -244,7 +243,7 @@
       {Full Stack Developer}
       {Turfco Landscape Co.}
       {Surrey, BC}
-      {June 2023 -- May 2024}
+      {Jan 2023 -- June 2024}
     \BulletItems{
       % area: turfco.b1
       \item Architected a \textbf{self-serve quoting platform} that priced jobs with deterministic multi-stage evaluation, JSONB encoded conditions, per-quote audit trails of every rule applied, and a write-invalidated \textbf{Redis} cache, all driven by rules editable from an admin console instead of a developer deploy, cutting quote turnaround from \textbf{$\sim$2 days} to \textbf{\textless{}1 min}.

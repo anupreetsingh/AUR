@@ -186,12 +186,12 @@
     \small{\item{
     \vspace{1mm}
      % area: skills.languages
-     \textbf{Programming Languages}{: Python, JavaScript, Java, C++, SQL} \\
+     \textbf{Programming Languages}{: Python, TypeScript, C++, Go, SQL} \\
      \vspace{1mm}
      % area: skills.tools
-     \textbf{Tools and Frameworks}{: Django, FastAPI, SpringBoot, React, Next.js, PostgreSQL, PyTest, AWS, Redis, Kafka, Docker, Kubernetes, GitHub Actions(CI/CD), PyTorch, LangChain, CrewAI, Qdrant, Claude Code}\\
+     \textbf{Tools and Frameworks}{: PyTorch, LangChain, LangGraph, Semantic Kernel, Qdrant, Pinecone, REST(Django, FastAPI), React, Next.js, PostgreSQL, PyTest, AWS, Redis, Kafka, Docker, Kubernetes, GitHub Actions(CI/CD)}\\
      % Add-On Misc: Redis
-        % ML Libraries: Numpy, PyTorch, TensorFlow, HuggingFace Transformers, OpenCV
+        % ML Libraries: Numpy, scikit-learn, PyTorch, TensorFlow, HuggingFace Transformers, OpenCV
         % Vector Databases: Qdrant, Weaviate, Pinecone
         % Databases: PostgreSQL, RDS, DynamoDB, Cassandra(High write thoughput + Availability in horizontal scaling)
         % Coding Agents: Codex, Copilot, Claude Code
@@ -199,12 +199,13 @@
         % Observability: OpenTelemetry, Prometheus, Grafana, Datadogs
      \vspace{1mm}
      % area: skills.coursework
-     \textbf{Areas of Interest and Coursework}{: Distributed System Design, AI \& LLMs, Software Engineering (SDLC)} \\
+     \textbf{Areas of Interest and Coursework}{: Distributed System Design, AI \& LLMs, Data Structure \& Algorithms \swallow{Data Structures \& Algorithms, Object Oriented Design (OOD), Computer Architecture}} \\
      \vspace{1mm}
      % area: skills.cert
      %\textbf{Workshops and Certifications}{: Amazon Campus Prep Series-2025 }
     }}
   \SectionListEnd
+
 
  %-----------Industry Experience-----------
 \section{INDUSTRY EXPERIENCE}
@@ -221,7 +222,7 @@
     % area: platinum.b2
     \item Implemented the \textbf{RAG chat agent} with its React interface, marking each control fully, partially, or not satisfied and answering follow-up questions on the unmet ones, with every answer grounded in citations retrieved from the vector index, so no compliance verdict rests on \textbf{fabricated control text}.
     % area: platinum.b3
-    \item Implemented a priority-ordered \textbf{fallback across 5 embedding models} (OpenAI, Ollama), each searching its own vector index, that re-embeds and re-runs any query with too few control citations against the next model's index, recovering clauses the primary embedder's vector space missed and lifting retrieval from \textbf{32/50 to 50/50} hand-reviewed compliance queries.
+    \item Built a priority-ordered \textbf{fallback across 5 embedding models}, re-embedding and re-running low-citation queries against each successive model's vector index to exploit differences in embedding representation and surface SSP evidence missed by higher-priority indexes, raising \textbf{evidence-backed control assessment accuracy from 64\% to 92\%}.
     % area: platinum.b4
     \item Diagnosed an out-of-memory failure in that fallback path, tracing it to freshly pulled 4--5 GB model weights lingering in the OS page cache, and fixed it with targeted \texttt{posix\_fadvise} eviction, \textbf{eliminating model-load failures}.
     }
@@ -242,31 +243,31 @@
       {Full Stack Developer}
       {Turfco Landscape Co.}
       {Surrey, BC}
-      {June 2023 -- May 2024}
+      {Jan 2023 -- June 2024}
     \BulletItems{
       % area: turfco.b1
       \item Architected a \textbf{self-serve quoting platform} that priced jobs with deterministic multi-stage evaluation, JSONB encoded conditions, per-quote audit trails of every rule applied, and a write-invalidated \textbf{Redis} cache, all driven by rules editable from an admin console instead of a developer deploy, cutting quote turnaround from \textbf{$\sim$2 days} to \textbf{\textless{}1 min}.
       \item Built the \textbf{online ordering and booking platform} by taking self-serve orders through Stripe Checkout deposits, confirming them with signature-verified idempotent webhooks, and relaying a transactional outbox to Kafka\swallow{SQS + SNS} workers for order confirmation, customer notification, and crew allocation, taking \textbf{\$600K+} in online bookings across $\sim$1{,}100 orders. 
-      \item Delivered the \textbf{React SPA} that carried a customer from property details to instant estimate to paid deposit in one client-routed flow, with role-gated admin routes and JWT access tokens backed by httpOnly refresh cookies, enabling a streamlined booking flow with \textbf{$\sim$40\%} of bookings occuring outside office hours without phone support.
+      %\item Delivered the \textbf{React SPA} that carried a customer from property details to instant estimate to paid deposit in one client-routed flow, with role-gated admin routes and JWT access tokens backed by httpOnly refresh cookies, enabling a streamlined booking flow with \textbf{$\sim$40\%} of bookings occuring outside office hours without phone support.
       \item Designed and deployed the \textbf{AWS architecture} that took the business off a WordPress brochure site, with SPA on CloudFront, autoscaling Express tier behind an ALB across two AZs, Multi-AZ RDS, sized for $\sim$10$\times$ seasonal peaks and load-tested to \textbf{$\sim$50 quote requests/sec at \textless{}120\,ms p99} with zero-downtime rolling deploys.
     } 
   \SectionListEnd
  %-----------Academic Experience-----------
-\section{ACADEMIC EXPERIENCE}
-  \SectionListBegin
-    % Academic Experience 1
-    \SLSubheadingItemThF
-      {Graduate Assistant}
-      {UMBC - Data Structures \& Software Engineering }
-      {Jan 2025 -- June 2026}
-    \BulletItems{
-      % area: ga.b1
-      \item Designed a C++ assignment on virtual memory (testing knowledge of MMU address translation, multi-level page tables, and kernel page-fault handling) and graded coursework in computer architecture for \textbf{40+} students.
-      \item Mentored 10 student \textbf{Scrum} teams through sprint planning, reviews, and backlog refinement for their projects.
-      \item Coordinated between 40 students and \textbf{stakeholders}, keeping all 10 projects on schedule amid evolving requirements.
-      \item Developed 200+ unit tests for the DSA projects, automating logic checking and reducing grading time by \textbf{80\%}.
-      \item Helped \textbf{50+} students design and debug C++ projects implementing core data structures and graded homework.
-    }
+% \section{ACADEMIC EXPERIENCE}
+%   \SectionListBegin
+%     % Academic Experience 1
+%     \SLSubheadingItemThF
+%       {Graduate Assistant}
+%       {UMBC - Data Structures \& Software Engineering }
+%       {Jan 2025 -- June 2026}
+%     \BulletItems{
+%       % area: ga.b1
+%       \item Designed a \textbf{C++ assignment} on virtual memory (testing knowledge of MMU address translation, multi-level page tables, and kernel page-fault handling) and graded coursework in computer architecture for \textbf{40+} students.
+%       \item Developed \textbf{200+} unit tests for the DSA projects on Linked Lists, Self Balancing Trees, Heaps, and Hash Tables automating logic checking and reducing grading time by \textbf{80\%}.
+%       \item Helped \textbf{50+} students design and debug C++ projects implementing core data structures and graded homework.
+%       \item Mentored 10 student \textbf{Scrum} teams through sprint planning, reviews, and backlog refinement for their projects.
+%       \item Coordinated between 40 students and \textbf{stakeholders}, keeping all 10 projects on schedule amid evolving requirements.
+%      }
 
     % % Academic Experience 2
     % \SLSubheadingItemThF
@@ -279,11 +280,11 @@
     %   %\item Helped \textbf{50+} students design and debug C++ projects implementing core data structures and graded homework.
     % }
     
-  \SectionListEnd
+  % \SectionListEnd
 
 %-----------Projects-----------
-% \section{PROJECTS}
-%   \SectionListBegin
+\section{PROJECTS}
+  \SectionListBegin
 %     % % Project 1
 %     % \SLSubheadingItemLink
 %     %   {Bloodborne TAG}{https://github.com/anupreetsingh/Bloodborne-TAG}
@@ -292,28 +293,29 @@
 %     %   \item Engineered a \textbf{command parser} using few-shot Mistral-7B for slot extraction and embedding-similarity-based intent matching, mapping free-form playtest commands to 14 deterministic actions at \textbf{96\%} intent accuracy.
 %     %   \item Architected a data-driven game engine that loads a \textbf{41-room} world and \textbf{60+} items/NPCs from JSON into in-memory session state, gating progression on generic key-item fields so new content ships with \textbf{zero} engine code changes.
 %     % }
-%      % Project 3
-%     \SLSubheadingItemLink
-%       {Nothing Lost in Translation}{https://github.com/anupreetsingh/Nothing-Lost-in-Translation}
-%       {Lexically constrained Sequence Generation}{} % Sep 2024 -- Dec 2024
-%     \BulletItems{
-%       \item Built a \textbf{Grid Beam Search decoder} that guarantees positive/negative lexical constraints in any autoregressive sequence generation, demonstrated on English-to-Russian NMT with a \textbf{15-point BLEU} gain (25.45 → 40.59).
-%       % Add-On: \item Demonstrated \textbf{inference-time safety control} by enforcing negative lexical constraints at decode time, guaranteeing exclusion of unsafe content without retraining or post-hoc filtering.
-%       \item Reconstructed a beam search decoder from scratch, outperforming HuggingFace's stock \texttt{.generate()} by \textbf{1.45 BLEU}.
-%     }
-    % % Project 2
-    % \SLSubheadingItemLink
-    %   {When Pixels Talk Back}{https://github.com/anupreetsingh/When-Pixels-Talk-Back}
-    %   {Watermarking EMR Data to analyse impact on CV models}{} % Jan 2025 -- May 2025
-    % \BulletItems{
-    %   \item Fine-tuned \textbf{3 computer-vision models} (ResNet50, DenseNet169, MobileNetV2) for classification over \swallow{2,481}COVID-19 lung CT scans via two-stage ImageNet transfer learning, to establish a baseline peaking at \textbf{93\%} accuracy and \textbf{0.951} F1.
-    %   \item Embedded a \textbf{1024-bit blind fragile watermark} into the Region-of-Non-Interest of CT scans via key-scrambled LSB embedding of a SHA-512 fingerprint, enabling content authentication with near-lossless quality at \textbf{SSIM 0.999}.
-    %   \item Benchmarked \textbf{3 watermarking algorithms} across all 3 models, showing the fragile scheme costs \textbf{0\%} accuracy loss, versus 11.2\% for robust embedding and $\sim$1\% for reversible embedding with a 300-bit payload.
-    % }
+%     %Project 3
+      % Project 2
+    \SLSubheadingItemLink
+      {When Pixels Talk Back}{https://github.com/anupreetsingh/When-Pixels-Talk-Back}
+      {Watermarking EMR Data to analyse impact on CV models}{} % Jan 2025 -- May 2025
+    \BulletItems{
+      \item Fine-tuned \textbf{3 computer-vision models} (ResNet50, DenseNet169, MobileNetV2) for classification over \swallow{2,481}COVID-19 lung CT scans via two-stage ImageNet transfer learning, to establish a baseline peaking at \textbf{93\%} accuracy and \textbf{0.951} F1.
+      \item Embedded a \textbf{1024-bit blind fragile watermark} into the Region-of-Non-Interest of CT scans via key-scrambled LSB embedding of a SHA-512 fingerprint, enabling content authentication with near-lossless quality at \textbf{SSIM 0.999}.
+      \item Benchmarked \textbf{3 watermarking algorithms} across all 3 models, showing the fragile scheme costs \textbf{0\%} accuracy loss, versus 11.2\% for robust embedding and $\sim$1\% for reversible embedding with a 300-bit payload.
+    }
+    \SLSubheadingItemLink
+      {Nothing Lost in Translation}{https://github.com/anupreetsingh/Nothing-Lost-in-Translation}
+      {Lexically constrained Sequence Generation}{} % Sep 2024 -- Dec 2024
+    \BulletItems{
+      \item Built a \textbf{Grid Beam Search decoder} that guarantees positive/negative lexical constraints in any autoregressive sequence generation, demonstrated on English-to-Russian NMT with a \textbf{15-point BLEU} gain (25.45 → 40.59).
+      % Add-On: \item Demonstrated \textbf{inference-time safety control} by enforcing negative lexical constraints at decode time, guaranteeing exclusion of unsafe content without retraining or post-hoc filtering.
+      \item Reconstructed a beam search decoder from scratch, outperforming HuggingFace's stock \texttt{.generate()} by \textbf{1.45 BLEU}.
+    }
+
 
    
 
-  % \SectionListEnd
+  \SectionListEnd
 
 
 \end{document}
