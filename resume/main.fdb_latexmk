@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1789164301.59104 "/Users/manpreetsingh/Downloads/Study/Dev Projects/AUR/resume/main.tex" "main.pdf" "main" 1789164301.947 0
-  "/Users/manpreetsingh/Downloads/Study/Dev Projects/AUR/resume/main.tex" 1789164301.34497 15906 5acc5f807bef9a65836ba5dfb2ba4efe ""
+["pdflatex"] 1789368212.38878 "/Users/manpreetsingh/Downloads/Study/Dev Projects/AUR/resume/main.tex" "main.pdf" "main" 1789368213.03831 0
+  "/Users/manpreetsingh/Downloads/Study/Dev Projects/AUR/resume/main.tex" 1789368212.02795 15927 236c2baa5e0a710101aa8e4bf2847558 ""
   "/Users/manpreetsingh/Library/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1783562596 276838 560d1a85ea87da28c5a90954d8d4bd6d ""
   "/Users/manpreetsingh/Library/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/Users/manpreetsingh/Library/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -101,9 +101,9 @@
   "/usr/local/texlive/2026basic/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
   "/usr/local/texlive/2026basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1772405612 2966183 588a2f29d0aaf280e3a142a37c2dd621 ""
   "/usr/local/texlive/2026basic/texmf.cnf" 1772405582 628 bbc09d6d38872d53c11bb48dc9b14e88 ""
-  "main.aux" 1789164301.878 732 49890196dc37609a0292094708156520 "pdflatex"
-  "main.out" 1789164301.87843 504 5df9f38843309a5c664962bc75c6d7cb "pdflatex"
-  "main.tex" 1789164301.34497 15906 5acc5f807bef9a65836ba5dfb2ba4efe ""
+  "main.aux" 1789368212.84103 732 49890196dc37609a0292094708156520 "pdflatex"
+  "main.out" 1789368212.84196 504 5df9f38843309a5c664962bc75c6d7cb "pdflatex"
+  "main.tex" 1789368212.02795 15927 236c2baa5e0a710101aa8e4bf2847558 ""
   (generated)
   "main.aux"
   "main.log"
