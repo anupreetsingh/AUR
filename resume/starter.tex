@@ -155,12 +155,14 @@
 \begin{document}
 
 \begin{center}
-	\href{https://portfolio-omega-three-hw8q4rw3hx.vercel.app}{\textbf{\Huge \scshape Anupreet Singh}} \\ \vspace{1pt}
+	{\textbf{\Huge \scshape Anupreet Singh}} \\ \vspace{1pt}
 	\small  \href{mailto:anupreet2226579@gmail.com}{\underline{anupreet2226579@gmail.com}} 
 	$|$ 
 	\small {\href{https://www.linkedin.com/in/anupreet-singh-71b1861b8/}{\underline{LinkedIn}}}
     $|$ 
 	\small {\href{https://github.com/anupreetsingh}{\underline{GitHub}}}
+    $|$ 
+	\small {\href{https://portfolio-omega-three-hw8q4rw3hx.vercel.app}{\underline{Portfolio}}}
     $|$ 
 {\underline{+1 (410) 260-9818}} 
 \end{center}
@@ -222,7 +224,7 @@
     % area: platinum.b2
     \item Implemented the \textbf{RAG chat agent} with its React interface, marking each control fully, partially, or not satisfied and answering follow-up questions on the unmet ones, with every answer grounded in citations retrieved from the vector index, so no compliance verdict rests on \textbf{fabricated control text}.
     % area: platinum.b3
-    \item Built a priority-ordered \textbf{fallback across 5 embedding models}, re-embedding and re-running low-citation queries against each successive model's vector index to exploit differences in embedding representation and surface SSP evidence missed by higher-priority indexes, raising \textbf{evidence-backed control assessment accuracy from 64\% to 92\%}.
+    \item Built a priority-ordered \textbf{fallback across 5 embedding models} (OpenAI, Anthropic, Ollama), re-embedding and re-running low-citation queries against each successive model's vector index to exploit differences in embedding representation and surface SSP evidence missed by higher-priority indexes, raising \textbf{evidence-backed control assessment accuracy from 64\% to 92\%}.
     % area: platinum.b4
     \item Diagnosed an out-of-memory failure in that fallback path, tracing it to freshly pulled 4--5 GB model weights lingering in the OS page cache, and fixed it with targeted \texttt{posix\_fadvise} eviction, \textbf{eliminating model-load failures}.
     }

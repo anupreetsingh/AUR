@@ -155,12 +155,14 @@
 \begin{document}
 
 \begin{center}
-	\href{https://portfolio-omega-three-hw8q4rw3hx.vercel.app}{\textbf{\Huge \scshape Anupreet Singh}} \\ \vspace{1pt}
+	{\textbf{\Huge \scshape Anupreet Singh}} \\ \vspace{1pt}
 	\small  \href{mailto:anupreet2226579@gmail.com}{\underline{anupreet2226579@gmail.com}} 
 	$|$ 
 	\small {\href{https://www.linkedin.com/in/anupreet-singh-71b1861b8/}{\underline{LinkedIn}}}
     $|$ 
 	\small {\href{https://github.com/anupreetsingh}{\underline{GitHub}}}
+    $|$ 
+	\small {\href{https://portfolio-omega-three-hw8q4rw3hx.vercel.app}{\underline{Portfolio}}}
     $|$ 
 {\underline{+1 (410) 260-9818}} 
 \end{center}
@@ -221,7 +223,7 @@
     % area: platinum.b2
     \item Implemented the \textbf{RAG chat agent} with its React interface, marking each control fully, partially, or not satisfied and answering follow-up questions on the unmet ones, with every answer grounded in citations retrieved from the vector index, so no compliance verdict rests on \textbf{fabricated control text}.
     % area: platinum.b3
-    \item Built a priority-ordered \textbf{fallback across 5 embedding models}, re-embedding and re-running low-citation queries against each successive model's vector index to exploit differences in embedding representation and surface SSP evidence missed by higher-priority indexes, raising \textbf{evidence-backed control assessment accuracy from 64\% to 92\%}.
+    \item Built a priority-ordered \textbf{fallback across 5 embedding models} (OpenAI, Anthropic, Ollama), re-embedding and re-running low-citation queries against each successive model's vector index to exploit differences in embedding representation and surface SSP evidence missed by higher-priority indexes, raising \textbf{evidence-backed control assessment accuracy from 64\% to 92\%}.
     % area: platinum.b4
     \item Diagnosed an out-of-memory failure in that fallback path, tracing it to freshly pulled 4--5 GB model weights lingering in the OS page cache, and fixed it with targeted \texttt{posix\_fadvise} eviction, \textbf{eliminating model-load failures}.
     }
@@ -254,6 +256,22 @@
  %-----------Academic Experience-----------
 \section{ACADEMIC EXPERIENCE}
   \SectionListBegin
+
+    % Combined Academic Experience 
+    \SLSubheadingItemThF
+      {Graduate Assistant}
+      {UMBC - Data Structures \& Software Engineering }
+      {Jan 2025 -- June 2026}
+    \BulletItems{
+      % area: ga.b1
+      \item Designed a \textbf{C++ assignment} on virtual memory (testing knowledge of MMU address translation, multi-level page tables, and kernel page-fault handling) and graded coursework in computer architecture for \textbf{40+} students.
+      \item Developed \textbf{200+} unit tests for the DSA projects on Linked Lists, Self Balancing Trees, Heaps, and Hash Tables automating logic checking and reducing grading time by over \textbf{80\%}.
+      \item Helped \textbf{50+} students design and debug \textbf{C++} projects implementing core data structures, and graded their homework.
+      \item Held office hours to clarify technical concepts and translate requirements into actionable implementation steps.
+      \item Mentored 10 student \textbf{Scrum} teams through sprint planning, reviews, and backlog refinement for their projects.
+      \item Coordinated between 40 students and \textbf{stakeholders}, keeping all 10 projects on schedule amid evolving requirements.
+     }
+
     % Academic Experience 1
     \SLSubheadingItemThF
       {Graduate Assistant}
@@ -284,6 +302,18 @@
   \SectionListBegin
     % Project 1
     \SLSubheadingItemLink
+      {Rendering Pipelines from Scratch}{https://github.com/anupreetsingh/Rendering-pipelines}
+      {Ray tracer, rasterizer, and real-time OpenGL renderer in C++}{} % Feb 2026 -- May 2026
+    \BulletItems{
+      % area: gfx.b1
+      \item Built a \textbf{C++ ray tracer} that parses Polyray scenes and shades them with Blinn-Phong direct lighting, recursive reflection, and Schlick-Fresnel refraction, then accelerated it with a median-split \textbf{BVH} over primitive centroids and an atomic row-chunk thread pool, cutting a 512$\times$512 render from \textbf{106 s to 0.14 s ($\sim$759$\times$)}.
+      % area: gfx.b2
+      \item Engineered a \textbf{software rasterizer} carrying triangles through the full world-camera-projection-NDC-raster transform chain with barycentric incremental scan conversion, z-buffering, and back-face culling, extended with Sutherland-Hodgman frustum clipping and \textbf{cube shadow maps} that pick 1 of 6 depth faces by dominant axis, rendering omnidirectional shadows no single 90\textdegree{} map can cover.
+      % area: gfx.b3
+      \item Implemented \textbf{DXT1 texture compression} end to end in an OpenGL scene renderer, fitting each 4$\times$4 texel block's palette by principal-axis covariance, packing 2-bit selectors into the 64-bit block layout, and compressing every CPU-generated mip level independently, shrinking color textures \textbf{6$\times$ in GPU memory} behind a runtime A/B toggle.
+    }
+    % Project 2
+    \SLSubheadingItemLink
       {Bloodborne TAG}{https://github.com/anupreetsingh/Bloodborne-TAG}
       {Text Adventure Game with natural language command parsing}{} % Sep 2025 -- Dec 2025
     \BulletItems{
@@ -291,7 +321,7 @@
       \item Architected a data-driven game engine that loads a \textbf{41-room} world and \textbf{60+} items/NPCs from JSON into in-memory session state, gating progression on generic key-item fields so new content ships with \textbf{zero} engine code changes.
     }
 
-    % Project 2
+    % Project 3
     \SLSubheadingItemLink
       {When Pixels Talk Back}{https://github.com/anupreetsingh/When-Pixels-Talk-Back}
       {Watermarking EMR Data to analyse impact on CV models}{} % Jan 2025 -- May 2025
@@ -301,7 +331,7 @@
       \item Benchmarked \textbf{3 watermarking algorithms} across all 3 models, showing the fragile scheme costs \textbf{0\%} accuracy loss, versus 11.2\% for robust embedding and $\sim$1\% for reversible embedding with a 300-bit payload.
     }
 
-    % Project 3
+    % Project 4
     \SLSubheadingItemLink
       {Nothing Lost in Translation}{https://github.com/anupreetsingh/Nothing-Lost-in-Translation}
       {Lexically constrained Sequence Generation}{} % Sep 2024 -- Dec 2024
