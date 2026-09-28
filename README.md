@@ -1,40 +1,17 @@
 # Notes
 
-## Copy PDF into Tentative/
+## Resume Workflow
 
-Edit the company and role values for each application, then run the command from the repo root:
-
-```bash
-./scripts/final_move.sh "Google" "Software Engineer II, Site Reliability"
-```
-
-## Template Tags
-
-Mark a template commit with a normal lightweight tag:
+- `resume/Master/Master.tex` — the full 2-page resume with every bullet. Improve bullets here first, then copy the change into the archetypes that use that bullet.
+- `resume/<Archetype>/<Archetype>.tex` — a 1-page cut for a role type (e.g. `Java/Java.tex`). Folder and file names must match. The committed version is the clean baseline.
+- New archetype: copy an existing folder and rename both. Old tagged versions make good starting points: `git show AI_Developer:resume/main.tex > resume/AI/AI.tex`.
+- Per application: commit any real improvements first, then make role-specific tweaks (e.g. bold DynamoDB), recompile, and save from the repo root:
 
 ```bash
-git tag <tag-name> <commit-to-tag>
+./scripts/final_move.sh Java "Google" "Software Engineer II, Site Reliability"
 ```
 
-Move a normal tag to a new commit:
-
-```bash
-git tag -f <tag-name> <new-commit>
-```
-
-Mark a new template with an annotated tag:
-
-```bash
-git tag -a <tag-name> -m "<message-for-the-tag>" <commit-to-tag>
-```
-
-Move an annotated tag to a new commit:
-
-```bash
-git tag -fa <tag-name> -m "<new-message>" <new-commit>
-```
-
-If you want to reuse the existing annotated tag message, skip the `-m "<new-message>"` part.
+This copies the PDF and the tweaked `.tex` (plus the cover letter, if it matches the company/role) into `Tentative/<Company>-<Role>/`. It refuses a PDF older than its `.tex` and asks before saving one longer than 1 page. It then offers to reset the archetype to its last commit, so the tweak doesn't leak into the next application.
 
 ## Compiling PDFs
 
@@ -51,21 +28,22 @@ If the PDF is still not generated, rebuild it from scratch with the relevant bui
 
 Run the relevant command from the repo root.
 
-Resume:
+Resume (all archetypes, or only the ones named):
 
 ```bash
-bash resume/build.sh
+./resume/build.sh
+./resume/build.sh Java Master
 ```
 
-Cover letter:
+Cover letter (`main.tex` and `starter.tex`):
 
 ```bash
-bash Cover_Letter/build.sh
+./Cover_Letter/build.sh
 ```
 
-Each script cleans and rebuilds both `main.tex` and `starter.tex`, then opens the generated PDFs.
+Each script cleans and rebuilds from scratch, then opens the generated PDFs.
 
-## Resume `main.tex` Structure
+## Resume `.tex` Structure
 
 Each `\section` has a `SectionList` that keeps heading items (`\DLSubheadingItem`, `\SLSubheadingItemFF`, `\SLSubheadingItemTF`, `\SLSubheadingItemLink`) and `\BulletPoints` at the same level. Every `SectionList` item ends with a `\vspace{-7pt}` in its macro definition that pulls the item below it upwards.
 
