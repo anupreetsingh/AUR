@@ -23,10 +23,6 @@ extract_tex_value() {
   sed -nE "s/^\\\\newcommand\\{\\\\${key}\\}\\{(.*)\\}$/\\1/p" "$file" | head -n 1
 }
 
-is_tracked() {
-  git -C "$PROJECT_ROOT" ls-files --error-unmatch "$1" >/dev/null 2>&1
-}
-
 build_dated_dest() {
   local base_dest="$1"
   local dated_dest
@@ -73,8 +69,6 @@ if command -v pdfinfo >/dev/null 2>&1; then
       *) echo "Aborted."; exit 1 ;;
     esac
   fi
-else
-  echo "Note: pdfinfo not found -- skipping page-count check."
 fi
 
 if [ -e "$DEST" ]; then
@@ -117,51 +111,19 @@ CL_COMPANY="$(extract_tex_value companyName "$CL_TEX")"
 CL_ROLE="$(extract_tex_value roleTitle "$CL_TEX")"
 
 if [ ! -f "$CL_TEX" ] || [ ! -f "$CL_PDF" ]; then
-  echo "Note: cover letter source or PDF missing -- skipping cover letter copy."
+  echo "Cover letter skipped: main.tex or main.pdf missing."
 elif cmp -s "$CL_TEX" "$CL_STARTER"; then
-  echo "Note: Cover_Letter/main.tex still matches starter.tex -- skipping cover letter copy."
+  echo "Cover letter skipped: still the starter."
 elif [ -z "$CL_COMPANY" ] || [ -z "$CL_ROLE" ]; then
-  echo "Note: could not read company/role from Cover_Letter/main.tex -- skipping cover letter copy."
+  echo "Cover letter skipped: no company/role in main.tex."
 elif [ "$CL_COMPANY" = "Company Name" ] || [ "$CL_ROLE" = "Role Title" ]; then
-  echo "Note: cover letter variables still use starter placeholders -- skipping cover letter copy."
-elif [ "$CL_COMPANY" != "$COMPANY" ] || [ "$CL_ROLE" != "$ROLE" ]; then
-  echo "Note: current cover letter is for '$CL_COMPANY' / '$CL_ROLE', not '$COMPANY' / '$ROLE' -- skipping cover letter copy."
+  echo "Cover letter skipped: placeholders not filled in."
+elif [ "$CL_COMPANY" != "$COMPANY" ]; then
+  echo "Cover letter skipped: it's for $CL_COMPANY."
+elif [ "$CL_ROLE" != "$ROLE" ]; then
+  echo "Cover letter skipped: it's for $CL_ROLE."
 elif [ "$CL_PDF" -ot "$CL_TEX" ]; then
-  echo "Note: Cover_Letter/main.pdf is older than Cover_Letter/main.tex -- skipping cover letter copy."
+  echo "Cover letter skipped: main.pdf is out of date."
 else
   cp "$CL_PDF" "$DEST/Anupreet Cover Letter.pdf"
-fi
-
-echo "Saved $ARCHETYPE resume to:"
-echo "  $DEST"
-
-# Role-specific tweaks shouldn't leak into the next application: offer to reset
-# the archetype to its last commit (the tweaked .tex is already saved in $DEST)
-if ! is_tracked "$RESUME_REL/$ARCHETYPE.tex"; then
-  echo "Note: $RESUME_REL/$ARCHETYPE.tex isn't committed yet -- commit it so future tweaks can be reset after saving."
-elif ! git -C "$PROJECT_ROOT" diff --quiet HEAD -- "$RESUME_REL/$ARCHETYPE.tex"; then
-  echo "$ARCHETYPE.tex has uncommitted edits (a copy was saved with the PDF)."
-
-  while true; do
-    read -r -p "[r]eset $ARCHETYPE.tex to its last commit or [k]eep the edits? " reset_choice
-
-    case "$reset_choice" in
-      r|R|reset|Reset)
-        # Restore the .tex before the .pdf so the PDF isn't flagged as stale next time
-        git -C "$PROJECT_ROOT" checkout HEAD -- "$RESUME_REL/$ARCHETYPE.tex"
-        if is_tracked "$RESUME_REL/$ARCHETYPE.pdf"; then
-          git -C "$PROJECT_ROOT" checkout HEAD -- "$RESUME_REL/$ARCHETYPE.pdf"
-        else
-          echo "Recompile $ARCHETYPE.tex -- $ARCHETYPE.pdf still shows the tweaked version."
-        fi
-        break
-        ;;
-      k|K|keep|Keep)
-        break
-        ;;
-      *)
-        echo "Please enter 'r' to reset or 'k' to keep."
-        ;;
-    esac
-  done
 fi
