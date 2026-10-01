@@ -214,7 +214,7 @@
   \SectionListBegin
     % Industry Experience 1
     \SLSubheadingItemFF
-      {Data AI Intern}
+      {Data AI Engineer}
       {Platinum Business Services (R\&D Team)}
       {Catonsville, MD}
       {Dec 2025 -- Present}
@@ -225,6 +225,9 @@
     \item Implemented the \textbf{RAG chat agent} with its React interface, marking each control fully, partially, or not satisfied and answering follow-up questions on the unmet ones, with every answer grounded in citations retrieved from the vector index, so no compliance verdict rests on \textbf{fabricated control text}.
     % area: platinum.b3
     \item Built a priority-ordered \textbf{fallback across 5 embedding models} (OpenAI, Anthropic, Ollama), re-embedding and re-running low-citation queries against each successive model's vector index to exploit differences in embedding representation and surface SSP evidence missed by higher-priority indexes, raising \textbf{evidence-backed control assessment accuracy from 64\% to 92\%}.
+    
+    %Alt(b2+b3): \item Built a priority-ordered fallback in the \textbf{RAG chat agent} across 5 embedding models (OpenAI, Anthropic, Ollama), re-embedding and re-running low-citation queries against each successive model's vector index to exploit differences in embedding representation and surface SSP evidence missed by higher-priority indexes, raising evidence-backed control assessment \textbf{accuracy from 64\% to 92\%}.
+
     % area: platinum.b4
     \item Diagnosed an out-of-memory failure in that fallback path, tracing it to freshly pulled 4--5 GB model weights lingering in the OS page cache, and fixed it with targeted \texttt{posix\_fadvise} eviction, \textbf{eliminating model-load failures}.
     }
@@ -264,8 +267,9 @@
       {UMBC - Data Structures \& Software Engineering }
       {Jan 2025 -- June 2026}
     \BulletItems{
-      % area: ga.b1
-      \item Designed a \textbf{C++ assignment} on virtual memory (testing knowledge of MMU address translation, multi-level page tables, and kernel page-fault handling) and graded coursework in computer architecture for \textbf{40+} students.
+      % ga.b1 
+      \item Designed over 10 \textbf{C++} assignments on virtual memory (testing knowledge of MMU address translation, multi-level page tables, and kernel page-fault handling) and graded coursework in computer architecture for \textbf{40+} students.
+      %Alt(Longer): \item Designed over 10 \textbf{C++} assignments on compiler optimizations (like constant folding, DCE, loop unrolling) and OS fundamentals like concurrency, multithreading, and virtual memory (MMU address translation, multi-level page tables, and kernel page-fault handling) and graded coursework in computer architecture for \textbf{40+} students.
       \item Developed \textbf{200+} unit tests for the DSA projects on Linked Lists, Self Balancing Trees, Heaps, and Hash Tables automating logic checking and reducing grading time by over \textbf{80\%}.
       \item Helped \textbf{50+} students design and debug \textbf{C++} projects implementing core data structures, and graded their homework.
       \item Held office hours to clarify technical concepts and translate requirements into actionable implementation steps.
