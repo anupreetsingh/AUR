@@ -46,3 +46,11 @@ Sandboxes: Any tool that helps you keep your environment gated from neighbouring
 **Confluence** for documentation Management.
 
 ## Oct 2nd Discussion
+
+Voice model discussion Ideas: *Moshi* or *Whisper*.
+
+Computer Vision Model discussion Ideas: *PointPillars (2019)* Collapse vertical voxels into pillars, creating a pseudo-image Clever way to use fast 2D CNNs for 3D LiDAR
+
+Project Updates, mine was working on the role radar app and making it natively available for macOS.
+
+## Oct 9th Discussion
