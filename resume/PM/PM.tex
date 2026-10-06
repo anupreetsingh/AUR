@@ -1,0 +1,309 @@
+
+%-------------------------
+% RESUME MAIN FILE
+% AUTHOR: ANUPREET SINGH
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+
+%-------------------------
+% PREAMBLE
+%-------------------------
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+%Added by Anupreet Singh
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\input{glyphtounicode}
+\usepackage{comment}
+\usepackage{fontawesome}
+\usepackage[hidelinks]{hyperref}
+
+
+%----------Font Options----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\addtolength{\textheight}{0.1in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%----------Customizing Section Formatting----------
+
+% Using the \titleformat command from the titlesec package. 
+% Updating section style 
+\titleformat{\section}
+  {\vspace{-4pt}\scshape\raggedright\large}
+  {}
+  {0em}
+  {}
+  [\color{black}\titlerule \vspace{-5pt}]
+
+%--- Ensure that compilers using the pdfTex-engine generate pdf that is machine readable/ATS parsable----
+\pdfgentounicode=1
+
+%-------------------------
+% CUSTOM COMMANDS
+%-------------------------
+
+%---- Custom Itemize environment wrappers ----
+
+\newcommand{\SectionListBegin}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\SectionListEnd}{\end{itemize}}
+
+%---- \items inside \SectionList environment ----
+
+% For writing bullet points in the resume. Internally makes a nested itemize environment and the arugment is the items of that itemzie environment. with a dash as the bullet point.
+\newcommand{\BulletItems}[1]{
+  \item
+    \begin{itemize}[label={-}, leftmargin=*, labelsep=0.3em, topsep=0pt, partopsep=0pt, itemsep=0pt, parsep=0pt]
+      \small #1
+    \end{itemize}\vspace{-5pt}
+}
+% With \vspace{-5pt}, you get 27 Bullet lines within Industry + Academic + Project 
+% With \vspace{-7pt}, you get 28 Bullet lines within Industry + Academic + Project
+
+% For writing Single Line Subheading items with Four fields (e.g., title, Organization, location, date)
+\newcommand{\SLSubheadingItemFF}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} \textbar{} \textit{\small #2} \textbar{} \textit{\small #3} & {\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% For writing Single Line Subheading items with Three fields (e.g., title, Organization, date)
+\newcommand{\SLSubheadingItemThF}[3]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} \textbar{} \textit{\small #2} & {\small #3} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% For writing Single Line Subheading items with Two fields (e.g., title and date)
+\newcommand{\SLSubheadingItemTF}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+% For writing Single Line Subheading items with a Hyperlink (Mainly used for linking to project repositories) with Four fields (e.g., title, link, description, date)
+\newcommand{\SLSubheadingItemLink}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\href{#2}{#1}} \textbar{} \textit{\small #3} & {\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% For writing Double Line Subheading items with Four fields (e.g., title, date, Organization, location)
+\newcommand{\DLSubheadingItem}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% Parks a term in the .tex without it reaching the PDF (not even the text layer).
+\newcommand{\swallow}[1]{}
+
+%---- Misc: bullet glyph for nested (second-level) itemize ----
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+%-------------------------
+% RESUME CONTENT STARTS HERE
+%-------------------------
+
+\begin{document}
+
+\begin{center}
+	{\textbf{\Huge \scshape Anupreet Singh}} \\ \vspace{1pt}
+	\small  \href{mailto:anupreet2226579@gmail.com}{\underline{anupreet2226579@gmail.com}} 
+	  $|$ 
+	\small {\href{https://portfolio-omega-three-hw8q4rw3hx.vercel.app}{\underline{Portfolio}}}
+    $|$ 
+	\small {\href{https://www.linkedin.com/in/anupreet-singh-71b1861b8/}{\underline{LinkedIn}}}
+    $|$ 
+	\small {\href{https://github.com/anupreetsingh}{\underline{GitHub}}}
+    $|$ 
+{\underline{+1 (410) 260-9818}} 
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \SectionListBegin
+    \DLSubheadingItem
+      {University of Maryland, Baltimore County}{Baltimore, MD}
+      {(Master of Science in Computer Science, GPA: 3.8/4.0)}{Aug 2024 -- May 2026}\\
+    {\vspace{2mm}}
+    \DLSubheadingItem
+      {Indian Institute of Information Technology, Sonepat}{Haryana, India}
+      {(Bachelor of Technology in Computer Science and Engineering, GPA: 8.45/10)}{Aug 2019 -- May 2023} \\
+  \SectionListEnd
+  %\vspace{-3mm}
+  
+\section{SKILLS}
+  \SectionListBegin
+    \small{\item{
+    \vspace{1mm}
+     % area: skills.product (PM: product practice first)
+     \textbf{Product and Delivery}{: User Stories \& Acceptance Criteria, Requirements Discovery, Backlog Prioritization, Agile/Scrum, Human-in-the-Loop AI Design} \\
+     \vspace{1mm}
+     % area: skills.tools
+     \textbf{Tools}{: Jira, Confluence, Figma, Lucidchart, Excel (Pivot Tables, XLOOKUP), SQL, Tableau, Power BI} \\
+     \vspace{1mm}
+     % area: skills.technical (PM: technical depth as a differentiator)
+     \textbf{Technical}{: Python, JavaScript, React, Django, AWS, PostgreSQL, LLMs \& RAG \swallow{LangChain, Claude Code, Docker, C++}} \\
+    }}
+  \SectionListEnd
+
+ %-----------Industry Experience-----------
+\section{EXPERIENCE}
+  \SectionListBegin
+    % Industry Experience 1
+    \SLSubheadingItemFF
+      {Data AI Engineer}
+      {Platinum Business Services (R\&D Team)}
+      {Catonsville, MD}
+      {Dec 2025 -- Present}
+    \BulletItems{
+     % area: platinum.b1 (PM: problem -> outcome)
+    \item Turned NIST 800-53 assessment procedures into an \textbf{AI compliance gap-analysis feature} for a GRC platform, rating each of $\sim$1,200 controls in a System Security Plan as fully, partially, or not satisfied, cutting a control-by-control review from \textbf{days to \textless{}10 minutes}.
+    % area: platinum.b2+b3 (PM: trust as a product requirement)
+    \item Required every AI verdict to cite its source text so assessors could verify it rather than trust it, then raised \textbf{evidence-backed accuracy from 64\% to 92\%} by automatically re-checking weakly cited results across 5 AI models.
+    }
+    % Industry Experience 2
+    \SLSubheadingItemFF
+      {Software Engineer (AI) Intern}
+      {PMA}
+      {Tallahassee, FL}
+      {Sep 2025 -- Dec 2025}
+    \BulletItems{
+     % area: PMA.b1 (PM: customer insight -> product shape)
+      \item Identified coaches, not trainees, as the real customer of a product-management accelerator's \textbf{AI assignment-review tool}, and built it around a cohort-level mistake report so coaches plan sessions from one screen instead of reading every draft, cutting prep from \textbf{8 to 2 hours}.
+      % area: PMA.b2 (PM: trust trade-off + feedback loop + cost scoping)
+      \item Kept coaches in control by having the AI only \textbf{propose flags they confirm or dismiss}, protecting trust with paying trainees and using dismissal rates to tune the reviewer between cohorts, and scoped the stack to \textbf{$\sim$\$3/month} idle cost across \textbf{200+} submissions and 5 cohorts.
+      }
+    % Industry Experience 3
+    \SLSubheadingItemFF
+      {Software Development Engineer}
+      {Turfco Landscape Co.}
+      {Surrey, BC}
+      {Jan 2023 -- June 2024}
+    \BulletItems{
+      % area: turfco.b1 (PM: bottleneck discovery -> self-serve product)
+      \item Worked with the owners to pinpoint manual quoting as the sales bottleneck and launched a \textbf{self-serve quoting product} whose pricing rules staff edit themselves, cutting quote turnaround from \textbf{$\sim$2 days to \textless{}1 min} and making seasonal repricing an admin edit instead of a developer task.
+      % area: turfco.b2+b3 (PM: funnel + business outcome)
+      \item Launched \textbf{online booking} that took a customer from property details to instant estimate to paid Stripe deposit in one flow, driving \textbf{\$600K+} across $\sim$1{,}100 orders, with \textbf{$\sim$40\%} booked outside office hours without phone support.
+    }
+
+    % Academic Experience
+    \SLSubheadingItemThF
+      {Graduate Assistant}
+      {UMBC - Software Engineering \& Data Structures}
+      {Jan 2025 -- June 2026}
+    \BulletItems{
+      % area: ga.stakeholders (PM: prioritization + scope trade-offs)
+      \item Managed priorities between \textbf{10 student teams} (40 students) and their \textbf{stakeholders} (UMBC faculty, admin staff from other departments, and local industry partners), re-prioritizing backlogs as requirements evolved to deliver all \textbf{10 projects on schedule}.
+      % area: ga.requirements (PM: discovery -> spec)
+      \item Taught teams to turn stakeholder needs into \textbf{user stories with acceptance criteria}, SRS documents, and UML designs, then reviewed each team's sprint demos against those needs.
+      % area: ga.scrum
+      \item Coached teams through sprint planning, reviews, retrospectives, and backlog refinement, setting up each team's \textbf{Jira} board.
+    }
+  \SectionListEnd
+%-----------Projects-----------
+% \section{PROJECTS}
+%   \SectionListBegin
+%     % Project 0
+%     \SLSubheadingItemLink
+%       {Role Radar}{https://github.com/anupreetsingh/Role-Radar}
+%       {macOS job-alert app with serverless AWS failover}{} % Sep 2026 -- Present
+%     \BulletItems{
+%       % area: radar.b1
+%       \item Built an async Python \textbf{job-ingestion engine} that tracks \textbf{7,700+} employers' careers pages, auto-selecting 1 of 22 source-specific scrapers (Greenhouse, Workday, Oracle HCM, ...) by URL and routing every request through a robots.txt-compliant client with per-host rate limits and Retry-After backoff, checking \textbf{$\sim$3,600 companies per 18-minute pass} across $\sim$1,000 hosts at a \textbf{0.18\%} request failure rate.
+%       % area: radar.b2
+%       \item Designed a \textbf{laptop-to-Lambda failover} that keeps checks running while the Mac sleeps, electing a single runner through a conditionally written DynamoDB lease whose epoch acts as a \textbf{fencing token} on each company's transactional save, so a laptop waking mid-run can never overwrite its successor's state, with Lambda taking over within \textbf{8 min} and handing back in \textbf{$\sim$15 s}.
+%     }
+%     % Project 1
+%     \SLSubheadingItemLink
+%       {Rendering Pipelines from Scratch}{https://github.com/anupreetsingh/Rendering-pipelines}
+%       {Ray tracer, rasterizer, and real-time OpenGL renderer in C++}{} % Feb 2026 -- May 2026
+%     \BulletItems{
+%       % area: gfx.b1
+%       \item Built a \textbf{C++ ray tracer} that parses Polyray scenes and shades them with Blinn-Phong direct lighting, recursive reflection, and Schlick-Fresnel refraction, then accelerated it with a median-split \textbf{BVH} over primitive centroids and an atomic row-chunk thread pool, cutting a 512$\times$512 render from \textbf{106 s to 0.14 s ($\sim$759$\times$)}.
+%       % area: gfx.b2
+%       \item Engineered a \textbf{software rasterizer} carrying triangles through the full world-camera-projection-NDC-raster transform chain with barycentric incremental scan conversion, z-buffering, and back-face culling, extended with Sutherland-Hodgman frustum clipping and \textbf{cube shadow maps} that pick 1 of 6 depth faces by dominant axis, rendering omnidirectional shadows no single 90\textdegree{} map can cover.
+%       % area: gfx.b3
+%       \item Implemented \textbf{DXT1 texture compression} end to end in an OpenGL scene renderer, fitting each 4$\times$4 texel block's palette by principal-axis covariance, packing 2-bit selectors into the 64-bit block layout, and compressing every CPU-generated mip level independently, shrinking color textures \textbf{6$\times$ in GPU memory} behind a runtime A/B toggle.
+%     }
+%     % Project 2
+%     \SLSubheadingItemLink
+%       {Bloodborne TAG}{https://github.com/anupreetsingh/Bloodborne-TAG}
+%       {Text Adventure Game with natural language command parsing}{} % Sep 2025 -- Dec 2025
+%     \BulletItems{
+%       \item Engineered a \textbf{command parser} using few-shot Mistral-7B for slot extraction and embedding-similarity-based intent matching, mapping free-form playtest commands to 14 deterministic actions at \textbf{96\%} intent accuracy.
+%       \item Architected a data-driven game engine that loads a \textbf{41-room} world and \textbf{60+} items/NPCs from JSON into in-memory session state, gating progression on generic key-item fields so new content ships with \textbf{zero} engine code changes.
+%     }
+
+%     % Project 3
+%     \SLSubheadingItemLink
+%       {When Pixels Talk Back}{https://github.com/anupreetsingh/When-Pixels-Talk-Back}
+%       {Watermarking EMR Data to analyse impact on CV models}{} % Jan 2025 -- May 2025
+%     \BulletItems{
+%       \item Fine-tuned \textbf{3 computer-vision models} (ResNet50, DenseNet169, MobileNetV2) for classification over \swallow{2,481}COVID-19 lung CT scans via two-stage ImageNet transfer learning, to establish a baseline peaking at \textbf{93\%} accuracy and \textbf{0.951} F1.
+%       \item Embedded a 1024-bit blind fragile watermark into the Region-of-Non-Interest of CT scans via key-scrambled LSB embedding of a SHA-512 fingerprint, enabling content authentication with near-lossless quality at \textbf{SSIM 0.999}.
+%       \item Benchmarked 3 watermarking algorithms across all 3 models, showing the fragile scheme costs \textbf{0\%} accuracy loss, versus $\sim$1\% for reversible embedding with a 300-bit payload and 11.2\% for robust embedding.    
+%     }
+%     % Project 4
+%     \SLSubheadingItemLink
+%       {Nothing Lost in Translation}{https://github.com/anupreetsingh/Nothing-Lost-in-Translation}
+%       {Lexically constrained Sequence Generation}{} % Sep 2024 -- Dec 2024
+%     \BulletItems{
+%       \item Reconstructed a beam search decoder from scratch, outperforming \textbf{HuggingFace}'s stock \texttt{.generate()} by 1.45 BLEU.
+%       \item Built a \textbf{Grid Beam Search decoder} that guarantees positive/negative lexical constraints in any autoregressive sequence generation, demonstrated on English-to-Russian NMT with a \textbf{15-point} BLEU gain (25.45 → 40.59).
+%       % Add-On: \item Demonstrated \textbf{inference-time safety control} by enforcing negative lexical constraints at decode time, guaranteeing exclusion of unsafe content without retraining or post-hoc filtering.
+%     }
+
+%   \SectionListEnd
+
+
+\end{document}
