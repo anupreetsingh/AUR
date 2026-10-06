@@ -191,7 +191,7 @@
      \textbf{Programming Languages}{: C++, Python, JavaScript, SQL} \\
      \vspace{1mm}
      % area: skills.tools
-     \textbf{Tools and Frameworks}{: CMake, Clang, LLVM, OpenGL, PyTorch, JAX, LangChain, Pinecone, FastAPI, \swallow{Next.js, React,} PostgreSQL, GoogleTest, AWS, Redis, Kafka, Docker, Kubernetes, GitHub Actions(CI/CD)}\\
+     \textbf{Tools and Frameworks}{: Triton, CUDA, Semantic Kernel, CMake, Clang, LLVM, OpenGL, PyTorch, JAX, LangChain, Pinecone, FastAPI, \swallow{Next.js, React,} PostgreSQL, AWS, Redis, Kafka}\\
      % Add-On Misc: Redis
         % C++ focused: CMake, OpenGL, GoogleTest
         % ML Libraries: Numpy, scikit-learn,PyTorch, TensorFlow, HuggingFace Transformers, OpenCV, Semantic Kernel
@@ -222,7 +222,7 @@
     \BulletItems{
       % ga.b1 
       %\item Designed over 10 \textbf{C++} assignments on virtual memory (testing knowledge of MMU address translation, multi-level page tables, and kernel page-fault handling) and graded coursework in computer architecture for \textbf{40+} students.
-      \item Designed over 10 \textbf{C++} assignments on compiler optimizations (like constant folding, DCE, loop unrolling) and OS fundamentals like concurrency, multithreading, and virtual memory (MMU address translation, multi-level page tables, and kernel page-fault handling) and graded coursework in computer architecture for \textbf{40+} students.
+      \item Designed over 10 \textbf{C++} assignments on \textbf{compiler optimizations} (like constant folding, DCE, loop unrolling) and OS fundamentals like concurrency, multithreading, and virtual memory (MMU address translation, multi-level page tables, and kernel page-fault handling) and graded coursework in computer architecture for \textbf{40+} students.
       \item Developed \textbf{200+} unit tests for the DSA projects on Linked Lists, Self Balancing Trees, Heaps, and Hash Tables automating logic checking and reducing grading time by over \textbf{80\%}.
       \item Helped \textbf{50+} students design and debug \textbf{C++} projects implementing core data structures, and graded their homework.
       \item Held office hours to clarify technical concepts and translate requirements into actionable implementation steps.
@@ -264,11 +264,11 @@
       {Ray tracer, rasterizer, and real-time OpenGL renderer in C++}{} % Feb 2026 -- May 2026
     \BulletItems{
       % area: gfx.b1
+      \item Implemented DXT1 texture compression end to end in an OpenGL scene renderer, fitting each 4$\times$4 texel block's palette by principal-axis covariance, packing 2-bit selectors into the 64-bit block layout, and compressing every CPU-generated mip level independently, shrinking color textures \textbf{6$\times$ in GPU memory} behind a runtime A/B toggle.
       \item Built a \textbf{C++ ray tracer} that parses Polyray scenes and shades them with Blinn-Phong direct lighting, recursive reflection, and Schlick-Fresnel refraction, then accelerated it with a median-split \textbf{BVH} over primitive centroids and an atomic row-chunk thread pool, cutting a 512$\times$512 render from \textbf{106 s to 0.14 s ($\sim$759$\times$)}.
       % area: gfx.b2
       %\item Engineered a \textbf{software rasterizer} carrying triangles through the full world-camera-projection-NDC-raster transform chain with barycentric incremental scan conversion, z-buffering, and back-face culling, extended with Sutherland-Hodgman frustum clipping and \textbf{cube shadow maps} that pick 1 of 6 depth faces by dominant axis, rendering omnidirectional shadows no single 90\textdegree{} map can cover.
       % area: gfx.b3
-      \item Implemented \textbf{DXT1 texture compression} end to end in an OpenGL scene renderer, fitting each 4$\times$4 texel block's palette by principal-axis covariance, packing 2-bit selectors into the 64-bit block layout, and compressing every CPU-generated mip level independently, shrinking color textures \textbf{6$\times$ in GPU memory} behind a runtime A/B toggle.
     }
     % Project 2
     % \SLSubheadingItemLink
@@ -285,17 +285,17 @@
     %   {Watermarking EMR Data to analyse impact on CV models}{} % Jan 2025 -- May 2025
     % \BulletItems{
     %   \item Fine-tuned \textbf{3 computer-vision models} (ResNet50, DenseNet169, MobileNetV2) for classification over \swallow{2,481}COVID-19 lung CT scans via two-stage ImageNet transfer learning, to establish a baseline peaking at \textbf{93\%} accuracy and \textbf{0.951} F1.
-    %   \item Embedded a \textbf{1024-bit blind fragile watermark} into the Region-of-Non-Interest of CT scans via key-scrambled LSB embedding of a SHA-512 fingerprint, enabling content authentication with near-lossless quality at \textbf{SSIM 0.999}.
-    %   \item Benchmarked \textbf{3 watermarking algorithms} across all 3 models, showing the fragile scheme costs \textbf{0\%} accuracy loss, versus $\sim$1\% for reversible embedding with a 300-bit payload and 11.2\% for robust embedding.    
+    %   \item Embedded a 1024-bit blind fragile watermark into the Region-of-Non-Interest of CT scans via key-scrambled LSB embedding of a SHA-512 fingerprint, enabling content authentication with near-lossless quality at \textbf{SSIM 0.999}.
+    %   \item Benchmarked 3 watermarking algorithms across all 3 models, showing the fragile scheme costs \textbf{0\%} accuracy loss, versus $\sim$1\% for reversible embedding with a 300-bit payload and 11.2\% for robust embedding.    
     % }
     % Project 4
     % \SLSubheadingItemLink
     %   {Nothing Lost in Translation}{https://github.com/anupreetsingh/Nothing-Lost-in-Translation}
     %   {Lexically constrained Sequence Generation}{} % Sep 2024 -- Dec 2024
     % \BulletItems{
-    %   \item Built a \textbf{Grid Beam Search decoder} that guarantees positive/negative lexical constraints in any autoregressive sequence generation, demonstrated on English-to-Russian NMT with a \textbf{15-point BLEU} gain (25.45 → 40.59).
+    %   \item Reconstructed a beam search decoder from scratch, outperforming \textbf{HuggingFace}'s stock \texttt{.generate()} by 1.45 BLEU.
+    %   \item Built a \textbf{Grid Beam Search decoder} that guarantees positive/negative lexical constraints in any autoregressive sequence generation, demonstrated on English-to-Russian NMT with a \textbf{15-point} BLEU gain (25.45 → 40.59).
     %   % Add-On: \item Demonstrated \textbf{inference-time safety control} by enforcing negative lexical constraints at decode time, guaranteeing exclusion of unsafe content without retraining or post-hoc filtering.
-    %   \item Reconstructed a beam search decoder from scratch, outperforming HuggingFace's stock \texttt{.generate()} by \textbf{1.45 BLEU}.
     % }
 
   \SectionListEnd
@@ -312,7 +312,7 @@
     \BulletItems{
       \item Built a priority-ordered fallback in the \textbf{RAG chat agent} across 5 embedding models (OpenAI, Anthropic, Ollama), re-embedding and re-running low-citation queries against each successive model's vector index to exploit differences in embedding representation and surface SSP evidence missed by higher-priority indexes, raising evidence-backed control assessment \textbf{accuracy from 64\% to 92\%}.
       % area: platinum.b4
-      \item Diagnosed an \textbf{out-of-memory} failure in that fallback path, tracing it to freshly pulled 4--5 GB model weights lingering in the OS page cache, and fixed it with targeted \texttt{posix\_fadvise} eviction, \textbf{eliminating model-load failures}.
+      \item Diagnosed an \textbf{out-of-memory} failure in that fallback path, tracing it to freshly pulled 4--5 GB \textbf{CUDA} model weights lingering in the OS page cache, and fixed it with targeted \texttt{posix\_fadvise} eviction, \textbf{eliminating model-load failures}.
       % area: platinum.b1
       \item Developed backend services for an AI-native GRC platform that audits an SSP draft for compliance with NIST 800-53\swallow{ for RFP bidders}, chunking $\sim$1,200 \swallow{ OSCAL}controls into a per-model vector index with linkage metadata tying each chunk to its parent control and sibling clauses\swallow{ (AC-2(1)(a) to AC-2(1) and AC-2)}, cutting a control-by-control review from days of manual work to \textless{}10 minutes.
     % area: platinum.b2
@@ -341,9 +341,9 @@
     \BulletItems{
       % area: turfco.b1
       \item Architected a self-serve quoting platform that priced jobs with deterministic multi-stage evaluation, JSONB encoded conditions, per-quote audit trails of every rule applied, and a write-invalidated \textbf{Redis} cache, all driven by rules editable from an admin console instead of a developer deploy, cutting quote turnaround from \textbf{$\sim$2 days} to \textbf{\textless{}1 min}.
-      \item Built the online ordering and booking platform by taking self-serve orders through Stripe Checkout deposits, confirming them with signature-verified idempotent webhooks, and relaying a transactional outbox to Kafka\swallow{SQS + SNS} workers for order confirmation, customer notification, and crew allocation, taking \textbf{\$600K+} in online bookings across $\sim$1{,}100 orders. 
+      \item Built the online ordering and booking platform by taking self-serve orders through Stripe Checkout deposits, confirming them with signature-verified idempotent webhooks, and relaying a transactional outbox to \textbf{Kafka} \swallow{SQS + SNS} workers for order confirmation, customer notification, and crew allocation, taking \textbf{\$600K+} in online bookings across $\sim$1{,}100 orders. 
       %\item Delivered the \textbf{React SPA} that carried a customer from property details to instant estimate to paid deposit in one client-routed flow, with role-gated admin routes and JWT access tokens backed by httpOnly refresh cookies, enabling a streamlined booking flow with \textbf{$\sim$40\%} of bookings occuring outside office hours without phone support.
-      \item Designed and deployed the \textbf{AWS architecture} that took the business off a WordPress brochure site, with SPA on CloudFront, autoscaling Express tier behind an ALB across two AZs, Multi-AZ RDS, sized for $\sim$10$\times$ seasonal peaks and load-tested to \textbf{$\sim$50 quote requests/sec at \textless{}120\,ms p99} with zero-downtime rolling deploys.
+      \item Designed and deployed the AWS architecture that took the business off a WordPress brochure site, with SPA on CloudFront, autoscaling Express tier behind an ALB across two AZs, Multi-AZ RDS, sized for $\sim$10$\times$ seasonal peaks and load-tested to \textbf{$\sim$50 quote requests/sec at \textless{}120\,ms p99} with zero-downtime rolling deploys.
     } 
   \SectionListEnd
 

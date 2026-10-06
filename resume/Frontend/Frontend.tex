@@ -309,17 +309,17 @@
 %       {Watermarking EMR Data to analyse impact on CV models}{} % Jan 2025 -- May 2025
 %     \BulletItems{
 %       \item Fine-tuned \textbf{3 computer-vision models} (ResNet50, DenseNet169, MobileNetV2) for classification over \swallow{2,481}COVID-19 lung CT scans via two-stage ImageNet transfer learning, to establish a baseline peaking at \textbf{93\%} accuracy and \textbf{0.951} F1.
-%       \item Embedded a \textbf{1024-bit blind fragile watermark} into the Region-of-Non-Interest of CT scans via key-scrambled LSB embedding of a SHA-512 fingerprint, enabling content authentication with near-lossless quality at \textbf{SSIM 0.999}.
-%       \item Benchmarked \textbf{3 watermarking algorithms} across all 3 models, showing the fragile scheme costs \textbf{0\%} accuracy loss, versus $\sim$1\% for reversible embedding with a 300-bit payload and 11.2\% for robust embedding.    
+%       \item Embedded a 1024-bit blind fragile watermark into the Region-of-Non-Interest of CT scans via key-scrambled LSB embedding of a SHA-512 fingerprint, enabling content authentication with near-lossless quality at \textbf{SSIM 0.999}.
+%       \item Benchmarked 3 watermarking algorithms across all 3 models, showing the fragile scheme costs \textbf{0\%} accuracy loss, versus $\sim$1\% for reversible embedding with a 300-bit payload and 11.2\% for robust embedding.    
 %     }
 %     % Project 4
 %     \SLSubheadingItemLink
 %       {Nothing Lost in Translation}{https://github.com/anupreetsingh/Nothing-Lost-in-Translation}
 %       {Lexically constrained Sequence Generation}{} % Sep 2024 -- Dec 2024
 %     \BulletItems{
-%       \item Built a \textbf{Grid Beam Search decoder} that guarantees positive/negative lexical constraints in any autoregressive sequence generation, demonstrated on English-to-Russian NMT with a \textbf{15-point BLEU} gain (25.45 → 40.59).
+%       \item Reconstructed a beam search decoder from scratch, outperforming \textbf{HuggingFace}'s stock \texttt{.generate()} by 1.45 BLEU.
+%       \item Built a \textbf{Grid Beam Search decoder} that guarantees positive/negative lexical constraints in any autoregressive sequence generation, demonstrated on English-to-Russian NMT with a \textbf{15-point} BLEU gain (25.45 → 40.59).
 %       % Add-On: \item Demonstrated \textbf{inference-time safety control} by enforcing negative lexical constraints at decode time, guaranteeing exclusion of unsafe content without retraining or post-hoc filtering.
-%       \item Reconstructed a beam search decoder from scratch, outperforming HuggingFace's stock \texttt{.generate()} by \textbf{1.45 BLEU}.
 %     }
 
 %   \SectionListEnd

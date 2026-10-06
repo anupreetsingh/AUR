@@ -188,10 +188,10 @@
     \small{\item{
     \vspace{1mm}
      % area: skills.languages
-     \textbf{Programming Languages}{: Python, JavaScript, C++, SQL} \\
+     \textbf{Programming Languages}{: Python, R, C++, SQL} \\
      \vspace{1mm}
      % area: skills.tools
-     \textbf{Tools and Frameworks}{: Tableau, Pandas, scikit-learn, OpenCV, PyTorch, LangChain, Pinecone, PostgreSQL, AWS, SAP, Redis, Kafka, Spark, Docker, Kubernetes, GitHub Actions(CI/CD), Git, Linux, FastAPI, React}\\
+     \textbf{Tools and Frameworks}{: Tableau, PowerBI, Pandas, sklearn, OpenCV, PyTorch, Spark, PostgreSQL, AWS, Redis, Kafka, Docker, Kubernetes, GitHub Actions(CI/CD), Git, Linux, FastAPI, React \swallow{LangChain, Kafka, Pinecone} }\\
      \vspace{1mm}
      % area: skills.coursework
      \textbf{Areas of Interest and Coursework}{: Data Processing pipelines,  AI \& LLMs, Software Engineering(SDLC)} \\
@@ -211,10 +211,14 @@
     \BulletItems{
        % area: platinum.b3
       \item Built a priority-ordered fallback in the \textbf{RAG chat agent} across 5 embedding models (OpenAI, Anthropic, Ollama), re-embedding and re-running low-citation queries against each successive model's vector index to exploit differences in embedding representation and surface SSP evidence missed by higher-priority indexes, raising evidence-backed control assessment \textbf{accuracy from 64\% to 92\%}.
+      \item Containerized the platform (FastAPI, Postgres, Qdrant, Ollama) and deployed it to \textbf{AWS EKS} with Kubernetes manifests and a GitHub Actions \textbf{CI/CD pipeline}, adding health checks and admin endpoints to download models and rebuild search indexes, so the team could manage models and indexes without shelling into pods.
+      % area: platinum.b5
+      %\item Diagnosed out-of-memory failures in the Ollama \textbf{container}, tracing it to freshly pulled 4--5 GB model weights lingering in the OS page cache, and fixed it with targeted \texttt{posix\_fadvise} eviction through a shared volume, \textbf{eliminating model-load failures}. 
+    
       % area: platinum.b4
-      \item Diagnosed an out-of-memory failure in that fallback path, tracing it to freshly pulled 4--5 GB model weights lingering in the OS page cache, and fixed it with targeted \texttt{posix\_fadvise} eviction, eliminating model-load failures.
+      %\item Diagnosed an out-of-memory failure in that fallback path, tracing it to freshly pulled 4--5 GB model weights lingering in the OS page cache, and fixed it with targeted \texttt{posix\_fadvise} eviction, eliminating model-load failures.
       % area: platinum.b1
-      \item Developed backend services for an AI-native GRC platform that audits an SSP draft for compliance with NIST 800-53\swallow{ for RFP bidders}, chunking $\sim$1,200 \swallow{ OSCAL}controls into a per-model vector index with linkage metadata tying each chunk to its parent control and sibling clauses\swallow{ (AC-2(1)(a) to AC-2(1) and AC-2)}, cutting a control-by-control review from \textbf{days of manual work to \textless{}10 minutes}.
+      \item Developed backend services for an \textbf{AI-native} GRC platform that audits an SSP draft for compliance with NIST 800-53\swallow{ for RFP bidders}, chunking $\sim$1,200 \swallow{ OSCAL}controls into a per-model vector index with linkage metadata tying each chunk to its parent control and sibling clauses\swallow{ (AC-2(1)(a) to AC-2(1) and AC-2)}, cutting a control-by-control review from \textbf{days of manual work to \textless{}10 minutes}.
      }
     % Industry Experience 2
     \SLSubheadingItemFF
@@ -226,7 +230,7 @@
       % area: PMA.b1
       \item Built an \textbf{AI-powered} PRD review platform in React and Django that compares each uploaded draft PDF against a reference PRD and emits schema-validated gap flags for a human-in-the-loop reviewer to confirm or dismiss, giving a cohort-wide matrix that replaces a read of every draft and cuts feedback-session prep from \textbf{8 to 2 hours}.
       % area: PMA.b2
-      \item Architected a fully serverless review pipeline on AWS (S3 + CloudFront-hosted React SPA, Django on Lambda, DynamoDB, and an SQS-triggered Lambda AI worker) that retries failed analyses off a dead-letter queue and logs per-report model API spend, sustaining \textbf{200+} submissions across 5 cohorts at \textbf{$\sim$\$3/month} idle cost.
+      \item Architected a fully serverless review pipeline on \textbf{AWS} (S3 + CloudFront-hosted React SPA, Django on Lambda, DynamoDB, and an SQS-triggered Lambda AI worker) that retries failed analyses off a dead-letter queue and logs per-report model API spend, sustaining \textbf{200+} submissions across 5 cohorts at \textbf{$\sim$\$3/month} idle cost.
     }
     % Industry Experience 3
     \SLSubheadingItemFF
@@ -255,8 +259,8 @@
       % ga.b1 
       %\item Designed over 10 \textbf{C++} assignments on virtual memory (testing knowledge of MMU address translation, multi-level page tables, and kernel page-fault handling) and graded coursework in computer architecture for \textbf{40+} students.
       %Alt(Longer): \item Designed over 10 \textbf{C++} assignments on compiler optimizations (like constant folding, DCE, loop unrolling) and OS fundamentals like concurrency, multithreading, and virtual memory (MMU address translation, multi-level page tables, and kernel page-fault handling) and graded coursework in computer architecture for \textbf{40+} students.
-      \item Developed 200+ unit tests for the DSA projects on Linked Lists, Self Balancing Trees, Heaps, and Hash Tables automating logic checking and reducing grading time by over \textbf{80\%}.
-      \item Helped 50+ students design and debug C++ projects implementing core data structures, and graded their homework.
+      %\item Developed 200+ unit tests for the DSA projects on Linked Lists, Self Balancing Trees, Heaps, and Hash Tables automating logic checking and reducing grading time by over \textbf{80\%}.
+      %\item Helped 50+ students design and debug C++ projects implementing core data structures, and graded their homework.
       %\item Held office hours to clarify technical concepts and translate requirements into actionable implementation steps.
       \item Mentored 10 student \textbf{Agile} teams through sprint planning, reviews, and backlog refinement for their projects.
       \item Coordinated between 40 students and \textbf{stakeholders}, keeping all 10 projects on schedule amid evolving requirements.
@@ -294,17 +298,17 @@
       {Watermarking EMR Data to analyse impact on CV models}{} % Jan 2025 -- May 2025
     \BulletItems{
       \item Fine-tuned \textbf{3 computer-vision models} (ResNet50, DenseNet169, MobileNetV2) for classification over \swallow{2,481}COVID-19 lung CT scans via two-stage ImageNet transfer learning, to establish a baseline peaking at \textbf{93\%} accuracy and \textbf{0.951} F1.
-      \item Benchmarked \textbf{3 watermarking algorithms} across all 3 models, showing the fragile scheme costs \textbf{0\%} accuracy loss, versus $\sim$1\% for reversible embedding with a 300-bit payload and 11.2\% for robust embedding.    
       \item Embedded a 1024-bit blind fragile watermark into the Region-of-Non-Interest of CT scans via key-scrambled LSB embedding of a SHA-512 fingerprint, enabling content authentication with near-lossless quality at \textbf{SSIM 0.999}.
+      \item Benchmarked 3 watermarking algorithms across all 3 models, showing the fragile scheme costs \textbf{0\%} accuracy loss, versus $\sim$1\% for reversible embedding with a 300-bit payload and 11.2\% for robust embedding.    
 }
     % % Project 4
     % \SLSubheadingItemLink
     %   {Nothing Lost in Translation}{https://github.com/anupreetsingh/Nothing-Lost-in-Translation}
     %   {Lexically constrained Sequence Generation}{} % Sep 2024 -- Dec 2024
     % \BulletItems{
-    %   \item Built a \textbf{Grid Beam Search decoder} that guarantees positive/negative lexical constraints in any autoregressive sequence generation, demonstrated on English-to-Russian NMT with a \textbf{15-point BLEU} gain (25.45 → 40.59).
+    %   \item Reconstructed a beam search decoder from scratch, outperforming \textbf{HuggingFace}'s stock \texttt{.generate()} by 1.45 BLEU.
+    %   \item Built a \textbf{Grid Beam Search decoder} that guarantees positive/negative lexical constraints in any autoregressive sequence generation, demonstrated on English-to-Russian NMT with a \textbf{15-point} BLEU gain (25.45 → 40.59).
     %   % Add-On: \item Demonstrated \textbf{inference-time safety control} by enforcing negative lexical constraints at decode time, guaranteeing exclusion of unsafe content without retraining or post-hoc filtering.
-    %   \item Reconstructed a beam search decoder from scratch, outperforming HuggingFace's stock \texttt{.generate()} by \textbf{1.45 BLEU}.
     % }
 
   \SectionListEnd
