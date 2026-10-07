@@ -220,7 +220,7 @@
       {Dec 2025 -- Present}
     \BulletItems{
      % area: platinum.b1
-    \item Developed \textbf{backend services} for an AI-native GRC platform that audits an SSP draft for compliance with NIST 800-53\swallow{ for RFP bidders}, chunking \textbf{$\sim$1,200} \swallow{ OSCAL}controls into a per-model vector index with linkage metadata tying each chunk to its parent control and sibling clauses\swallow{ (AC-2(1)(a) to AC-2(1) and AC-2)}, cutting a control-by-control review from \textbf{days of manual work to \textless{}10 minutes}.
+    \item Developed \textbf{backend services} for an AI-native GRC platform that audits an SSP draft for compliance with NIST 800-53\swallow{ for RFP bidders}, chunking $\sim$1,200 \swallow{ OSCAL}controls into a per-model vector index with linkage metadata tying each chunk to its parent control and sibling clauses\swallow{ (AC-2(1)(a) to AC-2(1) and AC-2)}, cutting a control-by-control review from \textbf{days of manual work to \textless{}10 minutes}.
     % area: platinum.b2
     %\item Implemented the \textbf{RAG chat agent} with its React interface, marking each control fully, partially, or not satisfied and answering follow-up questions on the unmet ones, with every answer grounded in citations retrieved from the vector index, so no compliance verdict rests on \textbf{fabricated control text}.
     % area: platinum.b3
@@ -282,6 +282,26 @@
 %-----------Projects-----------
 % \section{PROJECTS}
 %   \SectionListBegin
+%     % Project 0
+%     \SLSubheadingItemLink
+%       {Role Radar}{https://github.com/anupreetsingh/Role-Radar}
+%       {Desktop app for the latest job-posting alerts}{} % Sep 2026 -- Present
+%     \BulletItems{
+%       % area: radar.b3.mac (macOS only: SwiftUI + launchd)
+%       % \item Designed a native \textbf{SwiftUI} macOS app with a guided setup and live job-match tracking that runs from the Dock or menu bar and supervises the checker \textbf{daemon} as a \textbf{launchd} agent, restarting it within a minute if it stops, so non-technical users get alerts with no terminal or config files.
+
+%       % area: radar.b3.win (Windows only: C# + Run-key login process)
+%       % \item Designed a native \textbf{C\#/.NET} Windows app with a guided setup and live job-match tracking that closes to the system tray and supervises the background checker, launched at login via the \textbf{Run registry key} and restarted within a minute if it stops, so non-technical users get alerts with \textbf{no terminal or config files}.
+      
+%       % area: radar.b3.both (combined)
+%       \item Designed \textbf{native desktop apps} in \textbf{SwiftUI} (macOS) and \textbf{C\#/.NET} (Windows) with a guided setup and live job-match tracking that close to the menu bar or tray and supervise the checker \textbf{daemon} (\textbf{launchd} on macOS, a Run-key login process on Windows), so non-technical users get alerts with \textbf{no terminal or config files}.
+
+%       % area: radar.b1
+%       \item Built an async Python job-ingestion engine that tracks 7,700+ employers' careers pages, auto-selecting 1 of 22 source-specific scrapers (Greenhouse, Workday, Oracle HCM, ...) by URL and routing every request through a robots.txt-compliant client with per-host rate limits and Retry-After backoff, checking $\sim$3,600 companies per 18-minute pass across $\sim$1,000 hosts at a \textbf{0.18\%} request failure rate.
+%       % area: radar.b2
+%       \item Designed a \textbf{laptop-to-Lambda failover} that keeps checks running while the Mac sleeps, electing a single runner through a conditionally written DynamoDB lease whose epoch acts as a \textbf{fencing token} on each company's transactional save, so a laptop waking mid-run can never overwrite its successor's state, with Lambda taking over within \textbf{8 min} and handing back in \textbf{$\sim$15 s}.
+
+%     }
 %     % Project 1
 %     \SLSubheadingItemLink
 %       {Rendering Pipelines from Scratch}{https://github.com/anupreetsingh/Rendering-pipelines}

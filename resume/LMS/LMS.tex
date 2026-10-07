@@ -233,29 +233,6 @@
       %\item Designed over 10 \textbf{C++} assignments on virtual memory (testing knowledge of MMU address translation, multi-level page tables, and kernel page-fault handling) and graded coursework in computer architecture for \textbf{40+} students.
      }
 
-    % Academic Experience 1
-    % \SLSubheadingItemThF
-    %   {Graduate Assistant}
-    %   {UMBC - Computer Architecture \& Software Engineering }
-    %   {Aug 2025 -- June 2026}
-    % \BulletItems{
-    %   % area: ga.b1
-    %   \item Designed a C++ assignment on virtual memory (testing knowledge of MMU address translation, multi-level page tables, and kernel page-fault handling) and graded coursework in computer architecture for \textbf{40+} students.
-    %   \item Mentored 10 student \textbf{Scrum} teams through sprint planning, reviews, and backlog refinement for their projects.
-    %   \item Coordinated between 40 students and \textbf{stakeholders}, keeping all 10 projects on schedule amid evolving requirements.
-    % }
-
-    % Academic Experience 2
-    % \SLSubheadingItemThF
-    %   {Teaching Assistant}
-    %   {UMBC - Data Structures}
-    %   {Jan 2025 -- June 2025}
-    % \BulletItems{
-    %   % area: ta.b1
-    %   \item Developed 20+ unit tests for the hash table project, automating logic checking and reducing grading time by \textbf{80\%}.
-    %   \item Helped \textbf{50+} students design and debug C++ projects implementing core data structures and graded homework.
-    % }
-
   \SectionListEnd
 
  %-----------Industry Experience-----------
@@ -310,12 +287,22 @@
 %     % Project 0
 %     \SLSubheadingItemLink
 %       {Role Radar}{https://github.com/anupreetsingh/Role-Radar}
-%       {macOS job-alert app with serverless AWS failover}{} % Sep 2026 -- Present
+%       {Desktop app for the latest job-posting alerts}{} % Sep 2026 -- Present
 %     \BulletItems{
+%       % area: radar.b3.mac (macOS only: SwiftUI + launchd)
+%       % \item Designed a native \textbf{SwiftUI} macOS app with a guided setup and live job-match tracking that runs from the Dock or menu bar and supervises the checker \textbf{daemon} as a \textbf{launchd} agent, restarting it within a minute if it stops, so non-technical users get alerts with no terminal or config files.
+
+%       % area: radar.b3.win (Windows only: C# + Run-key login process)
+%       % \item Designed a native \textbf{C\#/.NET} Windows app with a guided setup and live job-match tracking that closes to the system tray and supervises the background checker, launched at login via the \textbf{Run registry key} and restarted within a minute if it stops, so non-technical users get alerts with \textbf{no terminal or config files}.
+      
+%       % area: radar.b3.both (combined)
+%       \item Designed \textbf{native desktop apps} in \textbf{SwiftUI} (macOS) and \textbf{C\#/.NET} (Windows) with a guided setup and live job-match tracking that close to the menu bar or tray and supervise the checker \textbf{daemon} (\textbf{launchd} on macOS, a Run-key login process on Windows), so non-technical users get alerts with \textbf{no terminal or config files}.
+
 %       % area: radar.b1
-%       \item Built an async Python \textbf{job-ingestion engine} that tracks \textbf{7,700+} employers' careers pages, auto-selecting 1 of 22 source-specific scrapers (Greenhouse, Workday, Oracle HCM, ...) by URL and routing every request through a robots.txt-compliant client with per-host rate limits and Retry-After backoff, checking \textbf{$\sim$3,600 companies per 18-minute pass} across $\sim$1,000 hosts at a \textbf{0.18\%} request failure rate.
+%       \item Built an async Python job-ingestion engine that tracks 7,700+ employers' careers pages, auto-selecting 1 of 22 source-specific scrapers (Greenhouse, Workday, Oracle HCM, ...) by URL and routing every request through a robots.txt-compliant client with per-host rate limits and Retry-After backoff, checking $\sim$3,600 companies per 18-minute pass across $\sim$1,000 hosts at a \textbf{0.18\%} request failure rate.
 %       % area: radar.b2
 %       \item Designed a \textbf{laptop-to-Lambda failover} that keeps checks running while the Mac sleeps, electing a single runner through a conditionally written DynamoDB lease whose epoch acts as a \textbf{fencing token} on each company's transactional save, so a laptop waking mid-run can never overwrite its successor's state, with Lambda taking over within \textbf{8 min} and handing back in \textbf{$\sim$15 s}.
+
 %     }
 %     % Project 1
 %     \SLSubheadingItemLink

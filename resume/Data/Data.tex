@@ -240,7 +240,7 @@
       {Jan 2023 -- June 2024}
     \BulletItems{
       % area: turfco.b1
-      %\item Architected a \textbf{self-serve quoting platform} that priced jobs with deterministic multi-stage evaluation, JSONB encoded conditions, per-quote audit trails of every rule applied, and a write-invalidated \textbf{Redis} cache, all driven by rules editable from an admin console instead of a developer deploy, cutting quote turnaround from \textbf{$\sim$2 days} to \textbf{\textless{}1 min}.
+      \item Architected a \textbf{self-serve quoting platform} that priced jobs with deterministic multi-stage evaluation, JSONB encoded conditions, per-quote audit trails of every rule applied, and a write-invalidated \textbf{Redis} cache, all driven by rules editable from an admin console instead of a developer deploy, cutting quote turnaround from \textbf{$\sim$2 days} to \textbf{\textless{}1 min}.
       \item Built the online ordering and booking platform by taking self-serve orders through Stripe Checkout deposits, confirming them with signature-verified idempotent webhooks, and relaying a transactional outbox to \textbf{Kafka}\swallow{SQS + SNS} workers for order confirmation, customer notification, and crew allocation, taking \textbf{\$600K+} in online bookings across $\sim$1{,}100 orders.
       %\item Delivered the \textbf{React SPA} that carried a customer from property details to instant estimate to paid deposit in one client-routed flow, with role-gated admin routes and JWT access tokens backed by httpOnly refresh cookies, enabling a streamlined booking flow with \textbf{$\sim$40\%} of bookings occuring outside office hours without phone support.
       \item Designed and deployed the \textbf{AWS architecture} that took the business off a WordPress brochure site, with SPA on CloudFront, autoscaling Express tier behind an ALB across two AZs, Multi-AZ RDS, sized for $\sim$10$\times$ seasonal peaks and load-tested to \textbf{$\sim$50 quote requests/sec at \textless{}120\,ms p99} with zero-downtime rolling deploys.
@@ -271,6 +271,26 @@
 %-----------Projects-----------
 % \section{PROJECTS}
 %   \SectionListBegin
+%     % Project 0
+%     \SLSubheadingItemLink
+%       {Role Radar}{https://github.com/anupreetsingh/Role-Radar}
+%       {Desktop app for the latest job-posting alerts}{} % Sep 2026 -- Present
+%     \BulletItems{
+%       % area: radar.b3.mac (macOS only: SwiftUI + launchd)
+%       % \item Designed a native \textbf{SwiftUI} macOS app with a guided setup and live job-match tracking that runs from the Dock or menu bar and supervises the checker \textbf{daemon} as a \textbf{launchd} agent, restarting it within a minute if it stops, so non-technical users get alerts with no terminal or config files.
+
+%       % area: radar.b3.win (Windows only: C# + Run-key login process)
+%       % \item Designed a native \textbf{C\#/.NET} Windows app with a guided setup and live job-match tracking that closes to the system tray and supervises the background checker, launched at login via the \textbf{Run registry key} and restarted within a minute if it stops, so non-technical users get alerts with \textbf{no terminal or config files}.
+      
+%       % area: radar.b3.both (combined)
+%       \item Designed \textbf{native desktop apps} in \textbf{SwiftUI} (macOS) and \textbf{C\#/.NET} (Windows) with a guided setup and live job-match tracking that close to the menu bar or tray and supervise the checker \textbf{daemon} (\textbf{launchd} on macOS, a Run-key login process on Windows), so non-technical users get alerts with \textbf{no terminal or config files}.
+
+%       % area: radar.b1
+%       \item Built an async Python job-ingestion engine that tracks 7,700+ employers' careers pages, auto-selecting 1 of 22 source-specific scrapers (Greenhouse, Workday, Oracle HCM, ...) by URL and routing every request through a robots.txt-compliant client with per-host rate limits and Retry-After backoff, checking $\sim$3,600 companies per 18-minute pass across $\sim$1,000 hosts at a \textbf{0.18\%} request failure rate.
+%       % area: radar.b2
+%       \item Designed a \textbf{laptop-to-Lambda failover} that keeps checks running while the Mac sleeps, electing a single runner through a conditionally written DynamoDB lease whose epoch acts as a \textbf{fencing token} on each company's transactional save, so a laptop waking mid-run can never overwrite its successor's state, with Lambda taking over within \textbf{8 min} and handing back in \textbf{$\sim$15 s}.
+
+%     }
     % Project 1
     % \SLSubheadingItemLink
     %   {Rendering Pipelines from Scratch}{https://github.com/anupreetsingh/Rendering-pipelines}
