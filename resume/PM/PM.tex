@@ -181,18 +181,30 @@
   \SectionListEnd
   %\vspace{-3mm}
   
+% Combined PM / TPM / BA / LMS resume.
+% Active lines are the program/product (PM, TPM) wording. Under each one, the commented
+% "% alt BA:" / "% alt LMS:" / "% alt PM-product:" lines are swap-ins for those roles.
+% BA/LMS versions used a "SKILLS / RELEVANT COURSEWORK" heading and split ACADEMIC EXPERIENCE (first) from INDUSTRY EXPERIENCE.
 \section{SKILLS}
   \SectionListBegin
     \small{\item{
     \vspace{1mm}
-     % area: skills.product (PM: product practice first)
-     \textbf{Product and Delivery}{: User Stories \& Acceptance Criteria, Requirements Discovery, Backlog Prioritization, Agile/Scrum, Human-in-the-Loop AI Design} \\
+     % area: skills.product (TPM: program delivery first)
+     \textbf{Program and Delivery}{: Stakeholder Coordination, Requirements Discovery, Backlog Prioritization, User Stories \& Acceptance Criteria, Agile/Scrum} \\
+     % alt PM-product: \textbf{Product and Delivery}{: User Stories \& Acceptance Criteria, Requirements Discovery, Backlog Prioritization, Agile/Scrum, Human-in-the-Loop AI Design} \\
+     % alt BA: \textbf{Programming Languages}{: Python, JavaScript, C++, SQL} \\
+     % alt LMS: \textbf{SaaS and Cloud Platforms}{: Jira (project and board setup), Confluence, AWS (S3, Lambda, DynamoDB, CloudFront), Django Admin, Stripe, PostgreSQL, Git} \\
      \vspace{1mm}
      % area: skills.tools
-     \textbf{Tools}{: Jira, Confluence, Figma, Lucidchart, Excel (Pivot Tables, XLOOKUP), SQL, Tableau, Power BI} \\
+     \textbf{Tools}{: Jira, Confluence, Tableau, Power BI, SQL, Excel (Pivot Tables, XLOOKUP), Lucidchart, Figma} \\
+     % alt BA: \textbf{Tools and Frameworks}{: Jira, Confluence, Tableau, Power BI, Excel (Pivot Tables, XLOOKUP), Lucidchart, Visio, Figma, PostgreSQL, React, Django, AWS, Docker, Git, LangChain, Claude Code \swallow{PyTorch, CrewAI, Qdrant, FastAPI, Next.js, MongoDB, PyTest, GoogleTest, Kubernetes, GitHub Actions(CI/CD)}}\\
+     % alt LMS: \textbf{Reporting and Documentation}{: SQL, Excel (Pivot Tables, XLOOKUP), Power BI, Tableau, Lucidchart, Visio, Figma, UML, Python, JavaScript \swallow{React, Docker, LangChain, Claude Code, C++}}\\
      \vspace{1mm}
-     % area: skills.technical (PM: technical depth as a differentiator)
-     \textbf{Technical}{: Python, JavaScript, React, Django, AWS, PostgreSQL, LLMs \& RAG \swallow{LangChain, Claude Code, Docker, C++}} \\
+     % area: skills.technical (TPM: integrations and data flows for MarTech-style roles)
+     \textbf{Technical}{: System Integrations \& APIs (REST, Stripe, Webhooks), Data Flows, AWS, PostgreSQL, Python, React, Django, LLMs \swallow{LangChain, Claude Code, Docker, C++}} \\
+     % alt PM-product: \textbf{Technical}{: Python, JavaScript, React, Django, AWS, PostgreSQL, LLMs \& RAG \swallow{LangChain, Claude Code, Docker, C++}} \\
+     % alt BA: \textbf{Areas of Interest and Coursework}{: Agile/Scrum, Software Engineering (SDLC), AI \& LLMs \swallow{Distributed System Design, Object Oriented Design (OOD), Computer Architecture}} \\
+     % alt LMS: \textbf{Process and Coursework}{: Requirements Analysis, Agile/Scrum, Software Engineering (SDLC), User Onboarding and Support \swallow{AI \& LLMs, Distributed System Design}} \\
     }}
   \SectionListEnd
 
@@ -208,8 +220,14 @@
     \BulletItems{
      % area: platinum.b1 (PM: problem -> outcome)
     \item Turned NIST 800-53 assessment procedures into an \textbf{AI compliance gap-analysis feature} for a GRC platform, rating each of $\sim$1,200 controls in a System Security Plan as fully, partially, or not satisfied, cutting a control-by-control review from \textbf{days to \textless{}10 minutes}.
+    % alt BA: \item Translated NIST 800-53 requirements into an automated \textbf{compliance gap analysis} for an AI-native GRC platform, structuring $\sim$1,200 controls with their assessment objectives so each SSP control is rated fully, partially, or not satisfied with citations tracing every verdict to source text, cutting review from \textbf{days to \textless{}10 minutes}.
+    % alt LMS: \item Translated NIST 800-53 requirements into an automated \textbf{compliance gap-analysis report} for a cloud GRC platform, rating each of $\sim$1,200 controls in a System Security Plan as fully, partially, or not satisfied, with citations tracing every verdict to source text, cutting review from \textbf{days to \textless{}10 minutes}.
     % area: platinum.b2+b3 (PM: trust as a product requirement)
     \item Required every AI verdict to cite its source text so assessors could verify it rather than trust it, then raised \textbf{evidence-backed accuracy from 64\% to 92\%} by automatically re-checking weakly cited results across 5 AI models.
+    % alt BA: \item Built a priority-ordered fallback in the \textbf{RAG chat agent} across 5 embedding models (OpenAI, Anthropic, Ollama), re-embedding and re-running low-citation queries against each successive model's vector index to exploit differences in embedding representation and surface SSP evidence missed by higher-priority indexes, raising evidence-backed control assessment \textbf{accuracy from 64\% to 92\%}.
+    % alt LMS: \item Validated the report's findings by flagging weakly cited results and automatically re-checking them across 5 AI models (OpenAI, Anthropic, Ollama), raising evidence-backed \textbf{accuracy from 64\% to 92\%}.
+    % area: platinum.b4 (LMS only: troubleshooting)
+    % alt LMS: \item Troubleshot recurring model-load failures on the platform's servers, tracing them to multi-GB model files lingering in memory after download, and fixed them with targeted cache eviction, \textbf{eliminating the failures}.
     }
     % Industry Experience 2
     \SLSubheadingItemFF
@@ -220,8 +238,12 @@
     \BulletItems{
      % area: PMA.b1 (PM: customer insight -> product shape)
       \item Identified coaches, not trainees, as the real customer of a product-management accelerator's \textbf{AI assignment-review tool}, and built it around a cohort-level mistake report so coaches plan sessions from one screen instead of reading every draft, cutting prep from \textbf{8 to 2 hours}.
+      % alt BA: \item Built an AI-powered \textbf{PRD review platform} in React and Django that compares each uploaded draft PDF against a reference PRD and emits schema-validated gap flags for a human-in-the-loop reviewer to confirm or dismiss, giving a cohort-wide matrix that replaces a read of every draft and cuts feedback-session prep from \textbf{8 to 2 hours}.
+      % alt LMS: \item Built a \textbf{training platform} for a product-management accelerator where trainees submit assignments and an AI reviewer flags gaps against a coaching rubric for coaches to confirm or dismiss, cutting feedback-session prep from \textbf{8 to 2 hours}.
       % area: PMA.b2 (PM: trust trade-off + feedback loop + cost scoping)
       \item Kept coaches in control by having the AI only \textbf{propose flags they confirm or dismiss}, protecting trust with paying trainees and using dismissal rates to tune the reviewer between cohorts, and scoped the stack to \textbf{$\sim$\$3/month} idle cost across \textbf{200+} submissions and 5 cohorts.
+      % alt BA: \item Architected a fully \textbf{serverless review pipeline} on AWS (S3 + CloudFront-hosted React SPA, Django on Lambda, DynamoDB, and an SQS-triggered Lambda AI worker) that retries failed analyses off a dead-letter queue and logs per-report model API spend, sustaining \textbf{200+} submissions across 5 cohorts at \textbf{$\sim$\$3/month} idle cost.
+      % alt LMS: \item Delivered a coach-facing \textbf{cohort report} (trainees $\times$ common mistakes, with drill-down) and an admin console for setting up cohorts, assignments, and rubrics without code changes, serving \textbf{200+} submissions across 5 cohorts on AWS at \textbf{$\sim$\$3/month}.
       }
     % Industry Experience 3
     \SLSubheadingItemFF
@@ -232,8 +254,18 @@
     \BulletItems{
       % area: turfco.b1 (PM: bottleneck discovery -> self-serve product)
       \item Worked with the owners to pinpoint manual quoting as the sales bottleneck and launched a \textbf{self-serve quoting product} whose pricing rules staff edit themselves, cutting quote turnaround from \textbf{$\sim$2 days to \textless{}1 min} and making seasonal repricing an admin edit instead of a developer task.
-      % area: turfco.b2+b3 (PM: funnel + business outcome)
-      \item Launched \textbf{online booking} that took a customer from property details to instant estimate to paid Stripe deposit in one flow, driving \textbf{\$600K+} across $\sim$1{,}100 orders, with \textbf{$\sim$40\%} booked outside office hours without phone support.
+      % alt BA: \item Worked with the owners to turn a manual quoting process into a \textbf{self-serve quoting platform}, encoding their pricing (base rates, lot-size tiers, slope and frequency adjustments) as admin-editable rules with per-quote audit trails, letting staff reprice each season without a developer and cutting quote turnaround from \textbf{$\sim$2 days} to \textbf{\textless{}1 min}.
+      % alt LMS: \item Gathered requirements from the owners to replace manual quoting with a \textbf{self-serve quoting platform}, turning their pricing (base rates, lot-size tiers, slope and frequency adjustments) into admin-configurable rules with per-quote audit trails, so staff reprice each season without a developer and quotes take \textbf{\textless{}1 min} instead of \textbf{$\sim$2 days}.
+      % area: turfco.b2 (TPM: customer funnel + business outcome)
+      \item Launched an \textbf{online booking funnel} that took a customer from property details to instant estimate to paid deposit in one flow, driving \textbf{\$600K+} across $\sim$1{,}100 orders, with \textbf{$\sim$40\%} booked outside office hours.
+      % alt PM-product: \item Launched \textbf{online booking} that took a customer from property details to instant estimate to paid Stripe deposit in one flow, driving \textbf{\$600K+} across $\sim$1{,}100 orders, with \textbf{$\sim$40\%} booked outside office hours without phone support.
+      % alt BA: \item Delivered the \textbf{React SPA} that carried a customer from property details to instant estimate to paid deposit in one client-routed flow, with role-gated admin routes and JWT access tokens backed by httpOnly refresh cookies, enabling a streamlined booking flow with \textbf{$\sim$40\%} of bookings occurring outside office hours without phone support.
+      % alt LMS: \item Designed the customer journey from property details to instant estimate to paid deposit, with role-based admin access, driving adoption to where \textbf{$\sim$40\%} of bookings arrived outside office hours with no phone support.
+      % area: turfco.b3 (TPM: integrations + data flow)
+      \item Integrated \textbf{Stripe payments} with downstream order confirmation, customer notification, and crew scheduling through verified webhooks and an event queue, so each paid booking flowed to every system with no manual hand-off.
+      % alt BA: \item Built the \textbf{online ordering and booking platform} by taking self-serve orders through Stripe Checkout deposits, confirming them with signature-verified idempotent webhooks, and relaying a transactional outbox to Kafka\swallow{SQS + SNS} workers for order confirmation, customer notification, and crew allocation, taking \textbf{\$600K+} in online bookings across $\sim$1{,}100 orders.
+      % alt LMS: \item Launched \textbf{online ordering and booking} with Stripe deposits and automated order confirmations, customer notifications, and crew allocation, processing \textbf{\$600K+} in bookings across $\sim$1{,}100 orders.
+      %\item Designed and deployed the \textbf{AWS architecture} that took the business off a WordPress brochure site, with SPA on CloudFront, autoscaling Express tier behind an ALB across two AZs, Multi-AZ RDS, sized for $\sim$10$\times$ seasonal peaks and load-tested to \textbf{$\sim$50 quote requests/sec at \textless{}120\,ms p99} with zero-downtime rolling deploys.
     }
 
     % Academic Experience
@@ -242,12 +274,26 @@
       {UMBC - Software Engineering \& Data Structures}
       {Jan 2025 -- June 2026}
     \BulletItems{
-      % area: ga.stakeholders (PM: prioritization + scope trade-offs)
-      \item Managed priorities between \textbf{10 student teams} (40 students) and their \textbf{stakeholders} (UMBC faculty, admin staff from other departments, and local industry partners), re-prioritizing backlogs as requirements evolved to deliver all \textbf{10 projects on schedule}.
+      % area: ga.stakeholders (TPM: multi-team program delivery)
+      \item Coordinated delivery across \textbf{10 concurrent projects} (40 students) and their \textbf{stakeholders} (UMBC faculty, admin staff from other departments, and local industry partners), re-prioritizing backlogs as requirements evolved to deliver all \textbf{10 projects on schedule}.
+      % alt PM-product: \item Managed priorities between \textbf{10 student teams} (40 students) and their \textbf{stakeholders} (UMBC faculty, admin staff from other departments, and local industry partners), re-prioritizing backlogs as requirements evolved to deliver all \textbf{10 projects on schedule}.
+      % alt BA: \item Coordinated between teams and their \textbf{stakeholders} (UMBC faculty, admin staff from other departments, and local industry partners), clarifying evolving requirements and re-prioritizing backlogs to keep all \textbf{10 projects on schedule}.
+      % alt LMS: \item Served as liaison between teams and their \textbf{stakeholders} (UMBC faculty, admin staff from other departments, and local industry partners), triaging evolving requirements and re-prioritizing backlogs against deadlines to deliver all \textbf{10 projects on schedule}.
       % area: ga.requirements (PM: discovery -> spec)
       \item Taught teams to turn stakeholder needs into \textbf{user stories with acceptance criteria}, SRS documents, and UML designs, then reviewed each team's sprint demos against those needs.
-      % area: ga.scrum
-      \item Coached teams through sprint planning, reviews, retrospectives, and backlog refinement, setting up each team's \textbf{Jira} board.
+      % alt BA: \item Taught teams to capture requirements as \textbf{user stories with acceptance criteria} and SRS documents and to model their designs in UML, then reviewed each team's SRS, design docs, and sprint demos against stakeholder needs.
+      % alt LMS: \item Taught teams to document requirements as \textbf{user stories with acceptance criteria}, SRS documents, and UML design models, then reviewed each team's documentation and sprint demos against stakeholder needs.
+      % area: ga.scrum (TPM: Agile cadence + tracking)
+      \item Ran each team's Agile cadence (sprint planning, reviews, retrospectives, backlog refinement), setting up the \textbf{Jira} boards used to track progress across all 10 projects.
+      % alt PM-product: \item Coached teams through sprint planning, reviews, retrospectives, and backlog refinement, setting up each team's \textbf{Jira} board.
+      % alt BA: \item Coached \textbf{10 student Scrum teams} (40 students) in Agile delivery, setting up their \textbf{Jira} backlogs and sprint boards and guiding them through sprint planning, sprint reviews, retrospectives, and backlog refinement.
+      % alt LMS: \item Configured \textbf{Jira} projects and sprint boards for \textbf{10 Scrum teams (40 users)}, onboarding each team to the tool and coaching them through sprint planning, reviews, retrospectives, and backlog refinement.
+      % area: ga.support (BA/LMS only)
+      % alt BA: \item Held office hours to clarify technical concepts and translate ambiguous requirements into actionable steps.
+      % alt LMS: \item Provided office-hours \textbf{support} for \textbf{50+} students, troubleshooting technical issues and turning ambiguous requirements into actionable steps.
+      % area: ga.tests (BA/LMS only)
+      % alt BA: \item Developed \textbf{200+} unit tests for Data Structures projects (linked lists, self-balancing trees, heaps, hash tables), automating logic checks and cutting grading time by over \textbf{80\%} across \textbf{50+} students' submissions.
+      % alt LMS: \item Built \textbf{200+} automated validation checks for course project submissions, cutting grading time by over \textbf{80\%}.
     }
   \SectionListEnd
 %-----------Projects-----------
@@ -256,12 +302,22 @@
 %     % Project 0
 %     \SLSubheadingItemLink
 %       {Role Radar}{https://github.com/anupreetsingh/Role-Radar}
-%       {macOS job-alert app with serverless AWS failover}{} % Sep 2026 -- Present
+%       {Desktop app for the latest job-posting alerts}{} % Sep 2026 -- Present
 %     \BulletItems{
+%       % area: radar.b3.mac (macOS only: SwiftUI + launchd)
+%       % \item Designed a native \textbf{SwiftUI} macOS app with a guided setup and live job-match tracking that runs from the Dock or menu bar and supervises the checker \textbf{daemon} as a \textbf{launchd} agent, restarting it within a minute if it stops, so non-technical users get alerts with no terminal or config files.
+
+%       % area: radar.b3.win (Windows only: C# + Run-key login process)
+%       % \item Designed a native \textbf{C\#/.NET} Windows app with a guided setup and live job-match tracking that closes to the system tray and supervises the background checker, launched at login via the \textbf{Run registry key} and restarted within a minute if it stops, so non-technical users get alerts with \textbf{no terminal or config files}.
+      
+%       % area: radar.b3.both (combined)
+%       \item Designed \textbf{native desktop apps} in \textbf{SwiftUI} (macOS) and \textbf{C\#/.NET} (Windows) with a guided setup and live job-match tracking that close to the menu bar or tray and supervise the checker \textbf{daemon} (\textbf{launchd} on macOS, a Run-key login process on Windows), so non-technical users get alerts with \textbf{no terminal or config files}.
+
 %       % area: radar.b1
-%       \item Built an async Python \textbf{job-ingestion engine} that tracks \textbf{7,700+} employers' careers pages, auto-selecting 1 of 22 source-specific scrapers (Greenhouse, Workday, Oracle HCM, ...) by URL and routing every request through a robots.txt-compliant client with per-host rate limits and Retry-After backoff, checking \textbf{$\sim$3,600 companies per 18-minute pass} across $\sim$1,000 hosts at a \textbf{0.18\%} request failure rate.
+%       \item Built an async Python job-ingestion engine that tracks 7,700+ employers' careers pages, auto-selecting 1 of 22 source-specific scrapers (Greenhouse, Workday, Oracle HCM, ...) by URL and routing every request through a robots.txt-compliant client with per-host rate limits and Retry-After backoff, checking $\sim$3,600 companies per 18-minute pass across $\sim$1,000 hosts at a \textbf{0.18\%} request failure rate.
 %       % area: radar.b2
 %       \item Designed a \textbf{laptop-to-Lambda failover} that keeps checks running while the Mac sleeps, electing a single runner through a conditionally written DynamoDB lease whose epoch acts as a \textbf{fencing token} on each company's transactional save, so a laptop waking mid-run can never overwrite its successor's state, with Lambda taking over within \textbf{8 min} and handing back in \textbf{$\sim$15 s}.
+
 %     }
 %     % Project 1
 %     \SLSubheadingItemLink
